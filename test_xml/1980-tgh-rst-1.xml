@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemRst>
+	<segmentation>
+		<segment id="s-4.01" xref="u-4.01" alt="Photo: Suomenlinna in winter"/>
+		<segment id="s-4.02" xref="u-4.02">The work of constructing the island fortress of Suomenlinna, called the Gibraltar of the North, was begun in the 1740s on the basis of plans drawn up by Field Marshal Augustin Ehrensvärd.</segment>
+		<segment id="s-4.03" xref="u-4.03">The fortress grew to cover five rocky, interconnected islands.</segment>
+		<segment id="s-4.04" xref="u-4.04">Today, most of Suomenlinna consists of museums and recreation areas.</segment>
+		<segment id="s-4.05" xref="u-4.07">EXPLORING THE AREA</segment>
+		<segment id="s-4.06" xref="u-4.10" alt="Photo: Architectural detail (Kullervo)"/>
+		<segment id="s-4.07" xref="u-4.11">Greater Helsinki has much to offer those who are interested in art, museums and architecture.</segment>
+		<segment id="s-4.08" xref="u-4.12">There are always new discoveries to be made.</segment>
+		<segment id="s-4.09" xref="u-4.13">The most famous architects in Finland have participated in the design and construction of Greater Helsinki throughout its history.</segment>
+		<segment id="s-4.10" xref="u-4.14">They have created not only unique individual structures, but also harmonious larger units, including whole districts.</segment>
+		<segment id="s-4.11" xref="u-4.15">The old Empire style centre surrounding the Senate Square was designed by C.L. Engel.</segment>
+		<segment id="s-4.12" xref="u-4.16">It is considered to be one of the most harmonious architectural entities in the world.</segment>
+		<segment id="s-4.13" xref="u-4.17">Around the square are the Cathedral, the University, the Presidential Palace and also Helsinki's oldest stone building, the 18th century Sederholm house.</segment>
+		<segment id="s-4.14" xref="u-4.18">Almost 200 years after this centre was built, construction of Tapiola Garden City in Espoo began.</segment>
+		<segment id="s-4.15" xref="u-4.19">Tapiola has gained an international reputation as a model of community planning.</segment>
+		<segment id="s-4.16" xref="u-4.20">The city of Kauniainen, in turn, is an architecturally well-proportioned creation with its carefully thought out street plan and its pleasant residential areas.</segment>
+		<segment id="s-4.17" xref="u-4.21">The old church village of the Helsinki parish has been preserved and renovated to look as it did in the 18th century.</segment>
+		<segment id="s-4.18" xref="u-4.22">Only a few of the other outstanding buildings in Greater Helsinki can be mentioned here: Finlandia Hall (designed by Alvar Aalto), the University of Technology (Aalto), the Railway Station (Eliel Saarinen), the Parliament (J.S. Sirén), Dipoli (Reima Pietilä), an the Helsinki-Vantaa Airport Terminal (Keijo Ström and Olavi Tuomisto).</segment>
+		<segment id="s-4.19" xref="u-4.23">Also worth visiting are the various churches in Greater Helsinki including the 500 year-old granite churches in Espoo and Vantaa, Helsinki Cathedral, the Uspenski Orthodox Cathedral, and the Temppeliaukio "church in the rock" in Helsinki.</segment>
+		<segment id="s-4.20" xref="u-4.24">Among the many museums are the National Museum, art museums, the city museums and many special museums.</segment>
+		<segment id="s-4.21" xref="u-4.25">There is hardly any subject not covered by some museum or collection.</segment>
+		<segment id="s-4.22" xref="u-4.26">Other interesting sights include Helsinki's tourist islands - Seurasaari with an open-air museum, Korkeasaari with a zoo, Pihlajasaari</segment>
+		<segment id="s-4.23" xref="u-4.27" alt="Photo: Tapiola"/>
+		<segment id="s-4.24" xref="u-4.28">Built in the middle of the countryside and designed to preserve the environment, Tapiola is recognized as one of the model examples of community planning.</segment>
+		<segment id="s-4.25" xref="u-4.29" alt="Photo: Tarvaspää"/>
+		<segment id="s-4.26" xref="u-4.30">Tarvaspää in Espoo, the early 20th-century studio-home of the artist Akseli Gallen-Kallela.</segment>
+		<segment id="s-4.27" xref="u-4.31">Tarvaspää is now a museum and a café.</segment>
+		<segment id="s-4.28" xref="u-4.32" alt="Photo: Railway station tower"/>
+		<segment id="s-4.29" xref="u-4.33">The clock tower of Helsinki Railway Station.</segment>
+		<segment id="s-4.30" xref="u-4.34">The building was designed by Eliel Saarinen and completed in 1916.</segment>
+	</segmentation>
+	<rst-structure>
+		<multi-span id="span-4.01" nuclei="s-4.01 span-4.02" relation="restatement"/>
+		<span id="span-4.02" nucleus="s-4.03" satellites="s-4.02" relation="background"/>
+		<span id="span-4.03" nucleus="s-4.03" satellites="s-4.04" relation="elaboration"/>
+
+		<multi-span id="span-4.04" nuclei="s-4.23 s-4.24" relation="restatement"/>
+		
+		<multi-span id="span-4.05" nuclei="s-4.25 span-4.06" relation="restatement"/>
+		<span id="span-4.06" nucleus="s-4.26" satellites="s-4.27" relation="elaboration"/>
+		
+		<multi-span id="span-4.07" nuclei="s-4.28 span-4.08" relation="restatement"/>
+		<span id="span-4.08" nucleus="s-4.29" satellites="s-4.30" relation="elaboration"/>
+		
+		<multi-span id="span-4.09" nuclei="s-4.05 s-4.06 span-4.01 span-4.04 span-4.05 span-4.07" relation="joint"/>
+
+		<span id="span-4.10" nucleus="s-4.07" satellites="s-4.08" relation="elaboration"><title xref="s-4.05"/></span>
+		<span id="span-4.11" nucleus="span-4.10" satellites="span-4.12 span-4.13 span-4.17" relation="elaboration"></span>
+		<span id="span-4.12" nucleus="s-4.09" satellites="s-4.10" relation="evaluation"/>
+		
+		<span id="span-4.13" nucleus="s-4.11" satellites="s-4.12" relation="evaluation"/>
+		<span id="span-4.14" nucleus="s-4.11" satellites="span-4.15" relation="elaboration"/>
+		<multi-span id="span-4.15" nuclei="s-4.13 span-4.16" relation="sequence"/>
+		<span id="span-4.16" nucleus="s-4.14" satellites="s-4.15" relation="evaluation"/>
+		
+		<multi-span id="span-4.17" nuclei="s-4.16 s-4.17 s-4.18 s-4.19 span-4.18 s-4.22" relation="list"/>
+		<span id="span-4.18" nucleus="s-4.20" satellites="s-4.21" relation="evaluation"/>
+	</rst-structure>
+</gemRst>
