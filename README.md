@@ -1,3 +1,3 @@
-This repository contains tools for multimodal analysis, ie. for studying how language and images work together.
+This repository contains tools for multimodal research, that is, for studying how multiple modes of communication work together in page-based documents.
 
-The tools are written in Python and take advantage of the OpenCV computer vision library.
+The tools are written in Python and provided as IPython notebooks. Additional documentation will be made available as the tools are finalized.
