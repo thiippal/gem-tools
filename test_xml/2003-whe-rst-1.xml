@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemRst>
+	<segmentation>
+		<segment id="s-4.01" xref="u-4.02">UNTIL 6.1.2004 WINTER CIRCUS</segment>
+		<segment id="s-4.02" xref="u-4.03">This year's Winter Circus celebrates the tenth anniversary of the Dance Theatre Hurjaruuth.</segment>
+		<segment id="s-4.03" xref="u-4.04">The show includes the ´Pig´s Adventure on the Star Map of Christmas´, other great characters, fantastic circus tricks and music by the Milky Way Orchestra.</segment>
+		<segment id="s-4.04" xref="u-4.05">Dance Theatre Hurjaruuth, Cable Factory, Tallberginkatu 1, performance times vary</segment>
+		<segment id="s-4.05" xref="u-4.06">Tickets: Dance Theatre Hurjaruuth</segment>
+		<segment id="s-4.06" xref="u-4.07">tel. +358 (0)9 565 7250</segment>
+		<segment id="s-4.07" xref="u-4.08">Prices 17/12 €</segment>
+		<segment id="s-4.08" xref="u-4.09" alt="Photo: Clown"/>
+		<segment id="s-4.09" xref="u-4.13" alt="Photo: Dancer"/>
+		<segment id="s-4.10" xref="u-4.15">UNTIL 15.1.2004 FORCES OF LIGHT</segment>
+		<segment id="s-4.11" xref="u-4.16">This annual winter event takes place throughout the city centre and sees light and fire used to create works of art and spectacles during the darkest time of the year.</segment>
+		<segment id="s-4.12" xref="u-4.17">The main event this year, a parade with installations and performances, will take place on 30.11.</segment>
+		<segment id="s-4.13" xref="u-4.18">The parade begins at Suomenlinna and ends at Hietalahti Market.</segment>
+		<segment id="s-4.14" xref="u-4.19">From 28.11. to 14.12 the Nordic institute for Contemporary Art (NIFCA) together with the Art School ´Maa´ will present works using light as a theme at the Galleria August on Suomenlinna. </segment>
+		<segment id="s-4.15" xref="u-4.20">The exhibition is open Mon-Fri 3pm-6.30pm and Sat-Sun 1.30pm-5pm (plus during the Suomenlinna Christmas event on 29-30.11 from 1pm-6.30pm).</segment>
+		<segment id="s-4.16" xref="u-4.21">City centre and Suomenlinna</segment>
+	</segmentation>
+	<rst-structure>
+		<span id="span-4.01" nucleus="s-4.02" satellites="s-4.03" relation="elaboration"><title xref="s-4.01"/></span>
+		<span id="span-4.02" nucleus="s-4.02" satellites="span-4.03" relation="enablement"/>
+		<multi-span id="span-4.03" nuclei="s-4.04 s-4.05 s-4.06 s-4.07" relation="joint"/>
+		<multi-span id="span-4.04" nuclei="s-4.01 s-4.08" relation="restatement"/>
+		
+		<span id="span-4.05" nucleus="s-4.12" satellites="s-4.11" relation="background"><title xref="s-4.10"/></span>
+		<span id="span-4.06" nucleus="s-4.12" satellites="span-4.07" relation="elaboration"/>
+		<multi-span id="span-4.07" nuclei="s-4.13 span-4.08" relation="joint"/>
+		<span id="span-4.08" nucleus="s-4.14" satellites="s-4.15" relation="elaboration"/>
+		<span id="span-4.09" nucleus="s-4.13" satellites="s-4.16" relation="enablement"/>
+		<multi-span id="span-4.10" nuclei="s-4.09 s-4.10" relation="restatement"/>
+	</rst-structure>
+</gemRst>
