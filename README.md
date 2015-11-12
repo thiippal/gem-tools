@@ -1,3 +1,7 @@
-This repository contains tools for multimodal research, that is, for studying how multiple modes of communication work together in page-based documents.
+This repository contains tools for working with multimodal corpora annotated using the Genre and Multimodality (GeM) model. The tools, which are written in Python and provided as Jupyter notebooks, use GraphViz for visualizations.
 
-The tools are written in Python and provided as Jupyter notebooks. Additional documentation will be made available as the tools are finalized.
+That being said, to use the tools in this repository, you need both Jupyter and GraphViz. Both are free and available at: 
+
+- http://jupyter.org/
+- http://www.graphviz.org/
+
