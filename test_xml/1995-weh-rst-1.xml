@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemRst>
+	<segmentation>
+		<segment id="s-5.01" xref="u-5.01">Pay a visit</segment>
+		<segment id="s-5.02" xref="u-5.02" alt="Illustration: Diamond and lines"/>
+		<segment id="s-5.03" xref="u-5.03">- to the Zoo</segment>
+		<segment id="s-5.04" xref="u-5.04">The Zoo on Korkeasaari Island, tel. 199 81.</segment>
+		<segment id="s-5.06" xref="u-5.05">The zoo can be reached after a refreshing short sea trip.</segment>
+		<segment id="s-5.07" xref="u-5.06">The landscape is a suitable home for animal species from mountaineous areas and cold regions.</segment>
+		<segment id="s-5.08" xref="u-5.07">The Zoo is open year round.</segment>
+		<segment id="s-5.09" xref="u-5.08">Pedestrian bridge from Mustikkamaa Island, motorboat connections in the summer.</segment>
+		<segment id="s-5.10" xref="u-5.09">- to the Open-Air Museum</segment>
+		<segment id="s-5.11" xref="u-5.10">Seurasaari Recreational Park and Open-Air Museum, tel. 484 712.</segment>
+		<segment id="s-5.13" xref="u-5.11">The buildings give an excellent idea of Finnish folk traditions.</segment>
+		<segment id="s-5.14" xref="u-5.12">In summertime the island is busy with numerous events.</segment>
+		<segment id="s-5.15" xref="u-5.13">Tourists are especially attracted by fold dance performances and concerts.</segment>
+		<segment id="s-5.16" xref="u-5.14">The high point of the season is the traditional midsummer celebration.</segment>
+		<segment id="s-5.17" xref="u-5.15">In winter the island is a suitable spot for skiing and sleigh riding.</segment>
+		<segment id="s-5.18" xref="u-5.16">The museum is open from May to mid-September.</segment>
+		<segment id="s-5.19" xref="u-5.17">Bus 24.</segment>
+		<segment id="s-5.20" xref="u-5.18">- to the Sea Fortress</segment>
+		<segment id="s-5.21" xref="u-5.19">The Suomenlinna Sea Fortress, tel. 668 154 and 668 341.</segment>
+		<segment id="s-5.23" xref="u-5.20">The historic sea fortress is one of Finland's most remarkable sights - it is included in Unesco's list of World Heritage Treasures.</segment>
+		<segment id="s-5.24" xref="u-5.21">The construction was started in 1748 to defend the Finnish coast.</segment>
+		<segment id="s-5.25" xref="u-5.22">Guided tours in summer daily 12.30pm and 2.30pm in English.</segment>
+		<segment id="s-5.26" xref="u-5.23">Ferry connections from the Market Square all the year round.</segment>
+		<segment id="s-5.27" xref="u-5.24" alt="Photo: Rocks, flowers and sea"/>
+		<segment id="s-5.28" xref="u-5.25" alt="Photo: Lion cubs"/>
+		<segment id="s-5.29" xref="u-5.26" alt="Photo: Flowers and people"/>
+		<segment id="s-5.30" xref="u-5.27">The Suomenlinna Sea Fortress is placed on the World Heritage List.</segment>
+		<segment id="s-5.31" xref="u-5.30">For sports-lovers</segment>
+		<segment id="s-5.32" xref="u-5.31" alt="Illustration: Diamond and lines"/>
+		<segment id="s-5.33" xref="u-5.32" alt="Photo: Gymnasts"/>
+		<segment id="s-5.34" xref="u-5.33" alt="Photo: Suomenlinna"/>
+		<segment id="s-5.35" xref="u-5.34">Sports</segment>
+		<segment id="s-5.36" xref="u-5.35">Helsinki Ice Rink, Keskuspuisto Park</segment>
+		<segment id="s-5.37" xref="u-5.36">Olympic Stadium, Keskuspuisto Park</segment>
+		<segment id="s-5.38" xref="u-5.37">Velodrome,  Mäkelänkatu</segment>
+		<segment id="s-5.39" xref="u-5.38">Rowing Stadium, Merikannontie</segment>
+		<segment id="s-5.40" xref="u-5.39">Töölö Sports Hall,  Paavo Nurmen kuja 1</segment>
+		<segment id="s-5.41" xref="u-5.40">Swimming</segment>
+		<segment id="s-5.42" xref="u-5.41">Outdoor Swimming-pools</segment>
+		<segment id="s-5.43" xref="u-5.42">Swimming Stadium,  Hammarskjöldintie.</segment>
+		<segment id="s-5.44" xref="u-5.43">Sauna.</segment>
+		<segment id="s-5.45" xref="u-5.44">Kumpula outdoor swimming-pool, Allastie.</segment>
+		<segment id="s-5.46" xref="u-5.45">Sauna.</segment>
+		<segment id="s-5.47" xref="u-5.46">Swimming-baths</segment>
+		<segment id="s-5.48" xref="u-5.47">Helsinginkatu swimming-bath, Helsinginkatu 25, tel. 765 255</segment>
+		<segment id="s-5.50" xref="u-5.48">Pirkkola swimming-bath, Pirkkola Sports Centre, tel. 4029 203</segment>
+		<segment id="s-5.52" xref="u-5.49">Töölö Sports Halls, Topeliuksenkatu 41 a, tel. 412 752</segment>
+		<segment id="s-5.54" xref="u-5.50">Yrjönkatu swimming-bath, Yrjönkatu 21, tel. 6098 258, 6098 257</segment>
+		<segment id="s-5.56" xref="u-5.51">Beaches</segment>
+		<segment id="s-5.57" xref="u-5.52">Pihlajasaari Recreational Park.</segment>
+		<segment id="s-5.58" xref="u-5.53">Motor-boat connection from the end of Laivurinkatu in summer.</segment>
+		<segment id="s-5.59" xref="u-5.54">Helsinki has facilities for golf, bowling, squash and tennis.</segment>
+		<segment id="s-5.60" xref="u-5.55">Information available from the City Tourist Office.</segment>
+		<segment id="s-5.61" xref="u-5.56">Bicycle rentals</segment>
+		<segment id="s-5.62" xref="u-5.57">Youth Hostel Stadionin maja, P. Stadionintie 3 B, tel. 496 071</segment>
+		<segment id="s-5.64" xref="u-5.58">Saunas</segment>
+		<segment id="s-5.65" xref="u-5.59">Finnish Sauna Society,  Vaskiniemi, tel. 678 677, 679 180</segment>
+		<segment id="s-5.67" xref="u-5.60">Oulunkylä Sports Centre, tel. 725 837</segment>
+	</segmentation>
+	<rst-structure>
+		<multi-span id="span-5.01" nuclei="s-5.01 s-5.02" relation="joint"/>
+		<multi-span id="span-5.01-m" nuclei="s-5.01 s-5.27 s-5.29" relation="restatement"/>
+		<multi-span id="span-5.02" nuclei="span-5.03 span-5.06 span-5.11" relation="list"><title xref="span-5.01"/></multi-span>
+		
+		<span id="span-5.03" nucleus="s-5.04" satellites="s-5.06 span-5.05" relation="enablement"><title xref="s-5.03"/></span>
+		<span id="span-5.04" nucleus="s-5.04" satellites="s-5.07" relation="elaboration"/>
+		<multi-span id="span-5.05" nuclei="s-5.08 s-5.09" relation="joint"/>
+		<multi-span id="span-5.05-m" nuclei="s-5.03 s-5.28" relation="restatement"/>
+		
+		<span id="span-5.06" nucleus="s-5.11" satellites="s-5.13 span-5.07" relation="elaboration"><title xref="s-5.10"/></span>
+		<multi-span id="span-5.07" nuclei="span-5.08 s-5.17" relation="contrast"/>
+		<span id="span-5.08" nucleus="s-5.14" satellites="span-5.09" relation="elaboration"/>
+		<span id="span-5.09" nucleus="s-5.15" satellites="s-5.16" relation="evaluation"/>
+		<span id="span-5.10" nucleus="s-5.11" satellites="span-5.11-m" relation="enablement"/>
+		<multi-span id="span-5.11-m" nuclei="s-5.18 s-5.19" relation="joint"/>
+		
+		<span id="span-5.11" nucleus="s-5.21" satellites="span-5.12" relation="evaluation"><title xref="s-5.20"/></span>
+		<span id="span-5.12" nucleus="s-5.23" satellites="s-5.24" relation="background"/>
+		<span id="span-5.13" nucleus="s-5.21" satellites="span-5.14" relation="enablement"/>
+		<multi-span id="span-5.14" nuclei="s-5.25 s-5.26" relation="joint"/>
+		<span id="span-5.15" nucleus="s-5.21" satellites="span-5.16" relation="elaboration"/>
+		<multi-span id="span-5.16" nuclei="s-5.30 s-5.34" relation="restatement"/>
+	</rst-structure>
+	<rst-structure>
+		<multi-span id="span-6.01" nuclei="s-5.31 s-5.32" relation="joint"/>
+		<multi-span id="span-6.02" nuclei="s-5.31 s-5.33" relation="restatement"/>
+		<multi-span id="span-6.03" nuclei="span-6.04 span-6.05 span-6.10 span-6.11 span-6.12 span-6.13" relation="list"><title xref="span-6.01"/></multi-span>
+		<multi-span id="span-6.04" nuclei="s-5.36 s-5.37 s-5.38 s-5.39 s-5.40" relation="list"><title xref="s-5.35"></title></multi-span>
+		<multi-span id="span-6.05" nuclei="span-6.06 span-6.09" relation="list"><title xref="s-5.41"/></multi-span>
+		<multi-span id="span-6.06" nuclei="span-6.07 span-6.08" relation="list"><title xref="s-5.42"/></multi-span>
+		<span id="span-6.07" nucleus="s-5.43" satellites="s-5.44" relation="elaboration"/>
+		<span id="span-6.08" nucleus="s-5.45" satellites="s-5.46" relation="elaboration"/>
+		<multi-span id="span-6.09" nuclei="s-5.48 s-5.50 s-5.52 s-5.54" relation="list"><title xref="s-5.47"/></multi-span>
+		<span id="span-6.10" nucleus="s-5.57" satellites="s-5.58" relation="enablement"><title xref="s-5.56"/></span>
+		<span id="span-6.11" nucleus="s-5.59" satellites="s-5.60" relation="enablement"/>
+		<span id="span-6.12" nucleus="s-5.61" satellites="s-5.62" relation="enablement"/>
+		<multi-span id="span-6.13" nuclei="s-5.65 s-5.67" relation="list"><title xref="s-5.64"/></multi-span>
+	</rst-structure>
+	
+<!--
+
+		<segment id="s-5.61" xref="u-5.56">Bicycle rentals</segment>
+		<segment id="s-5.62" xref="u-5.57">Youth Hostel Stadionin maja, P. Stadionintie 3 B, tel. 496 071</segment>
+		<segment id="s-5.64" xref="u-5.58">Saunas</segment>
+		<segment id="s-5.65" xref="u-5.59">Finnish Sauna Society,  Vaskiniemi, tel. 678 677, 679 180</segment>
+		<segment id="s-5.67" xref="u-5.60">Oulunkylä Sports Centre, tel. 725 837</segment>
+-->
+</gemRst>
