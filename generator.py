@@ -146,11 +146,11 @@ def detect_roi(filepath): # How many parameters are required?
 
 # Describe the layout units
 
-def generate_annotation(x, w, y, h, num, *kind):
+def generate_annotation(x, w, y, h, num, kind):
     if kind == 'text':
         lu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '"/>\n'
         sa = '\t\t<sub-area id="sa-1.' + str(num + 1) + '" ' + 'startx="' + str(x) + '" ' + 'starty="' + str(y) + '" ' + 'endx="' + str(x + w) + '" ' + 'endy="' + str(y + h) + '"' + '/>\n'
-        re = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="text"/>\n'
+        re = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="' + str(kind) + '"/>\n'
         return lu, sa, re
 
 
