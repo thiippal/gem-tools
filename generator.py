@@ -5,17 +5,28 @@
 # IMPORT THE NECESSARY PACKAGES
 # -----------------------------
 
+# Computer vision
 import cv2
 import mahotas
 import numpy as np
 
+# Logging
 import logging
 import warnings
 from logging import FileHandler
 from vlogging import VisualRecord
 
+# Connected-component analysis
 from skimage.filters import threshold_adaptive
 from skimage import measure
+
+# Machine learning
+import pickle
+
+from sklearn.cross_validation import train_test_split
+from sklearn.metrics import classification_report
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeClassifier
 
 # --------------
 # SET UP LOGGING
@@ -35,7 +46,9 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 # DEFINE FUNCTIONS
 # ----------------
 
+###########################
 # Define a visual log entry
+###########################
 
 def vlog(image, title):
     logger.debug(VisualRecord(title, image, fmt = "png"))
@@ -51,7 +64,9 @@ def describe(image):
     
     return np.hstack([colorStats, haralick])
 
+############################
 # Detect regions of interest
+############################
 
 def detect_roi(filepath): # How many parameters are required?
 
@@ -144,17 +159,46 @@ def detect_roi(filepath): # How many parameters are required?
 
     return maskcontours, maskhierarchy, filename
 
+###########################
 # Describe the layout units
+###########################
 
-def generate_annotation(x, w, y, h, num, kind):
-    if kind == 'text':
-        lu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '"/>\n'
-        sa = '\t\t<sub-area id="sa-1.' + str(num + 1) + '" ' + 'startx="' + str(x) + '" ' + 'starty="' + str(y) + '" ' + 'endx="' + str(x + w) + '" ' + 'endy="' + str(y + h) + '"' + '/>\n'
-        re = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="' + str(kind) + '"/>\n'
-        return lu, sa, re
+def generate_text(x, w, y, h, num):
+    # Generate annotation for the layout unit segmentation
+    lu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '"/>\n'
+    # Generate annotation for the area model
+    sa = '\t\t<sub-area id="sa-1.' + str(num + 1) + ' ' + 'bbox="' + str(x) + ' ' + str(y) + ' ' + str(x + w) + ' ' + str(y + h) + '"' + '/>\n'
+    # Generate annotation for the realization information
+    re = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="text"/>\n'
+    # Return the annotation
+    return lu, sa, re
 
+#####################################
+# Set up the Random Forest classifier
+#####################################
 
+def load_model():
+    # Load the data
+    datafile = "model/data.db"
+    td_file = open(datafile, 'r')
+    data = pickle.load(td_file)
 
+    # Load the labels
+    labelfile = "model/labels.db"
+    ld_file = open(labelfile, 'r')
+    labels = pickle.load(ld_file)
+
+    # Split the data for training and testing
+    (trainData, testData, trainLabels, testLabels) = train_test_split(np.array(data), np.array(labels), test_size = 0.25, random_state = 42)
+
+    # Set up the Random Forest Classifier
+    model = RandomForestClassifier(n_estimators = 20, random_state = 42)
+
+    # Create the model
+    model.fit(trainData, trainLabels)
+
+    # Return the model
+    return model
 
 
 
