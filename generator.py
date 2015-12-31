@@ -51,11 +51,14 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 ###########################
 
 def vlog(image, title):
+    """ Placeholder for a docstring """
     logger.debug(VisualRecord(title, image, fmt = "png"))
 
-# Describe images using color statistics and Haralick textures
+# Describe images using color statistics and Haralick texture
 
 def describe(image):
+    """ Describes the input image using colour statistics and Haralick texture. Returns a numpy """
+
     (means, stds) = cv2.meanStdDev(cv2.cvtColor(image, cv2.COLOR_BGR2HSV))
     colorStats = np.concatenate([means, stds]).flatten()
     
@@ -69,6 +72,7 @@ def describe(image):
 ############################
 
 def detect_roi(filepath): # How many parameters are required?
+    """ Placeholder for a docstring """
 
     # Load the image and extract the filename
     image = cv2.imread(filepath)
@@ -164,12 +168,21 @@ def detect_roi(filepath): # How many parameters are required?
 ###########################
 
 def generate_text(x, w, y, h, num):
+    """ Placeholder for a docstring """
     # Generate annotation for the layout unit segmentation
     lu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '"/>\n'
+    
+        # Get the bounding box
+        # Scale the bounding box to 300%
+        # Feed the scaled matrix to Tesseract
+        # Detect text and populate the layout unit content
+
     # Generate annotation for the area model
     sa = '\t\t<sub-area id="sa-1.' + str(num + 1) + ' ' + 'bbox="' + str(x) + ' ' + str(y) + ' ' + str(x + w) + ' ' + str(y + h) + '"' + '/>\n'
+    
     # Generate annotation for the realization information
     re = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="text"/>\n'
+    
     # Return the annotation
     return lu, sa, re
 
@@ -178,6 +191,7 @@ def generate_text(x, w, y, h, num):
 #####################################
 
 def load_model():
+    """ Placeholder for a docstring """
     # Load the data
     datafile = "model/data.db"
     td_file = open(datafile, 'r')
