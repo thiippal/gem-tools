@@ -167,7 +167,7 @@ def detect_roi(filepath): # How many parameters are required?
 # Describe the layout units
 ###########################
 
-def generate_text(x, w, y, h, num):
+def generate_text(x, w, y, h, ow, oh, num):
     """ Placeholder for a docstring """
     # Generate annotation for the layout unit segmentation
     lu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '"/>\n'
@@ -178,13 +178,27 @@ def generate_text(x, w, y, h, num):
         # Detect text and populate the layout unit content
 
     # Generate annotation for the area model
-    sa = '\t\t<sub-area id="sa-1.' + str(num + 1) + ' ' + 'bbox="' + str(x) + ' ' + str(y) + ' ' + str(x + w) + ' ' + str(y + h) + '"' + '/>\n'
+    sa = '\t\t<sub-area id="sa-1.' + str(num + 1) + '" ' + 'bbox="' + str(float(x)/ow) + ' ' + str(float(y)/oh) + ' ' + str(float(x + w)/ow) + ' ' + str(float(y + h)/oh) + '"' + '/>\n'
     
     # Generate annotation for the realization information
     re = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="text"/>\n'
     
     # Return the annotation
     return lu, sa, re
+
+def generate_photo(x, w, y, h, ow, oh, num):
+    """ Placeholder for a docstring """
+    # Generate annotation for the layout unit segmentation
+    vlu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" alt="Photo"/>\n'
+
+    # Generate annotation for the area model
+    vsa = '\t\t<sub-area id="sa-1.' + str(num + 1) + '" ' + 'bbox="' + str(float(x)/ow) + ' ' + str(float(y)/oh) + ' ' + str(float(x + w)/ow) + ' ' + str(float(y + h)/oh) + '"' + '/>\n'
+
+    # Generate annotation for the realization information
+    vre = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="photo" width="' + str(w) + 'px" height="' + str(h) + 'px"/>\n'
+
+    # Return the annotation
+    return vlu, vsa, vre
 
 #####################################
 # Set up the Random Forest classifier
