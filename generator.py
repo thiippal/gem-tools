@@ -1,9 +1,6 @@
+# -------------
 # GeM generator
 # -------------
-
-# TO DO:
-# - implement contour approximation to distinguish between square and round shapes
-# -
 
 # -----------------------------
 # IMPORT THE NECESSARY PACKAGES
@@ -13,6 +10,10 @@
 import cv2
 import mahotas
 import numpy as np
+import imutils
+
+# Optical character recognition
+import pytesser
 
 # Logging
 import logging
@@ -55,13 +56,13 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 ###########################
 
 def vlog(image, title):
-    """Creates entries for the visual log."""
+    """ Creates entries for the visual log. """
     logger.debug(VisualRecord(title, image, fmt = "png"))
 
 # Describe images using color statistics and Haralick texture
 
 def describe(image):
-    """Describes the input image using colour statistics and Haralick texture. Returns a numpy array."""
+    """ Describes the input image using colour statistics and Haralick texture. Returns a numpy array. """
 
     (means, stds) = cv2.meanStdDev(cv2.cvtColor(image, cv2.COLOR_BGR2HSV))
     colorStats = np.concatenate([means, stds]).flatten()
@@ -75,19 +76,15 @@ def describe(image):
 # Detect regions of interest
 ############################
 
-def detect_roi(filepath): # How many parameters are required?
-    """Detects regions of interest in the input image."""
+def detect_roi(input): # How many parameters are required?
+    """Detects regions of interest in the input. The input must be a numpy array."""
 
-    # Load the image and extract the filename
-    image = cv2.imread(filepath)
-    filename = filepath.split('/')[1].split('.')[0]
-
-    # Log the result
-    logger.debug("Image width: {}, height: {}".format(image.shape[1], image.shape[0]))
-    vlog(image, "Original image")
+    # Log the input image
+    logger.debug("Image width: {}, height: {}".format(input.shape[1], input.shape[0]))
+    vlog(input, "Original image")
 
     # Convert the image to grayscale
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    gray = cv2.cvtColor(input, cv2.COLOR_BGR2GRAY)
 
     # Log the result
     vlog(gray, "Grayscale")
@@ -165,22 +162,37 @@ def detect_roi(filepath): # How many parameters are required?
     # Detect contours in the contour mask
     (maskcontours, maskhierarchy) = cv2.findContours(contour_mask.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
-    return maskcontours, maskhierarchy, filename
+    return maskcontours, maskhierarchy
 
 ###########################
 # Describe the layout units
 ###########################
 
-def generate_text(x, w, y, h, ow, oh, num):
-    """Generates XML annotation for textual layout units."""
-    # Generate annotation for the layout unit segmentation
-    lu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '"/>\n'
-    
-        # Get the bounding box
-        # Scale the bounding box to 300%
-        # Feed the scaled matrix to Tesseract
-        # Detect text and populate the layout unit content
+def generate_text(original, x, w, y, h, num):
+    """ Generates XML annotation for textual layout units. """
+    # Get the dimensions of the input image
+    oh = original.shape[0]
+    ow = original.shape[1]
 
+    # Extract the region defined by the bounding box
+    roi = original[y:y+h, x:x+w]
+    
+    # Convert the region of interest into grayscale
+    gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
+    
+    # Perform thresholding using Otsu's method
+    (T, thresholded) = cv2.threshold(gray, 0, 255, cv2.THRESH_OTSU)
+    
+    # Resize the thresholded image to 300% of the original
+    resized = imutils.resize(thresholded, width = 3 * w)
+    
+    # Feed the resized image to Pytesser
+    content = pytesser.mat_to_string(resized)
+    unicode_content = unicode(content, 'utf-8')
+
+    # Generate annotation for the layout unit segmentation
+    lu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '">' + ' '.join(unicode_content.split()) + '</layout-unit>\n'
+    
     # Generate annotation for the area model
     sa = '\t\t<sub-area id="sa-1.' + str(num + 1) + '" ' + 'bbox="' + str(float(x)/ow) + ' ' + str(float(y)/oh) + ' ' + str(float(x + w)/ow) + ' ' + str(float(y + h)/oh) + '"' + '/>\n'
     
@@ -190,8 +202,12 @@ def generate_text(x, w, y, h, ow, oh, num):
     # Return the annotation
     return lu, sa, re
 
-def generate_photo(x, w, y, h, ow, oh, num):
-    """Generates XML annotation for graphical layout units."""
+def generate_photo(original, x, w, y, h, num):
+    """ Generates XML annotation for graphical layout units. """
+    # Get the dimensions of the input image
+    oh = original.shape[0]
+    ow = original.shape[1]
+    
     # Generate annotation for the layout unit segmentation
     vlu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" alt="Photo"/>\n'
 
@@ -204,12 +220,48 @@ def generate_photo(x, w, y, h, ow, oh, num):
     # Return the annotation
     return vlu, vsa, vre
 
+############################
+# Preprocess the input image
+############################
+
+def preprocess(filepath):
+    """ Resizes the input image to the canonical width of 1200 pixels. """
+    # Read the input image
+    input_image = cv2.imread(filepath)
+
+    # Extract the filename
+    filename = filepath.split('/')[1].split('.')[0]
+
+    # Resize the image
+    preprocessed_image = imutils.resize(input_image, width = 1200)
+    
+    # Return the preprocessed image
+    return preprocessed_image, input_image, filename, filepath
+
+##################
+# Project contours
+##################
+
+def project(image, original, contours):
+    """ Projects the detected contours on the high-resolution input image. """
+    
+    # Calculate the ratio for resizing the image.
+    ratio = float(original.shape[1]) / image.shape[1]
+    
+    # Update the contours by multiplying them by the ratio.
+    for c in contours:
+        c[0], c[1], c[2], c[3] = c[0] * ratio, c[1] * ratio, c[2] * ratio, c[3] * ratio
+
+    # Return the updated contours.
+    return contours
+
+
 #####################################
 # Set up the Random Forest classifier
 #####################################
 
 def load_model():
-    """Loads the pre-trained model and feeds it to the the Random Forest Classifier."""
+    """ Loads the pre-trained model and feeds it to the the Random Forest Classifier. """
     # Load the data
     datafile = "model/data.db"
     td_file = open(datafile, 'r')
