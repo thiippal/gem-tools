@@ -139,7 +139,7 @@ def detect_roi(input): # How many parameters are required?
         labelmask[labels == label] = 255
         numpixels = cv2.countNonZero(labelmask)
     
-        if numpixels > 30:
+        if numpixels > 90:
             gradient_mask = cv2.add(gradient_mask, labelmask)
 
     # Log the results
