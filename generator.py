@@ -1,6 +1,8 @@
 # -------------
 # GeM generator
 # -------------
+# Author: Tuomo Hiippala
+# Website: http://users.jyu.fi/~tujohiip
 
 # -----------------------------
 # IMPORT THE NECESSARY PACKAGES
@@ -225,7 +227,7 @@ def generate_photo(original, x, w, y, h, num):
 ############################
 
 def preprocess(filepath):
-    """ Resizes the input image to the canonical width of 1200 pixels. """
+    """ Resizes the input image to a canonical width of 1200 pixels. """
     # Read the input image
     input_image = cv2.imread(filepath)
 
@@ -284,6 +286,22 @@ def load_model():
     # Return the model
     return model
 
+##################################
+# Sort contours from left to right
+##################################
+
+def sort_contours(contours):
+    """ Sorts contours from left to right. """
+    # Initialize sort index
+    reverse = False
+    i = 0
+
+    # Sort the contours
+    bounding_boxes = [cv2.boundingRect(c) for c in contours]
+    (contours, bounding_boxes) = zip(*sorted(zip(contours, bounding_boxes), key=lambda b:b[1][i], reverse=reverse))
+
+    # Return the sorted contours
+    return (contours, bounding_boxes)
 
 
 
