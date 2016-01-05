@@ -53,6 +53,57 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 # DEFINE FUNCTIONS
 # ----------------
 
+##############################
+# Classify regions of interest
+##############################
+
+def classify(contours, image, model):
+    """ Classifies the regions of interest detected in the input image. """
+    
+    # Set up the dictionaries that store the output
+    contour_coordinates = {}
+    contour_types = {}
+
+    # Loop over the contours
+    for number, contour in enumerate(contours):
+        
+        # Extract the bounding box coordinates
+        (x, y, w, h) = cv2.boundingRect(contour)
+        # Add the bounding box to the dictionary
+        contour_coordinates[number+1] = (x, y, w, h)
+    
+        # Extract the region of interest from the image
+        bounding_box = image[y:y+h, x:x+w]
+        # Describe the features of the bounding box
+        features = describe(bounding_box)
+        # Classify the bounding box
+        prediction = model.predict(features)[0]
+    
+        # Define the label position in the image
+        if prediction == 'text':
+            if x < image.shape[0] / 2:
+                cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 1)
+                cv2.putText(image, str(number+1), (x+w+5, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+            if x > image.shape[0] / 2:
+                cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 1)
+                cv2.putText(image, str(number+1), (x-30, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+            contour_types[number+1] = prediction
+        if prediction == 'photo':
+            if x < image.shape[0] / 2:
+                cv2.rectangle(image, (x, y), (x + w, y + h), (0, 0, 255), 1)
+                cv2.putText(image, str(number+1), (x+w+5, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+            if x > image.shape[0] / 2:
+                cv2.rectangle(image, (x, y), (x + w, y + h), (0, 0, 255), 1)
+                cv2.putText(image, str(number+1), (x-30, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+            # Add the classification to the dictionary
+            contour_types[number+1] = prediction
+
+    # Write the image on the disk
+    cv2.imwrite("image_contours.png", image)
+
+    # Return the dictionaries
+    return contour_coordinates, contour_types
+
 ###########################
 # Define a visual log entry
 ###########################
@@ -166,12 +217,13 @@ def detect_roi(input): # How many parameters are required?
 
     return maskcontours, maskhierarchy
 
-###########################
-# Describe the layout units
-###########################
+#################################
+# Generate layout unit annotation
+#################################
 
 def generate_text(original, x, w, y, h, num):
     """ Generates XML annotation for textual layout units. """
+    
     # Get the dimensions of the input image
     oh = original.shape[0]
     ow = original.shape[1]
@@ -206,6 +258,7 @@ def generate_text(original, x, w, y, h, num):
 
 def generate_photo(original, x, w, y, h, num):
     """ Generates XML annotation for graphical layout units. """
+    
     # Get the dimensions of the input image
     oh = original.shape[0]
     ow = original.shape[1]
@@ -228,6 +281,7 @@ def generate_photo(original, x, w, y, h, num):
 
 def preprocess(filepath):
     """ Resizes the input image to a canonical width of 1200 pixels. """
+    
     # Read the input image
     input_image = cv2.imread(filepath)
 
@@ -257,13 +311,13 @@ def project(image, original, contours):
     # Return the updated contours.
     return contours
 
-
 #####################################
 # Set up the Random Forest classifier
 #####################################
 
 def load_model():
     """ Loads the pre-trained model and feeds it to the the Random Forest Classifier. """
+    
     # Load the data
     datafile = "model/data.db"
     td_file = open(datafile, 'r')
@@ -292,6 +346,7 @@ def load_model():
 
 def sort_contours(contours):
     """ Sorts contours from left to right. """
+    
     # Initialize sort index
     reverse = False
     i = 0
@@ -301,7 +356,7 @@ def sort_contours(contours):
     (contours, bounding_boxes) = zip(*sorted(zip(contours, bounding_boxes), key=lambda b:b[1][i], reverse=reverse))
 
     # Return the sorted contours
-    return (contours, bounding_boxes)
+    return contours
 
 
 
