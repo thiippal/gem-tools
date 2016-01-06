@@ -311,6 +311,36 @@ def project(image, original, contours):
     # Return the updated contours.
     return contours
 
+########################
+# Remove false positives
+########################
+
+def remove_false_positives(fps, c_dict, ctype_dict):
+    """ Removes false positives from the detected contours. """
+    # Implement check if update is required.
+    
+    # Loop over the false positives and delete their entries from the dictionaries.
+    for fp in fps.split:():
+        key = int(fp)
+        if key in c_dict:
+            del c_dict[key]
+        if key in ctype_dict:
+            del ctype_dict[key]
+
+    # Create new dictionaries.
+    new_c_dict = {}
+    new_ctype_dict = {}
+
+    # Populate the dictionaries.
+    for number, contour in enumerate(c_dict.values()):
+        new_c_dict[number+1] = contour
+
+    for number, type in enumerate(ctype_dict.values()):
+        new_ctype_dict[number+1] = type
+
+    # Return the updated dictionaries.
+    return new_c_dict, new_ctype_dict
+
 #####################################
 # Set up the Random Forest classifier
 #####################################
