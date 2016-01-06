@@ -320,7 +320,7 @@ def remove_false_positives(fps, c_dict, ctype_dict):
     # Implement check if update is required.
     
     # Loop over the false positives and delete their entries from the dictionaries.
-    for fp in fps.split:():
+    for fp in fps.split():
         key = int(fp)
         if key in c_dict:
             del c_dict[key]
