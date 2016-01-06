@@ -298,18 +298,14 @@ def preprocess(filepath):
 # Project contours
 ##################
 
-def project(image, original, contours):
+def project(image, original):
     """ Projects the detected contours on the high-resolution input image. """
     
     # Calculate the ratio for resizing the image.
     ratio = float(original.shape[1]) / image.shape[1]
-    
-    # Update the contours by multiplying them by the ratio.
-    for c in contours:
-        c[0], c[1], c[2], c[3] = c[0] * ratio, c[1] * ratio, c[2] * ratio, c[3] * ratio
 
     # Return the updated contours.
-    return contours
+    return ratio
 
 ########################
 # Remove false positives
