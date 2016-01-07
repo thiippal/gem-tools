@@ -70,7 +70,7 @@ def classify(contours, image, model):
         # Extract the bounding box coordinates
         (x, y, w, h) = cv2.boundingRect(contour)
         # Add the bounding box to the dictionary
-        contour_coordinates[number+1] = (x, y, w, h)
+        contour_coordinates[number] = (x, y, w, h)
     
         # Extract the region of interest from the image
         bounding_box = image[y:y+h, x:x+w]
@@ -83,26 +83,26 @@ def classify(contours, image, model):
         if prediction == 'text':
             if x < image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 1)
-                cv2.putText(image, str(number+1), (x+w+5, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x+w+5, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
             if x > image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 1)
-                cv2.putText(image, str(number+1), (x-30, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
-            contour_types[number+1] = prediction
+                cv2.putText(image, str(number), (x-30, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+            contour_types[number] = prediction
         if prediction == 'photo':
             if x < image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (0, 0, 255), 1)
-                cv2.putText(image, str(number+1), (x+w+5, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x+w+5, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
             if x > image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (0, 0, 255), 1)
-                cv2.putText(image, str(number+1), (x-30, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x-30, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
             # Add the classification to the dictionary
-            contour_types[number+1] = prediction
+            contour_types[number] = prediction
 
     # Write the image on the disk
     cv2.imwrite("image_contours.png", image)
 
     # Return the dictionaries
-    return contour_coordinates, contour_types
+    return contours, contour_types
 
 ###########################
 # Define a visual log entry
@@ -298,44 +298,40 @@ def preprocess(filepath):
 # Project contours
 ##################
 
-def project(image, original):
+def project(image, original, contours):
     """ Projects the detected contours on the high-resolution input image. """
     
     # Calculate the ratio for resizing the image.
     ratio = float(original.shape[1]) / image.shape[1]
-
+    
+    # Update the contours by multiplying them by the ratio.
+    for c in contours:
+        c[0], c[1], c[2], c[3] = c[0] * ratio, c[1] * ratio, c[2] * ratio, c[3] * ratio
+    
     # Return the updated contours.
-    return ratio
+    return contours
 
 ########################
 # Remove false positives
 ########################
 
-def remove_false_positives(fps, c_dict, ctype_dict):
-    """ Removes false positives from the detected contours. """
-    # Implement check if update is required.
+def false_positives(fps):
+    """ Marks false positives in the array of detected contours. """
+    # Check if the user marked any false positives.
+    if len(fps) == 0:
+        return
+    
+    else:
+    # Set up a list for false positives.
+        false_positives = []
     
     # Loop over the false positives and delete their entries from the dictionaries.
-    for fp in fps.split():
-        key = int(fp)
-        if key in c_dict:
-            del c_dict[key]
-        if key in ctype_dict:
-            del ctype_dict[key]
+        for fp in fps.split():
+            key = int(fp)
+            false_positives.append(key)
 
-    # Create new dictionaries.
-    new_c_dict = {}
-    new_ctype_dict = {}
-
-    # Populate the dictionaries.
-    for number, contour in enumerate(c_dict.values()):
-        new_c_dict[number+1] = contour
-
-    for number, type in enumerate(ctype_dict.values()):
-        new_ctype_dict[number+1] = type
-
-    # Return the updated dictionaries.
-    return new_c_dict, new_ctype_dict
+    # Return the list of false positives.
+    return false_positives
 
 #####################################
 # Set up the Random Forest classifier
