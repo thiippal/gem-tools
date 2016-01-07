@@ -237,8 +237,8 @@ def generate_text(original, x, w, y, h, num):
     # Perform thresholding using Otsu's method
     (T, thresholded) = cv2.threshold(gray, 0, 255, cv2.THRESH_OTSU)
     
-    # Resize the thresholded image to 300% of the original
-    resized = imutils.resize(thresholded, width = 3 * w)
+    # Resize the thresholded image to 200% of the original
+    resized = imutils.resize(thresholded, width = 2 * w)
     
     # Feed the resized image to Pytesser
     content = pytesser.mat_to_string(resized)
