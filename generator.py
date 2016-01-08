@@ -270,7 +270,7 @@ def generate_photo(original, x, w, y, h, num):
     vsa = '\t\t<sub-area id="sa-1.' + str(num + 1) + '" ' + 'bbox="' + str(float(x)/ow) + ' ' + str(float(y)/oh) + ' ' + str(float(x + w)/ow) + ' ' + str(float(y + h)/oh) + '"' + '/>\n'
 
     # Generate annotation for the realization information
-    vre = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="photo" width="' + str(w) + 'px" height="' + str(h) + 'px"/>\n'
+    vre = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="photo" width="' + str(float(w) / ow) + '" height="' + str(float(h) / oh) + '"/>\n'
 
     # Return the annotation
     return vlu, vsa, vre
