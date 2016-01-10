@@ -129,7 +129,7 @@ def describe(image):
 # Detect regions of interest
 ############################
 
-def detect_roi(input): # How many parameters are required?
+def detect_roi(input, kernelsize):
     """Detects regions of interest in the input. The input must be a numpy array."""
 
     # Log the input image
@@ -151,10 +151,6 @@ def detect_roi(input): # How many parameters are required?
     logger.debug("Parameters for bilateral filtering: diameter of the pixel neighbourhood: {}, standard deviation for color: {}, standard deviation for space: {}".format(params[0], params[1], params[2]))
     vlog(blurred, "Bilaterally filtered")
 
-    # Define a kernel size for morphological operations
-    # The *kernelsize* parameter should be set in the function
-    kernelsize = (11, 13)
-
     # Perform Otsu's thresholding
     (T, thresholded) = cv2.threshold(blurred, 0, 255, cv2.THRESH_OTSU)
 
@@ -173,7 +169,6 @@ def detect_roi(input): # How many parameters are required?
     vlog(gradient, "Morphological gradient applied")
 
     # Erode the image
-    # The *iterations* parameter should be set in the function
     eroded = cv2.erode(gradient, None, iterations = 2)
 
     # Log the result
@@ -215,7 +210,7 @@ def detect_roi(input): # How many parameters are required?
     # Detect contours in the contour mask
     (maskcontours, maskhierarchy) = cv2.findContours(contour_mask.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
-    return maskcontours, maskhierarchy
+    return maskcontours
 
 #################################
 # Generate layout unit annotation
