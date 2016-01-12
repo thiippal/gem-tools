@@ -40,7 +40,7 @@ from sklearn.tree import DecisionTreeClassifier
 # --------------
 
 logger = logging.getLogger("generate_gem")
-fh = FileHandler("generate_gem.html", mode = "w")
+fh = FileHandler("output/generate_gem.html", mode = "w")
 
 logger.setLevel(logging.DEBUG)
 logger.addHandler(fh)
@@ -99,7 +99,7 @@ def classify(contours, image, model):
             contour_types[number] = prediction
 
     # Write the image on the disk
-    cv2.imwrite("image_contours.png", image)
+    cv2.imwrite("output/image_contours.png", image)
 
     # Return the dictionaries
     return contours, contour_types
