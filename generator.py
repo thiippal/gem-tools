@@ -226,6 +226,10 @@ def generate_text(original, x, w, y, h, num):
     # Extract the region defined by the bounding box
     roi = original[y:y+h, x:x+w]
     
+    # Save the extracted region into a file
+    roi_path = 'output/' + str(num+1) + '_text' + '_' + str(y) + '_' + str(y+h) + '_' + str(x) + '_' + str(x+w)
+    cv2.imwrite("%s.png" % roi_path, roi)
+    
     # Convert the region of interest into grayscale
     gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
     
@@ -240,7 +244,7 @@ def generate_text(original, x, w, y, h, num):
     unicode_content = unicode(content, 'utf-8')
 
     # Generate annotation for the layout unit segmentation
-    lu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '">' + ' '.join(unicode_content.split()) + '</layout-unit>\n'
+    lu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" src="' + str(roi_path) + '.png">' + ' '.join(unicode_content.split()) + '</layout-unit>\n'
     
     # Generate annotation for the area model
     sa = '\t\t<sub-area id="sa-1.' + str(num + 1) + '" ' + 'bbox="' + str(float(x)/ow) + ' ' + str(float(y)/oh) + ' ' + str(float(x + w)/ow) + ' ' + str(float(y + h)/oh) + '"' + '/>\n'
@@ -258,8 +262,15 @@ def generate_photo(original, x, w, y, h, num):
     oh = original.shape[0]
     ow = original.shape[1]
     
+    # Extract the region defined by the bounding box
+    roi = original[y:y+h, x:x+w]
+    
+    # Save the extracted region into a file
+    roi_path = 'output/' + str(num+1) + '_photo' + '_' + str(y) + '_' + str(y+h) + '_' + str(x) + '_' + str(x+w)
+    cv2.imwrite("%s.png" % roi_path, roi)
+    
     # Generate annotation for the layout unit segmentation
-    vlu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" alt="Photo"/>\n'
+    vlu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" alt="Photo" src="' + str(roi_path) + '.png"/>\n'
 
     # Generate annotation for the area model
     vsa = '\t\t<sub-area id="sa-1.' + str(num + 1) + '" ' + 'bbox="' + str(float(x)/ow) + ' ' + str(float(y)/oh) + ' ' + str(float(x + w)/ow) + ' ' + str(float(y + h)/oh) + '"' + '/>\n'
