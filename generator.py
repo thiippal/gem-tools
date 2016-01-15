@@ -17,6 +17,9 @@ import imutils
 # Optical character recognition
 import pytesser
 
+# Natural language processing
+import nltk
+
 # Logging
 import logging
 import warnings
@@ -367,6 +370,20 @@ def load_model():
 
     # Return the model
     return model
+
+####################
+# Sentence tokenizer
+####################
+
+def tokenize(string):
+    """ Tokenizes strings into sentences using NLTK's Punk tokenizer. """
+
+    # Load the detector with English language model.
+    detector = nltk.data.load('tokenizers/punkt/english.pickle')
+
+    sents = detector.tokenize(string)
+
+    return sents
 
 ##################################
 # Sort contours from left to right
