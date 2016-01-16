@@ -231,7 +231,7 @@ def generate_text(original, x, w, y, h, num):
     
     # Save the extracted region into a file
     roi_path = 'output/' + str(num+1) + '_text' + '_' + str(y) + '_' + str(y+h) + '_' + str(x) + '_' + str(x+w)
-    cv2.imwrite("%s.png" % roi_path, roi)
+    # cv2.imwrite("%s.png" % roi_path, roi)
     
     # Convert the region of interest into grayscale
     gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
@@ -245,6 +245,9 @@ def generate_text(original, x, w, y, h, num):
     # Feed the resized image to Pytesser
     content = pytesser.mat_to_string(resized)
     unicode_content = unicode(content, 'utf-8')
+    
+    # Tokenize sentences for base units
+    bu = tokenize(unicode_content)
 
     # Generate annotation for the layout unit segmentation
     lu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" src="' + str(roi_path) + '.png">' + ' '.join(unicode_content.split()) + '</layout-unit>\n'
@@ -256,7 +259,7 @@ def generate_text(original, x, w, y, h, num):
     re = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="text"/>\n'
     
     # Return the annotation
-    return lu, sa, re
+    return lu, sa, re, bu
 
 def generate_photo(original, x, w, y, h, num):
     """ Generates XML annotation for graphical layout units. """
@@ -270,7 +273,7 @@ def generate_photo(original, x, w, y, h, num):
     
     # Save the extracted region into a file
     roi_path = 'output/' + str(num+1) + '_photo' + '_' + str(y) + '_' + str(y+h) + '_' + str(x) + '_' + str(x+w)
-    cv2.imwrite("%s.png" % roi_path, roi)
+    # cv2.imwrite("%s.png" % roi_path, roi)
     
     # Generate annotation for the layout unit segmentation
     vlu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" alt="Photo" src="' + str(roi_path) + '.png"/>\n'
@@ -372,17 +375,19 @@ def load_model():
     return model
 
 ####################
-# Sentence tokenizer
+# Tokenize sentences
 ####################
 
 def tokenize(string):
-    """ Tokenizes strings into sentences using NLTK's Punk tokenizer. """
+    """ Tokenizes strings into sentences using NLTK's Punkt tokenizer. """
 
     # Load the detector with English language model.
     detector = nltk.data.load('tokenizers/punkt/english.pickle')
 
+    # Tokenizes the string into sentences.
     sents = detector.tokenize(string)
 
+    # Return a list of sentences
     return sents
 
 ##################################
