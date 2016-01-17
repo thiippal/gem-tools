@@ -215,6 +215,46 @@ def detect_roi(input, kernelsize):
 
     return maskcontours
 
+####################
+# Extract base units
+####################
+
+def extract_bu(original, x, w, y, h, num):
+    """ Extracts base units from layout units consisting of written text. """
+    
+    # Get the dimensions of the input image
+    oh = original.shape[0]
+    ow = original.shape[1]
+    
+    # Extract the region defined by the bounding box
+    roi = original[y:y+h, x:x+w]
+    
+    # Save the extracted region into a file
+    roi_path = 'output/' + str(num + 1) + '_text' + '_' + str(y) + '_' + str(y+h) + '_' + str(x) + '_' + str(x+w)
+    # cv2.imwrite("%s.png" % roi_path, roi)
+    
+    # Convert the region of interest into grayscale
+    gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
+    
+    # Perform thresholding using Otsu's method
+    (T, thresholded) = cv2.threshold(gray, 0, 255, cv2.THRESH_OTSU)
+    
+    # Resize the thresholded image to 200% of the original
+    resized = imutils.resize(thresholded, width = 2 * w)
+    
+    # Feed the resized image to Pytesser
+    content = pytesser.mat_to_string(resized)
+    unicode_content = unicode(content, 'utf-8')
+    
+    # Tokenize sentences for base units
+    bu = tokenize(unicode_content)
+    
+    # Generate annotation for the area model
+    bbox = 'bbox="' + str(float(x)/ow) + ' ' + str(float(y)/oh) + ' ' + str(float(x + w)/ow) + ' ' + str(float(y + h)/oh) + '"'
+    
+    # Return the annotation
+    return num + 1, bu, roi_path, bbox
+
 #################################
 # Generate layout unit annotation
 #################################
@@ -230,7 +270,7 @@ def generate_text(original, x, w, y, h, num):
     roi = original[y:y+h, x:x+w]
     
     # Save the extracted region into a file
-    roi_path = 'output/' + str(num+1) + '_text' + '_' + str(y) + '_' + str(y+h) + '_' + str(x) + '_' + str(x+w)
+    roi_path = 'output/' + str(num + 1) + '_text' + '_' + str(y) + '_' + str(y+h) + '_' + str(x) + '_' + str(x+w)
     # cv2.imwrite("%s.png" % roi_path, roi)
     
     # Convert the region of interest into grayscale
