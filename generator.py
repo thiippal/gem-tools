@@ -252,8 +252,8 @@ def extract_bu(original, x, w, y, h, num):
     # Generate annotation for the area model
     bbox = 'bbox="' + str(float(x)/ow) + ' ' + str(float(y)/oh) + ' ' + str(float(x + w)/ow) + ' ' + str(float(y + h)/oh) + '"'
     
-    # Return the annotation
-    return num + 1, bu, roi_path, bbox
+    # Return the extracted base units
+    return num, bu, roi_path, bbox
 
 #################################
 # Generate layout unit annotation
