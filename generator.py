@@ -229,10 +229,6 @@ def extract_bu(original, x, w, y, h, num):
     # Extract the region defined by the bounding box
     roi = original[y:y+h, x:x+w]
     
-    # Save the extracted region into a file
-    roi_path = 'output/' + str(num + 1) + '_text' + '_' + str(y) + '_' + str(y+h) + '_' + str(x) + '_' + str(x+w)
-    # cv2.imwrite("%s.png" % roi_path, roi)
-    
     # Convert the region of interest into grayscale
     gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
     
@@ -249,17 +245,14 @@ def extract_bu(original, x, w, y, h, num):
     # Tokenize sentences for base units
     bu = tokenize(unicode_content)
     
-    # Generate annotation for the area model
-    bbox = 'bbox="' + str(float(x)/ow) + ' ' + str(float(y)/oh) + ' ' + str(float(x + w)/ow) + ' ' + str(float(y + h)/oh) + '"'
-    
     # Return the extracted base units
-    return num, bu, roi_path, bbox
+    return num, bu
 
 #################################
 # Generate layout unit annotation
 #################################
 
-def generate_text(original, x, w, y, h, num):
+def generate_text(original, x, w, y, h, num, base_layout_mapping):
     """ Generates XML annotation for textual layout units. """
     
     # Get the dimensions of the input image
@@ -273,24 +266,14 @@ def generate_text(original, x, w, y, h, num):
     roi_path = 'output/' + str(num + 1) + '_text' + '_' + str(y) + '_' + str(y+h) + '_' + str(x) + '_' + str(x+w)
     # cv2.imwrite("%s.png" % roi_path, roi)
     
-    # Convert the region of interest into grayscale
-    gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
+    # Fetch the base units from the dictionary for cross-referencing and append them to the list
+    xrefs = []
+    for base_id, layout_xref in base_layout_mapping.items():
+        if layout_xref == num:
+            xrefs.append(base_id)
     
-    # Perform thresholding using Otsu's method
-    (T, thresholded) = cv2.threshold(gray, 0, 255, cv2.THRESH_OTSU)
-    
-    # Resize the thresholded image to 200% of the original
-    resized = imutils.resize(thresholded, width = 2 * w)
-    
-    # Feed the resized image to Pytesser
-    content = pytesser.mat_to_string(resized)
-    unicode_content = unicode(content, 'utf-8')
-    
-    # Tokenize sentences for base units
-    bu = tokenize(unicode_content)
-
     # Generate annotation for the layout unit segmentation
-    lu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" src="' + str(roi_path) + '.png">' + ' '.join(unicode_content.split()) + '</layout-unit>\n'
+    lu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" src="' + str(roi_path) + '.png" xref="' + ' '.join(xrefs) + '"/>\n'
     
     # Generate annotation for the area model
     sa = '\t\t<sub-area id="sa-1.' + str(num + 1) + '" ' + 'bbox="' + str(float(x)/ow) + ' ' + str(float(y)/oh) + ' ' + str(float(x + w)/ow) + ' ' + str(float(y + h)/oh) + '"' + '/>\n'
@@ -299,7 +282,7 @@ def generate_text(original, x, w, y, h, num):
     re = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="text"/>\n'
     
     # Return the annotation
-    return lu, sa, re, bu
+    return lu, sa, re
 
 def generate_photo(original, x, w, y, h, num):
     """ Generates XML annotation for graphical layout units. """
