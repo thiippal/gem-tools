@@ -63,8 +63,7 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 def classify(contours, image, model):
     """ Classifies the regions of interest detected in the input image. """
     
-    # Set up the dictionaries that store the output
-    contour_coordinates = {}
+    # Set up A dictionary for contour types
     contour_types = {}
 
     # Loop over the contours
@@ -72,9 +71,7 @@ def classify(contours, image, model):
         
         # Extract the bounding box coordinates
         (x, y, w, h) = cv2.boundingRect(contour)
-        # Add the bounding box to the dictionary
-        contour_coordinates[number] = (x, y, w, h)
-    
+        
         # Extract the region of interest from the image
         bounding_box = image[y:y+h, x:x+w]
         # Describe the features of the bounding box
@@ -82,22 +79,54 @@ def classify(contours, image, model):
         # Classify the bounding box
         prediction = model.predict(features)[0]
     
-        # Define the label position in the image
-        if prediction == 'text':
+        # Define the label size and position in the image
+        # One digit
+        if prediction == 'text' and len(str(number)) == 1:
             if x < image.shape[0] / 2:
-                cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 1)
-                cv2.putText(image, str(number), (x+w+5, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+                cv2.rectangle(image, (x, y), (x + w, y + h), (85, 217, 87), 1)
+                cv2.rectangle(image, (x + w, y), (x + w + 20, y + 20), (85, 217, 87), -1)
+                cv2.putText(image, str(number), (x+w+3, y+16), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
             if x > image.shape[0] / 2:
-                cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 1)
+                cv2.rectangle(image, (x, y), (x + w, y + h), (85, 217, 87), 1)
+                cv2.rectangle(image, (x - 20, y - 16), (w, y), (85, 217, 87), -1)
                 cv2.putText(image, str(number), (x-30, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
             contour_types[number] = prediction
-        if prediction == 'photo':
+
+        # Two digits
+        if prediction == 'text' and len(str(number)) == 2:
             if x < image.shape[0] / 2:
-                cv2.rectangle(image, (x, y), (x + w, y + h), (0, 0, 255), 1)
+                cv2.rectangle(image, (x, y), (x + w, y + h), (85, 217, 87), 1)
+                cv2.rectangle(image, (x + w, y), (x + w + 35, y + 20), (85, 217, 87), -1)
+                cv2.putText(image, str(number), (x+w+3, y+16), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+            if x > image.shape[0] / 2:
+                cv2.rectangle(image, (x, y), (x + w, y + h), (85, 217, 87), 1)
+                cv2.rectangle(image, (x, y), (x-32, y+20), (85, 217, 87), -1)
+                cv2.putText(image, str(number), (x-30, y+16), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+            contour_types[number] = prediction
+
+        # One digit
+        if prediction == 'photo' and len(str(number)) == 1:
+            if x < image.shape[0] / 2:
+                cv2.rectangle(image, (x, y), (x + w, y + h), (85, 87, 217), 1)
+                cv2.rectangle(image, (x + w, y), (x + w + 20, y + 20), (85, 87, 217), -1)
+                cv2.putText(image, str(number), (x+w+3, y+16), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+            if x > image.shape[0] / 2:
+                cv2.rectangle(image, (x, y), (x + w, y + h), (85, 87, 217), 1)
+                cv2.rectangle(image, (x - 20, y - 16), (w, y), (85, 87, 217), -1)
+                cv2.putText(image, str(number), (x-30, y+16), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+            # Add the classification to the dictionary
+            contour_types[number] = prediction
+
+        # Two digits
+        if prediction == 'photo' and len(str(number)) == 2:
+            if x < image.shape[0] / 2:
+                cv2.rectangle(image, (x, y), (x + w, y + h), (85, 87, 217), 1)
+                cv2.rectangle(image, (x + w, y), (x + w + 35, y + 20), (85, 87, 217), -1)
                 cv2.putText(image, str(number), (x+w+5, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
             if x > image.shape[0] / 2:
-                cv2.rectangle(image, (x, y), (x + w, y + h), (0, 0, 255), 1)
-                cv2.putText(image, str(number), (x-30, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+                cv2.rectangle(image, (x, y), (x + w, y + h), (85, 87, 217), 1)
+                cv2.rectangle(image, (x, y), (x-32, y+20), (85, 87, 217), -1)
+                cv2.putText(image, str(number), (x-30, y+16), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
             # Add the classification to the dictionary
             contour_types[number] = prediction
 
