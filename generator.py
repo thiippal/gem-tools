@@ -284,7 +284,7 @@ def generate_text(original, x, w, y, h, num, base_layout_mapping):
     # Return the annotation
     return lu, sa, re
 
-def generate_photo(original, x, w, y, h, num):
+def generate_photo(original, x, w, y, h, num, base_layout_mapping):
     """ Generates XML annotation for graphical layout units. """
     
     # Get the dimensions of the input image
@@ -297,9 +297,15 @@ def generate_photo(original, x, w, y, h, num):
     # Save the extracted region into a file
     roi_path = 'output/' + str(num+1) + '_photo' + '_' + str(y) + '_' + str(y+h) + '_' + str(x) + '_' + str(x+w)
     # cv2.imwrite("%s.png" % roi_path, roi)
-    
+
+    # Fetch the base units from the dictionary for cross-referencing and append them to the list
+    xrefs = []
+    for base_id, layout_xref in base_layout_mapping.items():
+        if layout_xref == num:
+            xrefs.append(base_id)
+
     # Generate annotation for the layout unit segmentation
-    vlu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" alt="Photo" src="' + str(roi_path) + '.png"/>\n'
+    vlu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" alt="Photo" src="' + str(roi_path) + '.png" xref="' + ' '.join(xrefs) + '"/>\n'
 
     # Generate annotation for the area model
     vsa = '\t\t<sub-area id="sa-1.' + str(num + 1) + '" ' + 'bbox="' + str(float(x)/ow) + ' ' + str(float(y)/oh) + ' ' + str(float(x + w)/ow) + ' ' + str(float(y + h)/oh) + '"' + '/>\n'
