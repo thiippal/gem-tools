@@ -85,11 +85,11 @@ def classify(contours, image, model):
             if x < image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 217, 87), 1)
                 cv2.rectangle(image, (x + w, y), (x + w + 20, y + 20), (85, 217, 87), -1)
-                cv2.putText(image, str(number), (x+w+3, y+16), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x+w+3, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
             if x > image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 217, 87), 1)
                 cv2.rectangle(image, (x - 20, y - 16), (w, y), (85, 217, 87), -1)
-                cv2.putText(image, str(number), (x-30, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x-30, y+20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
             contour_types[number] = prediction
 
         # Two digits
@@ -97,11 +97,11 @@ def classify(contours, image, model):
             if x < image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 217, 87), 1)
                 cv2.rectangle(image, (x + w, y), (x + w + 35, y + 20), (85, 217, 87), -1)
-                cv2.putText(image, str(number), (x+w+3, y+16), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x+w+3, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
             if x > image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 217, 87), 1)
                 cv2.rectangle(image, (x, y), (x-32, y+20), (85, 217, 87), -1)
-                cv2.putText(image, str(number), (x-30, y+16), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x-30, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
             contour_types[number] = prediction
 
         # One digit
@@ -109,11 +109,11 @@ def classify(contours, image, model):
             if x < image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 87, 217), 1)
                 cv2.rectangle(image, (x + w, y), (x + w + 20, y + 20), (85, 87, 217), -1)
-                cv2.putText(image, str(number), (x+w+3, y+16), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x+w+3, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
             if x > image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 87, 217), 1)
                 cv2.rectangle(image, (x - 20, y - 16), (w, y), (85, 87, 217), -1)
-                cv2.putText(image, str(number), (x-30, y+16), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x-30, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
             # Add the classification to the dictionary
             contour_types[number] = prediction
 
@@ -122,11 +122,11 @@ def classify(contours, image, model):
             if x < image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 87, 217), 1)
                 cv2.rectangle(image, (x + w, y), (x + w + 35, y + 20), (85, 87, 217), -1)
-                cv2.putText(image, str(number), (x+w+5, y+20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x+w+5, y+20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
             if x > image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 87, 217), 1)
                 cv2.rectangle(image, (x, y), (x-32, y+20), (85, 87, 217), -1)
-                cv2.putText(image, str(number), (x-30, y+16), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1.0, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x-30, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
             # Add the classification to the dictionary
             contour_types[number] = prediction
 
