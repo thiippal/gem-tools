@@ -302,7 +302,7 @@ def generate_text(original, x, w, y, h, num, base_layout_mapping):
             xrefs.append(base_id)
     
     # Generate annotation for the layout unit segmentation
-    lu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" src="' + str(roi_path) + '.png" xref="' + ' '.join(xrefs) + '"/>\n'
+    lu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" src="' + str(roi_path) + '.png" xref="' + ' '.join(xrefs) + '" ' + 'location="sa-1.' + str(num + 1) + '"/>\n'
     
     # Generate annotation for the area model
     sa = '\t\t<sub-area id="sa-1.' + str(num + 1) + '" ' + 'bbox="' + str(float(x)/ow) + ' ' + str(float(y)/oh) + ' ' + str(float(x + w)/ow) + ' ' + str(float(y + h)/oh) + '"' + '/>\n'
@@ -408,7 +408,7 @@ def false_positives(fps):
 #####################################
 
 def load_model():
-    """ Loads the pre-trained model and feeds it to the the Random Forest Classifier. """
+    """ Trains the Random Forest Classifier. """
     
     # Load the data
     datafile = "model/data.db"
