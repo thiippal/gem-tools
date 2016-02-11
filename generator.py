@@ -90,6 +90,7 @@ def classify(contours, image, model):
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 217, 87), 1)
                 cv2.rectangle(image, (x - 20, y - 16), (w, y), (85, 217, 87), -1)
                 cv2.putText(image, str(number), (x-30, y+20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+            # Add the classification to the dictionary
             contour_types[number] = prediction
 
         # Two digits
@@ -102,6 +103,7 @@ def classify(contours, image, model):
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 217, 87), 1)
                 cv2.rectangle(image, (x, y), (x-32, y+20), (85, 217, 87), -1)
                 cv2.putText(image, str(number), (x-30, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+            # Add the classification to the dictionary
             contour_types[number] = prediction
 
         # One digit
@@ -144,7 +146,9 @@ def vlog(image, title):
     """ Creates entries for the visual log. """
     logger.debug(VisualRecord(title, image, fmt = "png"))
 
+#############################################################
 # Describe images using color statistics and Haralick texture
+#############################################################
 
 def describe(image):
     """ Describes the input image using colour statistics and Haralick texture. Returns a numpy array. """
@@ -200,7 +204,7 @@ def detect_roi(input, kernelsize):
     logger.debug("Kernel size: {}".format(kernelsize))
     vlog(gradient, "Morphological gradient applied")
 
-    # Erode the image
+    # Erode the image twice
     eroded = cv2.erode(gradient, None, iterations = 2)
 
     # Log the result
@@ -361,8 +365,11 @@ def preprocess(filepath):
     # Resize the image
     preprocessed_image = imutils.resize(input_image, width = 1200)
     
+    # Provide a copy of the resized image
+    preprocessed_image_copy = preprocessed_image.copy()
+    
     # Return the preprocessed image
-    return preprocessed_image, input_image, filename, filepath
+    return preprocessed_image_copy, preprocessed_image, input_image, filename, filepath
 
 ##################
 # Project contours
@@ -380,6 +387,90 @@ def project(image, original, contours):
     
     # Return the updated contours.
     return contours
+
+##########################
+# Redraw detected contours
+##########################
+
+def redraw(verimg, classified_contours, contour_types, fp_list):
+    """ Docstring. """
+    # Check if the false positives list is more than zero.
+    if len(fp_list) > 0:
+        # Loop over the list and pop out false positives.
+        for fp in fp_list:
+            contour_types.pop(fp)
+
+        # Define a new numpy array with the false positives removed.
+        updated_contours = np.array(np.delete(classified_contours, fp_list, 0), dtype="int32")
+
+        # Set up a counter for identifiers
+        counter = 0
+    
+        for ctype, contour in zip(contour_types.values(), updated_contours):
+            # Set up a counter for identifiers
+            counter = counter + 1
+        
+            # Extract the bounding box
+            (x, y, w, h) = cv2.boundingRect(contour)
+        
+            # Define the label size and position in the image
+            # Text, one digit
+            if ctype == 'text' and len(str(counter)) == 1:
+                if x < verimg.shape[0] / 2:
+                    cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 217, 87), 1)
+                    cv2.rectangle(verimg, (x + w, y), (x + w + 20, y + 20), (85, 217, 87), -1)
+                    cv2.putText(verimg, str(counter), (x+w+3, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                if x > verimg.shape[0] / 2:
+                    cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 217, 87), 1)
+                    cv2.rectangle(verimg, (x - 20, y - 16), (w, y), (85, 217, 87), -1)
+                    cv2.putText(verimg, str(counter), (x-30, y+20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                # Add the classification to the dictionary
+                #contour_types[number] = prediction
+        
+            # Text, two digits
+            if ctype == 'text' and len(str(counter)) == 2:
+                if x < verimg.shape[0] / 2:
+                    cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 217, 87), 1)
+                    cv2.rectangle(verimg, (x + w, y), (x + w + 35, y + 20), (85, 217, 87), -1)
+                    cv2.putText(verimg, str(counter), (x+w+3, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                if x > verimg.shape[0] / 2:
+                    cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 217, 87), 1)
+                    cv2.rectangle(verimg, (x, y), (x-32, y+20), (85, 217, 87), -1)
+                    cv2.putText(verimg, str(counter), (x-30, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                # Add the classification to the dictionary
+                #contour_types[number] = prediction
+
+        # Image, one digit
+            if ctype == 'photo' and len(str(counter)) == 1:
+                if x < verimg.shape[0] / 2:
+                    cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
+                    cv2.rectangle(verimg, (x + w, y), (x + w + 20, y + 20), (85, 87, 217), -1)
+                    cv2.putText(verimg, str(counter), (x+w+3, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                if x > verimg.shape[0] / 2:
+                    cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
+                    cv2.rectangle(verimg, (x - 20, y - 16), (w, y), (85, 87, 217), -1)
+                    cv2.putText(verimg, str(counter), (x-30, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                # Add the classification to the dictionary
+                #contour_types[number] = prediction
+
+        # Two digits
+            if ctype == 'photo' and len(str(counter)) == 2:
+                if x < verimg.shape[0] / 2:
+                    cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
+                    cv2.rectangle(verimg, (x + w, y), (x + w + 35, y + 20), (85, 87, 217), -1)
+                    cv2.putText(verimg, str(counter), (x+w+5, y+20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                if x > verimg.shape[0] / 2:
+                    cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
+                    cv2.rectangle(verimg, (x, y), (x-32, y+20), (85, 87, 217), -1)
+                    cv2.putText(verimg, str(counter), (x-30, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                # Add the classification to the dictionary
+                #contour_types[number] = prediction
+
+        # Write the image on the disk
+        cv2.imwrite("output/image_contours_updated.png", verimg)
+
+    else:
+        return
 
 ########################
 # Remove false positives
