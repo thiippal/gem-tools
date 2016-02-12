@@ -248,6 +248,73 @@ def detect_roi(input, kernelsize):
 
     return maskcontours
 
+###################################
+# Draw regions of interest manually
+###################################
+
+def draw_roi(image):
+    """ Draw regions of interest manually. """
+    
+    # Create a clone for cancelling input
+    clone = image.copy()
+    
+    # Set drawing mode to false
+    drawing = False
+    
+    # Set up a list for coordinates
+    refpt = []
+    
+    # Set up a list for bounding boxes
+    drawn_boxes = []
+    
+    # Define the mouse event / drawing function
+    def draw(event, x, y, flags, param):
+        global refpt, drawing
+        
+        if event == cv2.EVENT_LBUTTONDOWN:
+            refpt = [(x, y)]
+            drawing = True
+    
+        elif event == cv2.EVENT_LBUTTONUP:
+            refpt.append((x, y))
+            drawing = False
+            
+            # Reconstruct a contour
+            box = np.array([[[refpt[0][0], refpt[0][1]]], [[refpt[0][0], refpt[1][1]]], [[refpt[1][0], refpt[1][1]]], [[refpt[1][0], refpt[0][1]]]], dtype="int32")
+            
+            drawn_boxes.append(box)
+            
+            cv2.rectangle(image, refpt[0], refpt[1], (85, 217, 87), 1)
+            cv2.imshow("Draw regions of interest", image)
+
+    # Create GUI window and assign the mouse event function
+    cv2.namedWindow("Draw regions of interest")
+    cv2.setMouseCallback("Draw regions of interest", draw)
+    
+    # Show the document image
+    while True:
+        cv2.imshow("Draw regions of interest", image)
+        key = cv2.waitKey(0)
+        
+        if key == ord('r'):
+            # Reset the image
+            image = clone.copy()
+            
+            # Check if any regions of interest have been designated
+            if len(drawn_boxes) >= 1:
+                del drawn_boxes[-1]
+            else:
+                continue
+        
+        elif key == ord('q'):
+            break
+
+    # Destroy all windows
+    cv2.destroyAllWindows()
+
+    return drawn_boxes
+
+
 ####################
 # Extract base units
 ####################
@@ -395,7 +462,7 @@ def project(image, original, contours):
 def redraw(verimg, classified_contours, contour_types, fp_list):
     """ Docstring. """
     # Check if the false positives list is more than zero.
-    if len(fp_list) > 0:
+    if fp_list:
         # Loop over the list and pop out false positives.
         for fp in fp_list:
             contour_types.pop(fp)
@@ -470,7 +537,7 @@ def redraw(verimg, classified_contours, contour_types, fp_list):
         cv2.imwrite("output/image_contours_updated.png", verimg)
 
     else:
-        return
+        pass
 
 ########################
 # Remove false positives
