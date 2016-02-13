@@ -252,6 +252,11 @@ def detect_roi(input, kernelsize):
 # Draw regions of interest manually
 ###################################
 
+# To do: resize the image to fit the screen.
+
+# To do: feed the updated contours & contour types to the function; return an updated list with the manually drawn contours.
+
+
 def draw_roi(image):
     """ Draw regions of interest manually. """
     
@@ -261,10 +266,13 @@ def draw_roi(image):
     # Set drawing mode to false
     drawing = False
     
+    # Set graphics mode to false
+    graphics = False
+    
     # Set up a list for coordinates
     refpt = []
     
-    # Set up a list for bounding boxes
+    # Set up a list for contours
     drawn_boxes = []
     
     # Define the mouse event / drawing function
@@ -279,12 +287,21 @@ def draw_roi(image):
             refpt.append((x, y))
             drawing = False
             
-            # Reconstruct a contour
+            # Construct a contour from the coordinates
             box = np.array([[[refpt[0][0], refpt[0][1]]], [[refpt[0][0], refpt[1][1]]], [[refpt[1][0], refpt[1][1]]], [[refpt[1][0], refpt[0][1]]]], dtype="int32")
             
+            # Append the contour to the list of drawn contours
             drawn_boxes.append(box)
             
-            cv2.rectangle(image, refpt[0], refpt[1], (85, 217, 87), 1)
+            # Check if graphics mode is active
+            if graphics == True:
+                # Draw a bounding box for graphics
+                cv2.rectangle(image, refpt[0], refpt[1], (85, 87, 217), 1)
+            else:
+                # Draw a bounding box for text
+                cv2.rectangle(image, refpt[0], refpt[1], (85, 217, 87), 1)
+            
+            # Display the image to show the drawn
             cv2.imshow("Draw regions of interest", image)
 
     # Create GUI window and assign the mouse event function
@@ -296,8 +313,8 @@ def draw_roi(image):
         cv2.imshow("Draw regions of interest", image)
         key = cv2.waitKey(0)
         
+        # Press 'r' to reset the image
         if key == ord('r'):
-            # Reset the image
             image = clone.copy()
             
             # Check if any regions of interest have been designated
@@ -305,7 +322,12 @@ def draw_roi(image):
                 del drawn_boxes[-1]
             else:
                 continue
+    
+        # Press 'g' to switch graphics mode on and off
+        if key == ord('g'):
+            graphics = True
         
+        # Press 'q' to quit
         elif key == ord('q'):
             break
 
@@ -460,8 +482,9 @@ def project(image, original, contours):
 ##########################
 
 def redraw(verimg, classified_contours, contour_types, fp_list):
-    """ Docstring. """
-    # Check if the false positives list is more than zero.
+    """ Redraws the detected contours. """
+    
+    # Check if the false positives list contains values.
     if fp_list:
         # Loop over the list and pop out false positives.
         for fp in fp_list:
@@ -472,6 +495,9 @@ def redraw(verimg, classified_contours, contour_types, fp_list):
 
         # Set up a counter for identifiers
         counter = 0
+        
+        # Set up a dictionary for the updated list of contour types
+        updated_contour_types = {}
     
         for ctype, contour in zip(contour_types.values(), updated_contours):
             # Set up a counter for identifiers
@@ -492,7 +518,7 @@ def redraw(verimg, classified_contours, contour_types, fp_list):
                     cv2.rectangle(verimg, (x - 20, y - 16), (w, y), (85, 217, 87), -1)
                     cv2.putText(verimg, str(counter), (x-30, y+20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
                 # Add the classification to the dictionary
-                #contour_types[number] = prediction
+                updated_contour_types[str(counter)] = ctype
         
             # Text, two digits
             if ctype == 'text' and len(str(counter)) == 2:
@@ -505,7 +531,7 @@ def redraw(verimg, classified_contours, contour_types, fp_list):
                     cv2.rectangle(verimg, (x, y), (x-32, y+20), (85, 217, 87), -1)
                     cv2.putText(verimg, str(counter), (x-30, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
                 # Add the classification to the dictionary
-                #contour_types[number] = prediction
+                updated_contour_types[str(counter)] = ctype
 
         # Image, one digit
             if ctype == 'photo' and len(str(counter)) == 1:
@@ -518,7 +544,7 @@ def redraw(verimg, classified_contours, contour_types, fp_list):
                     cv2.rectangle(verimg, (x - 20, y - 16), (w, y), (85, 87, 217), -1)
                     cv2.putText(verimg, str(counter), (x-30, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
                 # Add the classification to the dictionary
-                #contour_types[number] = prediction
+                updated_contour_types[str(counter)] = ctype
 
         # Two digits
             if ctype == 'photo' and len(str(counter)) == 2:
@@ -531,13 +557,15 @@ def redraw(verimg, classified_contours, contour_types, fp_list):
                     cv2.rectangle(verimg, (x, y), (x-32, y+20), (85, 87, 217), -1)
                     cv2.putText(verimg, str(counter), (x-30, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
                 # Add the classification to the dictionary
-                #contour_types[number] = prediction
+                updated_contour_types[str(counter)] = ctype
 
         # Write the image on the disk
         cv2.imwrite("output/image_contours_updated.png", verimg)
 
+        return updated_contours, updated_contour_types
+
     else:
-        pass
+        return
 
 ########################
 # Remove false positives
