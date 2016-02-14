@@ -60,10 +60,13 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 # Classify regions of interest
 ##############################
 
-def classify(contours, image, model):
+def classify(contours, img, model):
     """ Classifies the regions of interest detected in the input image. """
     
-    # Set up A dictionary for contour types
+    # Work with a copy of the input image
+    image = img.copy()
+    
+    # Set up a dictionary for contour types
     contour_types = {}
 
     # Loop over the contours
@@ -166,7 +169,7 @@ def describe(image):
 ############################
 
 def detect_roi(input, kernelsize):
-    """Detects regions of interest in the input. The input must be a numpy array."""
+    """Detects regions of interest in the input image."""
 
     # Log the input image
     logger.debug("Image width: {}, height: {}".format(input.shape[1], input.shape[0]))
@@ -252,14 +255,34 @@ def detect_roi(input, kernelsize):
 # Draw regions of interest manually
 ###################################
 
-# To do: resize the image to fit the screen.
-
-# To do: feed the updated contours & contour types to the function; return an updated list with the manually drawn contours.
-
-
-def draw_roi(image):
+def draw_roi(img, updated_contours, updated_contour_types):
     """ Draw regions of interest manually. """
     
+    # Work with a copy of the input image
+    image = img.copy()
+    
+    # Resize the image
+    image = imutils.resize(image, height = 700)
+    
+    # Calculate the aspect ratio
+    ratio = float(image.shape[1]) / img.shape[1]
+    
+    # Update the contours by multiplying them by the ratio.
+    for c in updated_contours:
+        c[0], c[1], c[2], c[3] = c[0] * ratio, c[1] * ratio, c[2] * ratio, c[3] * ratio
+    
+    # Draw the contours on the image
+    for ctype, contour in zip(updated_contour_types.values(), updated_contours):
+        
+        # Extract the bounding box
+        (x, y, w, h) = cv2.boundingRect(contour)
+
+        if ctype == 'text':
+            cv2.rectangle(image, (x, y), (x + w, y + h), (85, 217, 87), 1)
+
+        if ctype == 'photo':
+            cv2.rectangle(image, (x, y), (x + w, y + h), (85, 87, 217), 1)
+
     # Create a clone for cancelling input
     clone = image.copy()
     
@@ -274,11 +297,13 @@ def draw_roi(image):
     
     # Set up a list for contours
     drawn_boxes = []
-    
+
     # Define the mouse event / drawing function
     def draw(event, x, y, flags, param):
-        global refpt, drawing
+        global refpt, drawing, ccounter
         
+        ccounter = int(len(updated_contour_types) + 1)
+
         if event == cv2.EVENT_LBUTTONDOWN:
             refpt = [(x, y)]
             drawing = True
@@ -290,22 +315,32 @@ def draw_roi(image):
             # Construct a contour from the coordinates
             box = np.array([[[refpt[0][0], refpt[0][1]]], [[refpt[0][0], refpt[1][1]]], [[refpt[1][0], refpt[1][1]]], [[refpt[1][0], refpt[0][1]]]], dtype="int32")
             
-            # Append the contour to the list of drawn contours
-            drawn_boxes.append(box)
-            
             # Check if graphics mode is active
             if graphics == True:
                 # Draw a bounding box for graphics
                 cv2.rectangle(image, refpt[0], refpt[1], (85, 87, 217), 1)
+                # Append the contour to the list of contours and contour types
+                drawn_boxes.append(box)
+                # Add the contour type to the dictionary
+                updated_contour_types[str(ccounter)] = 'photo'
+                # Update the counter
+                ccounter = ccounter + 1
+            
             else:
                 # Draw a bounding box for text
                 cv2.rectangle(image, refpt[0], refpt[1], (85, 217, 87), 1)
+                # Append the contour to the list of contours and contour types
+                drawn_boxes.append(box)
+                # Add the contour type to the dictionary
+                updated_contour_types[str(ccounter)] = 'text'
+                # Update the counter
+                ccounter = ccounter + 1
             
             # Display the image to show the drawn
             cv2.imshow("Draw regions of interest", image)
 
     # Create GUI window and assign the mouse event function
-    cv2.namedWindow("Draw regions of interest")
+    cv2.namedWindow("Draw regions of interest", flags=cv2.cv.CV_WINDOW_NORMAL)
     cv2.setMouseCallback("Draw regions of interest", draw)
     
     # Show the document image
@@ -323,9 +358,13 @@ def draw_roi(image):
             else:
                 continue
     
-        # Press 'g' to switch graphics mode on and off
+        # Press 'g' to switch to graphics mode
         if key == ord('g'):
             graphics = True
+        
+        # Press 't' to switch to graphics mode
+        if key == ord('t'):
+            graphics = False
         
         # Press 'q' to quit
         elif key == ord('q'):
@@ -334,8 +373,17 @@ def draw_roi(image):
     # Destroy all windows
     cv2.destroyAllWindows()
 
-    return drawn_boxes
+    # Add the manually drawn boxes to the contour array
+    updated_contours = np.append(updated_contours, drawn_boxes, axis=0)
 
+    # Return the contours to their original size
+    nratio = float(img.shape[1]) / image.shape[1]
+    
+    # Update the contours by multiplying them by the ratio.
+    for c in updated_contours:
+        c[0], c[1], c[2], c[3] = c[0] * nratio, c[1] * nratio, c[2] * nratio, c[3] * nratio
+
+    return updated_contours, updated_contour_types
 
 ####################
 # Extract base units
@@ -451,14 +499,11 @@ def preprocess(filepath):
     # Extract the filename
     filename = filepath.split('/')[1].split('.')[0]
 
-    # Resize the image
+    # Resize the image to a canonical width of 1200 pixels
     preprocessed_image = imutils.resize(input_image, width = 1200)
     
-    # Provide a copy of the resized image
-    preprocessed_image_copy = preprocessed_image.copy()
-    
     # Return the preprocessed image
-    return preprocessed_image_copy, preprocessed_image, input_image, filename, filepath
+    return preprocessed_image, input_image, filename, filepath
 
 ##################
 # Project contours
@@ -481,8 +526,11 @@ def project(image, original, contours):
 # Redraw detected contours
 ##########################
 
-def redraw(verimg, classified_contours, contour_types, fp_list):
+def redraw(img, classified_contours, contour_types, fp_list):
     """ Redraws the detected contours. """
+    
+    # Work with a copy of the input image
+    verimg = img.copy()
     
     # Check if the false positives list contains values.
     if fp_list:
