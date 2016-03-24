@@ -27,20 +27,18 @@ from logging import FileHandler
 from vlogging import VisualRecord
 
 # Connected-component analysis
-from skimage.filters import threshold_adaptive
 from skimage import measure
 
 # Machine learning
 import pickle
 
 from sklearn.cross_validation import train_test_split
-from sklearn.metrics import classification_report
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.tree import DecisionTreeClassifier
 
 # --------------
 # SET UP LOGGING
 # --------------
+
 
 logger = logging.getLogger("generate_gem")
 fh = FileHandler("output/generate_gem.html", mode = "w")
@@ -56,13 +54,16 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 # DEFINE FUNCTIONS
 # ----------------
 
+
 ##############################
 # Classify regions of interest
 ##############################
 
+
 def classify(contours, img, model):
+
     """ Classifies the regions of interest detected in the input image. """
-    
+
     # Work with a copy of the input image
     image = img.copy()
     
@@ -145,30 +146,37 @@ def classify(contours, img, model):
 # Define a visual log entry
 ###########################
 
+
 def vlog(image, title):
+
     """ Creates entries for the visual log. """
-    logger.debug(VisualRecord(title, image, fmt = "png"))
+
+    logger.debug(VisualRecord(title, image, fmt='png'))
 
 #############################################################
 # Describe images using color statistics and Haralick texture
 #############################################################
 
+
 def describe(image):
+
     """ Describes the input image using colour statistics and Haralick texture. Returns a numpy array. """
 
     (means, stds) = cv2.meanStdDev(cv2.cvtColor(image, cv2.COLOR_BGR2HSV))
-    colorStats = np.concatenate([means, stds]).flatten()
+    colorstats = np.concatenate([means, stds]).flatten()
     
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    haralick = mahotas.features.haralick(gray).mean(axis = 0)
+    haralick = mahotas.features.haralick(gray).mean(axis=0)
     
-    return np.hstack([colorStats, haralick])
+    return np.hstack([colorstats, haralick])
 
 ############################
 # Detect regions of interest
 ############################
 
+
 def detect_roi(input, kernelsize):
+
     """Detects regions of interest in the input image."""
 
     # Log the input image
@@ -187,7 +195,9 @@ def detect_roi(input, kernelsize):
     blurred = cv2.bilateralFilter(gray, params[0], params[1], params[2])
 
     # Log the result
-    logger.debug("Parameters for bilateral filtering: diameter of the pixel neighbourhood: {}, standard deviation for color: {}, standard deviation for space: {}".format(params[0], params[1], params[2]))
+    logger.debug("Parameters for bilateral filtering: diameter of the pixel neighbourhood: {}, "
+                 "standard deviation for color: {}, "
+                 "standard deviation for space: {}".format(params[0], params[1], params[2]))
     vlog(blurred, "Bilaterally filtered")
 
     # Perform Otsu's thresholding
@@ -208,21 +218,21 @@ def detect_roi(input, kernelsize):
     vlog(gradient, "Morphological gradient applied")
 
     # Erode the image twice
-    eroded = cv2.erode(gradient, None, iterations = 2)
+    eroded = cv2.erode(gradient, None, iterations=2)
 
     # Log the result
     vlog(eroded, "Morphological gradient eroded")
 
     # Perform connected components analysis
-    labels = measure.label(eroded, neighbors = 8, background = 0)
-    gradient_mask = np.zeros(eroded.shape, dtype = "uint8")
+    labels = measure.label(eroded, neighbors=8, background = 0)
+    gradient_mask = np.zeros(eroded.shape, dtype="uint8")
 
     # Loop over the labels
     # The *numpixels* parameter could be included in the function
     for (i, label) in enumerate(np.unique(labels)):
         if label == -1:
             continue
-        labelmask = np.zeros(gradient.shape, dtype = "uint8")
+        labelmask = np.zeros(gradient.shape, dtype="uint8")
         labelmask[labels == label] = 255
         numpixels = cv2.countNonZero(labelmask)
     
@@ -236,7 +246,7 @@ def detect_roi(input, kernelsize):
     (contours, hierarchy) = cv2.findContours(gradient_mask.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
     # Set up a mask for the contours.
-    contour_mask = np.zeros(gradient_mask.shape, dtype = "uint8")
+    contour_mask = np.zeros(gradient_mask.shape, dtype="uint8")
 
     # Draw the detected contours on the empty mask.
     for c in contours:
@@ -255,14 +265,16 @@ def detect_roi(input, kernelsize):
 # Draw regions of interest manually
 ###################################
 
+
 def draw_roi(img, updated_contours, updated_contour_types):
+
     """ Draw regions of interest manually. """
     
     # Work with a copy of the input image
     image = img.copy()
     
     # Resize the image
-    image = imutils.resize(image, height = 700)
+    image = imutils.resize(image, height=700)
     
     # Calculate the aspect ratio
     ratio = float(image.shape[1]) / img.shape[1]
@@ -316,7 +328,7 @@ def draw_roi(img, updated_contours, updated_contour_types):
             box = np.array([[[refpt[0][0], refpt[0][1]]], [[refpt[0][0], refpt[1][1]]], [[refpt[1][0], refpt[1][1]]], [[refpt[1][0], refpt[0][1]]]], dtype="int32")
             
             # Check if graphics mode is active
-            if graphics == True:
+            if graphics:
                 # Draw a bounding box for graphics
                 cv2.rectangle(image, refpt[0], refpt[1], (85, 87, 217), 1)
                 # Append the contour to the list of contours and contour types
@@ -324,7 +336,7 @@ def draw_roi(img, updated_contours, updated_contour_types):
                 # Add the contour type to the dictionary
                 updated_contour_types[str(ccounter)] = 'photo'
                 # Update the counter
-                ccounter = ccounter + 1
+                ccounter += 1
             
             else:
                 # Draw a bounding box for text
@@ -334,7 +346,7 @@ def draw_roi(img, updated_contours, updated_contour_types):
                 # Add the contour type to the dictionary
                 updated_contour_types[str(ccounter)] = 'text'
                 # Update the counter
-                ccounter = ccounter + 1
+                ccounter += 1
             
             # Display the image to show the drawn
             cv2.imshow("Draw regions of interest", image)
@@ -389,7 +401,9 @@ def draw_roi(img, updated_contours, updated_contour_types):
 # Extract base units
 ####################
 
+
 def extract_bu(original, x, w, y, h, num):
+
     """ Extracts base units from layout units consisting of written text. """
     
     # Get the dimensions of the input image
@@ -406,7 +420,7 @@ def extract_bu(original, x, w, y, h, num):
     (T, thresholded) = cv2.threshold(gray, 0, 255, cv2.THRESH_OTSU)
     
     # Resize the thresholded image to 200% of the original
-    resized = imutils.resize(thresholded, width = 2 * w)
+    resized = imutils.resize(thresholded, width=2 * w)
     
     # Feed the resized image to Pytesser
     content = pytesser.mat_to_string(resized)
@@ -422,7 +436,9 @@ def extract_bu(original, x, w, y, h, num):
 # Generate layout unit annotation
 #################################
 
+
 def generate_text(original, x, w, y, h, num, base_layout_mapping):
+
     """ Generates XML annotation for textual layout units. """
     
     # Get the dimensions of the input image
@@ -454,7 +470,9 @@ def generate_text(original, x, w, y, h, num, base_layout_mapping):
     # Return the annotation
     return lu, sa, re
 
+
 def generate_photo(original, x, w, y, h, num, base_layout_mapping):
+
     """ Generates XML annotation for graphical layout units. """
     
     # Get the dimensions of the input image
@@ -490,7 +508,9 @@ def generate_photo(original, x, w, y, h, num, base_layout_mapping):
 # Preprocess the input image
 ############################
 
+
 def preprocess(filepath):
+
     """ Resizes the input image to a canonical width of 1200 pixels. """
     
     # Read the input image
@@ -509,7 +529,9 @@ def preprocess(filepath):
 # Project contours
 ##################
 
+
 def project(image, original, contours):
+
     """ Projects the detected contours on the high-resolution input image. """
     
     # Calculate the ratio for resizing the image.
@@ -526,7 +548,9 @@ def project(image, original, contours):
 # Redraw detected contours
 ##########################
 
+
 def redraw(img, classified_contours, contour_types, fp_list):
+
     """ Redraws the detected contours. """
     
     # Work with a copy of the input image
@@ -549,7 +573,7 @@ def redraw(img, classified_contours, contour_types, fp_list):
     
         for ctype, contour in zip(contour_types.values(), updated_contours):
             # Set up a counter for identifiers
-            counter = counter + 1
+            counter += 1
         
             # Extract the bounding box
             (x, y, w, h) = cv2.boundingRect(contour)
@@ -619,6 +643,7 @@ def redraw(img, classified_contours, contour_types, fp_list):
 # Remove false positives
 ########################
 
+
 def false_positives(fps):
     """ Marks false positives in the array of detected contours. """
     # Check if the user marked any false positives.
@@ -626,7 +651,7 @@ def false_positives(fps):
         return
     
     else:
-    # Set up a list for false positives.
+        # Set up a list for false positives.
         false_positives = []
     
     # Loop over the false positives and delete their entries from the dictionaries.
@@ -640,6 +665,7 @@ def false_positives(fps):
 #####################################
 # Set up the Random Forest classifier
 #####################################
+
 
 def load_model():
     """ Trains the Random Forest Classifier. """
@@ -655,13 +681,14 @@ def load_model():
     labels = pickle.load(ld_file)
 
     # Split the data for training and testing
-    (trainData, testData, trainLabels, testLabels) = train_test_split(np.array(data), np.array(labels), test_size = 0.25, random_state = 42)
+    (traindata, testdata, trainlabels, testlabels) = train_test_split(np.array(data), np.array(labels),
+                                                                      test_size=0.25, random_state=42)
 
     # Set up the Random Forest Classifier
-    model = RandomForestClassifier(n_estimators = 20, random_state = 42)
+    model = RandomForestClassifier(n_estimators=20, random_state=42)
 
     # Create the model
-    model.fit(trainData, trainLabels)
+    model.fit(traindata, trainlabels)
 
     # Return the model
     return model
@@ -669,6 +696,7 @@ def load_model():
 ####################
 # Tokenize sentences
 ####################
+
 
 def tokenize(string):
     """ Tokenizes strings into sentences using NLTK's Punkt tokenizer. """
@@ -685,6 +713,7 @@ def tokenize(string):
 ##################################
 # Sort contours from left to right
 ##################################
+
 
 def sort_contours(contours):
     """ Sorts contours from left to right. """
