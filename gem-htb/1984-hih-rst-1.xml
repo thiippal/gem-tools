@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemRst>
+	<segmentation>
+		<segment id="s-9.01" xref="u-9.01" alt="Illustration: Tram"/>
+		<segment id="s-9.02" xref="u-9.03">SIGHTSEEING TOURS</segment>
+		<segment id="s-9.03" xref="u-9.05">Trams on the 3T tourist line have four-language commentaries on stops and sights between 1 May and 31 August, Monday-Friday 10 am - 3 pm and 6 - 8 pm, Saturdays and Sundays 9 am - 8 pm.</segment>
+		<segment id="s-9.04" xref="u-9.06">A four-language brochure on the tour and sights is available.</segment>
+		<segment id="s-9.05" xref="u-9.07">SIGHTSEEING BY BUS</segment>
+		<segment id="s-9.06" xref="u-9.08">Suomen Turistiauto Oy Ltd</segment>
+		<segment id="s-9.07" xref="u-9.09">departure: Railway Square, platform 21V.</segment>
+		<segment id="s-9.08" xref="u-9.10">Daughter of the Baltic,</segment>
+		<segment id="s-9.09" xref="u-9.11">1.6.-2.9. daily at 10.15 am, duration 2,5 hours, fee 70 mk.</segment>
+		<segment id="s-9.10" xref="u-9.12">Tour includes a boat cruise.</segment>
+		<segment id="s-9.11" xref="u-9.13">City Tour</segment>
+		<segment id="s-9.12" xref="u-9.14">1.6.-2.9. daily at 1 pm, duration 1,5 hours, fee 40 mk.</segment>
+		<segment id="s-9.13" xref="u-9.15">Helsinki Today</segment>
+		<segment id="s-9.14" xref="u-9.16">1.6.-2.9. daily at 2 pm, duration 2,5 hours, fee 65 mk.</segment>
+		<segment id="s-9.15" xref="u-9.17">Tour includes a visit in the Finnish Design Center.</segment>
+		<segment id="s-9.16" xref="u-9.18">Helsinki before sunset</segment>
+		<segment id="s-9.17" xref="u-9.19">15.6.-15.8. daily 6 pm, duration 2,5 hours, fee 70 mk.</segment>
+		<segment id="s-9.18" xref="u-9.20">Tour includes a boat cruise.</segment>
+		<segment id="s-9.19" xref="u-9.21">Bookings and enquiries:</segment>
+		<segment id="s-9.20" xref="u-9.22">Suomen Turistiauto, tel. 633 083.</segment>
+		<segment id="s-9.21" xref="u-9.23" alt="Illustration: Bus"/>
+		<segment id="s-9.22" xref="u-9.24">Ageba Travel Agency,</segment>
+		<segment id="s-9.23" xref="u-9.25">departures from Silja terminal in the South Harbour and Viking terminal in Katajanokka.</segment>
+		<segment id="s-9.24" xref="u-9.26">City Tour</segment>
+		<segment id="s-9.25" xref="u-9.27">9.15 am Silja, duration 2,5 h Mon-Sun 1.1.-31.12.</segment>
+		<segment id="s-9.26" xref="u-9.28">9.15 am Viking, duration 2,5 h Mon-Sun 1.6.-31.8.</segment>
+		<segment id="s-9.27" xref="u-9.29">9.45 am Viking, duration 2,5 h Mon-Sun 1.9.-31.5.</segment>
+		<segment id="s-9.28" xref="u-9.30">10 am Silja, duration 2,5 h Mon-Sun 1.6.-31.8.</segment>
+		<segment id="s-9.29" xref="u-9.31">11 am Silja, duration 2,5 h Mon-Sun 1.4.-15.10.</segment>
+		<segment id="s-9.30" xref="u-9.32">11 am Silja, duration 2,5h Sat-Sun 16.10.-31.3.</segment>
+		<segment id="s-9.31" xref="u-9.33">2 pm Silja, duration 2,5h Mon-Sun 25.6.-31.8.</segment>
+		<segment id="s-9.32" xref="u-9.34">Fee 70 mk, incl. lunch 120 mk.</segment>
+		<segment id="s-9.33" xref="u-9.35">Sightseeing by bus and boat</segment>
+		<segment id="s-9.34" xref="u-9.36">10 am from Silja terminal in the South Harbour Mon-Sun 1.6.-31.8.</segment>
+		<segment id="s-9.35" xref="u-9.37">Fee 108 mk, incl. lunch 160 mk.</segment>
+		<segment id="s-9.36" xref="u-9.38">Helicopter lunch</segment>
+		<segment id="s-9.37" xref="u-9.39">12 noon Hotel Hesperia, lunch at Restaurant Kulosaaren Casino, Mon-Fri 1.6.-31.8.</segment>
+		<segment id="s-9.38" xref="u-9.40">Fee 350mk.</segment>
+		<segment id="s-9.39" xref="u-9.41">Bookings and enquiries:</segment>
+		<segment id="s-9.40" xref="u-9.42">Ageba Travel Agency, Pohjoisranta 4, tel. 661 123.</segment>
+	</segmentation>
+	<rst-structure>
+		<multi-span id="span-9.01" nuclei="s-9.01 s-9.02 s-9.21" relation="restatement"/>
+		<span id="span-9.02" nucleus="s-9.02" satellites="span-9.03 span-9.04 span-9.28 span-9.30" relation="elaboration"/>
+		<span id="span-9.03" nucleus="s-9.03" satellites="s-9.04" relation="elaboration"/>
+	
+		<multi-span id="span-9.04" nuclei="span-9.05 span-9.07 span-9.09 span-9.12 span-9.14 span-9.17 span-9.20 span-9.23 span-9.25" relation="list"><title xref="s-9.05"/></multi-span>	
+	
+		<span id="span-9.05" nucleus="s-9.06" satellites="s-9.07" relation="enablement"/>
+		<span id="span-9.07" nucleus="s-9.08" satellites="s-9.09" relation="enablement"/>
+		<span id="span-9.09" nucleus="s-9.08" satellites="s-9.09" relation="enablement"/>
+		<span id="span-9.10" nucleus="s-9.08" satellites="s-9.10" relation="elaboration"/>
+		<span id="span-9.12" nucleus="s-9.11" satellites="s-9.12" relation="enablement"/>
+		<span id="span-9.14" nucleus="s-9.13" satellites="s-9.14" relation="elaboration"/>
+		<span id="span-9.15" nucleus="s-9.13" satellites="s-9.15" relation="enablement"/>
+		<span id="span-9.17" nucleus="s-9.16" satellites="s-9.17" relation="enablement"/>
+		<span id="span-9.18" nucleus="s-9.16" satellites="s-9.18" relation="enablement"/>
+		<span id="span-9.20" nucleus="s-9.19" satellites="s-9.20" relation="enablement"/>
+	
+		<span id="span-9.23" nucleus="s-9.22" satellites="s-9.23" relation="enablement"/>
+	
+		<span id="span-9.25" nucleus="s-9.24" satellites="s-9.25 s-9.26 s-9.27 s-9.28 s-9.29 s-9.30 s-9.31" relation="enablement"/>
+		<span id="span-9.26" nucleus="s-9.24" satellites="s-9.32" relation="elaboration"/>
+	
+		<span id="span-9.28" nucleus="s-9.33" satellites="s-9.34" relation="enablement"/>
+		<span id="span-9.29" nucleus="s-9.23" satellites="s-9.35" relation="elaboration"/>
+
+		<span id="span-9.30" nucleus="s-9.36" satellites="s-9.37 span-9.32" relation="enablement"/>
+		<span id="span-9.31" nucleus="s-9.36" satellites="s-9.38" relation="elaboration"/>
+		<span id="span-9.32" nucleus="s-9.39" satellites="s-9.40" relation="enablement"/>
+	</rst-structure>
+</gemRst>

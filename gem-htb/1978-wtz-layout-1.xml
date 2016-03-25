@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemLayout>
+	<segmentation>
+		<layout-unit id="lay-1.01" xref="u-1.01">THE OLD CENTER OF HELSINKI ---</layout-unit>
+		<layout-unit id="lay-1.02" xref="u-1.02">KRUUNUNHAKA</layout-unit>
+		<layout-unit id="lay-1.03" xref="u-1.03 u-1.04 u-1.05 u-1.06 u-1.07 u-1.08">
+			<layout-unit id="lay-1.03.1" xref="u-1.04.1">SENATE SQUARE</layout-unit>
+			<layout-unit id="lay-1.03.2" xref="u-1.04.2">(1)</layout-unit>
+			<layout-unit id="lay-1.03.3" xref="u-1.07.1">(2)</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.04" xref="u-1.09 u-1.10 u-1.11 u-1.12 u-1.13 u-1.14.1"/>
+		<layout-unit id="lay-1.05" xref="u-1.14.2 u-1.15 u-1.16 u-1.17"/>
+		<layout-unit id="lay-1.06" xref="u-1.18 u-1.19 u-1.20 u-1.21 u-1.22 u-1.23 u-1.24 u-1.25">
+			<layout-unit id="lay-1.06.1" xref="u-1.18.1">CATHEDRAL</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.07" xref="u-1.26 u-1.27 u-1.28 u-1.29.1">
+			<layout-unit id="lay-1.07.1" xref="u-1.27.1">(3)</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.08" xref="u-1.29.2 u-1.30 u-1.31 u-1.32 u-1.33 u-1.34 u-1.35 u-1.36 u-1.37 u-1.38 u-1.39 u-1.40 u-1.41">
+			<layout-unit id="lay-1.08.1" xref="u-1.29.3">COUNCIL OF STATE</layout-unit>
+			<layout-unit id="lay-1.08.2" xref="u-1.30.1">SEDERHOLM HOUSE</layout-unit>
+			<layout-unit id="lay-1.08.3" xref="u-1.30.2">(2)</layout-unit>
+			<layout-unit id="lay-1.08.4" xref="u-1.36.1">UNIVERSITY</layout-unit>
+			<layout-unit id="lay-1.08.5" xref="u-1.36.2">(4)</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.09" xref="u-1.42 u-1.43 u-1.44 u-1.45">
+			<layout-unit id="lay-1.09.1" xref="u-1.42.1">CZAR ALEXANDER II</layout-unit>
+			<layout-unit id="lay-1.09.2" xref="u-1.44.1">(5)</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.10" xref="u-1.46 u-1.47 u-1.48 u-1.49 u-1.50 u-1.51 u-1.52 u-1.53 u-1.54.1">
+			<layout-unit id="lay-1.10.1" xref="u-1.49.1">LIBRARY OF THE UNIVERSITY</layout-unit>
+			<layout-unit id="lay-1.10.2" xref="u-1.49.2">(6)</layout-unit>
+			<layout-unit id="lay-1.10.3" xref="u-1.53.1">CHURCH OF THE HOLY TRINITY</layout-unit>
+			<layout-unit id="lay-1.10.4" xref="u-1.53.2">(7)</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.11" xref="u-1.54.2 u-1.55 u-1.56 u-1.57 u-1.58">
+			<layout-unit id="lay-1.11.1" xref="u-1.56.1">STATE ARCHIVES</layout-unit>
+			<layout-unit id="lay-1.11.2" xref="u-1.56.2">(8)</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.12" xref="u-1.59 u-1.60 u-1.61 u-1.62 u-1.63 u-1.64 u-1.65 u-1.66 u-1.67 u-1.68">
+			<layout-unit id="lay-1.12.1" xref="u-1.59.1">BANK OF FINLAND </layout-unit>
+			<layout-unit id="lay-1.12.2" xref="u-1.59.2">(9)</layout-unit>
+			<layout-unit id="lay-1.12.3" xref="u-1.63.1">HOUSE OF SCIENTIFIC SOCIETIES </layout-unit>
+			<layout-unit id="lay-1.12.4" xref="u-1.63.2">(10)</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.12-m" xref="u-1.69 u-1.70"/>
+		<layout-unit id="lay-1.13" xref="u-1.71 u-1.72 u-1.73 u-1.74 u-1.75 u-1.76 u-1.77 u-1.78 u-1.79 u-1.80">
+			<layout-unit id="lay-1.13.1" xref="u-1.73.1">(11)</layout-unit>
+			<layout-unit id="lay-1.13.2" xref="u-1.74.1">RESIDENCE OF THE LORD MAYOR </layout-unit>
+			<layout-unit id="lay-1.13.3" xref="u-1.75.1">HOUSE OF NOBILITY </layout-unit>
+			<layout-unit id="lay-1.13.4" xref="u-1.75.2">(12)</layout-unit>
+			<layout-unit id="lay-1.13.5" xref="u-1.76.1">(13)</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.01" xref="u-2.01 u-2.02 u-2.03 u-2.04 u-2.05 u-2.06">
+			<layout-unit id="lay-2.01.1" xref="u-2.05.1">(14)</layout-unit>
+			<layout-unit id="lay-2.02.2" xref="u-2.05.2">WAR COLLEGE</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.02" xref="u-2.07 u-2.08 u-2.09 u-2.10"/>
+		<layout-unit id="lay-2.03" xref="u-2.11 u-2.12 u-2.13 u-2.14 u-2.15">
+			<layout-unit id="lay-2.03.1" xref="u-2.12.1">KRISTIANINKATU 12</layout-unit>
+			<layout-unit id="lay-2.03.2" xref="u-2.12.2">(15)</layout-unit>
+			<layout-unit id="lay-2.03.3" xref="u-2.15.1">KAISANIEMI PARK</layout-unit>
+			<layout-unit id="lay-2.04.4" xref="u-2.15.2"> (16)</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.04" xref="u-2.16 u-2.17 u-2.18 u-2.19 u-2.20.1"/>
+		<layout-unit id="lay-2.05" xref="u-2.20.2"/>
+		<layout-unit id="lay-2.06" xref="u-2.21 u-2.22 u-2.23 u-2.24 u-2.25 u-2.26 u-2.27 u-2.28 u-2.29 u-2.30 u-2.31 u-2.32 u-2.33 u-2.34 u-2.35 u-2.36">
+			<layout-unit id="lay-2.06.1" xref="u-2.25.1">(17)</layout-unit>
+			<layout-unit id="lay-2.06.2" xref="u-2.25.2">FREDERIK PACIUS</layout-unit>
+			<layout-unit id="lay-2.06.3" xref="u-2.30.1">NATIONAL THEATRE</layout-unit>
+			<layout-unit id="lay-2.06.4" xref="u-2.30.2"> (18)</layout-unit>
+			<layout-unit id="lay-2.06.5" xref="u-2.32.1">ATENEUM</layout-unit>
+			<layout-unit id="lay-2.06.6" xref="u-2.32.2"> (19)</layout-unit>
+			<layout-unit id="lay-2.06.7" xref="u-2.35.1">RAILWAY STATION</layout-unit>
+			<layout-unit id="lay-2.06.8" xref="u-2.35.2">(21)</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.07" xref="u-2.37 u-2.38">
+			<layout-unit id="lay-2.07.1" xref="u-2.37.1">CITY BUILDING</layout-unit>
+			<layout-unit id="lay-2.07.2" xref="u-2.37.2">(20)</layout-unit>
+		</layout-unit>
+		<layout-unit id="line-2.08" xref="u-2.39" alt="Line: Horizontal"/>
+		<layout-unit id="lay-2.09" xref="u-2.40">Publisher:</layout-unit>
+		<layout-unit id="lay-2.10" xref="u-2.41 u-2.42 u-2.43 u-2.44">Helsinki City Tourist Office</layout-unit>
+		<layout-unit id="lay-2.11" xref="u-2.45">A walking tour in Helsinki</layout-unit>
+		<layout-unit id="lay-2.12" xref="u-2.46">KRUUNUNHAKA</layout-unit>
+		<layout-unit id="lay-2.13" xref="u-2.47" alt="Illustration: Route length"/>
+		<layout-unit id="lay-2.14" xref="u-2.48" alt="Illustration: Map scale"/>
+		<layout-unit id="lay-2.15" xref="u-2.49">(C) Kaupunginmittausosasto Stadtsmätningsavdelningen 1976 / NK 33 / 76048 / 3</layout-unit>
+		<layout-unit id="lay-2.16" xref="u-2.50" alt="Map: Area and route"/>
+	</segmentation>
+	<realization>
+		<text xref="lay-1.01 lay-1.02" font-family="sans-serif" font-size="15" font-style="normal" font-weight="bold" case="caps" color="black"/>
+		<text xref="lay-1.03 lay-1.04 lay-1.05 lay-1.06 lay-1.07 lay-1.08 lay-1.09 lay-1.10 lay-1.11 lay-1.12 lay-1.12-m lay-1.13 lay-2.01 lay-2.02 lay-2.03 lay-2.04 lay-2.05 lay-2.06 lay-2.07 lay-2.09 lay-2.10" font-family="sans-serif" font-size="6" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<text xref="lay-1.03.2 lay-1.03.3 lay-1.07.1 lay-1.08.3 lay-1.08.5 lay-1.09.2 lay-1.10.2 lay-1.10.4 lay-1.11.2 lay-1.12.2 lay-1.12.4 lay-1.13.1 lay-1.13.4 lay-1.13.5 lay-2.01.1 lay-2.03.3 lay-2.04.4 lay-2.06.1 lay-2.06.4 lay-2.06.6 lay-2.06.8 lay-2.07.2" font-family="sans-serif" font-size="7" font-style="normal" font-weight="normal" case="mixed" color="normal"/>
+		<text xref="lay-1.03.1 lay-1.06.1 lay-1.08.1 lay-1.08.2 lay-1.08.4 lay-1.09.1 lay-1.10.1 lay-1.10.3 lay-1.11.1 lay-1.12.1 lay-1.12.3 lay-1.13.2 lay-1.13.3 lay-2.02.2 lay-2.03.1 lay-2.03.3 lay-2.06.2 lay-2.06.3 lay-2.06.5 lay-2.06.7 lay-2.07.1" font-family="sans-serif" font-size="8" font-style="normal" font-weight="normal" case="caps" color="black"/>
+		<graphics xref="line-2.08" type="two-d-element" two-d-element-type="line" width="185mm" colors="black"/>
+		<text xref="lay-2.11" font-family="sans-serif" font-size="12" font-style="normal" font-weight="normal" case="mixed" color="red"/>
+		<text xref="lay-2.12" font-family="sans-serif" font-size="12" font-style="normal" font-weight="bold" case="caps" color="red"/>
+		<graphics xref="lay-2.13" type="illustration" colors="red" height="33mm" width="32mm"/>
+		<graphics xref="lay-2.14" type="illustration" colors="black" height="5mm" width="106mm"/>
+		<text xref="lay-2.15" font-family="sans-serif" font-size="3" font-style="normal" font-weight="normal" case="caps" color="black"/>
+		<graphics xref="lay-2.16" type="map" colors="mixed" height="218mm" width="207mm"/>
+		<chunk xref="wtz-1978-l-cover wtz-1978-l-pages-1-2" background-color="#F9EE00"/>
+	</realization>
+	<layout-structure>
+		<layout-root id="wtz-1978-l-cover" orientation="portrait">
+			<layout-chunk id="cover-title" location="multi" area-ref="page-a-front-b">
+				<layout-chunk id="title" location="multi" area-ref="page-a-front-b-1">
+					<layout-leaf xref="lay-2.11" location="col-2" area-ref="page-a-front-b-2"/>
+					<layout-leaf xref="lay-2.12" location="col-2" area-ref="page-a-front-b-3"/>
+				</layout-chunk>
+				<layout-leaf xref="lay-2.13" location="col-2" area-ref="page-a-front-b" halign="top" valign="center"/>
+			</layout-chunk>
+			<layout-chunk id="cover-map" location="multi" area-ref="page-a-front">
+				<layout-chunk id="map" location="multi" area-ref="page-a-front">
+					<layout-leaf xref="lay-2.14" location="col-2" area-ref="page-a-front-c" halign="top" valign="center"/>
+					<layout-leaf xref="lay-2.16" location="row-5" area-ref="page-a-front" halign="center" valign="center"/>
+				</layout-chunk>
+				<layout-leaf xref="lay-2.15" location="row-2" area-ref="page-a-front-c-1" valign="center" halign="top"/>
+			</layout-chunk>
+			<layout-chunk id="cover-back" location="multi" area-ref="page-a-back">
+				<layout-chunk id="cover-back-column-1" location="col-1" area-ref="page-a-back-b">
+					<layout-leaf xref="lay-2.01" location="col-1" area-ref="page-a-back-b" valign="left"/>
+					<layout-leaf xref="lay-2.02" location="col-1" area-ref="page-a-back-b" valign="left"/>
+					<layout-leaf xref="lay-2.03" location="col-1" area-ref="page-a-back-b" valign="left"/>
+					<layout-leaf xref="lay-2.04" location="col-1" area-ref="page-a-back-b" valign="left"/>
+				</layout-chunk>
+				<layout-chunk id="cover-back-column-2" location="col-3" area-ref="page-a-back-b">
+					<layout-leaf xref="lay-2.05" location="col-3" area-ref="page-a-back-b" valign="left"/>
+					<layout-leaf xref="lay-2.06" location="col-3" area-ref="page-a-back-b" valign="left"/>
+					<layout-leaf xref="lay-2.07" location="col-3" area-ref="page-a-back-b" valign="left"/>
+				</layout-chunk>
+				<layout-chunk id="publisher-info" location="multi" area-ref="page-a-back">
+					<layout-leaf xref="line-2.08" location="row-4" delimiter-after="row-3" delimiter-before="row-5" area-ref="page-a-back"/>
+					<layout-leaf xref="lay-2.09" location="row-1" area-ref="page-a-back-c" halign="top"/>
+					<layout-leaf xref="lay-2.10" location="row-1" area-ref="page-a-back-c" valign="left" halign="top"/>
+				</layout-chunk>
+			</layout-chunk>
+		</layout-root>
+		<layout-root id="wtz-1978-l-pages-1-2">
+			<layout-chunk id="page-1" location="multi" area-ref="page-a-1">
+				<layout-chunk id="pages-1-2-title" location="multi" area-ref="page-a-1">
+					<layout-leaf xref="lay-1.01" location="col-2" area-ref="page-a-1-b" valign="center"/>
+					<layout-leaf xref="lay-1.02" location="col-2" area-ref="page-a-1-c" valign="center"/>
+				</layout-chunk>
+				<layout-chunk id="page-1-column-1" location="col-1" area-ref="page-a-2-b">
+					<layout-leaf xref="lay-1.03" location="col-1" area-ref="page-a-2-b" valign="left"/>
+					<layout-leaf xref="lay-1.04" location="col-1" area-ref="page-a-2-b" valign="left"/>
+				</layout-chunk>
+				<layout-chunk id="page-1-column-2" location="col-3" area-ref="page-a-2-b">
+					<layout-leaf xref="lay-1.05" location="col-3" area-ref="page-a-2-b" valign="left"/>
+					<layout-leaf xref="lay-1.06" location="col-3" area-ref="page-a-2-b" valign="left"/>
+					<layout-leaf xref="lay-1.07" location="col-3" area-ref="page-a-2-b" valign="left"/>
+				</layout-chunk>
+			</layout-chunk>
+			<layout-chunk id="page-2" location="multi" area-ref="page-a-2">
+				<layout-chunk id="page-2-column-1" location="col-1" area-ref="page-a-2-b">
+					<layout-leaf xref="lay-1.08" location="col-1" area-ref="page-a-2-b" valign="left"/>
+					<layout-leaf xref="lay-1.09" location="col-1" area-ref="page-a-2-b" valign="left"/>
+					<layout-leaf xref="lay-1.10" location="col-1" area-ref="page-a-2-b" valign="left"/>
+				</layout-chunk>
+				<layout-chunk id="page-2-column-2" location="col-3" area-ref="page-a-2-b">
+					<layout-leaf xref="lay-1.11" location="col-3" area-ref="page-a-2-b" valign="left"/>
+					<layout-leaf xref="lay-1.12" location="col-3" area-ref="page-a-2-b" valign="left"/>
+					<layout-leaf xref="lay-1.12-m" location="col-3" area-ref="page-a-2-b" valign="left"/>
+					<layout-leaf xref="lay-1.13" location="col-3" area-ref="page-a-2-b" valign="left"/>
+				</layout-chunk>
+			</layout-chunk>
+		</layout-root>
+	</layout-structure>
+	<area-model>
+		<area-root id="wtz-1978-a-cover" cols="4" rows="1" hspacing="2 44 3 50" vspacing="100" height="294mm" width="418mm">
+			<sub-area id="page-a-back" location="col-2" cols="1" rows="6" hspacing="100" vspacing="5 62 21 2 8 2" width="185mm" height="294mm">
+				<sub-area id="page-a-back-b" location="row-2" cols="3" rows="1" hspacing="46 8 46" vspacing="100" width="185mm" height="182mm"/>
+				<sub-area id="page-a-back-c" location="row-5" cols="2" rows="1" hspacing="10 90" vspacing="100" width="185mm" height="24mm"/>
+			</sub-area>
+			<sub-area id="page-a-front" location="col-4" cols="1" rows="5" hspacing="100" vspacing="3 14 6 3 74" height="294mm" width="209mm">
+				<sub-area id="page-a-front-b" location="row-2" cols="3" rows="1" hspacing="68 15 17" vspacing="100" height="40mm" width="209mm">
+					<sub-area id="page-a-front-b-1" location="col-1" cols="1" rows="4" hspacing="100" vspacing="48 17 18 17" width="144mm" height="40mm">
+						<sub-area id="page-a-front-b-2" location="row-2" cols="3" rows="1" hspacing="28 56 26" vspacing="100" width="144mm" height="7mm"/>
+						<sub-area id="page-a-front-b-3" location="row-4" cols="3" rows="1" hspacing="38 38 24" vspacing="100" width="144mm" height="7mm"/>
+					</sub-area>
+				</sub-area>
+				<sub-area id="page-a-front-c" location="row-4" cols="4" rows="1" hspacing="10 51 13 26" vspacing="100" height="8mm" width="209mm">
+					<sub-area id="page-a-front-c-1" location="col-4" cols="1" rows="2" hspacing="100" vspacing="38 62" height="8mm" width="54mm"/>
+				</sub-area>
+			</sub-area>
+		</area-root>
+		<area-root id="wtz-1978-a-pages-1-2" cols="1" rows="5" hspacing="3 44 6 44 3" vspacing="100" height="294mm" width="418mm">
+			<sub-area id="page-a-1" location="col-2" cols="1" rows="5" hspacing="100" vspacing="15 5 14 60 6" width="185mm" height="294mm">
+				<sub-area id="page-a-1-b" location="row-2" cols="3" rows="1" hspacing="9 79 12" vspacing="100" height="13mm" width="185mm"/>
+				<sub-area id="page-a-1-c" location="row-4" cols="3" rows="1" hspacing="48 4 48" vspacing="100" height="179mm" width="185mm"/>
+			</sub-area>
+			<sub-area id="page-a-2" location="col-4" cols="1" rows="3" hspacing="100" vspacing="7 70 23" width="185mm" height="294mm">
+				<sub-area id="page-a-2-b" location="row-2" cols="3" rows="1" hspacing="48 4 48" vspacing="100" height="205mm" width="185mm"/>
+			</sub-area>
+		</area-root>
+	</area-model>
+</gemLayout>

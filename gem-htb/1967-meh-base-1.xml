@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemBase>
+	<unit id="u-1.01">CITY BOTANICAL GARDEN</unit>
+	<unit id="u-1.02">Eläintarha Park</unit>
+	<unit id="u-1.03">tel. 44 80 05</unit>
+	<unit id="u-1.04">
+		<unit id="u-1.04.1">weekdays</unit>
+		<unit id="u-1.04.2">12-15</unit>
+	</unit>
+	<unit id="u-1.05">
+		<unit id="u-1.05.1">Sundays</unit>
+		<unit id="u-1.05.2">11-16</unit>
+	</unit>
+	<unit id="u-1.06">admission free</unit>
+	<unit id="u-1.07">MARKET SQUARE</unit>
+	<unit id="u-1.08">Market open on weekdays 8 a.m.-1 p.m.</unit>
+	<unit id="u-1.09">KORKEASAARI ZOOLOGICAL GARDEN</unit>
+	<unit id="u-1.10">Korkeasaari Island</unit>
+	<unit id="u-1.11">tel. 66 99 72 (ferry)</unit>
+	<unit id="u-1.12">In summer ferry connection from North Harbour (at the end of Aleksanterinkatu (Alexander Street)</unit>
+	<unit id="u-1.13">1. 5.-31. 5</unit>
+	<unit id="u-1.14">
+		<unit id="u-1.14.1">weekdays</unit>
+		<unit id="u-1.14.2">10-21</unit>
+	</unit>
+	<unit id="u-1.15">
+		<unit id="u-1.15.1">Sundays</unit>
+		<unit id="u-1.15.2">9-21</unit>
+	</unit>
+	<unit id="u-1.16">1. 6.-31.8</unit>
+	<unit id="u-1.17">
+		<unit id="u-1.17.1">weekdays</unit>
+		<unit id="u-1.17.2">10-23</unit>
+	</unit>
+	<unit id="u-1.18">
+		<unit id="u-1.18.1">Sundays</unit>
+		<unit id="u-1.18.2">9-22</unit>
+	</unit>
+	<unit id="u-1.19">1. 8.-31. 8</unit>
+	<unit id="u-1.20">
+		<unit id="u-1.20.1">weekdays</unit>
+		<unit id="u-1.20.2">10-21</unit>
+	</unit>
+	<unit id="u-1.21">
+		<unit id="u-1.21.1">Sundays</unit>
+		<unit id="u-1.21.2">9-21</unit>
+	</unit>
+	<unit id="u-1.22">1. 9.-15. 9</unit>
+	<unit id="u-1.23">
+		<unit id="u-1.23.1">weekdays</unit>
+		<unit id="u-1.23.2">10-20</unit>
+	</unit>
+	<unit id="u-1.24">
+		<unit id="u-1.24.1">Sundays</unit>
+		<unit id="u-1.24.2">9-20</unit>
+	</unit>
+	<unit id="u-1.25">16. 9.-30. 9</unit>
+	<unit id="u-1.26">
+		<unit id="u-1.26.1">weekdays</unit>
+		<unit id="u-1.26.2">10-19</unit>
+	</unit>
+	<unit id="u-1.27">
+		<unit id="u-1.27.1">Sundays</unit>
+		<unit id="u-1.27.2">9-19</unit>
+	</unit>
+	<unit id="u-1.28">
+		<unit id="u-1.28.1">adults</unit>
+		<unit id="u-1.28.2">1,50</unit>
+	</unit>
+	<unit id="u-1.29">
+		<unit id="u-1.29.1">children</unit>
+		<unit id="u-1.29.2">0,75</unit>
+	</unit>
+	<unit id="u-1.30">The ticket covers the return ferry trip.</unit>
+	<unit id="u-1.31">No admission fee to the Zoo area.</unit>
+	<unit id="u-1.32">LINNANMÄKI FUN FAIR and Peacock Variety</unit>
+	<unit id="u-1.33">Helsinginkatu</unit>
+	<unit id="u-1.34">tel. 70 391</unit>
+	<unit id="u-1.35">29. 4.-13. 5.</unit>
+	<unit id="u-1.36">
+		<unit id="u-1.36.1">Saturdays</unit>
+		<unit id="u-1.36.2">18.30-24.00</unit>
+	</unit>
+	<unit id="u-1.37">
+		<unit id="u-1.37.1">Sundays</unit>
+		<unit id="u-1.37.2">13-23.30</unit>
+	</unit>
+	<unit id="u-1.38">
+		<unit id="u-1.38.1">13. 5.- also weekdays</unit>
+		<unit id="u-1.38.2">18.30-23.30</unit>
+	</unit>
+	<unit id="u-1.39">Mondays closed</unit>
+	<unit id="u-1.40">Admission to fair grounds:</unit>
+	<unit id="u-1.41">
+		<unit id="u-1.41.1">adults</unit>
+		<unit id="u-1.41.2">1,00</unit>
+	</unit>
+	<unit id="u-1.42">
+		<unit id="u-1.42.1">(Saturdays</unit>
+		<unit id="u-1.42.2">1,50)</unit>
+	</unit>
+	<unit id="u-1.43">
+		<unit id="u-1.43.1">children</unit>
+		<unit id="u-1.43.2">0,30</unit>
+	</unit>
+	<unit id="u-1.44">PIHLAJASAARI PARK</unit>
+	<unit id="u-1.45">Motor boat connection from the end of Laivurinkatu</unit>
+	<unit id="u-1.46">
+		<unit id="u-1.46.1">Round trip</unit>
+		<unit id="u-1.46.2">2,00</unit>
+	</unit>
+	<unit id="u-1.47">
+		<unit id="u-1.47.1">children</unit>
+		<unit id="u-1.47.2">0,80</unit>
+	</unit>
+	<unit id="u-1.48">PRESIDENT'S PALACE</unit>
+	<unit id="u-1.49">Market Square</unit>
+	<unit id="u-1.50">tel. 63 23 84 (porter)</unit>
+	<unit id="u-1.51">by appointment, contact the porter</unit>
+	<unit id="u-1.52">
+		<unit id="u-1.52.1">adults</unit>
+		<unit id="u-1.52.2">0,50</unit>
+	</unit>
+	<unit id="u-1.53">
+		<unit id="u-1.53.1">children</unit>
+		<unit id="u-1.53.2">0,40</unit>
+	</unit>
+	<unit id="u-1.54">MAIN FIRE STATION TOWER</unit>
+	<unit id="u-1.55">Korkeavuorenkatu 26</unit>
+	<unit id="u-1.56">tel. 64 151</unit>
+	<unit id="u-1.57">For groups by arrangement</unit>
+	<unit id="u-1.58">STADIUM TOWER</unit>
+	<unit id="u-1.59">Stadium, Eläintarha</unit>
+	<unit id="u-1.60">tel. 44 03 63</unit>
+	<unit id="u-1.61">
+		<unit id="u-1.61.1">daily</unit>
+		<unit id="u-1.61.2">9-20</unit>
+	</unit>
+	<unit id="u-1.62">
+		<unit id="u-1.62.1">adults</unit>
+		<unit id="u-1.62.2">1,00</unit>
+	</unit>
+	<unit id="u-1.63">
+		<unit id="u-1.63.1">children</unit>
+		<unit id="u-1.63.2">0,20</unit>
+	</unit>
+	<unit id="u-1.64">CATHEDRAL</unit>
+	<unit id="u-1.65">Senate Square</unit>
+	<unit id="u-1.66">
+		<unit id="u-1.66.1">daily</unit>
+		<unit id="u-1.66.2">9-19</unit>
+	</unit>
+	<unit id="u-1.67">"URSA" ASTRONOMICAL SOCIETY OBSERVATORY</unit>
+	<unit id="u-1.68">Kaivopuisto</unit>
+	<unit id="u-1.69">Enquiries tel. 43 36 80 or 10 761/244</unit>
+	<unit id="u-1.70">15. 9.-30. 4</unit>
+	<unit id="u-1.71">every bright night from 7 p.m. until 10 p.m.</unit>
+	<unit id="u-1.72">
+		<unit id="u-1.72.1">adults</unit>
+		<unit id="u-1.72.2">1,00</unit>
+	</unit>
+	<unit id="u-1.73">
+		<unit id="u-1.73.1">children</unit>
+		<unit id="u-1.73.2">0,50</unit>
+	</unit>
+	<unit id="u-1.74">USPENSKI CATHEDRAL</unit>
+	<unit id="u-1.75">Katajanokka</unit>
+	<unit id="u-1.76">
+		<unit id="u-1.76.1">daily</unit>
+		<unit id="u-1.76.2">16-19</unit>
+	</unit>
+	<unit id="u-1.77">15. 5 -15. 9.</unit>
+	<unit id="u-1.78">UNIVERSITY BOTANICAL GARDEN</unit>
+	<unit id="u-1.79">Unioninkatu 44</unit>
+	<unit id="u-1.80">tel. 63 11 50</unit>
+	<unit id="u-1.81">The main garden:</unit>
+	<unit id="u-1.82">
+		<unit id="u-1.82.1">daily</unit>
+		<unit id="u-1.82.2">8-21</unit>
+	</unit>
+	<unit id="u-1.83">The greenhouses:</unit>
+	<unit id="u-1.84">1. 10.-30. 4</unit>
+	<unit id="u-1.85">
+		<unit id="u-1.85.1">Tuesdays, Fridays and Sundays</unit>
+		<unit id="u-1.85.2">13-15</unit>
+	</unit>
+	<unit id="u-1.86">1. 5.-30. 9</unit>
+	<unit id="u-1.87">
+		<unit id="u-1.87.1">daily</unit>
+		<unit id="u-1.87.2">12-15</unit>
+	</unit>
+	<unit id="u-1.88">For groups:</unit>
+	<unit id="u-1.89">
+		<unit id="u-1.89.1">weekdays</unit>
+		<unit id="u-1.89.2">8-15</unit>
+	</unit>
+	<unit id="u-1.90">
+		<unit id="u-1.90.1">Saturdays</unit>
+		<unit id="u-1.90.2">8-13</unit>
+	</unit>
+	<unit id="u-1.91">
+		<unit id="u-1.91.1">Sundays</unit>
+		<unit id="u-1.91.2">12-15</unit>
+	</unit>
+	<unit id="u-1.92">admission free</unit>
+	<unit id="u-1.93">
+		<unit id="u-1.93.1">adults</unit>
+		<unit id="u-1.93.2">1,00</unit>
+	</unit>
+	<unit id="u-1.94">
+		<unit id="u-1.94.1">children</unit>
+		<unit id="u-1.94.2">0,50</unit>
+	</unit>
+	<unit id="u-1.95">
+		<unit id="u-1.95.1">groups</unit>
+		<unit id="u-1.95.2">0,50</unit>
+	</unit>
+	<unit id="u-1.96">UNIVERSITY ASTRONOMICAL OBSERVATORY</unit>
+	<unit id="u-1.97">Observatory Hill</unit>
+	<unit id="u-1.98">tel. 63 84 95</unit>
+	<unit id="u-1.99">1. 9.-30. 4</unit>
+	<unit id="u-1.100">admission free</unit>
+	<unit id="u-1.101">OLD TOWN (Vanha kaupunki)</unit>
+	<unit id="u-1.102">Connection with tram Nr 6</unit>
+	<unit id="u-1.103">Museums, art galleries etc. are normally closed on all religious holidays (Christmas, Easter, Whitsuntide etc.) i.e. on the first day of the holiday and on the eve of a holiday, also on Maundy Thursday evening and Good Friday, besides 1st May and 6th December (Independence Day).</unit>
+	<unit id="u-1.104">SKK Oy</unit>
+	<unit id="u-1.105">CITY TOURIST OFFICE</unit>
+	<unit id="u-1.106">Pohj. Esplanadikatu 17</unit>
+	<unit id="u-1.107">Helsinki (tel. 14 004)</unit>
+	<unit id="u-1.108">Nr 7 Summer 1967</unit>
+	<unit id="u-1.109">Museums and exhibitions in Helsinki</unit>
+	<unit id="u-1.110">The numbers within brackets refer to the maps in the brochure "Museums and Exhibitions in Helsinki".</unit>
+	<unit id="u-1.111">MUSEUMS</unit>
+	<unit id="u-1.112">AMOS ANDERSON ART COLLECTION</unit>
+	<unit id="u-1.113">Yrjönkatu 27</unit>
+	<unit id="u-1.114">tel. 63 59 05</unit>
+	<unit id="u-1.115">(1)</unit>
+	<unit id="u-1.116">
+		<unit id="u-1.116.1">daily</unit>
+		<unit id="u-1.116.2">11-15</unit>
+	</unit>
+	<unit id="u-1.117">Mondays closed</unit>
+	<unit id="u-1.118">
+		<unit id="u-1.118.1">adults</unit>
+		<unit id="u-1.118.2">1,00</unit>	
+	</unit>
+	<unit id="u-1.119">
+		<unit id="u-1.119.1">children</unit>
+		<unit id="u-1.119.2">0,30</unit>	
+	</unit>
+	<unit id="u-1.120">
+		<unit id="u-1.120.1">groups</unit>
+		<unit id="u-1.120.2">1,00</unit>	
+	</unit>
+	<unit id="u-1.121">ATENEUM ART GALLERY</unit>
+	<unit id="u-1.122">Railway Square</unit>
+	<unit id="u-1.123">tel. 62 54 42</unit>
+	<unit id="u-1.124">(2)</unit>
+	<unit id="u-1.125">
+		<unit id="u-1.125.1">weekdays</unit>
+		<unit id="u-1.125.2">10-16</unit>
+	</unit>
+	<unit id="u-1.126">
+		<unit id="u-1.126.1">Sundays</unit>
+		<unit id="u-1.126.2">11-16</unit>
+	</unit>
+	<unit id="u-1.127">
+		<unit id="u-1.127.1">Wednesdays also</unit>
+		<unit id="u-1.127.2">18-20</unit>
+	</unit>
+	<unit id="u-1.128">Mondays closed</unit>
+	<unit id="u-1.129">
+		<unit id="u-1.129.1">adults</unit>
+		<unit id="u-1.129.2">1,00</unit>
+	</unit>
+	<unit id="u-1.130">
+		<unit id="u-1.130.1">children</unit>
+		<unit id="u-1.130.2">0,20</unit>
+	</unit>
+	<unit id="u-1.131">
+		<unit id="u-1.131.1">students</unit>
+		<unit id="u-1.131.2">0,30</unit>
+	</unit>
+	<unit id="u-1.132">
+		<unit id="u-1.132.1">groups</unit>
+		<unit id="u-1.132.2">0,80</unit>
+	</unit>
+	<unit id="u-1.133">Free admission on Saturdays</unit>
+	<unit id="u-1.134">CYGNAEUS ART COLLECTION</unit>
+	<unit id="u-1.135">Kalliolinnantie 17</unit>
+	<unit id="u-1.136">tel. 65 69 28</unit>
+	<unit id="u-1.137">(3)</unit>
+	<unit id="u-1.138">
+		<unit id="u-1.138.1">weekdays</unit>
+		<unit id="u-1.138.2">12-16</unit>
+	</unit>
+	<unit id="u-1.139">except Mondays and Tuesdays</unit>
+	<unit id="u-1.140">
+		<unit id="u-1.140.1">Sundays</unit>
+		<unit id="u-1.140.2">12-16</unit>
+	</unit>
+	<unit id="u-1.141">
+		<unit id="u-1.141.1">Wednesdays</unit>
+		<unit id="u-1.141.2">18-20</unit>
+	</unit>
+	<unit id="u-1.142">
+		<unit id="u-1.142.1">adults</unit>
+		<unit id="u-1.142.2">0,50</unit>
+	</unit>
+	<unit id="u-1.143">
+		<unit id="u-1.143.1">children</unit>
+		<unit id="u-1.143.2">0,20</unit>
+	</unit>
+	<unit id="u-1.144">
+		<unit id="u-1.144.1">groups</unit>
+		<unit id="u-1.144.2">0,20</unit>
+	</unit>
+	<unit id="u-1.145">DIDRICHSEN ART GALLERY</unit>
+	<unit id="u-1.146">Kuusisaari</unit>
+	<unit id="u-1.147">Kuusisaarentie 19</unit>
+	<unit id="u-1.148">Kuusilahdenkuja 3</unit>
+	<unit id="u-1.149">tel. 48 01 11</unit>
+	<unit id="u-1.150">(35)</unit>
+	<unit id="u-1.151">
+		<unit id="u-1.151.1">Wednesdays and Sundays</unit>
+		<unit id="u-1.151.2">14-16</unit>
+	</unit>
+	<unit id="u-1.152">
+		<unit id="u-1.152.1">adults</unit>
+		<unit id="u-1.152.2">2,00</unit>
+	</unit>
+	<unit id="u-1.153">
+		<unit id="u-1.153.1">children</unit>
+		<unit id="u-1.153.2">1,00</unit>
+	</unit>
+	<unit id="u-1.154">GALLEN-KALLELA MUSEUM</unit>
+	<unit id="u-1.155">Leppävaara, Tarvaspää</unit>
+	<unit id="u-1.156">tel. 40 54 76</unit>
+	<unit id="u-1.157">Bus to Leppävaara via Tarvaspää (platform 31 B at bus station) or tram number 4 to Munkkiniemi.</unit>
+	<unit id="u-1.158">A walk of 500 or  1500 m respectively to musem.</unit>
+	<unit id="u-1.159">(4)</unit>
+	<unit id="u-1.160">
+		<unit id="u-1.160.1">weekdays</unit>
+		<unit id="u-1.160.2">12-16</unit>
+	</unit>
+	<unit id="u-1.161">
+		<unit id="u-1.161.1">Sundays</unit>
+		<unit id="u-1.161.2">10-17</unit>
+	</unit>
+	<unit id="u-1.162">
+		<unit id="u-1.162.1">Tuesdays and Thursdays</unit>
+		<unit id="u-1.162.2">18-20</unit>
+	</unit>
+	<unit id="u-1.163">also Mondays closed</unit>
+	<unit id="u-1.164">
+		<unit id="u-1.164.1">adults</unit>
+		<unit id="u-1.164.2">2,00</unit>
+	</unit>
+	<unit id="u-1.165">
+		<unit id="u-1.165.1">children</unit>
+		<unit id="u-1.165.2">1,00</unit>
+	</unit>
+	<unit id="u-1.166">Free admission on Saturdays</unit>
+	<unit id="u-1.167">
+		<unit id="u-1.167.1">Free admission on Tuesdays</unit>
+		<unit id="u-1.167.2">12-16</unit>
+	</unit>
+	<unit id="u-1.168">MINERALOGICAL MUSEUM OF GEOLOGICAL SURVEY OF FINLAND</unit>
+	<unit id="u-1.169">Otaniemi</unit>
+	<unit id="u-1.170">tel. 40 10 13</unit>
+	<unit id="u-1.171">(5)</unit>
+	<unit id="u-1.172">
+		<unit id="u-1.172.1">Sundays</unit>
+		<unit id="u-1.172.2">12-15</unit>
+	</unit>
+	<unit id="u-1.173">weekdays by appointment</unit>
+	<unit id="u-1.174">admission free</unit>
+	<unit id="u-1.175">HELSINKI CITY MUSEUM VILLA HAKASALMI</unit>
+	<unit id="u-1.176">Mannerheimintie</unit>
+	<unit id="u-1.177">(Mannerheim Road)</unit>
+	<unit id="u-1.178">opposite National Museum</unit>
+	<unit id="u-1.179">tel. 44 43 53</unit>
+	<unit id="u-1.180">(6)</unit>
+	<unit id="u-1.181">
+		<unit id="u-1.181.1">weekdays and Sundays</unit>
+		<unit id="u-1.181.2">12-16</unit>
+	</unit>
+	<unit id="u-1.182">
+		<unit id="u-1.182.1">Thursdays also</unit>
+		<unit id="u-1.182.2">18-20</unit>
+	</unit>
+	<unit id="u-1.183">Saturdays closed</unit>
+	<unit id="u-1.184">
+		<unit id="u-1.184.1">adults</unit>
+		<unit id="u-1.184.2">0,50</unit>
+	</unit>
+	<unit id="u-1.185">
+		<unit id="u-1.185.1">children</unit>
+		<unit id="u-1.185.2">0,20</unit>
+	</unit>
+	<unit id="u-1.186">
+		<unit id="u-1.186.1">groups</unit>
+		<unit id="u-1.186.2">0,20</unit>
+	</unit>
+	<unit id="u-1.187">Thursday nights free</unit>
+	<unit id="u-2.01">TUOMARINKYLÄ MANOR</unit>
+	<unit id="u-2.02">Tuomarinkylä</unit>
+	<unit id="u-2.03">tel. 72 74 58</unit>
+	<unit id="u-2.04">Bus 64 from Railway Square.</unit>
+	<unit id="u-2.05">From terminus a walk of 700 m to museum</unit>
+	<unit id="u-2.06">(7) </unit>
+	<unit id="u-2.07">as above</unit>
+	<unit id="u-2.08">as above</unit>
+	<unit id="u-2.09">NATIONAL MUSEUM</unit>
+	<unit id="u-2.10">Mannerheimintie 34</unit>
+	<unit id="u-2.11">(Mannerheim Road)</unit>
+	<unit id="u-2.12">tel. 44 48 01</unit>
+	<unit id="u-2.13">(8)</unit>
+	<unit id="u-2.14">
+		<unit id="u-2.14.1">Sundays</unit>
+		<unit id="u-2.14.2">11-15</unit>
+	</unit>
+	<unit id="u-2.15">
+		<unit id="u-2.15.1">daily all year round</unit>
+		<unit id="u-2.15.2">12-15</unit>
+	</unit>
+	<unit id="u-2.16">
+		<unit id="u-2.16.1">Fridays also</unit>
+		<unit id="u-2.17.1">18-20</unit>
+	</unit>
+	<unit id="u-2.17">Mondays closed</unit>
+	<unit id="u-2.18">
+		<unit id="u-2.18.1">adults</unit>
+		<unit id="u-2.18.2">0,50</unit>
+	</unit>
+	<unit id="u-2.19">
+		<unit id="u-2.19.1">children</unit>
+		<unit id="u-2.19.2">0,20</unit>
+	</unit>
+	<unit id="u-2.20">Free admission on Saturdays</unit>
+	<unit id="u-2.21">WATCHMAKERS' MUSEUM</unit>
+	<unit id="u-2.22">Tapiola, Opintie 2</unit>
+	<unit id="u-2.23">tel. 46 27 74</unit>
+	<unit id="u-2.24">(9)</unit>
+	<unit id="u-2.25">by appointment</unit>
+	<unit id="u-2.26">admission free</unit>
+	<unit id="u-2.27">MISSION MUSEUM</unit>
+	<unit id="u-2.28">Tähtitorninkatu 16</unit>
+	<unit id="u-2.29">tel. 13 305</unit>
+	<unit id="u-2.30">(10)</unit>
+	<unit id="u-2.31">
+		<unit id="u-2.31.1">Sundays</unit>
+		<unit id="u-2.31.2">13.30-15.00</unit>
+	</unit>
+	<unit id="u-2.32">other times by appointment</unit>
+	<unit id="u-2.33">
+		<unit id="u-2.33.1">adults</unit>
+		<unit id="u-2.33.2">1,00</unit>
+	</unit>
+	<unit id="u-2.34">
+		<unit id="u-2.34.1">children</unit>
+		<unit id="u-2.34.2">0,30</unit>
+	</unit>
+	<unit id="u-2.35">
+		<unit id="u-2.35.1">pupils</unit>
+		<unit id="u-2.35.2">0,20</unit>
+	</unit>
+	<unit id="u-2.36">AGRICULTURAL MUSEUM</unit>
+	<unit id="u-2.37">Viik Estate</unit>
+	<unit id="u-2.38">tel. 44 03 71/Mr. Krooks</unit>
+	<unit id="u-2.39">Buses from Railway Square</unit>
+	<unit id="u-2.40">(11)</unit>
+	<unit id="u-2.41">
+		<unit id="u-2.41.1">Sundays</unit>
+		<unit id="u-2.41.2">12-16</unit>
+	</unit>
+	<unit id="u-2.42">Other times by appointment</unit>
+	<unit id="u-2.43">admission free</unit>
+	<unit id="u-2.44">
+		<unit id="u-2.44.1">admission</unit>
+		<unit id="u-2.44.2">0,50</unit>
+	</unit>
+	<unit id="u-2.45">MANNERHEIM MUSEUM</unit>
+	<unit id="u-2.46">Kalliolinnantie 22</unit>
+	<unit id="u-2.47">tel. 63 54 43</unit>
+	<unit id="u-2.48">(12)</unit>
+	<unit id="u-2.49">
+		<unit id="u-2.49.1">weekdays</unit>
+		<unit id="u-2.49.2">11-15</unit>
+	</unit>
+	<unit id="u-2.50">
+		<unit id="u-2.50.1">Sundays</unit>
+		<unit id="u-2.50.2">11-16</unit>
+	</unit>
+	<unit id="u-2.51">Mondays closed</unit>
+	<unit id="u-2.52">
+		<unit id="u-2.52.1">adults</unit>
+		<unit id="u-2.52.2">2,00</unit>
+	</unit>
+	<unit id="u-2.53">
+		<unit id="u-2.53.1">groups</unit>
+		<unit id="u-2.53.2">1,00</unit>
+	</unit>
+	<unit id="u-2.54">
+		<unit id="u-2.54.1">students</unit>
+		<unit id="u-2.54.2">0,50</unit>
+	</unit>
+	<unit id="u-2.55">
+		<unit id="u-2.55.1">children</unit>
+		<unit id="u-2.55.2">0,50</unit>
+	</unit>
+	<unit id="u-2.56">BANK MUSEUMS</unit>
+	<unit id="u-2.57">Main office of Kansallis-Osake-Pankki</unit>
+	<unit id="u-2.58">Aleksanterinkatu 42</unit>
+	<unit id="u-2.59">(Alexander street)</unit>
+	<unit id="u-2.60">tel. 10 031</unit>
+	<unit id="u-2.61">Ask for the porter</unit>
+	<unit id="u-2.62">Main office of Pohjoismaiden Yhdyspankki</unit>
+	<unit id="u-2.63">Aleksanterinkatu 30</unit>
+	<unit id="u-2.64">(Alexander street)</unit>
+	<unit id="u-2.65">tel. 12 221</unit>
+	<unit id="u-2.66">13a</unit>
+	<unit id="u-2.67">13b</unit>
+	<unit id="u-2.68">Main office of Osuuskassa</unit>
+	<unit id="u-2.69">Arkadiankatu 23</unit>
+	<unit id="u-2.70">tel. 44 00 41</unit>
+	<unit id="u-2.71">
+		<unit id="u-2.71.1">Mondays</unit>
+		<unit id="u-2.71.2">14-15</unit>
+	</unit>
+	<unit id="u-2.72">also by appointment</unit>
+	<unit id="u-2.73">
+		<unit id="u-2.73.1">Tuesdays</unit>
+		<unit id="u-2.73.2">14-15</unit>
+	</unit>
+	<unit id="u-2.74">other times by appointment</unit>
+	<unit id="u-2.75">During bank-hours</unit>
+	<unit id="u-2.76">admission free</unit>
+	<unit id="u-2.77">admission free</unit>
+	<unit id="u-2.78">admission free</unit>
+	<unit id="u-2.79">POST AND TELEGRAPH MUSEUM</unit>
+	<unit id="u-2.80">Tehtaankatu 21 B</unit>
+	<unit id="u-2.81">tel. 659 311/70</unit>
+	<unit id="u-2.82">(14)</unit>
+	<unit id="u-2.83">
+		<unit id="u-2.83.1">Tuesdays and Fridays</unit>
+		<unit id="u-2.83.2">12-15</unit>
+	</unit>
+	<unit id="u-2.84">
+		<unit id="u-2.84.1">Wednesdays</unit>
+		<unit id="u-2.84.2">18-20</unit>´
+	</unit>
+	<unit id="u-2.85">other times by appointment</unit>
+	<unit id="u-2.86">
+		<unit id="u-2.86.1">adults</unit>
+		<unit id="u-2.86.2">0,50</unit>
+	</unit>
+	<unit id="u-2.87">
+		<unit id="u-2.87.1">children</unit>
+		<unit id="u-2.87.2">0,25</unit>
+	</unit>
+	<unit id="u-2.88">groups of more than 20 persons half price</unit>
+	<unit id="u-2.89">RAILWAY MUSEUM</unit>
+	<unit id="u-2.90">Railway Station</unit>
+	<unit id="u-2.91">tel. 717 711/2816</unit>
+	<unit id="u-2.92">(15)</unit>
+	<unit id="u-2.93">
+		<unit id="u-2.93.1">weekdays and Sundays</unit>
+		<unit id="u-2.93.2">12-15</unit>
+	</unit>
+	<unit id="u-2.94">Saturdays closed</unit>
+	<unit id="u-2.95">
+		<unit id="u-2.95.1">adults</unit>
+		<unit id="u-2.95.2">0,50</unit>
+	</unit>
+	<unit id="u-2.96">
+		<unit id="u-2.96.1">children</unit>
+		<unit id="u-2.96.2">0,20</unit>
+	</unit>
+	<unit id="u-2.97">admission free for groups of more than 10 persons with leader</unit>
+	<unit id="u-2.98">SEURASAARI OPEN-AIR MUSEUM</unit>
+	<unit id="u-2.99">Seurasaari</unit>
+	<unit id="u-2.100">tel. 48 11 50</unit>
+	<unit id="u-2.101">Buss no 24 from the Erottaja Square</unit>
+	<unit id="u-2.102">(16)</unit>
+	<unit id="u-2.103">From 20.5.</unit>
+	<unit id="u-2.104">
+		<unit id="u-2.104.1">weekdays and Sundays</unit>
+		<unit id="u-2.104.2">11.30-17.30</unit>
+	</unit>
+	<unit id="u-2.105">
+		<unit id="u-2.105.1">Saturdays</unit>
+		<unit id="u-2.105.2">11.30-15.30</unit>
+	</unit>
+	<unit id="u-2.106">Admission to all farmer houses:</unit>
+	<unit id="u-2.107">
+		<unit id="u-2.107.1">adults</unit>
+		<unit id="u-2.107.2">1,00</unit>
+	</unit>
+	<unit id="u-2.108">
+		<unit id="u-2.108.1">children under 12 years</unit>
+		<unit id="u-2.108.2">0,20</unit>
+	</unit>
+	<unit id="u-2.109">
+		<unit id="u-2.109.1">Admission to one house</unit>
+		<unit id="u-2.109.2">0,40</unit>
+	</unit>
+	<unit id="u-2.110">
+		<unit id="u-2.110.1">children</unit>
+		<unit id="u-2.110.2">0,10</unit>
+	</unit>
+	<unit id="u-2.111">MILITARY MUSEUM</unit>
+	<unit id="u-2.112">Maurinkatu 1</unit>
+	<unit id="u-2.113">tel. 12 681</unit>
+	<unit id="u-2.114">(17)</unit>
+	<unit id="u-2.115">
+		<unit id="u-2.115.1">daily</unit>
+		<unit id="u-2.115.2">11-15</unit>
+	</unit>
+	<unit id="u-2.116">
+		<unit id="u-2.116.1">Fridays also</unit>
+		<unit id="u-2.116.2">18-20</unit>
+	</unit>
+	<unit id="u-2.117">Groups by appointment</unit>
+	<unit id="u-2.118">
+		<unit id="u-2.118.1">adults</unit>
+		<unit id="u-2.118.2">0,50</unit>
+	</unit>
+	<unit id="u-2.119">
+		<unit id="u-2.119.1">children</unit>
+		<unit id="u-2.119.2">0,20</unit>
+	</unit>
+	<unit id="u-2.120">HISTORIC FORTRESS OF SUOMENLINNA</unit>
+	<unit id="u-2.121">Suomenlinna</unit>
+	<unit id="u-2.122">Ferry from South Harbour every hour from 7.30 to 21.30.</unit>
+	<unit id="u-2.123">Enquiries by tel. 12 581/372</unit>
+	<unit id="u-2.124">(18, 19)</unit>
+	<unit id="u-2.125">Round trip ferry ticket:</unit>
+	<unit id="u-2.126">
+		<unit id="u-2.126.1">adults</unit>
+		<unit id="u-2.126.2">2,00</unit>
+	</unit>
+	<unit id="u-2.127">
+		<unit id="u-2.127.1">children</unit>
+		<unit id="u-2.127.2">0,20</unit>
+	</unit>
+	<unit id="u-2.128">COAST DEFENCE SECTION OF THE MILITARY MUSEUM</unit>
+	<unit id="u-2.129">Suomenlinna</unit>
+	<unit id="u-2.130">tel. 12 581/316</unit>
+	<unit id="u-2.131">(18)</unit>
+	<unit id="u-2.132">1. 5.-30. 9</unit>
+	<unit id="u-2.133">
+		<unit id="u-2.133.1">daily</unit>
+		<unit id="u-2.133.2">12-16</unit>
+	</unit>
+	<unit id="u-2.134">except Mondays</unit>
+	<unit id="u-2.135">Groups by appointment</unit>
+	<unit id="u-2.136">
+		<unit id="u-2.136.1">adults</unit>
+		<unit id="u-2.136.2">0,50</unit>
+	</unit>
+	<unit id="u-2.137">
+		<unit id="u-2.137.1">children</unit>
+		<unit id="u-2.137.2">0,20</unit>
+	</unit>
+	<unit id="u-2.138">EHRENSVÄRD-MUSEUM</unit>
+	<unit id="u-2.139">ARMFELT-MUSEUM</unit>
+	<unit id="u-2.140">Suomenlinna</unit>
+	<unit id="u-2.141">tel. 66 82 94</unit>
+	<unit id="u-2.142">(19)</unit>
+	<unit id="u-2.143">
+		<unit id="u-2.143.1">daily</unit>
+		<unit id="u-2.143.2">12-16</unit>
+	</unit>
+	<unit id="u-2.144">Mondays closed</unit>
+	<unit id="u-2.145">Groups by appointment</unit>
+	<unit id="u-2.146">
+		<unit id="u-2.146.1">adults</unit>
+		<unit id="u-2.146.2">0,50</unit>
+	</unit>
+	<unit id="u-2.147">
+		<unit id="u-2.147.1">children</unit>
+		<unit id="u-2.147.2">0,20</unit>
+	</unit>
+	<unit id="u-2.148">SINEBRYCHOFF ART COLLECTION</unit>
+	<unit id="u-2.149">Bulevardi 40</unit>
+	<unit id="u-2.150">tel. 64 05 90, 66 66 93</unit>
+	<unit id="u-2.151">(20)</unit>
+	<unit id="u-2.152">Wednesdays)</unit>
+	<unit id="u-2.153">
+		<unit id="u-2.153.1">Saturdays)</unit>
+		<unit id="u-2.153.2">12-16</unit>
+	</unit>
+	<unit id="u-2.154">Sundays)</unit>
+	<unit id="u-2.155">
+		<unit id="u-2.155.1">Wednesdays also</unit>
+		<unit id="u-2.155.2">18-20</unit>
+	</unit>
+	<unit id="u-2.156">
+		<unit id="u-2.156.1">adults</unit>
+		<unit id="u-2.156.2">0,70</unit>
+	</unit>
+	<unit id="u-2.157">
+		<unit id="u-2.157.1">children</unit>
+		<unit id="u-2.157.2">0,20</unit>
+	</unit>
+	<unit id="u-2.158">
+		<unit id="u-2.158.1">students</unit>
+		<unit id="u-2.158.2">0,30</unit>
+	</unit>
+	<unit id="u-2.159">
+		<unit id="u-2.159.1">groups</unit>
+		<unit id="u-2.159.2">0,50</unit>
+	</unit>
+	<unit id="u-2.160">SPORTS MUSEUM OF FINLAND</unit>
+	<unit id="u-2.161">Olympic Stadium</unit>
+	<unit id="u-2.162">tel. 49 11 49</unit>
+	<unit id="u-2.163">(21)</unit>
+	<unit id="u-2.164">
+		<unit id="u-2.164.1">daily</unit>
+		<unit id="u-2.164.2">12-14</unit>
+	</unit>
+	<unit id="u-2.165">Saturdays closed</unit>
+	<unit id="u-2.166">
+		<unit id="u-2.166.1">adults</unit>
+		<unit id="u-2.166.2">0,50</unit>
+	</unit>
+	<unit id="u-2.167">
+		<unit id="u-2.167.1">children</unit>
+		<unit id="u-2.167.2">0,20</unit>
+	</unit>
+	<unit id="u-2.168">MUSEUM OF FINNISH ARCHITECTURE</unit>
+	<unit id="u-2.169">Puistokatu 4</unit>
+	<unit id="u-2.170">tel. 65 50 17</unit>
+	<unit id="u-2.171">(22)</unit>
+	<unit id="u-2.172">
+		<unit id="u-2.172.1">Monday to Friday</unit>
+		<unit id="u-2.172.2">10-15</unit>
+	</unit>
+	<unit id="u-2.173">
+		<unit id="u-2.173.1">Saturdays</unit>
+		<unit id="u-2.173.2">12-15</unit>
+	</unit>
+	<unit id="u-2.174">Sundays closed</unit>
+	<unit id="u-2.175">admission free</unit>
+	<unit id="u-2.176">THEATRICAL MUSEUM</unit>
+	<unit id="u-2.177">Aleksanterinkatu 12</unit>
+	<unit id="u-2.178">(Alexander Street)</unit>
+	<unit id="u-2.179">tel. 63 67 50</unit>
+	<unit id="u-2.180">(23)</unit>
+	<unit id="u-2.181">
+		<unit id="u-2.181.1">Wednesdays and Fridays</unit>
+		<unit id="u-2.181.2">17-19</unit>
+	</unit>
+	<unit id="u-2.182">
+		<unit id="u-2.182.1">Sundays</unit>
+		<unit id="u-2.182.2">12-16</unit>
+	</unit>
+	<unit id="u-2.183">other times by appointment</unit>
+	<unit id="u-2.184">
+		<unit id="u-2.184.1">adults</unit>
+		<unit id="u-2.184.2">0,50</unit>
+	</unit>
+	<unit id="u-2.185">admission free for groups</unit>
+	<unit id="u-2.186">CUSTOMS MUSEUM</unit>
+	<unit id="u-2.187">Unioninkatu 5, 1st Floor</unit>
+	<unit id="u-2.188">tel. 61 411/354</unit>
+	<unit id="u-2.189">(24)</unit>
+	<unit id="u-2.190">by appointment</unit>
+	<unit id="u-2.191">admission free</unit>
+	<unit id="u-2.192">UNIVERSITY ZOOLOGICAL MUSEUM</unit>
+	<unit id="u-2.193">Pohj.Rautatienkatu 13</unit>
+	<unit id="u-2.194">tel. 44 24 51</unit>
+	<unit id="u-2.195">(25)</unit>
+	<unit id="u-2.196">Groups by appointment</unit>
+	<unit id="u-2.197">
+		<unit id="u-2.197.1">adults</unit>
+		<unit id="u-2.197.2">0,50</unit>
+	</unit>
+	<unit id="u-2.198">
+		<unit id="u-2.198.1">children</unit>
+		<unit id="u-2.198.2">0,20</unit>
+	</unit>
+	<unit id="u-2.199">
+		<unit id="u-2.199.1">groups</unit>
+		<unit id="u-2.199.2">0,20</unit>
+	</unit>
+	<unit id="u-2.200">EXHIBITIONS</unit>
+	<unit id="u-2.201">EXHIBITION OF SAFETY AND SOCIAL WELFARE</unit>
+	<unit id="u-2.202">Et.Esplanadikatu 4</unit>
+	<unit id="u-2.203">tel. 62 83 58</unit>
+	<unit id="u-2.204">(26)</unit>
+	<unit id="u-2.205">
+		<unit id="u-2.205.1">weekdays</unit>
+		<unit id="u-2.205.2">11-14</unit>
+	</unit>
+	<unit id="u-2.206">
+		<unit id="u-2.206.1">Groups</unit>
+		<unit id="u-2.206.2">8-15</unit>
+	</unit>
+	<unit id="u-2.207">
+		<unit id="u-2.207.1">other times by appointment</unit>
+		<unit id="u-2.207.2">(9-16)</unit>
+	</unit>
+	<unit id="u-2.208">admission free</unit>
+	<unit id="u-2.209">PERMANENT BUILDING MATERIAL EXHIBITION</unit>
+	<unit id="u-2.210">Eerikinkatu 11</unit>
+	<unit id="u-2.211">tel. 64 66 06</unit>
+	<unit id="u-2.212">(27)</unit>
+	<unit id="u-2.213">
+		<unit id="u-2.213.1">Monday to Friday</unit>
+		<unit id="u-2.213.2">9-16</unit>
+	</unit>
+	<unit id="u-2.214">
+		<unit id="u-2.214.1">Saturdays</unit>
+		<unit id="u-2.214.2">9-13</unit>
+	</unit>
+	<unit id="u-2.215">Sundays closed</unit>
+	<unit id="u-2.216">admission free</unit>
+	<unit id="u-2.217">FINNISH DESIGN CENTER</unit>
+	<unit id="u-2.218">Permanent exhibition of Finnish design</unit>
+	<unit id="u-2.219">Kasarmikatu 19</unit>
+	<unit id="u-2.220">tel. 62 63 88</unit>
+	<unit id="u-2.221">(28)</unit>
+	<unit id="u-2.222">
+		<unit id="u-2.222.1">Monday to Friday</unit>
+		<unit id="u-2.222.2">9-17</unit>
+	</unit>
+	<unit id="u-2.223">
+		<unit id="u-2.223.1">Saturdays</unit>
+		<unit id="u-2.223.2">9-15</unit>
+	</unit>
+	<unit id="u-2.224">
+		<unit id="u-2.224.1">Sundays</unit>
+		<unit id="u-2.224.2">12-16</unit>
+	</unit>
+	<unit id="u-2.225">admission free</unit>
+	<unit id="u-2.226">EXHIBITION OF ARABIA ART CERAMICS AND HOUSEHOLD WARE AND NUUTAJÄRVI GLASS</unit>
+	<unit id="u-2.227">Pohj.Esplanadikatu 25</unit>
+	<unit id="u-2.228">tel. 62 32 53</unit>
+	<unit id="u-2.229">(29)</unit>
+	<unit id="u-2.230">
+		<unit id="u-2.230.1">Weekdays</unit>
+		<unit id="u-2.230.2">8.30-16</unit>
+	</unit>
+	<unit id="u-2.231">
+		<unit id="u-2.231.1">Saturdays</unit>
+		<unit id="u-2.231.2">8.30-14</unit>
+	</unit>
+	<unit id="u-2.232">admission free</unit>
+	<unit id="u-2.233">ART GALLERIES</unit>
+	<unit id="u-2.234">GALERIE ARTEK</unit>
+	<unit id="u-2.235">P.Esplanadikatu 27</unit>
+	<unit id="u-2.236">tel. 66 99 89</unit>
+	<unit id="u-2.237">(30)</unit>
+	<unit id="u-2.238">closed in summer</unit>
+	<unit id="u-2.239">admission free</unit>
+	<unit id="u-2.240">GALERIE HÖRHAMMER</unit>
+	<unit id="u-2.241">Art exhibition</unit>
+	<unit id="u-2.242">Yrjönkatu 11</unit>
+	<unit id="u-2.243">tel. 62 80 71</unit>
+	<unit id="u-2.244">(31)</unit>
+	<unit id="u-2.245">
+		<unit id="u-2.245.1">weekdays and Saturdays</unit>
+		<unit id="u-2.245.2">10-16</unit>
+	</unit>
+	<unit id="u-2.246">Sundays closed</unit>
+	<unit id="u-2.247">admission free</unit>
+	<unit id="u-2.248">PINX</unit>
+	<unit id="u-2.249">Bulevardi 6 A</unit>
+	<unit id="u-2.250">tel. 63 27 15</unit>
+	<unit id="u-2.251">(32)</unit>
+	<unit id="u-2.252">
+		<unit id="u-2.252.1">Monday to Friday</unit>
+		<unit id="u-2.252.2">11-16</unit>
+	</unit>
+	<unit id="u-2.253">admission free</unit>
+	<unit id="u-2.254">STRINDBERG ART GALLERY</unit>
+	<unit id="u-2.255">Pohj.Esplanadikatu 33</unit>
+	<unit id="u-2.256">4th floor tel. 62 55 81</unit>
+	<unit id="u-2.257">(33)</unit>
+	<unit id="u-2.258">
+		<unit id="u-2.258.1">weekdays</unit>
+		<unit id="u-2.258.2">10-15</unit>
+	</unit>
+	<unit id="u-2.259">Sundays closed</unit>
+	<unit id="u-2.260">admission free</unit>
+	<unit id="u-2.261">STRINDBERG ART GALLERY</unit>
+	<unit id="u-2.262">Pohj.Esplanadikatu 33</unit>
+	<unit id="u-2.263">ground floor tel. 62 84 04</unit>
+	<unit id="u-2.264">(33)</unit>
+	<unit id="u-2.265">as above</unit>
+	<unit id="u-2.266">admission free</unit>
+	<unit id="u-2.267">TAIDEHALLI</unit>
+	<unit id="u-2.268">Fine arts exhibition hall</unit>
+	<unit id="u-2.269">Nervanderinkatu 3</unit>
+	<unit id="u-2.270">tel. 44 48 55</unit>
+	<unit id="u-2.271">(34)</unit>
+	<unit id="u-2.272">
+		<unit id="u-2.272.1">weekdays</unit>
+		<unit id="u-2.272.2">11-17</unit>
+	</unit>
+	<unit id="u-2.273">
+		<unit id="u-2.273.1">Sundays</unit>
+		<unit id="u-2.273.2">11-16</unit>
+	</unit>
+	<unit id="u-2.274">(during exhibitions)</unit>
+	<unit id="u-2.275">
+		<unit id="u-2.275.1">adults</unit>
+		<unit id="u-2.275.2">1,50</unit>
+	</unit>
+	<unit id="u-2.276">
+		<unit id="u-2.276.1">children</unit>
+		<unit id="u-2.276.2">0,30</unit>
+	</unit>
+	<unit id="u-2.277">
+		<unit id="u-2.277.1">students</unit>
+		<unit id="u-2.277.2">0,30</unit>
+	</unit>
+	<unit id="u-2.278">
+		<unit id="u-2.278.1">pupils</unit>
+		<unit id="u-2.278.2">0,30</unit>
+	</unit>
+	<unit id="u-2.279">(during large special exhibitions higher admission fees possible)</unit>
+	<unit id="u-2.280">OTHER MUSEUMS</unit>
+	<unit id="u-2.281">STÅHLBERG MUSEUM</unit>
+	<unit id="u-2.282">Helsinki University</unit>
+	<unit id="u-2.283">Fabianinkatu 33 ground floor</unit>
+	<unit id="u-2.284">tel. ?? ?11/252</unit>
+	<unit id="u-2.285">by appointment</unit>
+	<unit id="u-2.286">admission free</unit>
+	<unit id="u-2.287">In addition to the above there are several specialist museums in Helsinki.</unit>
+	<unit id="u-2.288">The City Tourist Office will be glad to give further details.</unit>
+	<unit id="u-2.289">SOME OTHER SIGHTS</unit>
+	<unit id="u-2.290">PARLIAMENT BUILDING</unit>
+	<unit id="u-2.291">Mannerheimintie</unit>
+	<unit id="u-2.292">(Mannerheim road)</unit>
+	<unit id="u-2.293">tel. 44 52 47</unit>
+	<unit id="u-2.294">Visitors are conducted round the building on weekdays at 2 p.m. and on Sundays at noon and 1 p.m., except on days when Parliament is in full session and holidays.</unit>
+	<unit id="u-2.295">Foreigners and groups by special appointment.</unit>
+	<unit id="u-2.296">Public admitted to public galleries when Parliament is in full session</unit>
+	<unit id="u-2.297">admission free</unit>
+</gemBase>
+
+

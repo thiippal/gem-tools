@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemNav>
+
+	<pointer id="p-1.01" type="cross-reference" from="s-1.18" to="" range="phone">
+
+		<content xref="u-1.18.1"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+	<pointer id="p-1.02" type="cross-reference" from="s-1.19" to="" range="www">
+
+		<content xref="u-1.18.2"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+	
+<pointer id="p-1.03" type="cross-reference" from="s-1.23" to="" range="www">
+
+		<content xref="u-1.22"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+	<pointer id="p-2.01" type="cross-reference" from="s-2.05" to="" range="www">
+
+		<content xref="u-2.05"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+	<pointer id="p-2.02" type="cross-reference" from="s-2.08" to="" range="www">
+
+		<content xref="u-2.08"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+	<pointer id="p-2.03" type="cross-reference" from="s-2.13" to="" range="www">
+
+		<content xref="u-2.13"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+	<pointer id="p-2.04" type="cross-reference" from="s-2.17" to="" range="www">
+
+		<content xref="u-2.17"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+	<pointer id="p-2.05" type="cross-reference" from="s-2.28" to="" range="www">
+
+		<content xref="u-2.28"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+	<pointer id="p-2.06" type="cross-reference" from="s-2.33" to="" range="www">
+
+		<content xref="u-2.33"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+	<pointer id="p-2.07" type="cross-reference" from="s-2.36" to="" range="www">
+
+		<content xref="u-2.36"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+	<pointer id="p-2.08" type="cross-reference" from="s-2.40" to="" range="www">
+
+		<content xref="u-2.40"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+	<pointer id="p-2.09" type="cross-reference" from="s-2.49" to="" range="www">
+
+		<content xref="u-2.47.3"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+	<pointer id="p-2.10" type="cross-reference" from="s-2.52" to="" range="www">
+
+		<content xref="u-2.48.3"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+	<pointer id="p-2.11" type="cross-reference" from="s-2.55" to="" range="www">
+
+		<content xref="u-2.49.3"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+	<pointer id="p-2.12" type="cross-reference" from="s-2.58" to="" range="www">
+
+		<content xref="u-2.50.3"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+	<pointer id="p-2.13" type="cross-reference" from="s-2.62" to="" range="www">
+
+		<content xref="u-2.54"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+	<pointer id="p-2.14" type="cross-reference" from="s-2.66" to="" range="www">
+
+		<content xref="u-2.58"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+	<pointer id="p-2.15" type="cross-reference" from="s-2.68" to="" range="www">
+
+		<content xref="u-2.60"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+	<pointer id="p-2.17" type="cross-reference" from="s-2.70" to="" range="www">
+
+		<content xref="u-2.62"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+	<pointer id="p-2.18" type="cross-reference" from="s-2.73" to="" range="www">
+
+		<content xref="u-2.65"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+
+	<pointer id="p-2.19" type="cross-reference" from="s-2.79" to="" range="www">
+
+		<content xref="u-2.71"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+	<pointer id="p-2.20" type="cross-reference" from="s-2.82" to="" range="www">
+
+		<content xref="u-2.74"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+	<pointer id="p-2.21" type="cross-reference" from="s-2.86" to="" range="www">
+
+		<content xref="u-2.78"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+
+	<pointer id="p-2.22" type="cross-reference" from="s-2.94" to="" range="www">
+
+		<content xref="u-2.86"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+	<pointer id="p-2.23" type="cross-reference" from="s-2.97" to="" range="www">
+
+		<content xref="u-2.89"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+	<pointer id="p-2.24" type="cross-reference" from="s-2.105" to="" range="www">
+
+		<content xref="u-2.97"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+
+	<pointer id="p-2.25" type="cross-reference" from="s-2.108" to="" range="www">
+
+		<content xref="u-2.100"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+
+	<pointer id="p-2.26" type="cross-reference" from="s-2.112" to="" range="www">
+
+		<content xref="u-2.104"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+
+	<pointer id="p-2.27" type="cross-reference" from="s-2.115" to="" range="www">
+
+		<content xref="u-2.107"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+
+	<pointer id="p-2.28" type="cross-reference" from="s-2.117" to="" range="www">
+
+		<content xref="u-2.109"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+
+	<pointer id="p-2.29" type="cross-reference" from="s-2.121" to="" range="www">
+
+		<content xref="u-2.113"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+
+	<pointer id="p-2.30" type="cross-reference" from="s-2.124" to="" range="www">
+
+		<content xref="u-2.116"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+
+	<pointer id="p-2.31" type="cross-reference" from="s-2.129" to="" range="www">
+
+		<content xref="u-2.121"/>
+
+		<address xref="" address-precision="start-only"/>
+
+	</pointer>
+
+
+
+
+	<pointer id="p-2.32" type="cross-reference" from="" to="" range="www">
+
+		<content xref="s-2.135"/>
+
+		<address xref="u-2.127" address-precision="start-only"/>
+
+	</pointer>
+</gemNav>
+

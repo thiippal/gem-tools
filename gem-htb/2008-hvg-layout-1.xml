@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemLayout>
+	<segmentation>
+		<layout-unit id="lay-1.01" xref="u-1.01" alt="Illustration: Vertical bar (left)"/>
+		<layout-unit id="lay-1.02" xref="u-1.02">22</layout-unit>
+		<layout-unit id="lay-1.03" xref="u-1.03">SIGHTS AND ATTRACTIONS</layout-unit>
+		<layout-unit id="lay-1.04" xref="u-1.04" alt="Photo: Old town rapids"/>
+		<layout-unit id="lay-1.05" xref="u-1.05">Old Town Rapids</layout-unit>
+		<layout-unit id="lay-1.06" xref="u-1.06" alt="Photo: Generator detail"/>
+		<layout-unit id="lay-1.07" xref="u-1.07">Power Station Museum</layout-unit>
+		<layout-unit id="lay-1.08" xref="u-1.08" alt="Photo: Compass Square"/>
+		<layout-unit id="lay-1.09" xref="u-1.09">Compass Square (Kompassiaukio)</layout-unit>
+		<layout-unit id="lay-1.10" xref="u-1.10">Other interesting sights and attractions</layout-unit>
+		<layout-unit id="lay-1.11" xref="u-1.11" alt="Map: Helsinki"/>
+		<layout-unit id="lay-1.12" xref="u-1.12">Old Town</layout-unit>
+		<layout-unit id="lay-1.13" xref="u-1.13 u-1.14 u-1.15 u-1.16">Helsinki was originally established at the mouth of the Vantaanjoki River in 1550 by King Gustav Vasa of Sweden.</layout-unit>
+		<layout-unit id="lay-1.14" xref="u-1.17">To get to the Old Town and Arabianranta, take Tram 6 or Bus 68, 71, 71V or 73B from the Railway Station Square in the city centre.</layout-unit>
+		<layout-unit id="lay-1.15" xref="u-1.18">Hakaniemi Market</layout-unit>
+		<layout-unit id="lay-1.16" xref="u-1.19" alt="Photo: Hakaniemi marketplace"/>
+		<layout-unit id="lay-1.17" xref="u-1.20">Arabia Museum and Factory, 
+			<layout-unit id="lay-1.17.1" xref="u-1.20.1" alt="Illustration: Point number 39"/>
+		</layout-unit>
+		<layout-unit id="lay-1.18" xref="u-1.23 u-1.24">Arabia has been a pioneer in modern Scandinavian design, combining timeless beauty with everyday practicality.</layout-unit>
+		<layout-unit id="lay-1.19" xref="u-1.25">Hämeentie 135</layout-unit>
+		<layout-unit id="lay-1.20" xref="u-1.26">Tel. +358 (0)204 39 5357.</layout-unit>
+		<layout-unit id="lay-1.21" xref="u-1.27 u-1.28">
+			<layout-unit id="lay-1.21.1" xref="u-1.27.1">Arabia Museum</layout-unit> open: Tue-Fri 12noon-6pm, Sat-Sun 10am-4pm.</layout-unit>
+		<layout-unit id="lay-1.22" xref="u-1.29">www.arabianmuseo.fi</layout-unit>
+		<layout-unit id="lay-1.23" xref="u-1.30 u-1.31">
+			<layout-unit id="lay-1.23.1" xref="u-1.30.1">Factory tours:</layout-unit> reservations Tel. +358 (0)204 39 5326.</layout-unit>
+		<layout-unit id="lay-1.24" xref="u-1.32">
+			<layout-unit id="lay-1.24.1" xref="u-1.32.1">Iittala, Finlayson</layout-unit>
+			<layout-unit id="lay-1.24.2" xref="u-1.32.2">Pentik</layout-unit>
+			<layout-unit id="lay-1.24.3" xref="u-1.32.3" alt="Illustration: Symbol for accessible"/>
+		</layout-unit>
+		<layout-unit id="lay-1.25" xref="u-1.33">The 
+			<layout-unit id="lay-1.25.1" xref="u-1.33.1">Technical Museum</layout-unit> alongside the Old Town Rapids presents the achievements of old and new technology and hosts related exhibitions.
+		</layout-unit>
+		<layout-unit id="lay-1.26" xref="u-1.34">Viikintie 1, tel. +358 (0)9 7288 4428</layout-unit>
+		<layout-unit id="lay-1.27" xref="u-1.35 u-1.36">Open: Wed-Sun 12noon-4pm, see website for exceptions.</layout-unit>
+		<layout-unit id="lay-1.28" xref="u-1.37">www.tekniikanmuseo.fi 
+			<layout-unit id="lay-1.28.1" xref="u-1.37.1" alt="Illustration: Symbol for smile"/>
+		</layout-unit>
+		<layout-unit id="lay-1.29" xref="u-1.38">Nearby you can also find the 
+			<layout-unit id="lay-1.29.1" xref="u-1.38.1">Power Station Museum</layout-unit>, featuring original hydroelectric pumps from the 1800s.
+		</layout-unit>
+		<layout-unit id="lay-1.30" xref="u-1.39">Hämeentie 163, Tel. +358 (0)9 3109 7064.</layout-unit>
+		<layout-unit id="lay-1.31" xref="u-1.40">Open summertime Wed-Sun 11am-5pm.</layout-unit>
+		<layout-unit id="lay-1.32" xref="u-1.41">www.helsinginkaupunginmuseo.fi 
+			<layout-unit id="lay-1.32.1" xref="u-1.41.1" alt="Illustration: Symbol for smile"/>
+			<layout-unit id="lay-1.32.2" xref="u-1.41.2" alt="Illustration: Symbol for free entry"/>
+		</layout-unit>
+		<layout-unit id="lay-1.33" xref="u-1.42">Hakaniemi District 
+			<layout-unit id="lay-1.33.1" xref="u-1.42.1" alt="Illustration: Point number 38"/>
+		</layout-unit>
+		<layout-unit id="lay-1.34" xref="u-1.43">Hakaniemi Market</layout-unit>
+		<layout-unit id="lay-1.35" xref="u-1.44 u-1.45">Groceries, flowers and baskets have been sold at Hakaniemi Market for over a hundred years.</layout-unit>
+		<layout-unit id="lay-1.36" xref="u-1.46">Opening hours: Mon-Sat 6.30am-3pm, plus on the first Sunday of each month 10am-4pm.</layout-unit>
+		<layout-unit id="lay-1.37" xref="u-1.47">Hakaniemi Market Hall</layout-unit>
+		<layout-unit id="lay-1.38" xref="u-1.48 u-1.49">Hakaniemi Market Hall is located beside the outdoor market.</layout-unit>
+		<layout-unit id="lay-1.39" xref="u-1.50">Opening hours: Mon-Fri 8am-6pm, Sat 8am-4pm.</layout-unit>
+		<layout-unit id="lay-1.40" xref="u-1.51" alt="Photo: Kaivopuisto park"/>
+		<layout-unit id="lay-1.41" xref="u-1.52">Kaivopuisto Park</layout-unit>
+		<layout-unit id="lay-1.42" xref="u-1.53">Kaivopuisto Park</layout-unit>
+		<layout-unit id="lay-1.43" xref="u-1.54 u-1.55 u-1.56 u-1.57 u-1.58">Kaivopuisto is Helsinki's oldest and most famous park and is overlooked by splendid villas.</layout-unit>
+		<layout-unit id="lay-1.44" xref="u-1.59">Sinebrychoff Art Museum 
+			<layout-unit id="lay-1.44.1" xref="u-1.59.1" alt="Illustration: Point number 40"/>
+		</layout-unit>
+		<layout-unit id="lay-1.45" xref="u-1.60 u-1.61 u-1.62 u-1.63 u-1.64">The Sinebrychoff Art Museum is specialised in old European art and includes Finland's most important collection of old masters.</layout-unit>
+		<layout-unit id="lay-1.46" xref="u-1.65">Bulevardi 40, tel. +358 (0)9 1733 6460</layout-unit>
+		<layout-unit id="lay-1.47" xref="u-1.66 u-1.67 u-1.68">Opening hours: Tue and Fri 10am-6pm, Wed-Thu 10am-8pm, Sat-Sun 11am-5pm.</layout-unit>
+		<layout-unit id="lay-1.48" xref="u-1.69">www.sinerbrychoffintaidemuseo.fi 
+			<layout-unit id="lay-1.48.1" xref="u-1.69.1" alt="Illustration: Symbol for accessible"/>
+		</layout-unit>
+		<layout-unit id="lay-1.49" xref="u-1.70">Hietalahti District</layout-unit>
+		<layout-unit id="lay-1.50" xref="u-1.71.1">Hietalahti Market is a popular place to shop, especially as it also includes a year-round open-air flea market (weather permitting).</layout-unit>
+		<layout-unit id="lay-1.50-m" xref="u-1.71.2 u-1.72"/>
+		<layout-unit id="lay-1.51" xref="u-1.73 u-1.74 u-1.75">Tel. +358(0)9 310 71396.
+			<layout-unit id="lay-1.51.1" xref="u-1.75.1">Sunday flea market</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.52" xref="u-1.76">The 
+			<layout-unit id="lay-1.52.1" xref="u-1.76.1">Hietalahti Antique and Art Hall</layout-unit> is located alongside and sells a wide range of furniture, jewellery and other antique items.
+		</layout-unit>
+		<layout-unit id="lay-1.53" xref="u-1.77">Opening hours: Mon-Fri 10am-5pm, Sat 10am-3pm.</layout-unit>
+		<layout-unit id="lay-1.54" xref="u-1.78">www.hietalahdenkauppahalli.fi</layout-unit>
+		<layout-unit id="lay-1.55" xref="u-1.79">Kaapelitehdas (Cable Factory) 
+			<layout-unit id="lay-1.55.1" xref="u-1.79.1" alt="Illustration: Point number 41"/>
+		</layout-unit>
+		<layout-unit id="lay-1.56" xref="u-1.80 u-1.81 u-1.82 u-1.83 u-1.84.1">The massive 
+			<layout-unit id="lay-1.56.1" xref="u-1.80.1">Cable Factory</layout-unit> was used up until the 1980s to produce telephone and electric cables.
+		</layout-unit>
+		<layout-unit id="lay-1.56-m" xref="u-1.84.2 u-1.85 u-1.86"/>
+		<layout-unit id="lay-1.57" xref="u-1.87">Tallberginkatu 1 C</layout-unit>
+		<layout-unit id="lay-1.58" xref="u-1.88">Tel. +358 (0)9 4763 8330</layout-unit>
+		<layout-unit id="lay-1.59" xref="u-1.89">Opening hours (museums): Tue-Sun 11am-6pm, www.kaapelitehdas.fi</layout-unit>
+		<layout-unit id="lay-1.60" xref="u-1.90" alt="Photo: Merisatamanranta shoreline"/>
+		<layout-unit id="lay-1.61" xref="u-1.91">Merisatamanranta shoreline</layout-unit>
+		<layout-unit id="lay-1.62" xref="u-1.92" alt="Photo: Ruoholahti canal"/>
+		<layout-unit id="lay-1.63" xref="u-1.93">Ruoholahti Canal</layout-unit>
+		<layout-unit id="lay-1.64" xref="u-1.94" alt="Photo: Ruoholahti and Kaapelitehdas"/>
+		<layout-unit id="lay-1.65" xref="u-1.95">Ruoholahti and Kaapelitehdas</layout-unit>
+		<layout-unit id="lay-1.66" xref="u-1.96">Cable Factory museums</layout-unit>
+		<layout-unit id="lay-1.67" xref="u-1.97">Finnish Museum of Photography</layout-unit>
+		<layout-unit id="lay-1.68" xref="u-1.98">Tel. +358 (0)9 6866 3622</layout-unit>
+		<layout-unit id="lay-1.69" xref="u-1.99">Entrance fees: adults €6, visitors under 18 free, special groups €4, groups (min. 10 persons) €5/person.</layout-unit>
+		<layout-unit id="lay-1.70" xref="u-1.100">www.fmp.fi 
+			<layout-unit id="lay-1.70.1" xref="u-1.100.1" alt="Illustration: Symbol for accessible"/>
+		</layout-unit>
+		<layout-unit id="lay-1.71" xref="u-1.101">Theatre Museum</layout-unit>
+		<layout-unit id="lay-1.72" xref="u-1.102">Tel. +358 (0)207 961 670</layout-unit>
+		<layout-unit id="lay-1.73" xref="u-1.103">Entrance fees: adults €5.50, one child under 15 accompanied by adult free, children under 15 and special groups €2.50.</layout-unit>
+		<layout-unit id="lay-1.74" xref="u-1.104">www.teatterimuseo.fi 
+			<layout-unit id="lay-1.74.1" xref="u-1.104.1" alt="Illustration: Symbol for accessible"/>
+			<layout-unit id="lay-1.74.2" xref="u-1.104.2" alt="Illustration: Symbol for smile"/>
+		</layout-unit>
+		<layout-unit id="lay-1.75" xref="u-1.105">Hotel and Restaurant Museum</layout-unit>
+		<layout-unit id="lay-1.76" xref="u-1.106">Tel. +358 (0)9 6859 3700</layout-unit>
+		<layout-unit id="lay-1.77" xref="u-1.107">Entrance fees: adults €2, children under 15 free, special groups €1/person.</layout-unit>
+		<layout-unit id="lay-1.78" xref="u-1.108">www.hotellijaravintolamuseo.fi 
+			<layout-unit id="lay-1.78.1" xref="u-1.108.1" alt="Illustration: Symbol for accessible"/>
+			<layout-unit id="lay-1.78.2" xref="u-1.108.2" alt="Illustration: Symbol for smile"/>
+		</layout-unit>
+		<layout-unit id="lay-1.79" xref="u-1.109" alt="Illustration: Vertical bar (right)"/>
+		<layout-unit id="lay-1.80" xref="u-1.110">SIGHTS AND ATTRACTIONS</layout-unit>
+		<layout-unit id="lay-1.81" xref="u-1.111">23</layout-unit>
+	</segmentation>
+	<area-model>
+		<area-root id="hvg-2008-pages-a-1-2" cols="11" rows="3" hspacing="3 1 27 1 14 8 14 1 27 1 3" vspacing="2 96 2" width="296mm" height="210mm">
+			<sub-area id="page-a-1-b" location="cell-32" cols="1" rows="5" hspacing="100" vspacing="3 23 1 10 63" width="83mm" height="198mm">
+				<sub-area id="page-a-1-b-1" location="row-2" cols="3" rows="1" hspacing="49 2 49" vspacing="100" width="83mm" height="45mm"/>
+				<sub-area id="page-a-1-b-2" location="row-5" cols="3" rows="1" hspacing="48 4 48" vspacing="100" width="83mm" height="125mm"/>
+			</sub-area>
+			<sub-area id="page-a-1-c" location="cell-52" cols="1" rows="5" hspacing="100" vspacing="3 23 3 20 51" width="41mm" height="198mm"/>
+			<sub-area id="page-a-2-b" location="cell-72" cols="1" rows="5" hspacing="100" vspacing="3 23 3 69 2" width="41mm" height="198mm"/>
+			<sub-area id="page-a-2-c" location="cell-92" cols="1" rows="5" hspacing="100" vspacing="3 23 2 52 20" width="83mm" height="198mm">
+				<sub-area id="page-a-2-c-1" location="row-1" cols="3" rows="1" hspacing="49 2 49" vspacing="100" width="83mm" height="45mm"/>
+				<sub-area id="page-a-2-c-2" location="row-1" cols="3" rows="1" hspacing="48 4 48" vspacing="100" width="83mm" height="104mm"/>
+			</sub-area>
+		</area-root>
+	</area-model>
+	<layout-structure>
+		<layout-root id="hvg-2008-pages-l-1-2">
+			<layout-chunk id="page-1" location="multi" area-ref="page-a-1-b">
+				<layout-chunk id="page-1-navigation" location="multi" area-ref="hvg-2008-pages-a-1-2">
+					<layout-leaf xref="lay-1.01" location="cell-12" area-ref="hvg-2008-pages-a-1-2"/>
+					<layout-leaf xref="lay-1.02" location="cell-12" area-ref="hvg-2008-pages-a-1-2" halign="top" valign="center"/>
+					<layout-leaf xref="lay-1.03" location="row-1" area-ref="page-a-1-b" halign="top" valign="left"/>
+				</layout-chunk>
+				<layout-leaf xref="lay-1.10" location="row-4" area-ref="page-a-1-b" valign="left" halign="top" hindent="2mm"/>
+				<layout-chunk id="page-1-column-1" location="multi" area-ref="page-a-1-b">
+					<layout-chunk id="page-1-column-1-photo-1" location="col-1" area-ref="page-a-1-b-1">
+						<layout-leaf xref="lay-1.04" location="col-1" area-ref="page-a-1-b-1"/>
+						<layout-leaf xref="lay-1.05" location="col-1" area-ref="page-a-1-b-1" hindent="2mm" halign="bottom" valign="left"/>
+					</layout-chunk>
+					<layout-chunk id="page-1-column-1-entry-1" location="col-1" area-ref="page-a-1-b-2">
+						<layout-leaf xref="lay-1.12" location="col-1" area-ref="page-a-1-b-2"/>
+						<layout-leaf xref="lay-1.13" location="col-1" area-ref="page-a-1-b-2"/>
+						<layout-leaf xref="lay-1.14" location="col-1" area-ref="page-a-1-b-2" vindent="4mm"/>
+					</layout-chunk>
+					<layout-chunk id="page-1-column-1-photo-2" location="col-1" area-ref="page-a-1-b-2">
+						<layout-leaf xref="lay-1.15" location="col-1" area-ref="page-a-1-b-2" vindent="7mm"/>
+						<layout-leaf xref="lay-1.16" location="col-1" area-ref="page-a-1-b-2" halign="bottom"/>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-1-column-2" location="multi" area-ref="page-a-1-b">
+					<layout-chunk id="page-1-column-2-photo-1" location="col-3" area-ref="page-a-1-b-1">
+						<layout-leaf xref="lay-1.06" location="col-3" area-ref="page-a-1-b-2"/>
+						<layout-leaf xref="lay-1.07" location="col-3" area-ref="page-a-1-b-2" hindent="2mm" halign="bottom" valign="left"/>
+					</layout-chunk>
+					<layout-chunk id="page-1-column-2-entry-1" location="col-3" area-ref="page-a-1-b-2">
+						<layout-leaf xref="lay-1.17" location="col-3" area-ref="page-a-1-b-2"/>
+						<layout-leaf xref="lay-1.18" location="col-3" area-ref="page-a-1-b-2"/>
+						<layout-leaf xref="lay-1.19" location="col-3" area-ref="page-a-1-b-2" vindent="4mm"/>
+						<layout-leaf xref="lay-1.20" location="col-3" area-ref="page-a-1-b-2"/>
+						<layout-leaf xref="lay-1.21" location="col-3" area-ref="page-a-1-b-2"/>
+						<layout-leaf xref="lay-1.22" location="col-3" area-ref="page-a-1-b-2"/>
+						<layout-leaf xref="lay-1.23" location="col-3" area-ref="page-a-1-b-2"/>
+						<layout-leaf xref="lay-1.24" location="col-3" area-ref="page-a-1-b-2"/>
+					</layout-chunk>
+					<layout-chunk id="page-1-column-2-entry-2" location="col-3" area-ref="page-a-1-b-2">
+						<layout-leaf xref="lay-1.25" location="col-3" area-ref="page-a-1-b-2" vindent="4mm"/>
+						<layout-leaf xref="lay-1.26" location="col-3" area-ref="page-a-1-b-2" vindent="4mm"/>
+						<layout-leaf xref="lay-1.27" location="col-3" area-ref="page-a-1-b-2"/>
+						<layout-leaf xref="lay-1.28" location="col-3" area-ref="page-a-1-b-2"/>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-1-column-3" location="multi" area-ref="page-a-1-c">
+					<layout-chunk id="page-1-column-3-photo-1" location="row-1" area-ref="page-a-1-c">
+						<layout-leaf xref="lay-1.08" location="row-1" area-ref="page-a-1-c"/>
+						<layout-leaf xref="lay-1.09" location="row-1" area-ref="page-a-1-c" hindent="2mm" halign="bottom" valign="left"/>
+					</layout-chunk>
+					<layout-leaf xref="lay-1.11" location="row-3" area-ref="page-a-1-c"/>
+					<layout-chunk id="page-1-column-3-entry-1" location="row-4" area-ref="page-a-1-c">
+						<layout-leaf xref="lay-1.29" location="row-4" area-ref="page-a-1-c" hindent="2mm"/>
+						<layout-leaf xref="lay-1.30" location="row-4" area-ref="page-a-1-c" hindent="2mm" vindent="4mm"/>
+						<layout-leaf xref="lay-1.31" location="row-4" area-ref="page-a-1-c" hindent="2mm"/>
+						<layout-leaf xref="lay-1.32" location="row-4" area-ref="page-a-1-c" hindent="2mm"/>
+					</layout-chunk>
+					<layout-chunk id="page-1-column-3-entry-2" location="row-4" area-ref="page-a-1-c">
+						<layout-leaf xref="lay-1.33" location="row-4" area-ref="page-a-1-c" hindent="2mm" vindent="4mm"/>
+						<layout-chunk id="page-1-column-3-entry-2-item-1" location="row-4" area-ref="page-a-1-c">
+							<layout-leaf xref="lay-1.34" location="row-4" area-ref="page-a-1-c" hindent="2mm"/>
+							<layout-leaf xref="lay-1.35" location="row-4" area-ref="page-a-1-c" hindent="2mm"/>
+							<layout-leaf xref="lay-1.36" location="row-4" area-ref="page-a-1-c" hindent="2mm" vindent="4mm"/>
+						</layout-chunk>
+						<layout-chunk id="page-1-column-3-entry-2-item-2" location="row-4" area-ref="page-a-1-c">
+							<layout-leaf xref="lay-1.37" location="row-4" area-ref="page-a-1-c" hindent="2mm"/>
+							<layout-leaf xref="lay-1.38" location="row-4" area-ref="page-a-1-c" hindent="2mm"/>
+							<layout-leaf xref="lay-1.39" location="row-4" area-ref="page-a-1-c" hindent="2mm" vindent="4mm"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+			</layout-chunk>
+			<layout-chunk id="page-2" location="multi" area-ref="page-a-1-b">
+				<layout-chunk id="page-2-navigation" location="multi" area-ref="hvg-2008-pages-a-1-2">
+					<layout-leaf xref="lay-1.79" location="cell-112" area-ref="hvg-2008-pages-a-1-2"/>
+					<layout-leaf xref="lay-1.80" location="cell-112" area-ref="hvg-2008-pages-a-1-2" halign="top" valign="center"/>
+					<layout-leaf xref="lay-1.81" location="row-1" area-ref="page-a-2-c" halign="top" valign="right"/>
+				</layout-chunk>
+				<layout-chunk id="page-2-column-1" location="multi" area-ref="page-a-2-b">
+					<layout-chunk id="page-2-column-1-photo-1" location="row-2" area-ref="page-a-2-b">
+						<layout-leaf xref="lay-1.40" location="row-2" area-ref="page-a-2-b"/>
+						<layout-leaf xref="lay-1.41" location="row-2" area-ref="page-a-2-b" hindent="2mm" halign="bottom" valign="left"/>
+					</layout-chunk>
+					<layout-chunk id="page-2-column-1-entry-1" location="row-4" area-ref="page-a-2-b">
+						<layout-leaf xref="lay-1.42" location="row-4" area-ref="page-a-2-b"/>
+						<layout-leaf xref="lay-1.43" location="row-4" area-ref="page-a-2-b"/>
+					</layout-chunk>
+					<layout-chunk id="page-2-column-1-entry-2" location="row-4" area-ref="page-a-2-b">
+						<layout-leaf xref="lay-1.44" location="row-4" area-ref="page-a-2-b"/>
+						<layout-leaf xref="lay-1.45" location="row-4" area-ref="page-a-2-b"/>
+						<layout-leaf xref="lay-1.46" location="row-4" area-ref="page-a-2-b" vindent="4mm"/>
+						<layout-leaf xref="lay-1.47" location="row-4" area-ref="page-a-2-b"/>
+						<layout-leaf xref="lay-1.48" location="row-4" area-ref="page-a-2-b"/>
+					</layout-chunk>
+					<layout-chunk id="page-2-column-1-entry-3" location="row-4" area-ref="page-a-2-b">
+						<layout-leaf xref="lay-1.49" location="row-4" area-ref="page-a-2-b" vindent="4mm"/>
+						<layout-leaf xref="lay-1.50" location="row-4" area-ref="page-a-2-b"/>
+						<layout-leaf xref="lay-1.50-m" location="col-1" area-ref="page-a-2-c-1"/>
+						<layout-leaf xref="lay-1.51" location="col-1" area-ref="page-a-2-c-1"/>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-2-column-2" location="multi" area-ref="page-a-2-b">
+					<layout-chunk id="page-2-column-2-photo-1" location="row-2" area-ref="page-a-2-b">
+						<layout-leaf xref="lay-1.60" location="col-1" area-ref="page-a-2-c-1"/>
+						<layout-leaf xref="lay-1.61" location="col-1" area-ref="page-a-2-c-1" hindent="2mm" halign="bottom" valign="left"/>
+					</layout-chunk>
+					<layout-chunk id="page-2-column-2-entry-1" location="col-1" area-ref="page-a-2-c-2">
+						<layout-leaf xref="lay-1.52" location="col-1" area-ref="page-a-2-c-2" vindent="4mm"/>
+						<layout-leaf xref="lay-1.53" location="col-1" area-ref="page-a-2-c-2" vindent="4mm"/>
+						<layout-leaf xref="lay-1.54" location="col-1" area-ref="page-a-2-c-2"/>
+					</layout-chunk>
+					<layout-chunk id="page-2-column-2-entry-2" location="col-1" area-ref="page-a-2-c-2">
+						<layout-leaf xref="lay-1.55" location="col-1" area-ref="page-a-2-c-2" vindent="4mm"/>
+						<layout-leaf xref="lay-1.56" location="col-1" area-ref="page-a-2-c-2"/>
+						<layout-leaf xref="lay-1.56-m" location="col-3" area-ref="page-a-2-c-2"/>
+						<layout-leaf xref="lay-1.57" location="col-3" area-ref="page-a-2-c-2" vindent="4mm"/>
+						<layout-leaf xref="lay-1.58" location="col-3" area-ref="page-a-2-c-2"/>
+						<layout-leaf xref="lay-1.59" location="col-3" area-ref="page-a-2-c-2"/>
+					</layout-chunk>
+					<layout-chunk id="page-2-column-2-photo-2" location="row-2" area-ref="page-a-2-b">
+						<layout-leaf xref="lay-1.64" location="row-5" area-ref="page-a-2-c"/>
+						<layout-leaf xref="lay-1.65" location="row-5" area-ref="page-a-2-b" hindent="2mm" halign="bottom" valign="right"/>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-2-column-3" location="multi" area-ref="page-a-2-b">
+					<layout-chunk id="page-2-column-3-photo-1" location="row-2" area-ref="page-a-2-b">
+						<layout-leaf xref="lay-1.62" location="col-3" area-ref="page-a-2-c-1"/>
+						<layout-leaf xref="lay-1.63" location="col-3" area-ref="page-a-2-c-1" hindent="2mm" halign="bottom" valign="left"/>
+					</layout-chunk>
+					<layout-chunk id="page-2-column-3-entry-1" location="col-3" area-ref="page-a-2-c-2">
+						<layout-leaf xref="lay-1.66" location="col-3" area-ref="page-a-2-c-2" vindent="4mm"/>
+						<layout-chunk id="page-2-column-3-entry-1-item-1" location="col-3" area-ref="page-a-2-c-2">
+							<layout-leaf xref="lay-1.67" location="col-3" area-ref="page-a-2-c-2"/>
+							<layout-leaf xref="lay-1.68" location="col-3" area-ref="page-a-2-c-2"/>
+							<layout-leaf xref="lay-1.69" location="col-3" area-ref="page-a-2-c-2"/>
+							<layout-leaf xref="lay-1.70" location="col-3" area-ref="page-a-2-c-2"/>
+						</layout-chunk>
+						<layout-chunk id="page-2-column-3-entry-1-item-2" location="col-3" area-ref="page-a-2-c-2">
+							<layout-leaf xref="lay-1.71" location="col-3" area-ref="page-a-2-c-2" vindent="4mm"/>
+							<layout-leaf xref="lay-1.72" location="col-3" area-ref="page-a-2-c-2"/>
+							<layout-leaf xref="lay-1.73" location="col-3" area-ref="page-a-2-c-2"/>
+							<layout-leaf xref="lay-1.74" location="col-3" area-ref="page-a-2-c-2"/>
+						</layout-chunk>
+						<layout-chunk id="page-2-column-3-entry-1-item-3" location="col-3" area-ref="page-a-2-c-2">
+							<layout-leaf xref="lay-1.75" location="col-3" area-ref="page-a-2-c-2" vindent="4mm"/>
+							<layout-leaf xref="lay-1.76" location="col-3" area-ref="page-a-2-c-2"/>
+							<layout-leaf xref="lay-1.77" location="col-3" area-ref="page-a-2-c-2"/>
+							<layout-leaf xref="lay-1.78" location="col-3" area-ref="page-a-2-c-2"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+			</layout-chunk>
+		</layout-root>
+	</layout-structure>
+	<realization>
+		<graphics xref="lay-1.01" type="two-d-element" two-d-element-type="square" colors="#8DB4DF" width="10mm" height="210mm"/>
+		<graphics xref="lay-1.79" type="two-d-element" two-d-element-type="square" colors="#8DB4DF" width="10mm" height="210mm"/>
+		<text xref="lay-1.02 lay-1.81" font-family="sans-serif" font-size="9" font-style="normal" font-weight="normal" case="mixed" color="white"/>
+		<text xref="lay-1.03 lay-1.80" font-family="sans-serif" font-size="5" font-style="normal" font-weight="normal" case="smallcaps" color="grey"/>
+		<graphics xref="lay-1.04" type="photo" colors="mixed" width="41mm" height="41mm"/>
+		<graphics xref="lay-1.06" type="photo" colors="mixed" width="41mm" height="41mm"/>
+		<graphics xref="lay-1.08" type="photo" colors="mixed" width="41mm" height="41mm"/>
+		<graphics xref="lay-1.41" type="photo" colors="mixed" width="41mm" height="41mm"/>
+		<graphics xref="lay-1.60" type="photo" colors="mixed" width="41mm" height="41mm"/>
+		<graphics xref="lay-1.62" type="photo" colors="mixed" width="41mm" height="41mm"/>
+		<text xref="lay-1.05 lay-1.07 lay-1.09 lay-1.15 lay-1.40 lay-1.61 lay-1.63 lay-1.65" font-family="serif" font-size="4" font-style="italic" font-weight="normal" case="mixed" color="black"/>
+		<text xref="lay-1.10" font-family="sans-serif" font-size="13" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<graphics xref="lay-1.11" type="map" colors="mixed" width="41mm" height="33mm"/>
+		<graphics xref="lay-1.16" type="photo" colors="mixed" width="39mm" height="48mm"/>
+		<graphics xref="lay-1.64" type="photo" colors="mixed" width="83mm" height="38mm"/>
+		<text xref="lay-1.12 lay-1.25 lay-1.30 lay-1.34 lay-1.37 lay-1.67 lay-1.71 lay-1.75" font-family="sans-serif" font-size="5" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<text xref="lay-1.17 lay-1.33 lay-1.44 lay-1.42 lay-1.49 lay-1.55 lay-1.66" font-family="sans-serif" font-size="5" font-style="normal" font-weight="extra-bold" case="mixed" color="black"/>
+		<text xref="lay-1.13 lay-1.14 lay-1.18 lay-1.35 lay-1.38 lay-1.43 lay-1.45 lay-1.50 lay-1.50-m lay-1.52 lay-1.56 lay-1.56-m" font-family="sans-serif" font-size="5" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<text xref="lay-1.19 lay-1.20 lay-1.21 lay-1.22 lay-1.23 lay-1.24 lay-1.26 lay-1.27 lay-1.28 lay-1.30 lay-1.31 lay-1.32 lay-1.36 lay-1.39 lay-1.46 lay-1.47 lay-1.48 lay-1.51 lay-1.53 lay-1.54 lay-1.57 lay-1.58 lay-1.59 lay-1.68 lay-1.69 lay-1.70 lay-1.72 lay-1.73 lay-1.74 lay-1.76 lay-1.77 lay-1.78" font-family="sans-serif" font-size="4" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<graphics xref="lay-1.17.1 lay-1.33.1 lay-1.44.1" type="two-d-element" two-d-element-type="bullet" colors="black" height="4mm" width="4mm"/>
+		<graphics xref="lay-1.24.3 lay-1.48.1 lay-1.70.1 lay-1.55.1 lay-1.74.1 lay-1.78.1" type="two-d-element" two-d-element-type="icon" width="3mm" height="3mm" colors="black"/><!-- access-->
+		<graphics xref="lay-1.32.1 lay-1.74.2 lay-1.78.2" type="two-d-element" two-d-element-type="icon" width="3mm" height="3mm" colors="black"/><!-- smile-->
+		<graphics xref="lay-1.32.2" type="two-d-element" two-d-element-type="icon" width="3mm" height="3mm" colors="black"/><!-- free-->
+		<hi-text xref="lay-1.21.1" context="lay-1.21" font-family="sans-serif" font-size="4" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.23.1" context="lay-1.23" font-family="sans-serif" font-size="4" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.24.1" context="lay-1.24" font-family="sans-serif" font-size="4" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.24.2" context="lay-1.24" font-family="sans-serif" font-size="4" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.25.1" context="lay-1.24" font-family="sans-serif" font-size="5" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.29.1" context="lay-1.29" font-family="sans-serif" font-size="5" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.51.1" context="lay-1.51" font-family="sans-serif" font-size="4" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.52.1" context="lay-1.52" font-family="sans-serif" font-size="5" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.56.1" context="lay-1.56" font-family="sans-serif" font-size="5" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+	</realization>
+</gemLayout>

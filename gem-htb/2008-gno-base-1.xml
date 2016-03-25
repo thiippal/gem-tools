@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemBase>
+	<unit id="u-1.01" alt="Photo: Background 1: Mixer and turntables"/>
+	<unit id="u-1.02" alt="Photo: Background 2: Mixer and turntables"></unit>
+	<unit id="u-1.03" alt="Photo: Bottles"/>
+	<unit id="u-1.03-m" alt="Photo: Pouring drink"/>
+	<unit id="u-1.04" alt="Photo: DJ Anonymous"/>
+	<unit id="u-1.05" alt="Photo: Women with drinks"/>
+	<unit id="u-1.06" alt="Photo: Turntable"/>
+	<unit id="u-1.07" alt="Photo: Jukebox"/>
+	<unit id="u-1.08" alt="Photo: Street"/>
+	<unit id="u-1.09" alt="Photo: Ivana Helsinki 'Teltta'-fabric"/>
+	<unit id="u-1.10" alt="Photo: Mannequin"/>
+	<unit id="u-1.11" alt="Logo: Nordic Oddity"/>
+	<unit id="u-1.12" alt="Logo: 24 hours no-nonsense in groovy Helsinki"/>
+	<unit id="u-1.13" alt="Logo: Helsinki (large)"/>
+	<unit id="u-1.14" alt="Illustration: City of Helsinki coat of arms"/>
+	<unit id="u-1.15">City of Helsinki</unit>
+	<unit id="u-1.16">Tourist &amp; Convention Bureau</unit>
+	<unit id="u-1.17">Pohjoisesplanadi 19, P.O. Box 28, FI-00099 City of Helsinki</unit>
+	<unit id="u-1.18"><unit id="u-1.18.1">Tel. +358 (0)9 3101 3300, Fax, +358 (0)9 3101 3301,</unit><unit id="u-1.18.2">tourist.info@hel.fi</unit></unit>
+	<unit id="u-1.19">Open: 2.5-30.9: Mon-Fri 9am-8pm, Sat-Sun 9am-6pm</unit>
+	<unit id="u-1.20">1.10-1.5: Mon-Fri 9am-8pm, Sat-Sun 10am-4pm</unit>
+	<unit id="u-1.21" alt="Logo: Helsinki (small)"/>
+	<unit id="u-1.22">www.visithelsinki.fi</unit>
+	<unit id="u-2.01" alt="Illustration: Clock 0800-1200hrs"/>
+	<unit id="u-2.02">0800-1200 hrs</unit>
+	<unit id="u-2.03">Mbar.</unit>
+	<unit id="u-2.04">By day a relaxing cafe, by night a place to listen to music by local DJs.</unit>
+	<unit id="u-2.05">Mannerheimintie 22-24, www.mbar.fi</unit>
+	<unit id="u-2.06">Hel-looks.</unit>
+	<unit id="u-2.07">The hel-looks website immortalises Helsinki's unique and colourful street fashion.</unit>
+	<unit id="u-2.08">www.hel-looks.com</unit>
+	<unit id="u-2.09">Restaurant Tori.</unit>
+	<unit id="u-2.10">Enjoy lunch or dinner at this popular local restaurant in the Punavuori district.</unit>
+	<unit id="u-2.11">You can also observe the local life while enjoying a glass of wine or cup of coffee.</unit>
+	<unit id="u-2.12">In summertime you can sit outdoors in the square.</unit>
+	<unit id="u-2.13">Punavuorenkatu 2, www.ravintolatori.fi</unit>
+	<unit id="u-2.14">Lighthouse safari.</unit>
+	<unit id="u-2.15">A maritime safari by inflatable boat to the historic Söderskär lighthouse is a unique nature experience.</unit>
+	<unit id="u-2.16">For groups on request only.</unit>
+	<unit id="u-2.17">www.saaristomaailma.fi</unit>
+	<unit id="u-2.18" alt="Illustration: Clock 1200-1600hrs"></unit>
+	<unit id="u-2.19">1200-1600hrs</unit>
+	<unit id="u-2.20">Eläintarha Skateboard Park, Micropolis</unit>
+	<unit id="u-2.21">The Eläintarha Skateboard Park features several tracks for trick series and a concrete pool.</unit>
+	<unit id="u-2.22">Eläintarha, Nordenskjöldinkatu</unit>
+	<unit id="u-2.23">Töölönlahti Bay.</unit>
+	<unit id="u-2.24">The urban park area in the centre of Helsinki is great for jogging, and in summertime you can hire a rowing boat or a pedal boat at the boat rental located on the shore of the Finlandia Hall or visit the cafe at the Blue Villa, <unit id="u-2.24.1">Linnunlauluntie 11.</unit></unit>
+	<unit id="u-2.25">Kaapelitehdas - Cable Factory.</unit>
+	<unit id="u-2.26">The Cable Factory is Finland's largest cultural centre. "Kaapeli" as it is fondly known hosts exhibitions, fairs, gala evenings, conferences and many other events.</unit>
+	<unit id="u-2.27"><unit id="u-2.27.1">It also houses the Restaurant Hima</unit> <unit id="u-2.27.2"> &amp; Sali, the Theatre Museum and the Finnish Museum of Photography.</unit></unit>
+	<unit id="u-2.28">Tallberginkatu 1, www.kaapelitehdas.fi</unit>
+	<unit id="u-2.29">Pihlajasaari Island</unit>
+	<unit id="u-2.30">Soak up the heat on the smooth granite and take a dip in the refreshing sea.</unit>
+	<unit id="u-2.31">Pihlajasaari Island also has its own nudist beach.</unit>
+	<unit id="u-2.32">Ferries depart regularly in summer from the Merisatama Pier near Kaivopuisto Park and from Ruoholahti.</unit>
+	<unit id="u-2.33">www.pihlajasaari.net</unit>
+	<unit id="u-2.34">Helsinki Ice Park</unit>
+	<unit id="u-2.35">The new Helsinki Ice Park in the Railway Station Square is a popular place to skate in the heart of the city in winter.</unit>
+	<unit id="u-2.36">www.jaapuisto.fi</unit>
+	<unit id="u-2.37">Kasino A4</unit>
+	<unit id="u-2.38">Kasino A4 is a Finnish fashion and lifestyle magazine published in English.</unit>
+	<unit id="u-2.39">It is available from a number of outlets, including the Stockmann Department Store, Academic Bookstore, Design Forum Shop and Museum of Contemporary Art Kiasma.</unit>
+	<unit id="u-2.40">www.wearekasino.com</unit>
+	<unit id="u-2.41" alt="Illustration: Clock 1600-2000hrs"/>
+	<unit id="u-2.42">1600-2000hrs</unit>
+	<unit id="u-2.43">Record shops on Viiskulma</unit>
+	<unit id="u-2.44">Viiskulma, the "Five Corners" in the Punavuori district, has become famous for its record shops.</unit>
+	<unit id="u-2.45">This is a great place to find rare vinyls to bring home with you!</unit>
+	<unit id="u-2.46">You can also pop into the shops and ask for tips about gigs and nightlife.</unit>
+	<unit id="u-2.47"><unit id="u-2.47.1">Digelius,</unit><unit id="u-2.47.2"> Laivurinrinne 2,</unit><unit id="u-2.47.3"> www.digelius.com</unit></unit>
+	<unit id="u-2.48"><unit id="u-2.48.1">Eronen,</unit><unit id="u-2.48.2"> Laivurinrinne 2,</unit><unit id="u-2.48.3"> www.dubjazzsalsa.com</unit></unit>
+	<unit id="u-2.49"><unit id="u-2.49.1">Lifesaver,</unit><unit id="u-2.49.2"> Laivurinkatu 41,</unit><unit id="u-2.49.3"> www.lifesaver.net</unit></unit>
+	<unit id="u-2.50"><unit id="u-2.50.1">Popparienkeli,</unit><unit id="u-2.50.2"> Frederikinkatu 12,</unit><unit id="u-2.50.3"> www.popangel.fi</unit></unit>
+	<unit id="u-2.51">Stupido-Shop.</unit>
+	<unit id="u-2.52">Stop into the Stupido-Shop and ask the friendly staff about new Finnish artists or the city's musical offerings.</unit>
+	<unit id="u-2.53">A record company operates in the same premises.</unit>
+	<unit id="u-2.54">Iso Roobertinkatu 23, www.stupido.fi</unit>
+	<unit id="u-2.55"><unit id="u-2.55.1">Wunder</unit> is a dream for trend-conscious youths.</unit>
+	<unit id="u-2.56">In addition to products by Finnish designers, the boutique sells the newest European brands.</unit>
+	<unit id="u-2.57">You can also find vinyls here.</unit>
+	<unit id="u-2.58">Laivurinrinne 1, www.myspace.com/wundershop</unit>
+	<unit id="u-2.59"><unit id="u-2.59.1">Myymälä2</unit> is a boutique and gallery in one where you can buy creations by young designers and admire the works of young artists.</unit>
+	<unit id="u-2.60">Uudenmaankatu 23, www.myymala2.com</unit>
+	<unit id="u-2.61"><unit id="u-2.61.1">Bisquit Satsh</unit> is another boutique and gallery that promotes hip-hop street culture.</unit>
+	<unit id="u-2.62">Pursimiehenkatu 3, www.bisquitstash.com</unit>
+	<unit id="u-2.63"><unit id="u-2.63.1">Hundpark</unit> is a boutique that was founded by young designers to promote their own creations.</unit>
+	<unit id="u-2.64">You won't find these products back home - at least not yet!</unit>
+	<unit id="u-2.65">Iso Roobertinkatu 17-19, www.hundpark.net</unit>
+	<unit id="u-2.66">Beamhill.</unit>
+	<unit id="u-2.67">Beamhill's two boutiques are situated within seeing distance of each other.</unit>
+	<unit id="u-2.68">The Mikonkatu shop sells "street style", while Yliopistonkatu street sells Finnish and international designer clothing.</unit>
+	<unit id="u-2.69">Yliopistonkatu 7 &amp; Mikonkatu 8</unit>
+	<unit id="u-2.70"><unit id="u-2.70.1">Lux Shop</unit> sells youthful and fresh design from both Finland and abroad.</unit>
+	<unit id="u-2.71">Uudenmaankatu 26, www.lux-shop.fi</unit>
+	<unit id="u-2.72">CTRL &amp; Melodica - Finnish streetwear brands</unit>
+	<unit id="u-2.73">Finnish "streetwear" brands CTRL and Melodica emerged from the skateboarding subculture to become successful consumer brands with street credibility.</unit>
+	<unit id="u-2.74">www.ctrlclothing.com &amp; www.melodicaskateboards.com</unit>
+	<unit id="u-2.75">Arla Sauna.</unit>
+	<unit id="u-2.76">The Arla public sauna was cleaning Helsinki residents all the way back in 1929.</unit>
+	<unit id="u-2.77">The sauna culture has recently been revived at Arla thanks to an enthusiastic landlord.</unit>
+	<unit id="u-2.78">Kaarlenkatu 15, www.arlansauna.net</unit>
+	<unit id="u-2.79" alt="Illustration: Clock 2000-2400hrs"/>
+	<unit id="u-2.80">2000-2400hrs</unit>
+	<unit id="u-2.81"><unit id="u-2.81.1">Erottaja Bar</unit> is a favourite hangout for the city's trendliest people, including musicians, designers, architects - everyone comes here!</unit>
+	<unit id="u-2.82">DJs play the freshest new music at night.</unit>
+	<unit id="u-2.83">Erottajankatu 15-17</unit>
+	<unit id="u-2.84"><unit id="u-2.84.1">Soul Kitchen</unit> offers soul food and drinks in a laid-back atmosphere.</unit>
+	<unit id="u-2.85">In addition to international dishes, the menu also features traditional Finnish foods.</unit>
+	<unit id="u-2.86">Fleminginkatu 26-28, www.soulkitchen.fi</unit>
+	<unit id="u-2.87">Kola.</unit>
+	<unit id="u-2.88">This retro cafe-bar is favoured by young people in the Kallio district.</unit>
+	<unit id="u-2.89">Helsinginkatu 13, www.kola.fi</unit>
+	<unit id="u-2.90">Beetroot.</unit>
+	<unit id="u-2.91">The refreshingly messy Beetroot bar charms visitors with its down to earth appeal.</unit>
+	<unit id="u-2.92">The redbrick walls and old sofas make for a comfortable setting in which to enjoy your drinks.</unit>
+	<unit id="u-2.93">DJs play music at night.</unit>
+	<unit id="u-2.94">Iso Roobertinkatu 10</unit>
+	<unit id="u-2.95">Cafe Bar 9.</unit>
+	<unit id="u-2.96">Relax and enjoy a tasty yet inexpensive lunch or dinner, or just grab a drink and listen to the talk of the town.</unit>
+	<unit id="u-2.97">Uudenmaankatu 9, www.bar9.net</unit>
+	<unit id="u-2.98"><unit id="u-2.98.1">Belly</unit> serves lunch and drinks in the evenings.</unit>
+	<unit id="u-2.99">The popular Club Pharaoh plays ska music, and Radio Helsinki, considered by many to be the city's best radio station, has its club evenings here.</unit>
+	<unit id="u-2.100">Uudenmaankatu 16-20, www.belly.fi</unit>
+	<unit id="u-2.101" alt="Illustration: Clock 0000-0400hrs"></unit>
+	<unit id="u-2.102">0000-0400hrs</unit>
+	<unit id="u-2.103"><unit id="u-2.103.1">DTM</unit> is the biggest gay cafe, disco and nightclub in the entire Nordic region.</unit>
+	<unit id="u-2.104">Iso Roobertinkatu 28, www.dtm.fi</unit>
+	<unit id="u-2.105">Kuudes linja.</unit>
+	<unit id="u-2.106">The "Sixth Line" has rapidly become one of Helsinki's most popular venues for live and club music - highly recommended if you are looking for the newest trends.</unit>
+	<unit id="u-2.107">Hämeentie 13, entrance from the inner yard (Kaikukatu 4), www.kuudeslinja.com</unit>
+	<unit id="u-2.108"><unit id="u-2.108.1">Lost &amp; Found</unit> makes up for its lack of fancy music or decoration with the quality of its staff and customers, making it an extremely popular place for late night drinks every night of the week.</unit>
+	<unit id="u-2.109">Annankatu 6, www.lostandfound.fi</unit>
+	<unit id="u-2.110">Tavastia and Semifinal.</unit>
+	<unit id="u-2.111">Tavastia is a legendary venue for top Finnish and international bands.</unit>
+	<unit id="u-2.112">The smaller Semifinal presents up-and-coming stars.</unit>
+	<unit id="u-2.113">Urho Kekkosen katu 4-6, www.tavastiaklubi.fi</unit>
+	<unit id="u-2.114">We Got Beef.</unit>
+	<unit id="u-2.115">"Beef" is a favourite hangout for young adults in the city centre, attracting extremely trendy partiers especially on weekends.</unit>
+	<unit id="u-2.116">Iso Roobertinkatu 21, www.wegotbeef.fi</unit>
+	<unit id="u-2.117" alt="Illustration: Clock 0400-0800hrs"></unit>
+	<unit id="u-2.118">0400-0800hrs</unit>
+	<unit id="u-2.119">Hotel Helka.</unit>
+	<unit id="u-2.120">Hotel Helka's fresh look was inspired by Alvar Aalto and Finnish nature.</unit>
+	<unit id="u-2.121">Pohjoinen Rautatienkatu 23, www.helka.fi</unit>
+	<unit id="u-2.122">Big Mama's.</unit>
+	<unit id="u-2.123">Mama's is a favourite place for night food, serving pizza and kebabs every day of the week until five in the morning.</unit>
+	<unit id="u-2.124">Iso Roobertinkatu 26</unit>
+	<unit id="u-2.125">Hostel Erottajanpuisto.</unit>
+	<unit id="u-2.126">The excellent location of this hostel will save you both time and money in the early hours of the morning.</unit>
+	<unit id="u-2.127">Uudenmaankatu 9, www.erottajanpuisto.com/eng</unit>
+</gemBase>
+
+

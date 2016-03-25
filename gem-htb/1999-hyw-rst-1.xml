@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemRst>
+	<segmentation>
+		<segment id="s-1.01" xref="u-1.02" alt="Photo: Neorenaissance facade"/>
+		<segment id="s-1.02" xref="u-1.03">Architectural nuggets</segment>
+		<segment id="s-1.03" xref="u-1.04">Helsinki promises an enchanting journey into a world of different architectural styles.</segment>
+		<segment id="s-1.04" xref="u-1.05">The salient feature is the Nordic refinement and preference for plain, simple lines.</segment>
+		<segment id="s-1.05" xref="u-1.06">The changing seasons and light are an organic part of our architecture, as are the sea, the coastline and the numerous parks.</segment>
+		<segment id="s-1.06" xref="u-1.07">The monumental city centre is a unique neoclassical entity.</segment>
+		<segment id="s-1.07" xref="u-1.08">Senate Square is dominated by three buildings designed by J.L. Engel between 1822 and 1852: the Cathedral, the Council of State and the main University building.</segment>
+		<segment id="s-1.08" xref="u-1.09">The University Library beside the Cathedral is another gem by Engel.</segment>
+		<segment id="s-1.09" xref="u-1.10">There are numerous buildings representing neo-styles in the centre of Helsinki, such as the beautifully conserved House of Estates (1890).</segment>
+		<segment id="s-1.10" xref="u-1.11">Among the masterpieces designed by the neorenaissance architect Theodor Höijer is the Museum of Finnish Art (the Ateneum, 1883).</segment>
+		<segment id="s-1.11" xref="u-1.12">Meanwhile the Orthodox Uspensky Cathedral gives Helsinki a distinctly eastern flavour.</segment>
+		<segment id="s-1.12" xref="u-1.13" alt="Photo: Aerial view of Senate Square"/>
+		<segment id="s-1.13" xref="u-1.14">The monumental city centre is a unique neoclassical entity.</segment>
+		<segment id="s-1.14" xref="u-1.15">Imposing late 19th century neorenaissance architecture on the Esplanades.</segment>
+		<segment id="s-1.15" xref="u-1.18">A fine example of the National Romantic style of art nouveau is the National Museum by the famous architectural trio Gesellius/Lindgren/Saarinen (1910).</segment>
+		<segment id="s-1.16" xref="u-1.19">Eliel Saarinen later designed the Railway Station (1914).</segment>
+		<segment id="s-1.17" xref="u-1.20">A walk round the charming districts of Katajanokka and Eira is a must for anyone visiting Helsinki.</segment>
+		<segment id="s-1.18" xref="u-1.21">The main Finnish representatives of 1920s Nordic classicism are the Parliament building (1931) and the wooden-house district of Käpylä epitomising classical Finnish wooden architecture.</segment>
+		<segment id="s-1.19" xref="u-1.22">Functionalism is magnificently embodied in the Olympic Stadium (1940) and the Lasipalatsi building (1935) right in the centre of the town that has just been cleverly restored to its former glory.</segment>
+		<segment id="s-1.20" xref="u-1.23">Modern architecture at its best is to be found in the works by the Finnish architect Alvar Aalto, such as the Academic Bookstore (1969) and Finlandia Hall (1975).</segment>
+		<segment id="s-1.21" xref="u-1.24">Among the modern architectural elite are the Helsinki City Theatre (1967) and Temppeliaukio Church (1969).</segment>
+		<segment id="s-1.22" xref="u-1.25">These are just a few of Helsinki's architectural nuggets.</segment>
+		<segment id="s-1.23" xref="u-1.26">You can find further details of Helsinki architecture, monuments and parks in the 'Helsinki Onfoot' brochure and the 'Helsinki Urban Guide'.</segment>
+		<segment id="s-1.24" xref="u-1.27" alt="Photo: The National Theatre"/>
+		<segment id="s-1.25" xref="u-1.28">National Romantic is the Finnish version of art nouveau.</segment>
+		<segment id="s-1.26" xref="u-1.29">The National Theatre on Railway Square.</segment>
+		<segment id="s-1.27" xref="u-1.30">Interesting districts:</segment>
+		<segment id="s-1.28" xref="u-1.31">Eira</segment>
+		<segment id="s-1.29" xref="u-1.32">trams 3B and 3T</segment>
+		<segment id="s-1.30" xref="u-1.33">Katajanokka</segment>
+		<segment id="s-1.31" xref="u-1.34">trams 2 and 4</segment>
+		<segment id="s-1.32" xref="u-1.35">Käpylä</segment>
+		<segment id="s-1.33" xref="u-1.36">tram 1</segment>
+		<segment id="s-1.34" xref="u-1.37">Senate Square</segment>
+		<segment id="s-1.35" xref="u-1.38">trams 3T, 3B and 4</segment>
+		<segment id="s-1.36" xref="u-1.39">Old and new live side by side in Helsinki; it all adds richness to life.</segment>
+		<segment id="s-1.37" xref="u-1.40" alt="Photo: Kiasma, statue of Mannerheim and the Parliament"/>
+	</segmentation>
+	<rst-structure>
+		<span id="span-1.01" nucleus="s-1.02" satellites="span-1.02 span-1.06 span-1.09 span-1.12 span-1.13-m span-1.17 span-1.19 span-1.20" relation="elaboration"/>
+		<span id="span-1.02" nucleus="s-1.03" satellites="span-1.03" relation="elaboration"/>
+		<span id="span-1.03" nucleus="s-1.04" satellites="s-1.05" relation="evaluation"/>
+		<span id="span-1.06" nucleus="s-1.06" satellites="span-1.07 span-1.08" relation="elaboration"/>
+		<span id="span-1.07" nucleus="s-1.07" satellites="s-1.08" relation="elaboration"/>
+		<multi-span id="span-1.08" nuclei="s-1.12 s-1.13" relation="restatement"/>
+		<span id="span-1.09" nucleus="s-1.09" satellites="span-1.10 span-1.11" relation="elaboration"/>
+		<span id="span-1.10" nucleus="s-1.10" satellites="s-1.11" relation="antithesis"/>
+		<multi-span id="span-1.11" nuclei="s-1.01 s-1.14" relation="restatement"/>
+		<span id="span-1.12" nucleus="s-1.15" satellites="s-1.16 span-1.14" relation="elaboration"/>
+		<span id="span-1.13" nucleus="s-1.15" satellites="s-1.17" relation="motivation"/>
+		<multi-span id="span-1.13-m" nuclei="s-1.18 s-1.19" relation="joint"/>
+		<multi-span id="span-1.14" nuclei="s-1.24 span-1.15" relation="restatement"/>
+		<span id="span-1.15" nucleus="s-1.25" satellites="s-1.26" relation="elaboration"/>
+		<span id="span-1.16" nucleus="s-1.20" satellites="s-1.21" relation="evaluation"/>
+		<span id="span-1.17" nucleus="s-1.20" satellites="span-1.18" relation="elaboration"/>
+		<multi-span id="span-1.18" nuclei="s-1.36 s-1.37" relation="restatement"/>
+		<span id="span-1.19" nucleus="s-1.22" satellites="s-1.23" relation="enablement"/>
+		<multi-span id="span-1.20" nuclei="span-1.21 span-1.22 span-1.23 span-1.24" relation="list"><title xref="s-1.27"/></multi-span>
+		<span id="span-1.21" nucleus="s-1.28" satellites="s-1.29" relation="enablement"/>
+		<span id="span-1.22" nucleus="s-1.30" satellites="s-1.31" relation="enablement"/>
+		<span id="span-1.23" nucleus="s-1.32" satellites="s-1.33" relation="enablement"/>
+		<span id="span-1.24" nucleus="s-1.34" satellites="s-1.35" relation="enablement"/>
+	</rst-structure>
+</gemRst>

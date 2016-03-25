@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemBase>
+	<unit id="u-1.09" alt="Map: Helsinki's Four Tourist Islands"/>
+	<unit id="u-1.10" alt="Line: Upper horizontal line"/>
+	<unit id="u-1.11">TRAFFIC TO THE TOURIST ISLANDS</unit>
+	<unit id="u-1.12" alt="Line: Lower horizontal line"/>
+	<unit id="u-1.13">One can get to the islands of Korkeasaari and Hylkysaari and back from the Market Square and from Hakaniemi.</unit>
+	<unit id="u-1.14">Korkeasaari Island can be reached on foot from the island of Mustikkamaa, which is served by buses 58 and 16.</unit>
+	<unit id="u-1.15">There is a regular boat service between Suomenlinna Island and the Market Square.</unit>
+	<unit id="u-1.16">Pihlajasaari Island has a boat connection from the Merisatama harbour, at the end of Laivurinkatu Street.</unit>
+	<unit id="u-1.17">Bus number 17 goes to Merikatu.</unit>
+	<unit id="u-1.18">The island of Seurasaari can be reached on foot by the footbridge from Meilahti, which can be reached by bus number 24 from Erottaja.</unit>
+	<unit id="u-1.19">In addition, there is a motor-boat service from the Market Square in summer.</unit>
+	<unit id="u-1.20" alt="Photo: Sea"/>
+	<unit id="u-1.21">
+		<unit id="u-1.21.1">-HELSINKI'S-</unit>
+		<unit id="u-1.21.2">FOUR TOURIST ISLANDS</unit>
+	</unit>
+	<unit id="u-1.22" alt="Illustration: Coat of Arms"/>
+	<unit id="u-2.01" alt="Photo: Suomenlinna"/>
+	<unit id="u-2.02" alt="Photo: Seurasaari"/>
+	<unit id="u-2.03" alt="Photo: Pihlajasaari"/>
+	<unit id="u-2.04" alt="Photo: Boat"/>
+	<unit id="u-2.05">HELSINKI FROM THE SEA</unit>
+	<unit id="u-2.06">
+		<unit id="u-2.06.2">H</unit>
+		<unit id="u-2.06.3">elsinki was originally established where the Gulf of Finland and the Vantaanjoki River meet, a point at the bottom of a natural harbour protected by islands.</unit>
+	</unit>
+	<unit id="u-2.07">Later the city was moved further south to the Helsinki peninsula, with the sea and islands surrounding it from three directions.</unit>
+	<unit id="u-2.08">Today around one half of the City of Helsinki is water.</unit>
+	<unit id="u-2.09">The citizens of Helsinki are keen sailors.</unit>
+	<unit id="u-2.10">A dozen or so boat clubs are to be found in the city, where mooring places are also available for visitors' boats.</unit>
+	<unit id="u-2.11">In summer there are regular services on the water around Helsinki with many guided motor-boat tours daily to the nearby islands from the Market Square and Hakaniemi.</unit>
+	<unit id="u-2.12">The islands off Helsinki of greatest interest to the tourist are Korkeasaari Island with its zoo, to the east of Helsinki peninsula, Suomenlinna Island with its historical fortress to the south-east, Pihlajasaari Island to the south-west with its beautiful scenery and fine beaches as well as Seurasaari Island to the west with its unique outdoor museum of old Finnish traditional rural buildings.</unit>
+	<unit id="u-2.13">There are good traffic connections to all four tourist islands by sea or by land.</unit>
+	<unit id="u-2.14" alt="Line: Horizontal line"/>
+	<unit id="u-2.15">THE HELSINKI CITY TOURIST OFFICE</unit>
+	<unit id="u-2.16" alt="Line: Horizontal line"/>
+	<unit id="u-2.17">Address, Pohjoisesplanadi 19, telephone 169 3757 and 174 088.</unit>
+	<unit id="u-2.18">The office is open 16.5.-15.9. on Monday to Friday 8.30 am-6.00 pm and on Saturdays 8.30 am-1.00 pm.</unit>
+	<unit id="u-2.19">Between the dates 16.9.-15.5. the office is open on Mondays 8.30 am-4.30 pm and on Tuesday to Friday 8.30 am-4.00 pm.</unit>
+	<unit id="u-2.20">Information on current events and programme suggestions can be obtained from the Tourist Office, from the daily papers or by telephoning 058/Helsinki Today.</unit>
+	<unit id="u-3.01" alt="Photo: Mountain goat"/>
+	<unit id="u-3.02">Animals from the northern mountains: mountain goat.</unit>
+	<unit id="u-3.03" alt="Photo: Flamingos"/>
+	<unit id="u-3.04">These Chilean flamingos are among the largest birds on the island.</unit>
+	<unit id="u-3.05" alt="Photo: Korkeasaari"/>
+	<unit id="u-3.06">Korkeasaari Island can easily be reached by water.</unit>
+	<unit id="u-3.07" alt="Map: Korkeasaari"/>
+	<unit id="u-3.20" alt="Photo: Owl"/>
+	<unit id="u-3.21" alt="Photo: Lynx"/>
+	<unit id="u-3.22">The great grey owl and lynx are examples of Finnish wildlife.</unit>
+	<unit id="u-3.23" alt="Photo: Bear"/>
+	<unit id="u-3.24">The bears are firm favourites with visitors to Korkeasaari Island.</unit>
+	<unit id="u-3.25">KORKEASAARI ISLAND</unit>
+	<unit id="u-3.26">
+		<unit id="u-3.26.2">T</unit>
+		<unit id="u-3.26.3">he island of Korkeasaari houses Finland's only comprehensive zoo.</unit>
+	</unit>
+	<unit id="u-3.27">It was established back in 1889.</unit>
+	<unit id="u-3.28">Today the zoo has around 60 different species of mammal and about 80 varieties of birdlife from all around the world.</unit>
+	<unit id="u-3.29">Korkeasaari Island is particularly suitable for those animal species from cold regions and mountain areas.</unit>
+	<unit id="u-3.30">Specialities of the zoo include the Amur tiger, wild forest reindeer, red panda, musk ox and mountain goat.</unit>
+	<unit id="u-3.31">However, it is the snow leopard for which Korkeasaari is internationally renowed.</unit>
+	<unit id="u-3.32">The numbered route enables one to easily go around the zoo to see all the animals on the island.</unit>
+	<unit id="u-3.33">The route begins from near the quay at the Valley of Cats.</unit>
+	<unit id="u-3.34">The island has a summer restaurant.</unit>
+	<unit id="u-3.35">The Korkeasaari Zoo is open throughout the year.</unit>
+	<unit id="u-3.36">
+		<unit id="u-3.36.1" alt="Line: Upper horizontal line"/>
+		<unit id="u-3.36.2">INFORMATION:</unit>
+		<unit id="u-3.36.3" alt="Line: Lower horizontal line"/>
+	</unit>
+	<unit id="u-3.37">The Korkeasaari Zoo office/information is open around the year, telephone 170 077, ticket office at Mustikkamaa, telephone 689 266.</unit>
+	<unit id="u-3.38">The Finnish Maritime Museum office is open around the year, telephone 644 306.</unit>
+	<unit id="u-3.39" alt="Line: Vertical line"/>
+	<unit id="u-3.40">
+		<unit id="u-3.40.1" alt="Line: Upper horizontal line"/>
+		<unit id="u-3.40.2">HOW TO GET THERE:</unit>
+		<unit id="u-3.40.3" alt="Line: Lower horizontal line"/>
+	</unit>
+	<unit id="u-3.41">Take a bus to Mustikkamaa (numbers 16 and 58), then across the foot-bridge to Korkeasaari Island.</unit>
+	<unit id="u-3.42">From May to September there is a ferry and motor-boat connection from the Market Square and a motor-boat service from Hakaniemi.</unit>
+	<unit id="u-3.43">At the southern end of Korkeasaari Island is the island of Hylkysaari, where one finds the Finnish Maritime Museum, which is open throughout the year, in summer every day and in winter at weekends.</unit>
+	<unit id="u-4.01" alt="Photo: Path"/>
+	<unit id="u-4.02">Part of the idyll of Pihlajasaari Island is created by shady forest paths...</unit>
+	<unit id="u-4.03" alt="Photo: Beach"/>
+	<unit id="u-4.04">...a fine beach...</unit>
+	<unit id="u-4.05" alt="Photo: Sea"/>
+	<unit id="u-4.06">...and water games.</unit>
+	<unit id="u-4.07" alt="Photo: Rocky beach"/>
+	<unit id="u-4.08" alt="Map: Pihlajasaari"/>
+	<unit id="u-4.14" alt="Photo: Child"/>
+	<unit id="u-4.15">Pihlajasaari is a delightful piece of island nature overlooking the open sea.</unit>
+	<unit id="u-4.16">PIHLAJASAARI ISLAND</unit>
+	<unit id="u-4.17">
+		<unit id="u-4.17.2">T</unit>
+		<unit id="u-4.17.3">he beautiful Pihlajasaari Island park is a popular summer spot, an island particularly popular with families, and lying only a couple of kilometers from the Helsinki harbour.</unit>
+	</unit>
+	<unit id="u-4.18">In fact, the park on Pihlajasaari Island is owned by the City of Helsinki.</unit>
+	<unit id="u-4.19">The park comprises two islands connected by a foot-bridge.</unit>
+	<unit id="u-4.20">The island provides a variety of scenery.</unit>
+	<unit id="u-4.21">The south-west shore has a long, fine sandy beach, while to the south smooth rocks are to be found with superb views over the sea.</unit>
+	<unit id="u-4.22">In the central sections of this park island, conifers and deciduous trees grow in abundance.</unit>
+	<unit id="u-4.23">As one would imagine from the name Pihlajasaari, literally island of rowans, rowan trees grow in profusion.</unit>
+	<unit id="u-4.24">Beautiful paths lead you around the island.</unit>
+	<unit id="u-4.25">On the beach suitable for swimming on the west of Pihlajasaari Island there are changing rooms, kiosks and a summer cafeteria.</unit>
+	<unit id="u-4.26">In the east of the island there are covered cooking areas where one can prepare food, grill sausages or make coffee.</unit>
+	<unit id="u-4.27" alt="Line: Upper horizontal line"/>
+	<unit id="u-4.28">INFORMATION:</unit>
+	<unit id="u-4.29" alt="Line: Lower horizontal line"/>
+	<unit id="u-4.30">In summer there is a superintendent of the Pihlajasaari Island park, telephone 630 065.</unit>
+	<unit id="u-4.31" alt="Line: Vertical line"/>
+	<unit id="u-4.32" alt="Line: Upper horizontal line"/>
+	<unit id="u-4.33">HOW TO GET THERE:</unit>
+	<unit id="u-4.34" alt="Line: Lower horizontal line"/>
+	<unit id="u-4.35">Motor-boat connection from the harbour at the south end of Laivurinkatu Street from May to the end of August.</unit>
+	<unit id="u-4.36">The boat journey lasts around 15 minutes.</unit>
+	<unit id="u-5.01" alt="Photo: Barracks"/>
+	<unit id="u-5.02">Jetty Barracks extends a welcome to visitors.</unit>
+	<unit id="u-5.03" alt="Photo: Sea"/>
+	<unit id="u-5.04">The Baltic stretches out from the southern tip to the island of Suomenlinna.</unit>
+	<unit id="u-5.05">The Doll and Toy Museum is also a delight for adults.</unit>
+	<unit id="u-5.06" alt="Photo: Teddy bears"/>
+	<unit id="u-5.07" alt="Photo: Ships"/>
+	<unit id="u-5.08" alt="Map: Suomenlinna"/>
+	<unit id="u-5.24" alt="Photo: Art"/>
+	<unit id="u-5.25">The latest in Nordic art is on display.</unit>
+	<unit id="u-5.26">History is engraved in the stones of Suomenlinna fortress.</unit>
+	<unit id="u-5.27" alt="Photo: Signs"/>
+	<unit id="u-5.28">SUOMENLINNA FORTRESS</unit>
+	<unit id="u-5.29">
+		<unit id="u-5.29.2">W</unit>
+		<unit id="u-5.29.3">ork on the fortress on the island of Suomenlinna (earlier Viapori) began in 1748 under the direction of Augustin Ehrensvärd.</unit>
+	</unit>
+	<unit id="u-5.30">The fortress was constructed as the principal base for the defence of the eastern parts of Sweden-Finland.</unit>
+	<unit id="u-5.31">In 1808 Viapori fell to the Russians.</unit>
+	<unit id="u-5.32">The fortress was a Russian garrison right up to Finland's independence.</unit>
+	<unit id="u-5.33">The island fortress received its present name in 1918.</unit>
+	<unit id="u-5.34">Suomenlinna is a lively part of the City of Helsinki as well as a recreation and museum area.</unit>
+	<unit id="u-5.35">The adjoining islands of Susisaari and Kustaanmiekka with the fortress, casemates, park and ramparts form a unique spectacle.</unit>
+	<unit id="u-5.36">Kuninkaanportti (the King's Gate) in the Kustaanmiekka sound and the grave of Ehrensvärd in the fortress yard on Susisaari are two of the most important sights of the Suomenlinna Island.</unit>
+	<unit id="u-5.37">The museum area also houses the Ehrensvärd and Armfelt museums.</unit>
+	<unit id="u-5.38">More recent military history is represented by the submarine Vesikko as well as the Coastal Defence Museum.</unit>
+	<unit id="u-5.39">The Nordic Arts Centre is to be found in the old coast barracks on the north side of the Iso Mustasaari Island, while on the east side there is the Doll and Toy Museum.</unit>
+	<unit id="u-5.40">The newest exhibition area of the Arts Centre, Galleria Augusta, is situated in the garrison barracks of the Susisaari Island.</unit>
+	<unit id="u-5.41">On the island of Suomenlinna there is also an open-air summer theatre, a summer restaurant called Walhalla, three cafés and a beach for swimming.</unit>
+	<unit id="u-5.42" alt="Line: Upper horizontal line"/>
+	<unit id="u-5.43">INFORMATION:</unit>
+	<unit id="u-5.44" alt="Line: Lower horizontal line"/>
+	<unit id="u-5.45">During the summer there is an information kiosk on Tykistölahti Bay, telephone 668 341.</unit>
+	<unit id="u-5.46">Guides can be obtained by phoning 668 154.</unit>
+	<unit id="u-5.47">The guided tours start from the information kiosk.</unit>
+	<unit id="u-5.48">Information in winter can be obtained from the Ehrensvärd Society, telephone 668 154.</unit>
+	<unit id="u-5.49" alt="Line: Vertical line"/>
+	<unit id="u-5.50" alt="Line: Upper horizontal line"/>
+	<unit id="u-5.51">HOW TO GET THERE:</unit>
+	<unit id="u-5.52" alt="Line: Lower horizontal line"/>
+	<unit id="u-5.53">By ferry from the Market Square to the Iso Mustasaari Island.</unit>
+	<unit id="u-5.54">In summer there is also a motor-boat connection to the Tykistölahti Bay and the King's Gate.</unit>
+	<unit id="u-6.01" alt="Photo: Farmstead"/>
+	<unit id="u-6.02">The Antti Farmstead from south-west Finland.</unit>
+	<unit id="u-6.03" alt="Photo: Oven"/>
+	<unit id="u-6.04">The oven and cooking-range at the Niemelä Tenant Farm (Karelia).</unit>
+	<unit id="u-6.05" alt="Photo: Squirrel"/>
+	<unit id="u-6.06">Nature is close at hand.</unit>
+	<unit id="u-6.07" alt="Photo: Bridge"/>
+	<unit id="u-6.08" alt="Map: Seurasaari"/>
+	<unit id="u-6.19" alt="Photo: Folk dances"/>
+	<unit id="u-6.20">Folk dances are a living tradition.</unit>
+	<unit id="u-6.21" alt="Photo: Bonfire"/>
+	<unit id="u-6.22">Seurasaari at mid-summer is full of atmosphere.</unit>
+	<unit id="u-6.23">SEURASAARI ISLAND</unit>
+	<unit id="u-6.24">
+		<unit id="u-6.24.2">S</unit>
+		<unit id="u-6.24.3">eurasaari is an attractive island situated to the west of Helsinki, where there is a superb open-air museum containing examples of Finland's unique, historic building tradition.</unit>
+	</unit>
+	<unit id="u-6.25">The Seurasaari open-air museum is part of the Finnish National Museum.</unit>
+	<unit id="u-6.26">It was set up in 1909.</unit>
+	<unit id="u-6.27">Various fine old buildings and their interiors were brought to Seurasaari Island from different parts of Finland - peasant houses, smoke saunas, mills, grain barns, church boats, garden swings, a shop and a 18th century manor house.</unit>
+	<unit id="u-6.28">At the Karuna wooden church, which dates from the 17th century, services and devotions are held in summer.</unit>
+	<unit id="u-6.29">The open-air museum is open from May to the end of September.</unit>
+	<unit id="u-6.30">In summer various presentations of folk dancing, concerts and the traditional midsummer celebrations are held on Seurasaari Island.</unit>
+	<unit id="u-6.31">The island also has a swimming area and summer restaurant.</unit>
+	<unit id="u-6.32">The Seurasaari park area is open throughout the year.</unit>
+	<unit id="u-6.33">The island is a wonderful place to ski in winter and at weekends you can take a sleigh ride on the island.</unit>
+	<unit id="u-6.34" alt="Line: Upper horizontal line"/>
+	<unit id="u-6.35">INFORMATION:</unit>
+	<unit id="u-6.36" alt="Line: Lower horizontal line"/>
+	<unit id="u-6.37">In summer at the information kiosk at the open-air museum, telephone 484 562.</unit>
+	<unit id="u-6.38">Guided tours around museum in summer, telephone 484 712.</unit>
+	<unit id="u-6.39" alt="Line: Vertical line"/>
+	<unit id="u-6.40" alt="Line: Upper horizontal line"/>
+	<unit id="u-6.41">HOW TO GET THERE:</unit>
+	<unit id="u-6.42" alt="Line: Lower horizontal line"/>
+	<unit id="u-6.43">Bus number 24 from Erottaja to Meilahti and then across the foot-bridge to the island.</unit>
+	<unit id="u-6.44">During the summer there is a motor-boat service from the Market Square.</unit>
+</gemBase>

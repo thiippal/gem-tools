@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemNav>
+	<entry id="e-1.01" xref="u-1.32" rst-span="s-1.26"/>
+	<entry id="e-2.01" xref="u-2.02" rst-span="s-2.02"/>
+	<entry id="e-2.02" xref="u-2.14" rst-span="s-2.13"/>
+	<entry id="e-2.03" xref="u-2.30" rst-span="s-2.28"/>
+	<entry id="e-2.04" xref="u-2.46" rst-span="s-2.43"/>
+	<pointer id="p-1.01" type="cross-reference" from="s-1.26" to="e-2.01" range="document-internal">
+		<content xref="u-1.32"/>
+		<address xref="e-2.01" address-precision="unsure"/>
+	</pointer>
+	<pointer id="p-1.02" type="cross-reference" from="s-1.26" to="e-2.04" range="document-internal">
+		<content xref="u-1.32"/>
+		<address xref="e-2.04" address-precision="unsure"/>
+	</pointer>
+	<pointer id="p-1.03" type="cross-reference" from="s-1.26" to="e-2.02" range="document-internal">
+		<content xref="u-1.32"/>
+		<address xref="e-2.02" address-precision="unsure"/>
+	</pointer>
+	<pointer id="p-1.04" type="cross-reference" from="s-1.26" to="e-2.03" range="document-internal">
+		<content xref="u-1.32"/>
+		<address xref="e-2.03" address-precision="unsure"/>
+	</pointer>
+	<pointer id="p-1.05" type="cross-reference" from="s-1.03" to="" range="phone">
+		<content xref="u-1.03"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.01" type="cross-reference" from="s-2.02" to="e-1.01" range="document-internal">
+		<content xref="u-2.02"/>
+		<address xref="e-1.01" address-precision="unsure"/>
+	</pointer>
+	<pointer id="p-2.02" type="cross-reference" from="s-2.13" to="e-1.01" range="document-internal">
+		<content xref="u-2.14"/>
+		<address xref="e-1.01" address-precision="unsure"/>
+	</pointer>
+	<pointer id="p-2.03" type="cross-reference" from="s-2.28" to="e-1.01" range="document-internal">
+		<content xref="u-2.30"/>
+		<address xref="e-1.01" address-precision="unsure"/>
+	</pointer>
+	<pointer id="p-2.04" type="cross-reference" from="s-2.43" to="e-1.01" range="document-internal">
+		<content xref="u-2.46"/>
+		<address xref="e-1.01" address-precision="unsure"/>
+	</pointer>
+</gemNav>

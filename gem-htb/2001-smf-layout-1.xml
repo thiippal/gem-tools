@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemLayout>
+	<segmentation>
+		<layout-unit id="lay-1.01" xref="u-1.01">menlinna suomenlinna suomenlinna suomenlinna suomenlinna suomenlinna suomenlinna suo</layout-unit>
+		<layout-unit id="lay-1.02" xref="u-1.02" alt="Photo: Earthworks"/>
+		<layout-unit id="lay-1.03" xref="u-1.03">Architecture and natural environment: full of nuances</layout-unit>
+		<layout-unit id="lay-1.04" xref="u-1.04 u-1.05 u-1.06 u-1.07 u-1.08">Suomenlinna's delicate natural environment offers an exciting counterpoint to the rugged fortifications.</layout-unit>
+		<layout-unit id="lay-1.05" xref="u-1.09" alt="Photo: View from Jetty barracks"/>
+		<layout-unit id="lay-1.06" xref="u-1.10 u-1.11 u-1.12 u-1.13 u-1.14">For those interested in architecture, Suomenlinna is a unique, historically genuine place to visit.</layout-unit>
+		<layout-unit id="lay-1.07" xref="u-1.15 u-1.16 u-1.17 u-1.18">From the vault of the Jetty Barracks, the view opens on an area of wooden houses, the preserved portion of the Russian era's wooden mercantile district.</layout-unit>
+		<layout-unit id="lay-1.08" xref="u-1.19">www.suomenlinna.fi</layout-unit>
+		<layout-unit id="lay-1.09" xref="u-1.20">8</layout-unit>
+		<layout-unit id="lay-1.10" xref="u-1.21" alt="Photo: Earthworks"/>
+		<layout-unit id="lay-1.11" xref="u-1.22 u-1.23 u-1.24">Suomenlinna's dry dock is Europe's oldest operating dry dock.</layout-unit>
+		<layout-unit id="lay-1.11-m" xref="u-1.25 u-1.26 u-1.27"/>
+		<layout-unit id="lay-1.12" xref="u-1.28" alt="Photo: Suomenlinna church"/>
+		<layout-unit id="lay-1.13" xref="u-1.29" alt="Photo: Children and a cannon"/>
+		<layout-unit id="lay-1.14" xref="u-1.30" alt="Photo: Earthworks"/>
+	</segmentation>
+	<layout-structure>
+		<layout-root id="smf-2001-l-pages-1-2" orientation="landscape">
+			<layout-chunk id="pages-1-2-header" location="multi" area-ref="smf-2001-a-pages-1-2">
+				<layout-leaf xref="lay-1.01" location="row-2" area-ref="smf-2001-a-pages-1-2" halign="top"/>
+				<layout-leaf xref="lay-1.02" location="cell-22" area-ref="smf-2001-a-pages-1-2" halign="bottom"/>
+				<layout-leaf xref="lay-1.10" location="cell-52" area-ref="smf-2001-a-pages-1-2" halign="bottom"/>
+			</layout-chunk>
+			<layout-chunk id="pages-1-2-navigation" location="row-3" area-ref="page-a-1">
+				<layout-leaf xref="lay-1.08" location="row-3" area-ref="page-a-1" valign="center"/>
+				<layout-leaf xref="lay-1.09" location="row-3" area-ref="page-a-1" valign="center"/>
+			</layout-chunk>
+			<layout-chunk id="page-1" location="multi" area-ref="smf-2001-a-pages-1-2">
+				<layout-chunk id="page-1-column-1" location="row-1" area-ref="page-a-1">
+					<layout-leaf xref="lay-1.03" location="row-1" area-ref="page-a-1" valign="center"/>
+					<layout-chunk id="page-1-column-1-text" location="row-1" area-ref="page-a-1">
+						<layout-leaf xref="lay-1.04" location="row-1" area-ref="page-a-1" vindent="4mm" flow-around="lay-1.05"/>
+						<layout-leaf xref="lay-1.06" location="row-1" area-ref="page-a-1" vindent="4mm" flow-around="lay-1.05"/>
+						<layout-leaf xref="lay-1.07" location="row-1" area-ref="page-a-1" vindent="4mm"/>
+					</layout-chunk>			
+				</layout-chunk>
+			</layout-chunk>
+			<layout-chunk id="page-2" location="multi" area-ref="smf-2001-a-pages-1-2">
+				<layout-chunk id="page-2-column-1" location="row-1" area-ref="page-a-2">
+					<layout-leaf xref="lay-1.11" location="row-1" area-ref="page-a-2" vindent="4mm"/>
+					<layout-leaf xref="lay-1.11-m" location="row-1" area-ref="page-a-2" vindent="4mm"/>
+				</layout-chunk>
+				<layout-chunk id="page-2-photography" location="multi" area-ref="smf-2001-a-pages-1-2">
+					<layout-leaf xref="lay-1.05" location="col-3" area-ref="smf-2001-a-pages-1-2" halign="center" valign="right"/>
+					<layout-leaf xref="lay-1.12" location="row-2" valign="left" halign="top" area-ref="page-a-2"/>
+					<layout-leaf xref="lay-1.13" location="col-2" area-ref="smf-2001-a-pages-1-2" halign="center" valign="right"/>
+					<layout-leaf xref="lay-1.14" location="row-3" area-ref="page-a-2" halign="bottom" valign="center"/>
+				</layout-chunk>
+			</layout-chunk>
+		</layout-root>
+	</layout-structure>
+	<area-model>
+		<area-root id="smf-2001-a-pages-1-2" cols="4" rows="6" hspacing="8 36 8 8 36 4" vspacing="3 6 4 87" width="192mm" height="207mm">
+			<sub-area id="page-a-1" location="cell-24" cols="1" rows="3" hspacing="100" vspacing="93 2 5" width="70mm" height="182mm"/>
+			<sub-area id="page-a-2" location="cell-54" cols="1" rows="3" hspacing="100" vspacing="30 14 56" width="70mm" height="182mm"/>
+		</area-root>
+	</area-model>
+	<realization>
+		<text xref="lay-1.01" font-family="sans-serif" font-size="7" font-style="normal" font-weight="normal" case="smalls" color="grey"/>
+		<graphics xref="lay-1.02" type="photo" colors="mixed" width="21mm" height="17mm"/>
+		<graphics xref="lay-1.10" type="photo" colors="mixed" width="21mm" height="17mm"/>
+		<text xref="lay-1.03" font-family="sans-serif" font-size="11" font-style="normal" font-weight="extra-bold" case="mixed" color="black"/>
+		<text xref="lay-1.04 lay-1.06 lay-1.07 lay-1.11 lay-1.11-m" font-family="sans-serif" font-size="5" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<text xref="lay-1.08" font-family="sans-serif" font-size="5" font-style="normal" font-weight="normal" case="smalls" color="grey"/>
+		<text xref="lay-1.09" font-family="sans-serif" font-size="8" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<graphics xref="lay-1.05" type="photo" colors="mixed" width="35mm" height="35mm"/>
+		<graphics xref="lay-1.12" type="photo" colors="mixed" width="35mm" height="35mm"/>
+		<graphics xref="lay-1.13" type="photo" colors="mixed" width="35mm" height="35mm"/>
+		<graphics xref="lay-1.14" type="photo" colors="mixed" width="93mm" height="100mm"/>
+	</realization>
+</gemLayout>

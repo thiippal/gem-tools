@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemRst>
+	<segmentation>
+		<segment id="s-3.01" xref="u-3.01">By motor-boat</segment>
+		<segment id="s-3.02" xref="u-3.02">Departure: Market Square. Tel. 652 088.</segment>
+		<segment id="s-3.03" xref="u-3.03">Vessels: Standard, Standard 2, Katarina, Natalia.</segment>
+		<segment id="s-3.04" xref="u-3.04">Daily tours, 1.6.---31.8.</segment>
+		<segment id="s-3.05" xref="u-3.05">Departure at 11 a.m., duration 1 hour 45 minutes.</segment>
+		<segment id="s-3.06" xref="u-3.06">Helsinki archipelago.</segment>
+		<segment id="s-3.07" xref="u-3.07">Adults 18 mk.</segment>
+		<segment id="s-3.08" xref="u-3.08">Departure at 12.30 and at 3 p.m., duration 2 hours.</segment>
+		<segment id="s-3.09" xref="u-3.09">Helsinki archipelago.</segment>
+		<segment id="s-3.10" xref="u-3.10">Adults 18 mk.</segment>
+		<segment id="s-3.11" xref="u-3.11">These tours include a stop-over at Suomenlinna Island.</segment>
+		<segment id="s-3.12" xref="u-3.12">Tours with lunch included, 1.6.---31.8.</segment>
+		<segment id="s-3.13" xref="u-3.13">Monday to Friday at 11 a.m., duration 3 1/2 hours.</segment>
+		<segment id="s-3.14" xref="u-3.14">Adults 53 mk.</segment>
+		<segment id="s-3.15" xref="u-3.15">Lunch at Restaurant Kulosaaren Kasino.</segment>
+		<segment id="s-3.16" xref="u-3.16">Daily at 12.30, duration 4 1/2 hours.</segment>
+		<segment id="s-3.16-m" xref="u-3.16-m">Adults 45 mk.</segment>
+		<segment id="s-3.17" xref="u-3.17">Lunch at Seurasaari Restaurant.</segment>
+		<segment id="s-3.18" xref="u-3.18">Outer archipelago, 14.5.---11.9.</segment>
+		<segment id="s-3.19" xref="u-3.19">Saturdays and Sundays at 2 p.m., duration 2 hours.</segment>
+		<segment id="s-3.20" xref="u-3.20">Adults 18 mk.</segment>
+		<segment id="s-3.21" xref="u-3.21">This tour is not escorted.</segment>
+		<segment id="s-3.22" xref="u-3.22">Evening cruise, 28.6.---30.7.</segment>
+		<segment id="s-3.23" xref="u-3.23">Tuesdays, Thursdays and Saturdays at 6 p.m., duration 2 1/2 hours.</segment>
+		<segment id="s-3.24" xref="u-3.24">Adults 12 mk.</segment>
+		<segment id="s-3.25" xref="u-3.25">Stop-over in Seurasaari Open Air Museum and at Suomenlinna Island.</segment>
+		<!-- CONTINUE HERE -->
+		<segment id="s-3.26" xref="u-3.26">Departure: North Harbour. Tel. 635 574.</segment>
+		<segment id="s-3.27" xref="u-3.27">Vessels: Alexandra, Pasi.</segment>
+		<segment id="s-3.28" xref="u-3.28">4.6.-31.8.</segment>
+		<segment id="s-3.29" xref="u-3.29">Daily at 10.30 a.m.</segment>
+		<segment id="s-3.30" xref="u-3.30">Duration 1 1/2 hours.</segment>
+		<segment id="s-3.31" xref="u-3.31">Helsinki archipelago.</segment>
+		<segment id="s-3.32" xref="u-3.32">Adults 12 mk.</segment>
+		<segment id="s-3.33" xref="u-3.33">It is possible to stay on Korkeasaari.</segment>
+		<segment id="s-3.34" xref="u-3.34">Daily at 2 p.m.</segment>
+		<segment id="s-3.35" xref="u-3.35">Duration 2 hours.</segment>
+		<segment id="s-3.36" xref="u-3.36">Eastern archipelago.</segment>
+		<segment id="s-3.37" xref="u-3.37">Adults 15 mk.</segment>
+		<segment id="s-3.38" xref="u-3.38">Daily at 6 p.m.</segment>
+		<segment id="s-3.39" xref="u-3.39">Duration 2 hours.</segment>
+		<segment id="s-3.40" xref="u-3.40">Helsinki archipelago.</segment>
+		<segment id="s-3.41" xref="u-3.41">Adults 15 mk.</segment>
+		<segment id="s-3.42" xref="u-3.41-m-1">Departure: Hakaniemenranta. Tel.6982 517.</segment>
+		<segment id="s-3.43" xref="u-3.41-m-2">Vessel: Tuulispää</segment>
+		<segment id="s-3.44" xref="u-3.41-m-3">25.6.---14.8.</segment>
+		<segment id="s-3.45" xref="u-3.41-m-4">Daily at 11 a.m. and at 2 p.m.</segment>
+		<segment id="s-3.46" xref="u-3.41-m-5">Duration 2 hours.</segment>
+		<segment id="s-3.47" xref="u-3.41-m-6">Helsinki archipelago.</segment>
+		<segment id="s-3.48" xref="u-3.41-m-7">Adults 15 mk.</segment>
+		<segment id="s-3.49" xref="u-3.42">Helsinki --- Haikko --- Porvoo</segment>
+		<segment id="s-3.50" xref="u-3.43">1.6.---31.8.</segment>
+		<segment id="s-3.51" xref="u-3.44">Wednesdays, Fridays, Saturdays and Sundays.</segment>
+		<segment id="s-3.52" xref="u-3.45">Departure: Market Square.</segment>
+		<segment id="s-3.53" xref="u-3.46">at</segment>
+		<segment id="s-3.54" xref="u-3.47">10 a.m.</segment>
+		<segment id="s-3.55" xref="u-3.48">12.45 p.m.</segment>
+		<segment id="s-3.56" xref="u-3.49">1 p.m.</segment>
+		<segment id="s-3.57" xref="u-3.50" alt="Line: Arrow down"/>
+		<segment id="s-3.58" xref="u-3.51">Helsinki</segment>
+		<segment id="s-3.59" xref="u-3.52">Haikko</segment>
+		<segment id="s-3.60" xref="u-3.53">Porvoo</segment>
+		<segment id="s-3.61" xref="u-3.54" alt="Line: Arrow up"/>
+		<segment id="s-3.62" xref="u-3.55">at</segment>
+		<segment id="s-3.63" xref="u-3.56">6.30 p.m.</segment>
+		<segment id="s-3.64" xref="u-3.57">3.30 p.m.</segment>
+		<segment id="s-3.65" xref="u-3.58">3 p.m.</segment>
+		<segment id="s-3.66" xref="u-3.59">Return ticket: adults 38 mk, children 19 mk.</segment>
+		<segment id="s-3.67" xref="u-3.60">One way: adults 28 mk, children 14 mk.</segment>
+		<segment id="s-3.68" xref="u-3.61">Additional information: Vuoristo-yhtiöt Oy, tel. 13 881.</segment>
+		<segment id="s-3.69" xref="u-3.62">TOURIST TICKET</segment>
+		<segment id="s-3.70" xref="u-3.64">Tourist tickets are sold by the City Transport offices, conductresses of all tram-lines and the City Tourist Office.</segment>
+		<segment id="s-3.71" xref="u-3.65">The ticket entitles you to unlimited travel on all City Transport lines and is valid for 24 hours from thetime of stamping the ticket.</segment>
+		<segment id="s-3.72" xref="u-3.66">Price of the ticket: 10 mk.</segment>
+		<segment id="s-3.73" xref="u-3.68">TRAVEL AGENCIES</segment>
+		<segment id="s-3.74" xref="u-3.70">Ageba, Kauppiaankatu 8---10, tel. 661 123.</segment>
+		<segment id="s-3.75" xref="u-3.71">South Harbour, Passenger Pavilion, tel. 669 193.</segment>
+		<segment id="s-3.76" xref="u-3.72">AL Travel Bureau, Fabianinkatu 14, tel. 650 022.</segment>
+		<segment id="s-3.77" xref="u-3.73">Area, Pohjoisesplanadi 2, tel 661 491.</segment>
+		<segment id="s-3.78" xref="u-3.74">Area City, Kaivokatu 6, tel. 661 474.</segment>
+		<segment id="s-3.79" xref="u-3.75">Area Orfeus, Yrjönkatu 30, tel 643 316.</segment>
+		<segment id="s-3.80" xref="u-3.76">Area Marski, Mannerheimintie 10, tel. 661 491.</segment>
+		<segment id="s-3.81" xref="u-3.78">Area Arkadia, Runeberginkatu 23, tel. 718 133.</segment>
+		<segment id="s-3.82" xref="u-3.79">Area Hakaniemi, Siltasaarenkatu 18, tel. 718 133.</segment>
+		<segment id="s-3.83" xref="u-3.80">Finland Travel Bureau, Kaivokatu 10 A, tel. 170 515.</segment>
+		<segment id="s-3.84" xref="u-3.81">City, Keskuskatu 1, tel. 170 515.</segment>
+		<segment id="s-3.85" xref="u-3.82">Espa, Pohjoisesplanadi 25, tel. 170 515.</segment>
+		<segment id="s-3.86" xref="u-3.83">Opastinsilta 8 E, tel. 170 515.</segment>
+		<segment id="s-3.87" xref="u-3.84">Railway Station, tel. 170 515.</segment>
+		<segment id="s-3.88" xref="u-3.85">Stockmann Department Store, tel. 170 515.</segment>
+		<segment id="s-3.89" xref="u-3.86">Finnish Travel Association, Kalevankatu 1, tel 643 026.</segment>
+		<segment id="s-3.90" xref="u-3.87">Suvilahdenkatu 6, tel. 738 110.</segment>
+		<segment id="s-3.91" xref="u-3.88">Finnsov Tours, Bulevardi 2, tel. 642 722.</segment>
+		<segment id="s-3.92" xref="u-3.89">Finntourist, Iso Roobertinkatu 26, tel. 650 488.</segment>
+		<segment id="s-3.93" xref="u-3.90">Globaltravel, Yrjönkatu 8 A, tel. 171 202.</segment>
+		<segment id="s-3.94" xref="u-3.91">Kaleva, Rauhankatu 13, tel. 13 691.</segment>
+		<segment id="s-3.95" xref="u-3.92">Eteläranta 10, tel. 13 691.</segment>
+		<segment id="s-3.96" xref="u-3.93">Kluuvikatu 4, tel. 13 691.</segment>
+		<segment id="s-3.97" xref="u-3.94">Lauttasaarentie 28, tel. 13 691.</segment>
+		<segment id="s-3.98" xref="u-3.95">Mannerheimintie 5, tel. 13 691.</segment>
+		<segment id="s-3.99" xref="u-3.96">Opastinsilta 8 B, tel. 13 691.</segment>
+		<segment id="s-3.100" xref="u-3.97">LL Tourist Service, Uudenmaankatu 40, tel. 175 322.</segment>
+		<segment id="s-3.101" xref="u-3.98">Lomamatka, Simonkatu 8, tel. 649 311.</segment>
+		<segment id="s-3.102" xref="u-3.99">Matkarengas, Paasivuorenkatu 5, tel. 716 922.</segment>
+		<segment id="s-3.103" xref="u-3.100">Hakaniementori 1, tel. 716 922.</segment>
+		<segment id="s-3.104" xref="u-3.101">Travek, Eteläranta 16, tel. 171 900.</segment>
+		<segment id="s-3.105" xref="u-3.102">AIR TRAFFIC</segment>
+		<segment id="s-3.106" xref="u-3.104">Finnair, Air Terminal, Töölönkatu 21, tel. 410 411.</segment>
+		<segment id="s-3.107" xref="u-3.105">Head Office, Mannerheimintie 102, tel. 410 411.</segment>
+		<segment id="s-3.108" xref="u-3.106">Aleksanterinkatu 17, tel. 410 411.</segment>
+		<segment id="s-3.109" xref="u-3.107">Aeroflot, Mannerheimintie 5, tel. 659 655.</segment>
+		<segment id="s-3.110" xref="u-3.108">Air France, Pohjoisesplanadi 27 C, tel. 625 862.</segment>
+		<segment id="s-3.111" xref="u-3.109">Austrian Airlines, Yrjönkatu 9, tel. 643 001.</segment>
+		<segment id="s-3.112" xref="u-3.110">BEA British Europen Airways, Keskuskatu 5, tel. 657 986 and 650 677 (booking).</segment>
+		<segment id="s-3.113" xref="u-3.111">CSA Czechoslovak Airlines, Eerikinkatu 14, tel. 647 786.</segment>
+		<segment id="s-3.114" xref="u-3.112">Interflug, Yrjönkatu 31, tel. 603 561.</segment>
+		<segment id="s-3.115" xref="u-3.113">Kar-Air, Lönnrotinkatu 3, tel. 644 416.</segment>
+		<segment id="s-3.116" xref="u-3.114">Loftleidir, Töölöntorinkatu 5, tel. 444 033.</segment>
+		<segment id="s-3.117" xref="u-3.115">LOT Polish Airlines, Erottajankatu 19, tel. 640 613.</segment>
+		<segment id="s-3.118" xref="u-3.116">Lufthansa, Keskuskatu 5, tel. 175 133.</segment>
+		<segment id="s-3.119" xref="u-3.117">Malev, Frederikinkatu 43, tel. 601 220.</segment>
+		<segment id="s-3.120" xref="u-3.118">PAN AM Pan American World Airways, Mannerheimintie 40, tel. 496 500.</segment>
+		<segment id="s-3.121" xref="u-3.119">SAS Scandinavian Airlines System, Pohjoisesplanadi 27, tel. 13 443 and 175 611 (booking).</segment>
+		<segment id="s-3.122" xref="u-3.120">Swissair, Eteläesplanadi 22 B, tel. 647 335.</segment>
+		<segment id="s-3.123" xref="u-3.121">BOAT TRAFFIC</segment>
+		<segment id="s-3.124" xref="u-3.123">Effoa, Eteläranta 8, tel. 1718.</segment>
+		<segment id="s-3.125" xref="u-3.124">Finnlines, City-Passage, tel. 649 811 and 174 744 (booking).</segment>
+		<segment id="s-3.126" xref="u-3.125">Finnshipping, Pohjoisesplanadi 25, tel. 661 081.</segment>
+		<segment id="s-3.127" xref="u-3.126">Nurminen, Snellmaninkatu 13, tel. 16 251.</segment>
+		<segment id="s-3.128" xref="u-3.127">Silja Line,Eteläesplanadi 14, tel. 13 133.</segment>
+		<segment id="s-3.129" xref="u-3.128">Vikinglinja, Mannerheimintie 14, tel. 607 088 and 607 711 (booking).</segment>
+	</segmentation>
+	<rst-structure>
+		<span id="span-3.02" nucleus="s-3.01" satellites="span-3.03 span-3.06 span-3.09 span-3.12 span-3.17 span-3.20" relation="enablement"/>
+				
+		<span id="span-3.03" nucleus="s-3.02" satellites="s-3.03 span-3.04 span-3.05" relation="enablement"/>
+		<multi-span id="span-3.04" nuclei="s-3.04 s-3.05 s-3.06 s-3.07" relation="joint"/>
+		<multi-span id="span-3.05" nuclei="s-3.08 s-3.09 s-3.10" relation="joint"/>
+		<span id="span-3.02-5" nucleus="s-3.03" satellites="s-3.11" relation="elaboration"/>
+		
+		<span id="span-3.06" nucleus="s-3.12" satellites="span-3.07 span-3.08" relation="enablement"/>
+		<multi-span id="span-3.07" nuclei="s-3.13 s-3.14 s-3.15" relation="joint"/>
+		<multi-span id="span-3.08" nuclei="s-3.16 s-3.16-m s-3.17" relation="joint"/>
+		
+		<span id="span-3.09" nucleus="s-3.18" satellites="span-3.10 span-3.11" relation="enablement"/>
+		<multi-span id="span-3.10" nuclei="s-3.19 s-3.20 s-3.21" relation="joint"/>
+		<multi-span id="span-3.11" nuclei="s-3.22 s-3.23 s-3.24 s-3.25" relation="joint"/>
+		
+		<multi-span id="span-3.12" nuclei="s-3.26 s-3.27 s-3.28" relation="joint"/>
+		<span id="span-3.13" nucleus="s-3.12" satellites="span-3.14 span-3.15 span-3.16" relation="enablement"/>
+		<multi-span id="span-3.14" nuclei="s-3.29 s-3.30 s-3.31 s-3.32 s-3.33" relation="joint"/>
+		<multi-span id="span-3.15" nuclei="s-3.34 s-3.35 s-3.36 s-3.37" relation="joint"/>
+		<multi-span id="span-3.16" nuclei="s-3.38 s-3.39 s-3.40 s-3.41" relation="joint"/>
+		
+		<multi-span id="span-3.17" nuclei="s-3.42 s-3.43" relation="joint"/>
+		<span id="span-3.18" nucleus="s-3.17" satellites="span-3.19" relation="enablement"/>
+		<multi-span id="span-3.19" nuclei="s-3.44 s-3.45 s-3.46 s-3.47 s-3.48" relation="joint"/>
+		
+		<span id="span-3.20" nucleus="s-3.49" satellites="span-3.21 span-3.22 span-3.26" relation="elaboration"/>
+		<multi-span id="span-3.21" nuclei="s-3.50 s-3.51 s-3.52" relation="joint"/>
+		<multi-span id="span-3.22" nuclei="span-3.23 s-3.57 span-3.24 s-3.61 span-3.25" relation="joint"/>
+		<multi-span id="span-3.23" nuclei="s-3.53 s-3.54 s-3.55 s-3.56" relation="joint"/>
+		<multi-span id="span-3.24" nuclei="s-3.58 s-3.59 s-3.60" relation="joint"/>
+		<multi-span id="span-3.25" nuclei="s-3.62 s-3.63 s-3.64 s-3.65" relation="joint"/>
+		<multi-span id="span-3.26" nuclei="s-3.66 s-3.67" relation="joint"/>
+		<span id="span-3.27" nucleus="s-3.49" satellites="s-3.68" relation="enablement"/>
+		
+		<span id="span-3.28" nucleus="s-3.70" satellites="span-3.29" relation="enablement"><title xref="s-3.69"></title></span>
+		<span id="span-3.29" nucleus="s-3.71" satellites="s-3.72" relation="elaboration"/>
+	</rst-structure>
+	<rst-structure>
+		<multi-span id="span-3.30" nuclei="span-3.31 s-3.76 span-3.32 span-3.33 span-3.34 s-3.91 s-3.92 s-3.93 span-3.35 s-3.100 s-3.101 span-3.36 s-3.104" relation="list"><title xref="s-3.73"></title></multi-span>
+		<multi-span id="span-3.31" nuclei="s-3.74 s-3.75" relation="list"/>
+		<multi-span id="span-3.32" nuclei="s-3.77 s-3.78 s-3.79 s-3.80 s-3.81 s-3.82" relation="list"/>
+		<multi-span id="span-3.33" nuclei="s-3.82 s-3.83 s-3.84 s-3.85 s-3.86 s-3.87 s-3.88" relation="list"/>
+		<multi-span id="span-3.34" nuclei="s-3.89 s-3.90" relation="list"/>
+		<multi-span id="span-3.35" nuclei="s-3.94 s-3.95 s-3.96 s-3.97 s-3.98 s-3.99" relation="list"/>
+		<multi-span id="span-3.36" nuclei="s-3.102 s-3.103" relation="list"/>
+	</rst-structure>
+	<rst-structure>
+		<multi-span id="span-3.37" nuclei="span-3.38 s-3.109 s-3.110 s-3.111 s-3.112 s-3.113 s-3.114 s-3.115 s-3.116 s-3.117 s-3.118 s-3.119 s-3.120 s-3.121 s-3.122" relation="list"><title xref="s-3.105"></title></multi-span>
+		<multi-span id="span-3.38" nuclei="s-3.106 s-3.107 s-3.108" relation="list"/>
+	</rst-structure>
+	<rst-structure>
+		<multi-span id="span-3.39" nuclei="s-3.124 s-3.125 s-3.126 s-3.127 s-3.128 s-3.129" relation="list"><title xref="s-3.123"></title></multi-span>
+	</rst-structure>
+</gemRst>

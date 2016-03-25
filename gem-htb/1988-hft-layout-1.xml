@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemLayout>
+	<segmentation>
+		<layout-unit id="lay-1.09" xref="u-1.09" alt="Map"/>
+		<layout-unit id="line-1.10" xref="u-1.10" alt="Upper horizontal line"/>
+		<layout-unit id="lay-1.11" xref="u-1.11">TRAFFIC TO THE TOURIST ISLANDS</layout-unit>
+		<layout-unit id="line-1.12" xref="u-1.12" alt="Lower horizontal line"/>
+		<layout-unit id="lay-1.13" xref="u-1.13 u-1.14"/>
+		<layout-unit id="lay-1.13-m" xref="u-1.15"/>		
+		<layout-unit id="lay-1.13-m2" xref="u-1.16 u-1.17"/>
+		<layout-unit id="lay-1.13-m3" xref="u-1.18 u-1.19"/>
+		<layout-unit id="lay-1.14" xref="u-1.20" alt="Photo: Sea"/>
+		<layout-unit id="lay-1.15" xref="u-1.21">
+			<layout-unit id="lay-1.15.1" xref="u-1.21.1">-HELSINKI'S-</layout-unit>
+			<layout-unit id="lay-1.15.2" xref="u-1.21.2">FOUR TOURIST ISLANDS</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.16" xref="u-1.22" alt="Illustration: Coat of Arms"/>
+
+		<layout-unit id="lay-2.01" xref="u-2.01" alt="Photo: Suomenlinna"/>
+		<layout-unit id="lay-2.02" xref="u-2.02" alt="Photo: Seurasaari"/>
+		<layout-unit id="lay-2.03" xref="u-2.03" alt="Photo: Pihlajasaari"/>
+		<layout-unit id="lay-2.04" xref="u-2.04" alt="Photo: Boat"/>
+		<layout-unit id="lay-2.05" xref="u-2.05">HELSINKI FROM THE SEA</layout-unit>
+		<layout-unit id="lay-2.06" xref="u-2.06">
+			<layout-unit id="lay-2.06.2" xref="u-2.06.2">H</layout-unit>
+			<layout-unit id="lay-2.06.3" xref="u-2.06.3 u-2.07">elsinki was originally established where the Gulf of Finland and the Vantaanjoki River meet, a point at the bottom of a natural harbour protected by islands.</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.07" xref="u-2.08 u-2.09 u-2.10"/>
+		<layout-unit id="lay-2.07-m" xref="u-2.11 u-2.12"/>	
+		<layout-unit id="lay-2.07-m2" xref="u-2.13"/>	
+		<layout-unit id="line-2.08" xref="u-2.14" alt="Horizontal line"/>
+		<layout-unit id="lay-2.09" xref="u-2.15">THE HELSINKI CITY TOURIST OFFICE</layout-unit>
+		<layout-unit id="line-2.10" xref="u-2.16" alt="Horizontal line"/>
+		<layout-unit id="lay-2.11" xref="u-2.17 u-2.18 u-2.19 u-2.20"/>
+
+		<layout-unit id="lay-3.01" xref="u-3.01 u-3.02">
+			<layout-unit id="lay-3.01.1" xref="u-3.01" alt="Photo: Mountain goat"/>
+			<layout-unit id="lay-3.01.2" xref="u-3.02">Animals from the northern mountains: mountain goat.</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-3.02" xref="u-3.03 u-3.04">
+			<layout-unit id="lay-3.02.1" xref="u-3.03" alt="Photo: Flamingos"/>
+			<layout-unit id="lay-3.02.2" xref="u-3.04">These Chilean flamingos are among the largest birds on the island.</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-3.03" xref="u-3.05 u-3.06">
+			<layout-unit id="lay-3.03.1" xref="u-3.05" alt="Photo: Korkeasaari"/>
+			<layout-unit id="lay-3.03.2" xref="u-3.06">Korkeasaari Island can easily be reached by water.</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-3.04" xref="u-3.07"/>
+		<layout-unit id="lay-3.05" xref="u-3.20 u-3.21 u-3.22">
+			<layout-unit id="lay-3.05.1" xref="u-3.20" alt="Photo: Owl"/>
+			<layout-unit id="lay-3.05.2" xref="u-3.21" alt="Photo: Lynx"/>
+			<layout-unit id="lay-3.05.3" xref="u-3.22">The great grey owl and lynx are examples of Finnish wildlife.</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-3.06" xref="u-3.23 u-3.24">
+			<layout-unit id="lay-3.06.1" xref="u-3.23" alt="Photo: Bear"/>
+			<layout-unit id="lay-3.06.2" xref="u-3.24">The bears are firm favourites with visitors to Korkeasaari Island.</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-3.07" xref="u-3.25"/>
+		<layout-unit id="lay-3.08" xref="u-3.26 u-3.27 u-3.28 u-3.29 u-3.30 u-3.31 u-3.32 u-3.33 u-3.34 u-3.35">
+			<layout-unit id="lay-3.08.2" xref="u-3.26.2">T</layout-unit>
+			<layout-unit id="lay-3.08.3" xref="u-3.26.3 u-3.27 u-3.28 u-3.29 u-3.30 u-3.31"/>
+			<layout-unit id="lay-3.08.4" xref="u-3.32 u-3.33"/>
+			<layout-unit id="lay-3.08.5" xref="u-3.34 u-3.35"/>
+		</layout-unit>
+		<layout-unit id="lay-3.09" xref="u-3.36 u-3.37 u-3.38">
+			<layout-unit id="line-3.09.1" xref="u-3.36.1" alt="Line: Horizontal line"/>
+			<layout-unit id="lay-3.09.2" xref="u-3.36.2"/>
+			<layout-unit id="line-3.09.3" xref="u-3.36.3" alt="Line: Horizontal line"/>
+			<layout-unit id="lay-3.09.4" xref="u-3.37"/>
+			<layout-unit id="lay-3.09.5" xref="u-3.38"/>
+		</layout-unit>
+		<layout-unit id="line-3.10" xref="u-3.39"/>
+		<layout-unit id="lay-3.11" xref="u-3.40 u-3.41 u-3.42 u-3.43">
+			<layout-unit id="line-3.11.1" xref="u-3.40.1" alt="Line: Horizontal line"/>
+			<layout-unit id="lay-3.11.2" xref="u-3.40.2"/>
+			<layout-unit id="line-3.11.3" xref="u-3.40.3" alt="Line: Horizontal line"/>
+			<layout-unit id="lay-3.11.4" xref="u-3.41 u-3.42 u-3.43"/>
+		</layout-unit>
+
+		<layout-unit id="lay-4.01" xref="u-4.01 u-4.02 u-4.03 u-4.04 u-4.05 u-4.06">
+			<layout-unit id="lay-4.01.1" xref="u-4.01" alt="Photo: Path"/>
+			<layout-unit id="lay-4.01.2" xref="u-4.02">Part of the idyll of Pihlajasaari Island is created by shady forest paths...</layout-unit>
+			<layout-unit id="lay-4.01.3" xref="u-4.03" alt="Photo: Beach"/>
+			<layout-unit id="lay-4.01.4" xref="u-4.04">...a fine beach...</layout-unit>
+			<layout-unit id="lay-4.01.5" xref="u-4.05" alt="Photo: Sea"/>
+			<layout-unit id="lay-4.01.6" xref="u-4.06">...and water games.</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-4.02" xref="u-4.07" alt="Photo: Rocky beach"/>
+		<layout-unit id="lay-4.03" xref="u-4.08" alt="Map"/>
+		<layout-unit id="lay-4.04" xref="u-4.14 u-4.15">
+			<layout-unit id="lay-4.04.1" xref="u-4.14" alt="Photo: Child"/>
+			<layout-unit id="lay-4.04.2" xref="u-4.15">Pihlajasaari is a delightful piece of island nature overlooking the open sea.</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-4.05" xref="u-4.16"/>
+		<layout-unit id="lay-4.06" xref="u-4.17 u-4.18 u-4.19 u-4.20 u-4.21 u-4.22 u-4.23 u-4.24 u-4.25 u-4.26">
+			<layout-unit id="lay-4.06.2" xref="u-4.17.2"/>
+			<layout-unit id="lay-4.06.3" xref="u-4.17.3 u-4.18"/> 
+			<layout-unit id="lay-4.06.4" xref="u-4.19 u-4.20 u-4.21 u-4.22 u-4.23 u-4.24"/> 
+			<layout-unit id="lay-4.06.5" xref="u-4.25 u-4.26"/>	
+		</layout-unit>
+		<layout-unit id="lay-4.07" xref="u-4.27 u-4.28 u-4.29 u-4.30">
+			<layout-unit id="line-4.07.1" xref="u-4.27" alt="Upper horizontal line"/>
+			<layout-unit id="lay-4.07.2" xref="u-4.28">INFORMATION:</layout-unit>
+			<layout-unit id="line-4.07.3" xref="u-4.29" alt="Lower horizontal line"/>
+			<layout-unit id="lay-4.07.4" xref="u-4.30"/>
+		</layout-unit>
+		<layout-unit id="line-4.08" xref="u-4.31" alt="Vertical line"/>
+		<layout-unit id="lay-4.09" xref="u-4.32 u-4.33 u-4.34 u-4.35 u-4.36">
+			<layout-unit id="line-4.09.1" xref="u-4.32" alt="Upper horizontal line"/>
+			<layout-unit id="lay-4.09.2" xref="u-4.33">HOW TO GET THERE:</layout-unit>
+			<layout-unit id="line-4.09.3" xref="u-4.34" alt="Lower horizontal line"/>
+			<layout-unit id="lay-4.09.4" xref="u-4.35 u-4.36"/>
+		</layout-unit>
+
+		<layout-unit id="lay-5.01" xref="u-5.01 u-5.02">
+			<layout-unit id="lay-5.01.1" xref="u-5.01" alt="Photo: Barracks"/>
+			<layout-unit id="lay-5.01.2" xref="u-5.02">Jetty Barracks extends a welcome to visitors.</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-5.02" xref="u-5.03 u-5.04">
+			<layout-unit id="lay-5.02.1" xref="u-5.03" alt="Photo: Sea"/>
+			<layout-unit id="lay-5.02.2" xref="u-5.04">The Baltic stretches out from the southern tip to the island of Suomenlinna.</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-5.03" xref="u-5.05 u-5.06">
+			<layout-unit id="lay-5.03.1" xref="u-5.05">The Doll and Toy Museum is also a delight for adults.</layout-unit>
+			<layout-unit id="lay-5.03.2" xref="u-5.06" alt="Photo: Teddy bears"/>
+		</layout-unit>
+		<layout-unit id="lay-5.04" xref="u-5.07" alt="Photo: Ships"/>
+		<layout-unit id="lay-5.05" xref="u-5.08" alt="Map"/>
+		<layout-unit id="lay-5.06" xref="u-5.24 u-5.25">
+			<layout-unit id="lay-5.06.1" xref="u-5.24" alt="Photo: Art"/>
+			<layout-unit id="lay-5.06.2" xref="u-5.25">The latest in Nordic art is on display.</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-5.07" xref="u-5.26 u-5.27">
+			<layout-unit id="lay-5.07.1" xref="u-5.26">History is engraved in the stones of Suomenlinna fortress.</layout-unit>
+			<layout-unit id="lay-5.07.2" xref="u-5.27" alt="Photo: Signs"/>
+		</layout-unit>
+		<layout-unit id="lay-5.08" xref="u-5.28">SUOMENLINNA FORTRESS</layout-unit>
+		<layout-unit id="lay-5.09" xref="u-5.29">
+			<layout-unit id="lay-5.09.2" xref="u-5.29.2">W</layout-unit>
+			<layout-unit id="lay-5.09.3" xref="u-5.29.3 u-5.30"/>
+			<layout-unit id="lay-5.09.4" xref="u-5.31 u-5.32 u-5.33"/>
+			<layout-unit id="lay-5.09.5" xref="u-5.34 u-5.35"/>
+			<layout-unit id="lay-5.09.6" xref="u-5.36 u-5.37 u-5.38"/>
+			<layout-unit id="lay-5.09.7" xref="u-5.39 u-5.40"/>
+			<layout-unit id="lay-5.09.8" xref="u-5.41"/>
+		</layout-unit>
+		<layout-unit id="lay-5.10" xref="u-5.42 u-5.43 u-5.44 u-5.45 u-5.46 u-5.47 u-5.48">
+			<layout-unit id="line-5.10.1" xref="u-5.42" alt="Upper horizontal line"/>
+			<layout-unit id="lay-5.10.2" xref="u-5.43">INFORMATION:</layout-unit>
+			<layout-unit id="line-5.10.3" xref="u-5.44" alt="Lower horizontal line"/>
+			<layout-unit id="lay-5.10.4" xref="u-5.45 u-5.46 u-5.47 u-5.48"/>
+		</layout-unit>
+		<layout-unit id="line-5.11" xref="u-5.49" alt="Vertical line"/>
+		<layout-unit id="lay-5.12" xref="u-5.50 u-5.51 u-5.52 u-5.53 u-5.54">
+			<layout-unit id="line-5.12.1" xref="u-5.50" alt="Upper horizontal line"/>
+			<layout-unit id="lay-5.12.2" xref="u-5.51">HOW TO GET THERE:</layout-unit>
+			<layout-unit id="line-5.12.3" xref="u-5.52" alt="Lower horizontal line"/>
+			<layout-unit id="lay-5.12.4" xref="u-5.53 u-5.54"/>
+		</layout-unit>
+
+		<layout-unit id="lay-6.01" xref="u-6.01 u-6.02">
+			<layout-unit id="lay-6.01.1" xref="u-6.01" alt="Photo: Farmstead"/>
+			<layout-unit id="lay-6.01.2" xref="u-6.02">The Antti Farmstead from south-west Finland.</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-6.02" xref="u-6.03 u-6.04">
+			<layout-unit id="lay-6.02.1" xref="u-6.03" alt="Photo: Oven"/>
+			<layout-unit id="lay-6.02.2" xref="u-6.04">The oven and cooking-range at the Niemelä Tenant Farm (Karelia).</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-6.03" xref="u-6.05 u-6.06">
+			<layout-unit id="lay-6.03.1" xref="u-6.05" alt="Photo: Squirrel"/>
+			<layout-unit id="lay-6.03.2" xref="u-6.06">Nature is close at hand.</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-6.04" xref="u-6.07" alt="Photo: Bridge"/>
+		<layout-unit id="lay-6.05" xref="u-6.08" alt="Map"/>
+		<layout-unit id="lay-6.06" xref="u-6.19 u-6.20">
+			<layout-unit id="lay-6.06.1" xref="u-6.19" alt="Photo: Folk dances"/>
+			<layout-unit id="lay-6.06.2" xref="u-6.20">Folk dances are a living tradition.</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-6.07" xref="u-6.21 u-6.22">
+			<layout-unit id="lay-6.07.1" xref="u-6.21" alt="Photo: Bonfire"/>
+			<layout-unit id="lay-6.07.2" xref="u-6.22">Seurasaari at mid-summer is full of atmosphere.</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-6.08" xref="u-6.23">SEURASAARI ISLAND</layout-unit>
+		<layout-unit id="lay-6.09" xref="u-6.24 u-6.25 u-6.26 u-6.27 u-6.28 u-6.29 u-6.30 u-6.31 u-6.32 u-6.33">
+			<layout-unit id="lay-6.09.2" xref="u-6.24.2"/>
+			<layout-unit id="lay-6.09.3" xref="u-6.24.3"/>
+			<layout-unit id="lay-6.09.4" xref="u-6.25 u-6.26 u-6.27 u-6.28 u-6.29"/>
+			<layout-unit id="lay-6.09.5" xref="u-6.30 u-6.31"/>
+			<layout-unit id="lay-6.09.6" xref="u-6.32 u-6.33"/>
+		</layout-unit>
+		<layout-unit id="lay-6.10" xref="u-6.34 u-6.35 u-3.63 u-6.37 u-6.38">
+			<layout-unit id="line-6.10.1" xref="u-6.34" alt="Upper horizontal line"/>
+			<layout-unit id="lay-6.10.2" xref="u-6.35">INFORMATION:</layout-unit>
+			<layout-unit id="line-6.10.3" xref="u-6.36" alt="Lower horizontal line"/>
+			<layout-unit id="lay-6.10.4" xref="u-6.37 u-6.38"/>
+		</layout-unit>
+		<layout-unit id="line-6.11" xref="u-6.39" alt="Vertical line"/>
+		<layout-unit id="lay-6.12" xref="u-6.39 u-6.40 u-6.41 u-6.42 u-6.43 u-6.44">
+			<layout-unit id="line-6.12.1" xref="u-6.40" alt="Upper horizontal line"/>
+			<layout-unit id="lay-6.12.2" xref="u-6.41">HOW TO GET THERE:</layout-unit>
+			<layout-unit id="line-6.12.3" xref="u-6.42" alt="Lower horizontal line"/>
+			<layout-unit id="lay-6.12.4" xref="u-6.43 u-6.44"/>
+		</layout-unit>
+	</segmentation>
+
+	<layout-structure>
+		<layout-root id="hft-1988-l-cover" orientation="landscape">
+			<layout-chunk id="cover-back" location="multi" area-ref="cover-a-back">
+				<layout-leaf xref="lay-1.09" location="cell-11" area-ref="cover-a-back"/>
+				<layout-chunk id="cover-back-contact-info" location="row-2" area-ref="cover-a-back">
+					<layout-leaf xref="line-1.10" location="row-2" area-ref="cover-a-back-b"/>
+					<layout-leaf xref="lay-1.11" location="row-2" area-ref="cover-a-back-b" valign="center"/>
+					<layout-leaf xref="line-1.12" location="row-2" area-ref="cover-a-back-b"/>
+					<layout-leaf xref="lay-1.13" location="row-2" area-ref="cover-a-back-b"/>
+					<layout-leaf xref="lay-1.13-m" location="row-2" area-ref="cover-a-back-b" vindent="1mm"/>
+					<layout-leaf xref="lay-1.13-m2" location="row-2" area-ref="cover-a-back-b" vindent="1mm"/>
+					<layout-leaf xref="lay-1.13-m3" location="row-2" area-ref="cover-a-back-b" vindent="1mm"/>
+				</layout-chunk>
+			</layout-chunk>
+			<layout-chunk id="cover-front" location="multi" area-ref="cover-a-front">
+				<layout-leaf xref="lay-1.14" location="cell-11" area-ref="cover-a-front"/>
+					<layout-chunk id="cover-front-title" location="cell-21" area-ref="cover-a-front">
+						<layout-leaf xref="lay-1.15.1" location="cell-21" area-ref="cover-a-front" halign="bottom"/>
+						<layout-leaf xref="lay-1.15.2" location="cell-21" area-ref="cover-a-front" halign="bottom"/>
+					</layout-chunk>
+				<layout-leaf xref="lay-1.16" location="cell-23" area-ref="cover-a-front" valign="right" halign="top" vindent="1mm" hindent="3mm"/>
+			</layout-chunk>
+		</layout-root>
+
+		<layout-root id="hft-1988-l-pages-1-2" orientation="landscape">
+			<layout-chunk id="page-1" location="multi" area-ref="hft-1988-a-pages-1-2">
+				<layout-chunk id="page-1-2-photos" location="multi" area-ref="hft-1988-a-pages-1-2">
+					<layout-leaf xref="lay-2.01" location="row-1" area-ref="page-a-1"/>
+					<layout-leaf xref="lay-2.02" location="row-3" area-ref="page-a-1"/>
+					<layout-leaf xref="lay-2.03" location="row-5" area-ref="page-a-1"/>
+					<layout-leaf xref="lay-2.04" location="cell-42" area-ref="hft-1988-a-pages-1-2"/>
+				</layout-chunk>
+			</layout-chunk>
+			<layout-chunk id="page-2" location="cell-11" area-ref="page-a-2">
+				<layout-chunk id="page-2-description" location="cell-11" area-ref="page-a-2">
+					<layout-leaf xref="lay-2.05" location="cell-11" area-ref="page-a-2" halign="top" valign="left"/>
+					<layout-leaf xref="lay-2.06.2" location="cell-11" area-ref="page-a-2" vindent="3mm"/>
+					<layout-leaf xref="lay-2.06.3" location="cell-11" area-ref="page-a-2" flow-around="lay-2.06.2" valign="left"/>
+					<layout-leaf xref="lay-2.07" location="cell-11" area-ref="page-a-2" hindent="12mm"/>
+					<layout-leaf xref="lay-2.07-m" location="cell-11" area-ref="page-a-2" hindent="12mm"/>
+					<layout-leaf xref="lay-2.07-m2" location="cell-11" area-ref="page-a-2" hindent="12mm"/>
+				</layout-chunk>
+				<layout-chunk id="page-2-contact-info" location="cell-11" area-ref="page-a-2">
+					<layout-leaf xref="line-2.08" location="cell-11" area-ref="page-a-2" vindent="5mm"/>
+					<layout-leaf xref="lay-2.09" location="cell-11" area-ref="page-a-2" valign="center"/>
+					<layout-leaf xref="line-2.10" location="cell-11" area-ref="page-a-2"/>
+					<layout-leaf xref="lay-2.11" location="cell-11" area-ref="page-a-2" vindent="2mm"/>
+				</layout-chunk>
+			</layout-chunk>
+		</layout-root>
+
+		<layout-root id="hft-1988-l-pages-3-4" orientation="landscape">
+			<layout-chunk id="page-3" location="multi" area-ref="hft-1988-a-pages-3-4">
+				<layout-chunk id="page-3-photos" location="multi" area-ref="hft-1988-a-pages-3-4">
+					<layout-chunk id="page-3-photo-1" location="multi" area-ref="page-a-3-b">
+						<layout-leaf xref="lay-3.01.1" location="row-1" area-ref="page-a-3-b"/>
+						<layout-leaf xref="lay-3.01.2" location="row-2" area-ref="page-a-3-b" valign="left" halign="top" vindent="3mm" hindent="6mm"/>
+					</layout-chunk>
+					<layout-chunk id="page-3-photo-2" location="multi" area-ref="page-a-3-b">
+						<layout-leaf xref="lay-3.02.1" location="row-3" area-ref="page-a-3-b"/>
+						<layout-leaf xref="lay-3.02.2" location="row-4" area-ref="page-a-3-b" valign="left" halign="top" vindent="3mm" hindent="6mm"/>						
+					</layout-chunk>
+					<layout-chunk id="page-3-photo-3" location="multi" area-ref="page-a-3-c">
+						<layout-leaf xref="lay-3.03.1" location="row-1" area-ref="page-a-3-c"/>
+						<layout-leaf xref="lay-3.03.2" location="row-2" area-ref="page-a-3-c" valign="left" halign="top" vindent="3mm" hindent="6mm"/>
+					</layout-chunk>
+				</layout-chunk>
+			<layout-leaf xref="lay-3.04" location="row-3" area-ref="page-a-3-c"/>
+			</layout-chunk>
+			<layout-chunk id="page-4" location="multi" area-ref="hft-1988-a-pages-3-4">
+				<layout-chunk id="page-4-photos" location="multi" area-ref="page-a-4-b">
+					<layout-chunk id="page-4-photo-1" location="multi" area-ref="page-a-4-b">
+						<layout-leaf xref="lay-3.05.1" location="col-1" area-ref="page-a-4-b-1"/>
+						<layout-leaf xref="lay-3.05.2" location="col-3" area-ref="page-a-4-b-1"/>
+						<layout-leaf xref="lay-3.05.3" location="row-2" area-ref="page-a-4-b" valign="left" halign="top" vindent="3mm" hindent="6mm"/>
+					</layout-chunk>
+					<layout-chunk id="page-4-photo-2" location="multi" area-ref="page-a-4-b">
+						<layout-leaf xref="lay-3.06.1" location="row-3" area-ref="page-a-4-b"/>
+						<layout-leaf xref="lay-3.06.2" location="row-4" area-ref="page-a-4-b" valign="left" halign="top" vindent="3mm" hindent="6mm"/>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-4-description" location="row-1" area-ref="page-a-4-c">
+					<layout-leaf xref="lay-3.07" location="row-1" area-ref="page-a-4-c" halign="top" valign="left"/>
+					<layout-leaf xref="lay-3.08.2" location="row-1" area-ref="page-a-4-c" vindent="3mm"/>
+					<layout-leaf xref="lay-3.08.3" location="row-1" area-ref="page-a-4-c" flow-around="lay-3.08.2" valign="left"/>
+					<layout-leaf xref="lay-3.08.4" location="row-1" area-ref="page-a-4-c"/>
+					<layout-leaf xref="lay-3.08.5" location="row-1" area-ref="page-a-4-c"/>
+				</layout-chunk>
+				<layout-chunk id="page-4-contact-info" location="multi" area-ref="page-a-4-c">
+					<layout-chunk id="page-4-contact-info-column-1" location="col-1" area-ref="page-a-4-c-1">
+						<layout-leaf xref="line-3.09.1" location="col-1" area-ref="page-a-4-c-1"/>
+						<layout-leaf xref="lay-3.09.2" location="col-1" area-ref="page-a-4-c-1" valign="center"/>
+						<layout-leaf xref="line-3.09.3" location="col-1" area-ref="page-a-4-c-1"/>
+						<layout-leaf xref="lay-3.09.4" location="col-1" area-ref="page-a-4-c-1" vindent="2mm"/>
+						<layout-leaf xref="lay-3.09.5" location="col-1" area-ref="page-a-4-c-1" vindent="12mm"/>
+					</layout-chunk>
+					<layout-leaf xref="line-3.10" location="col-2" area-ref="page-a-4-c-1" valign="center" halign="top"/>
+					<layout-chunk id="page-4-contact-info-column-2" location="col-3" area-ref="page-a-4-c-1">
+						<layout-leaf xref="line-3.11.1" location="col-3" area-ref="page-a-4-c-1"/>
+						<layout-leaf xref="lay-3.11.2" location="col-3" area-ref="page-a-4-c-1" valign="center"/>
+						<layout-leaf xref="line-3.11.3" location="col-3" area-ref="page-a-4-c-1"/>
+						<layout-leaf xref="lay-3.11.4" location="col-3" area-ref="page-a-4-c-1" vindent="2mm"/>
+					</layout-chunk>
+				</layout-chunk>
+			</layout-chunk>
+		</layout-root>
+
+		<layout-root id="hft-1988-l-pages-5-6" orientation="landscape">
+			<layout-chunk id="page-5" location="multi" area-ref="page-a-5-b">
+				<layout-leaf xref="lay-4.01.1" location="row-1" area-ref="page-a-5-b"/>
+				<layout-leaf xref="lay-4.01.2" location="row-2" area-ref="page-a-5-b" valign="left" halign="top" vindent="1mm" hindent="6mm"/>
+				<layout-leaf xref="lay-4.01.3" location="row-3" area-ref="page-a-5-b"/>
+				<layout-leaf xref="lay-4.01.4" location="row-4" area-ref="page-a-5-b" valign="left" halign="top" vindent="1mm" hindent="6mm"/>
+				<layout-leaf xref="lay-4.01.5" location="row-5" area-ref="page-a-5-b"/>
+				<layout-leaf xref="lay-4.01.6" location="row-6" area-ref="page-a-5-b" valign="left" halign="top" vindent="1mm" hindent="6mm"/>
+			</layout-chunk>
+			<layout-chunk id="pages-5-6" location="multi" area-ref="hft-1988-a-pages-5-6">
+				<layout-leaf xref="lay-4.02" location="row-1" area-ref="page-a-5-c"/>
+				<layout-leaf xref="lay-4.03" location="col-1" area-ref="page-a-5-c-1"/>
+				<layout-chunk id="pages-5-6-photo-1" location="multi" area-ref="page-a-5-c-2">
+					<layout-leaf xref="lay-4.04.1" location="row-1" area-ref="page-a-5-c-2"/>
+					<layout-leaf xref="lay-4.04.2" location="row-2" area-ref="page-a-5-c-2" valign="left" halign="top" vindent="1mm" hindent="6mm"/>
+				</layout-chunk>
+			</layout-chunk>
+			<layout-chunk id="page-6" location="multi" area-ref="page-a-6">
+				<layout-chunk id="page-6-description" location="row-1" area-ref="page-a-6">
+					<layout-leaf xref="lay-4.05" location="row-1" area-ref="page-a-6" halign="top" valign="left"/>
+					<layout-leaf xref="lay-4.06.2" location="row-1" area-ref="page-a-6" vindent="3mm"/>
+					<layout-leaf xref="lay-4.06.3" location="row-1" area-ref="page-a-6" flow-around="lay-4.06.2" valign="left"/>
+					<layout-leaf xref="lay-4.06.4" location="row-1" area-ref="page-a-6" hindent="12mm"/>
+					<layout-leaf xref="lay-4.06.5" location="row-1" area-ref="page-a-6" hindent="12mm"/>					
+				</layout-chunk>
+				<layout-chunk id="page-6-contact-info" location="multi" area-ref="page-a-6-b">
+					<layout-chunk id="page-6-contact-info-column-1" location="col-1" area-ref="page-a-6-b">
+						<layout-leaf xref="line-4.07.1" location="col-1" area-ref="page-a-6-b"/>
+						<layout-leaf xref="lay-4.07.2" location="col-1" area-ref="page-a-6-b" valign="center"/>
+						<layout-leaf xref="line-4.07.3" location="col-1" area-ref="page-a-6-b"/>
+						<layout-leaf xref="lay-4.07.4" location="col-1" area-ref="page-a-6-b" vindent="2mm"/>
+					</layout-chunk>
+					<layout-leaf xref="line-4.08" location="col-2" area-ref="page-a-6-b" valign="center" halign="top"/>
+					<layout-chunk id="page-6-contact-info-column-2" location="col-3" area-ref="page-a-6-b">
+						<layout-leaf xref="line-4.09.1" location="col-3" area-ref="page-a-6-b"/>
+						<layout-leaf xref="lay-4.09.2" location="col-3" area-ref="page-a-6-b" valign="center"/>
+						<layout-leaf xref="line-4.09.3" location="col-3" area-ref="page-a-6-b"/>
+						<layout-leaf xref="lay-4.09.4" location="col-3" area-ref="page-a-6-b" vindent="2mm"/>						
+					</layout-chunk>
+				</layout-chunk>
+			</layout-chunk>
+		</layout-root>
+
+		<layout-root id="hft-1988-l-pages-7-8" orientation="landscape">
+			<layout-chunk id="page-7" location="multi" area-ref="page-a-7-b">
+				<layout-chunk id="page-7-photos" location="multi" area-ref="page-a-7-b">
+					<layout-chunk id="page-7-photo-1" location="multi" area-ref="page-a-7-b">
+						<layout-leaf xref="lay-5.01.1" location="row-1" area-ref="page-a-7-b"/>
+						<layout-leaf xref="lay-5.01.2" location="row-2" area-ref="page-a-7-b" valign="left" halign="top" vindent="1mm" hindent="6mm"/>
+					</layout-chunk>
+					<layout-chunk id="page-7-photo-2" location="multi" area-ref="page-a-7-b">
+						<layout-leaf xref="lay-5.02.1" location="row-3" area-ref="page-a-7-b"/>
+						<layout-leaf xref="lay-5.02.2" location="row-4" area-ref="page-a-7-b" valign="left" halign="top" vindent="1mm" hindent="6mm"/>
+					</layout-chunk>
+					<layout-chunk id="page-7-photo-3" location="multi" area-ref="page-a-7-b">
+						<layout-leaf xref="lay-5.03.1" location="row-5" area-ref="page-a-7-b" halign="bottom" valign="right" overlap-area="page-a-7-b"/>
+						<layout-leaf xref="lay-5.03.2" location="row-5" area-ref="page-a-7-b" valign="left" halign="top" hindent="6mm"/>
+					</layout-chunk>
+				</layout-chunk>
+			</layout-chunk>
+			<layout-chunk id="pages-7-8" location="multi" area-ref="hft-1988-a-pages-7-8">
+				<layout-leaf xref="lay-5.04" location="row-1" area-ref="page-a-8-b" halign="top" valign="right" overlap-area="hft-1988-a-pages-7-8" overlap="cell-42"/>
+				<layout-leaf xref="lay-5.05" location="cell-42" area-ref="hft-1988-a-pages-7-8" halign="bottom"/>
+				<layout-chunk id="pages-7-8-photos" location="multi" area-ref="page-a-8-b"> 
+					<layout-chunk id="page-8-photo-1" location="multi" area-ref="page-a-8-b">
+						<layout-leaf xref="lay-5.06.1" location="row-3" area-ref="page-a-8-b"/>
+						<layout-leaf xref="lay-5.06.2" location="col-2" area-ref="page-a-8-b-1" valign="left" halign="top"/>
+					</layout-chunk>
+					<layout-chunk id="page-8-photo-2" location="multi" area-ref="page-a-8-b">
+						<layout-leaf xref="lay-5.07.1" location="col-2" area-ref="page-a-8-b-1" valign="left" halign="bottom"/>
+						<layout-leaf xref="lay-5.07.2" location="col-4" area-ref="page-a-8-b-1"/>
+					</layout-chunk>
+				</layout-chunk>
+			</layout-chunk>
+			<layout-chunk id="page-8" location="multi" area-ref="page-a-8-c">
+				<layout-chunk id="page-8-description" location="row-1" area-ref="page-a-8-c">
+					<layout-leaf xref="lay-5.08" location="row-1" area-ref="page-a-8-c" valign="left" halign="top"/>
+					<layout-leaf xref="lay-5.09.2" location="row-1" area-ref="page-a-8-c" vindent="3mm"/>
+					<layout-leaf xref="lay-5.09.3" location="row-1" area-ref="page-a-8-c" flow-around="lay-5.09.2" valign="left"/>
+					<layout-leaf xref="lay-5.09.4" location="row-1" area-ref="page-a-8-c" hindent="12mm"/>
+					<layout-leaf xref="lay-5.09.5" location="row-1" area-ref="page-a-8-c" hindent="12mm"/>
+					<layout-leaf xref="lay-5.09.6" location="row-1" area-ref="page-a-8-c" hindent="12mm"/>
+					<layout-leaf xref="lay-5.09.7" location="row-1" area-ref="page-a-8-c" hindent="12mm"/>
+					<layout-leaf xref="lay-5.09.8" location="row-1" area-ref="page-a-8-c" hindent="12mm"/>
+				</layout-chunk>
+				<layout-chunk id="page-8-contact-info" location="multi" area-ref="page-a-8-c-1">
+					<layout-chunk id="page-8-contact-info-column-1" location="col-1" area-ref="page-a-8-c-1">
+						<layout-leaf xref="line-5.10.1" location="col-1" area-ref="page-a-8-c-1"/>
+						<layout-leaf xref="lay-5.10.2" location="col-1" area-ref="page-a-8-c-1" valign="center"/>
+						<layout-leaf xref="line-5.10.3" location="col-1" area-ref="page-a-8-c-1"/>
+						<layout-leaf xref="lay-5.10.4" location="col-1" area-ref="page-a-8-c-1" vindent="2mm"/>
+					</layout-chunk>
+					<layout-leaf xref="line-5.11" location="col-2" area-ref="page-a-8-c-1" halign="top" valign="center"/>
+					<layout-chunk id="page-8-contact-info-column-2" location="col-3" area-ref="page-a-8-c-1">
+						<layout-leaf xref="line-5.12.1" location="col-3" area-ref="page-a-8-c-1"/>
+						<layout-leaf xref="lay-5.12.2" location="col-3" area-ref="page-a-8-c-1" valign="center"/>
+						<layout-leaf xref="line-5.12.3" location="col-3" area-ref="page-a-8-c-1"/>
+						<layout-leaf xref="lay-5.12.4" location="col-3" area-ref="page-a-8-c-1" vindent="2mm"/>						
+					</layout-chunk>
+				</layout-chunk>
+			</layout-chunk>
+		</layout-root>
+		
+		<layout-root id="hft-1988-l-pages-9-10" orientation="landscape">
+			<layout-chunk id="page-9" location="multi" area-ref="page-a-9-b">
+				<layout-chunk id="page-9-photos" location="multi" area-ref="page-a-9-b">
+					<layout-chunk id="page-9-photo-1" location="multi" area-ref="page-a-9-b">
+						<layout-leaf xref="lay-6.01.1" location="row-1" area-ref="page-a-9-b"/>
+						<layout-leaf xref="lay-6.01.2" location="row-2" area-ref="page-a-9-b" valign="left" halign="top" vindent="1mm" hindent="6mm"/>
+					</layout-chunk>
+					<layout-chunk id="page-9-photo-2" location="multi" area-ref="page-a-9-b">
+						<layout-leaf xref="lay-6.02.1" location="row-3" area-ref="page-a-9-b"/>
+						<layout-leaf xref="lay-6.02.2" location="row-4" area-ref="page-a-9-b" valign="left" halign="top" vindent="1mm" hindent="6mm"/>
+					</layout-chunk>
+					<layout-chunk id="page-9-photo-3" location="multi" area-ref="page-a-9-b">
+						<layout-leaf xref="lay-6.03.1" location="row-5" area-ref="page-a-9-b"/>
+						<layout-leaf xref="lay-6.03.2" location="row-6" area-ref="page-a-9-b" valign="left" halign="top" vindent="1mm" hindent="6mm"/>
+					</layout-chunk>
+				</layout-chunk>
+			</layout-chunk>
+			<layout-chunk id="pages-9-10" location="multi" area-ref="hft-1988-a-pages-9-10">
+				<layout-leaf xref="lay-6.04" location="row-1" area-ref="page-a-10-b" valign="right" overlap-area="hft-1988-a-pages-9-10" overlap="cell-42"/>
+				<layout-leaf xref="lay-6.05" location="cell-42" area-ref="hft-1988-a-pages-9-10" halign="bottom"/>
+				<layout-chunk id="page-9-10-photos" location="multi" area-ref="page-a-10-b">
+					<layout-chunk id="pages-10-photo-1" location="multi" area-ref="page-a-10-b">
+						<layout-leaf xref="lay-6.06.1" location="row-3" area-ref="page-a-10-b"/>
+						<layout-leaf xref="lay-6.06.2" location="row-4" area-ref="page-a-10-b" valign="left" halign="top" vindent="1mm" hindent="6mm"/>
+					</layout-chunk>
+					<layout-chunk id="page-10-photo-2" location="multi" area-ref="page-a-10-b">
+						<layout-leaf xref="lay-6.07.1" location="row-5" area-ref="page-a-10-b"/>
+						<layout-leaf xref="lay-6.07.2" location="row-6" area-ref="page-a-10-b" valign="left" halign="top" vindent="1mm" hindent="6mm"/>
+					</layout-chunk>
+				</layout-chunk>
+			</layout-chunk>
+			<layout-chunk id="page-10" location="multi" area-ref="page-a-10-c">
+				<layout-chunk id="page-10-description" location="row-1" area-ref="page-a-10-c">
+					<layout-leaf xref="lay-6.08" location="row-1" area-ref="page-a-10-c" valign="left" halign="top"/>
+					<layout-leaf xref="lay-6.09.2" location="row-1" area-ref="page-a-10-c" vindent="3mm"/>
+					<layout-leaf xref="lay-6.09.3" location="row-1" area-ref="page-a-10-c" flow-around="lay-6.09.2" valign="left"/>
+					<layout-leaf xref="lay-6.09.4" location="row-1" area-ref="page-a-10-c" hindent="12mm"/>
+					<layout-leaf xref="lay-6.09.5" location="row-1" area-ref="page-a-10-c" hindent="12mm"/>
+					<layout-leaf xref="lay-6.09.6" location="row-1" area-ref="page-a-10-c" hindent="12mm"/>
+				</layout-chunk>
+				<layout-chunk id="page-10-contact-info" location="multi" area-ref="page-a-10-c-1">
+					<layout-chunk id="page-10-contact-info-column-1" location="col-1" area-ref="page-a-10-c-1">
+						<layout-leaf xref="line-6.10.1" location="col-1" area-ref="page-a-10-c-1"/>
+						<layout-leaf xref="lay-6.10.2" location="col-1" area-ref="page-a-10-c-1" valign="center"/>
+						<layout-leaf xref="line-6.10.3" location="col-1" area-ref="page-a-10-c-1"/>
+						<layout-leaf xref="lay-6.10.4" location="col-1" area-ref="page-a-10-c-1"/>
+					</layout-chunk>
+					<layout-leaf xref="line-6.11" location="col-2" area-ref="page-a-10-c-1"/>
+					<layout-chunk id="page-10-contact-info-column-2" location="col-3" area-ref="page-a-10-c-1">
+						<layout-leaf xref="line-6.12.1" location="col-3" area-ref="page-a-10-c-1"/>
+						<layout-leaf xref="lay-6.12.2" location="col-3" area-ref="page-a-10-c-1" valign="center"/>
+						<layout-leaf xref="line-6.12.3" location="col-3" area-ref="page-a-10-c-1"/>
+						<layout-leaf xref="lay-6.12.4" location="col-3" area-ref="page-a-10-c-1"/>
+					</layout-chunk>
+				</layout-chunk>
+			</layout-chunk>
+		</layout-root>
+	</layout-structure>
+
+	<area-model>
+		<area-root id="hft-1988-a-cover" cols="2" rows="1" hspacing="50 50" vspacing="100" width="396mm" height="200mm">
+			<sub-area id="cover-a-back" location="col-1" cols="3" hspacing="52 40 8" rows="1" vspacing="100" width="198mm" height="198mm">
+				<sub-area id="cover-a-back-b" location="col-2" cols="1" hspacing="100" width="80mm" rows="2" vspacing="73 27" height="200mm"/>
+			</sub-area>
+			<sub-area id="cover-a-front" location="col-2" cols="3" rows="3" hspacing="18 68 14" vspacing="54 43 3" width="198mm" height="200mm"/>
+	   </area-root>
+
+		<area-root id="hft-1988-a-pages-1-2" cols="7" rows="3" hspacing="1 23 2 47 4 20 3" vspacing="5 90 5" width="396mm" height="200mm">
+			<sub-area id="page-a-1" location="cell-22" rows="5" cols="1" vspacing="31 3 31 3 32" hspacing="100" width="90mm" height="180mm"/>
+			<sub-area id="page-a-2" location="cell-62" rows="1" cols="1" vspacing="100" hspacing="100" width="80mm" height="180mm"/>
+		</area-root>
+
+		<area-root id="hft-1988-a-pages-3-4" cols="9" rows="2" hspacing="1 23 1 25 1 23 4 20 2" vspacing="5 95" width="396mm" height="200mm">
+			<sub-area id="page-a-3-b" location="cell-22" cols="1" rows="4" hspacing="100" vspacing="30 6 53 11" width="90mm" height="191mm"/>
+			<sub-area id="page-a-3-c" location="cell-42" cols="1" rows="3" hspacing="100" vspacing="30 6 64" width="96mm" height="191mm"/>
+			<sub-area id="page-a-4-b" location="cell-62" cols="1" rows="4" hspacing="100" vspacing="40 10 40 10" width="89mm" height="">
+				<sub-area id="page-a-4-b-1" location="row-1" cols="3" rows="1" vspacing="100" hspacing="49 2 49" width="89mm" height="78mm"/>
+			</sub-area>
+			<sub-area id="page-a-4-c" location="cell-82" cols="1" rows="2" hspacing="100" vspacing="63 37" width="80mm" height="191mm">
+				<sub-area id="page-a-4-c-1" location="row-2" cols="3" rows="1" hspacing="44 12 44" vspacing="100" width="80mm" height="69mm"/>
+			</sub-area>
+		</area-root>
+
+		<area-root id="hft-1988-a-pages-5-6" cols="7" rows="2" hspacing="1 23 1 47 4 20 4" vspacing="5 95" width="396mm" height="200mm">
+			<sub-area id="page-a-5-b" location="cell-22" cols="1" rows="6" hspacing="100" vspacing="30 6 21 4 30 9" width="90mm" height="191mm"/>
+			<sub-area id="page-a-5-c" location="cell-42" cols="1" rows="3" hspacing="100" vspacing="48 4 48" width="188mm" height="191mm">
+				<sub-area id="page-a-5-c-1" location="row-3" cols="2" rows="1" hspacing="50 50" vspacing="100" width="188mm" height="87mm">
+					<sub-area id="page-a-5-c-2" location="col-2" cols="1" rows="2" hspacing="100" vspacing="83 27" width="94mm" height="87mm"/>
+				</sub-area>
+			</sub-area>
+			<sub-area id="page-a-6" location="cell-62" cols="1" rows="2" hspacing="100" vspacing="78 22" width="80mm" height="191mm">
+				<sub-area id="page-a-6-b" location="row-2" cols="3" rows="1" hspacing="44 12 44" vspacing="100" width="80mm" height="31mm"/>
+			</sub-area>
+		</area-root>
+
+		<area-root id="hft-1988-a-pages-7-8" cols="8" rows="2" hspacing="1 23 1 25 24 3 20 3" vspacing="5 95" width="396mm" height="200mm">
+			<sub-area id="page-a-7-b" location="cell-22" cols="1" rows="6" hspacing="100" vspacing="29 4 27 8 28 4" width="90mm" height="191mm"/>
+			<sub-area id="page-a-8-b" location="cell-52" cols="1" rows="6" hspacing="100" vspacing="43 2 23 2 26 4" width="94mm" height="191mm">
+				<sub-area id="page-a-8-b-1" location="row-5" rows="1" cols="4" hspacing="10 43 4 43" vspacing="100" width="94mm" height="50mm"/>
+			</sub-area>
+			<sub-area id="page-a-8-c" location="cell-72" cols="1" rows="2" hspacing="100" vspacing="76 24" width="80mm" height="191mm">
+				<sub-area id="page-a-8-c-1" location="row-2" cols="3" rows="1" hspacing="44 12 44" vspacing="100" width="80mm" height="39mm"/>
+			</sub-area>
+		</area-root>
+
+		<area-root id="hft-1988-a-pages-9-10" cols="8" rows="2" hspacing="1 23 1 26 23 4 20 2" vspacing="5 95" width="396mm" height="200mm">
+			<sub-area id="page-a-9-b" location="cell-22" cols="1" rows="7" hspacing="100" vspacing="26 3 34 5 24 3 5" width="90mm" height="191mm"/>
+			<sub-area id="page-a-10-b" location="cell-52" cols="1" rows="7" hspacing="100" vspacing="36 3 20 5 26 3 5" width="91mm" height="191mm"/>
+			<sub-area id="page-a-10-c" location="cell-72" cols="1" rows="2" hspacing="100" vspacing="79 21" width="80mm" height="191mm">
+				<sub-area id="page-a-10-c-1" location="row-2" cols="3" rows="1" hspacing="44 12 44" vspacing="100" width="80mm" height="30mm"/>
+			</sub-area>
+		</area-root>
+	</area-model>
+
+	<realization>
+		<graphics xref="lay-1.09" type="map" colors="mixed" width="199mm" height="200mm"/>
+		<graphics xref="line-1.10" type="two-d-element" two-d-element-type="line" colors="black" length="80mm" direction="horizontal" height="1mm"/>
+		<graphics xref="line-1.12" type="two-d-element" two-d-element-type="line" colors="black" length="80mm" direction="horizontal"/>
+		<text xref="lay-1.11" font-family="serif" font-size="8" font-style="normal" font-weight="normal" case="caps" color="black"/>
+		<text xref="lay-1.13 lay-1.13-m lay-1.13-m2 lay-1.13-m3" font-family="serif" font-size="5" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<graphics xref="lay-1.14" type="photo" colors="mixed" width="199mm" height="200mm"/>
+		<hi-text xref="lay-1.15.1" context="lay-1.15" font-family="serif" font-size="26" font-style="normal" font-weight="normal" case="caps" color="white"/>
+		<text xref="lay-1.15.2" font-family="serif" font-size="15" font-style="normal" font-weight="normal" case="caps" color="white"/>
+		<graphics xref="lay-1.16" type="illustration" colors="mixed" width="13mm" height="20mm"/>
+
+		<graphics xref="lay-2.01" type="photo" colors="mixed" width="90mm" height="55mm"/>
+		<graphics xref="lay-2.02" type="photo" colors="mixed" width="90mm" height="55mm"/>
+		<graphics xref="lay-2.03" type="photo" colors="mixed" width="90mm" height="55mm"/>
+		<graphics xref="lay-2.04" type="photo" colors="mixed" width="190mm" height="180mm"/>
+		<text xref="lay-2.05" font-family="serif" font-size="13" font-style="normal" font-weight="normal" case="caps" color="black" background-color="blue"/>
+		<hi-text xref="lay-2.06.2" context="lay-2.06.3" font-family="serif" font-size="32" font-style="italic" font-weight="normal" case="caps" color="blue" background-color="white" border="rectangular" border-style="solid" border-color="black"/>
+		<text xref="lay-2.06.3 lay-2.07 lay-2.07-m lay-2.07-m2" font-family="serif" font-size="6" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<graphics xref="line-2.08" type="two-d-element" two-d-element-type="line" height="1mm" colors="black" length="80mm"/>
+		<graphics xref="line-2.10" type="two-d-element" two-d-element-type="line" colors="black" length="80mm"/>
+		<text xref="lay-2.09" font-family="serif" font-size="7" font-style="normal" font-weight="normal" case="caps" color="blue"/>
+		<text xref="lay-2.11" font-family="serif" font-size="4" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		
+		<graphics xref="lay-3.01.1" type="photo" colors="mixed" width="90mm" height="58mm"/>
+		<graphics xref="lay-3.02.1" type="photo" colors="mixed" width="90mm" height="101mm"/>
+		<graphics xref="lay-3.03.1" type="photo" colors="mixed" width="98mm" height="58mm"/>
+		<graphics xref="lay-3.05.1" type="photo" colors="mixed" width="44mm" height="78mm"/>
+		<graphics xref="lay-3.05.2" type="photo" colors="mixed" width="44mm" height="78mm"/>
+		<graphics xref="lay-3.06.1" type="photo" colors="mixed" width="90mm" height="78mm"/>
+		<text xref="lay-3.01.2 lay-3.02.2 lay-3.03.2 lay-3.05.3 lay-3.06.2" font-family="serif" font-size="6" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<graphics xref="lay-3.04" type="map" colors="mixed" width="98mm" height="120mm"/>
+		<text xref="lay-3.07" font-family="serif" font-size="13" font-style="normal" font-weight="normal" case="caps" color="black" background-color="purple"/>
+		<hi-text xref="lay-3.08.2" context="lay-3.08" font-family="serif" font-size="32" font-style="italic" font-weight="normal" case="caps" color="purple" background-color="white" border="rectangular" border-style="solid" border-color="black"/>
+		<text xref="lay-3.08.3 lay-3.08.4 lay-3.08.5" font-family="serif" font-size="6" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<graphics xref="line-3.09.1 line-3.11.1" type="two-d-element" two-d-element-type="line" direction="horizontal" colors="black" height="1mm" length="35mm"/>
+		<graphics xref="line-3.09.3 line-3.11.3" type="two-d-element" two-d-element-type="line" direction="horizontal" colors="black" length="35mm"/>
+		<graphics xref="line-3.10" type="two-d-element" two-d-element-type="line" direction="vertical" colors="black" length="60mm"/>
+		<text xref="lay-3.09.2 lay-3.11.2" font-family="serif" font-size="7" font-style="normal" font-weight="normal" case="caps" color="purple"/>
+		<text xref="lay-3.09.4 lay-3.09.5 lay-3.11.4" font-family="serif" font-size="4" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+
+		<graphics xref="lay-4.01.1" type="photo" colors="mixed" width="90mm" height="55mm"/>
+		<graphics xref="lay-4.01.3" type="photo" colors="mixed" width="90mm" height="41mm"/>
+		<graphics xref="lay-4.01.5" type="photo" colors="mixed" width="90mm" height="59mm"/>
+		<graphics xref="lay-4.02" type="photo" colors="mixed" width="188mm" height="90mm"/>
+		<graphics xref="lay-4.04.1" type="photo" colors="mixed" width="90mm" height="71mm"/>
+		<graphics xref="lay-4.03" type="map" colors="mixed" width="97mm" height="91mm"/>
+		<text xref="lay-4.01.2 lay-4.01.4 lay-4.01.6 lay-4.04.2" font-family="serif" font-size="6" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<text xref="lay-4.05" font-family="serif" font-size="13" font-style="normal" font-weight="normal" case="caps" color="black" background-color="green"/>
+		<hi-text xref="lay-4.06.2" context="lay-4.06" font-family="serif" font-size="32" font-style="italic" font-weight="normal" case="caps" background-color="white" color="green" border="rectangular" border-color="black" border-style="solid"/>
+		<text xref="lay-4.06.3 lay-4.06.4 lay-4.06.5" font-family="serif" font-size="6" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<graphics xref="line-4.07.1 line-4.09.1" type="two-d-element" two-d-element-type="line" height="1mm" colors="black" direction="horizontal" length="35mm"/>
+		<graphics xref="line-4.07.3 line-4.09.3" type="two-d-element" two-d-element-type="line" colors="black" direction="horizontal" length="35mm"/>
+		<graphics xref="line-4.08" type="two-d-element" two-d-element-type="line" direction="vertical" colors="black" length="27mm"/>
+		<text xref="lay-4.07.2 lay-4.09.2" font-family="serif" font-size="7" font-style="normal" font-weight="normal" case="caps" color="green"/>
+		<text xref="lay-4.07.4 lay-4.09.4" font-family="serif" font-size="4" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+
+		<graphics xref="lay-5.01.1" type="photo" colors="mixed" width="90mm" height="54mm"/>
+		<graphics xref="lay-5.02.1" type="photo" colors="mixed" width="90mm" height="52mm"/>
+		<graphics xref="lay-5.03.2" type="photo" colors="mixed" width="80mm" height="60mm"/>
+		<graphics xref="lay-5.04" type="photo" colors="mixed" width="193mm" height="82mm"/>
+		<graphics xref="lay-5.06.1" type="photo" colors="mixed" width="90mm" height="42mm"/>
+		<graphics xref="lay-5.07.1" type="photo" colors="mixed" width="40mm" height="50mm"/>
+		<graphics xref="lay-5.05" type="map" colors="mixed" width="97mm" height="152mm"/>
+		<text xref="lay-5.01.2 lay-5.02.2 lay-5.03.1 lay-5.06.2 lay-5.07.1" font-family="serif" font-size="6" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<text xref="lay-5.08" font-family="serif" font-size="13" font-style="normal" font-weight="normal" case="caps" color="black" background-color="red"/>
+		<text xref="lay-5.09.2" font-family="serif" font-size="32" font-style="italic" font-weight="normal" case="caps" color="red" border="rectangular" border-color="black" border-style="solid"/>
+		<text xref="lay-5.09.3 lay-5.09.4 lay-5.09.5 lay-5.09.6 lay-5.09.7 lay-5.09.8" font-family="serif" font-size="6" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<graphics xref="line-5.10.1 line-5.12.1" type="two-d-element" two-d-element-type="line" colors="black" height="1mm" direction="horizontal" length="35mm"/>
+		<graphics xref="line-5.10.3 line-5.12.3" type="two-d-element" two-d-element-type="line" colors="black" direction="horizontal" length="35mm"/>
+		<graphics xref="line-5.11" type="two-d-element" two-d-element-type="line" direction="vertical" colors="black" length="39mm"/>
+		<text xref="lay-5.10.2 lay-5.12.2" font-family="serif" font-size="7" font-style="normal" font-weight="normal" case="caps" color="red"/>
+		<text xref="lay-5.10.4 lay-5.12.4" font-family="serif" font-size="4" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+
+		<graphics xref="lay-6.01.1" type="photo" colors="mixed" width="90mm" height="50mm"/>
+		<graphics xref="lay-6.02.1" type="photo" colors="mixed" width="90mm" height="65mm"/>
+		<graphics xref="lay-6.03.1" type="photo" colors="mixed" width="90mm" height="45mm"/>
+		<graphics xref="lay-6.04" type="photo" colors="mixed" width="193mm" height="70mm"/>
+		<graphics xref="lay-6.06.1" type="photo" colors="mixed" width="90mm" height="40mm"/>
+		<graphics xref="lay-6.07.1" type="photo" colors="mixed" width="90mm" height="50mm"/>
+		<graphics xref="lay-6.05" type="map" colors="mixed" width="98mm" height="137mm"/>
+		<text xref="lay-6.01.2 lay-6.02.2 lay-6.03.2 lay-6.06.2 lay-6.07.2" font-family="serif" font-size="6" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<text xref="lay-6.08" font-family="serif" font-size="13" font-style="normal" font-weight="normal" case="caps" color="black" background-color="brown"/>
+		<hi-text xref="lay-6.09.2" context="lay-6.09.3" font-family="serif" font-size="32" font-style="italic" font-weight="normal" case="caps" color="brown" background-color="white" border="rectangular" border-color="black" border-style="solid"/>
+		<text xref="lay-6.09.3 lay-6.09.4 lay-6.09.5 lay-6.09.6" font-family="serif" font-size="6" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<graphics xref="line-6.10.1 line-6.12.1" type="two-d-element" two-d-element-type="line" colors="black" width="1mm" length="35mm" direction="horizontal"/>
+		<graphics xref="line-6.10.3 line-6.12.3" type="two-d-element" two-d-element-type="line" colors="black" length="35mm" direction="horizontal"/>
+		<graphics xref="line-6.11" type="two-d-element" two-d-element-type="line" direction="vertical" colors="black" length="28mm"/>
+		<text xref="lay-6.10.2 lay-6.12.2" font-family="serif" font-size="7" font-style="normal" font-weight="normal" case="caps" color="brown"/>
+		<text xref="lay-6.10.4 lay-6.12.4" font-family="serif" font-size="4" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+	</realization>
+</gemLayout>
