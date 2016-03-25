@@ -285,7 +285,9 @@ def draw_roi(img, updated_contours, updated_contour_types):
     
     # Draw the contours on the image
     for ctype, contour in zip(updated_contour_types.values(), updated_contours):
-        
+
+        # TODO The bourding boxes are drawn in the wrong order: maybe store the contours in the dictionary to simplify?
+
         # Extract the bounding box
         (x, y, w, h) = cv2.boundingRect(contour)
 
@@ -336,7 +338,7 @@ def draw_roi(img, updated_contours, updated_contour_types):
                 # Add the contour type to the dictionary
                 updated_contour_types[str(ccounter)] = 'photo'
                 # Update the counter
-                ccounter += 1
+                ccounter = ccounter + 1
             
             else:
                 # Draw a bounding box for text
@@ -346,7 +348,7 @@ def draw_roi(img, updated_contours, updated_contour_types):
                 # Add the contour type to the dictionary
                 updated_contour_types[str(ccounter)] = 'text'
                 # Update the counter
-                ccounter += 1
+                ccounter = ccounter + 1
             
             # Display the image to show the drawn
             cv2.imshow("Draw regions of interest", image)
@@ -505,7 +507,7 @@ def generate_photo(original, x, w, y, h, num, base_layout_mapping):
     return vlu, vsa, vre
 
 ############################
-# Preprocess the input image
+# Pre-process the input image
 ############################
 
 
@@ -552,7 +554,7 @@ def project(image, original, contours):
 def redraw(img, classified_contours, contour_types, fp_list):
 
     """ Redraws the detected contours. """
-    
+
     # Work with a copy of the input image
     verimg = img.copy()
     
@@ -573,7 +575,7 @@ def redraw(img, classified_contours, contour_types, fp_list):
     
         for ctype, contour in zip(contour_types.values(), updated_contours):
             # Set up a counter for identifiers
-            counter += 1
+            counter = counter + 1
         
             # Extract the bounding box
             (x, y, w, h) = cv2.boundingRect(contour)
