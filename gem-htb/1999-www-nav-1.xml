@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemNav>
+	<pointer id="p-1.01" type="cross-reference" from="s-1.02" to="" range="phone">
+		<content xref="u-1.02"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.02" type="cross-reference" from="s-1.06" to="" range="phone">
+		<content xref="u-1.06"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.03" type="cross-reference" from="s-1.12" to="" range="phone">
+		<content xref="u-1.12"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.04" type="cross-reference" from="s-1.14" to="" range="phone">
+		<content xref="u-1.14"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.05" type="cross-reference" from="s-1.18" to="" range="phone">
+		<content xref="u-1.18"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.06" type="cross-reference" from="s-1.29" to="" range="phone">
+		<content xref="u-1.29"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.07" type="cross-reference" from="s-1.30" to="" range="phone">
+		<content xref="u-1.30"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.08" type="cross-reference" from="s-1.39" to="" range="phone">
+		<content xref="u-1.39"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.09" type="cross-reference" from="s-1.44" to="" range="phone">
+		<content xref="u-1.44"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.10" type="cross-reference" from="s-1.46" to="" range="phone">
+		<content xref="u-1.46"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.11" type="cross-reference" from="s-1.53" to="" range="phone">
+		<content xref="u-1.53"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.12" type="cross-reference" from="s-1.55" to="" range="phone">
+		<content xref="u-1.55"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.13" type="cross-reference" from="s-1.61" to="" range="phone">
+		<content xref="u-1.61"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.14" type="cross-reference" from="u-1.35" to="" range="www">
+		<content xref="u-1.35"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.15" type="cross-reference" from="u-1.71" to="" range="www">
+		<content xref="u-1.35"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<entry id="e-1.01" xref="u-1.36" layout-chunk="page-1"/>
+	<entry id="e-1.02" xref="u-1.70" layout-chunk="page-2"/>
+</gemNav>

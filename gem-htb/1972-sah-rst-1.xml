@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<gemRst>
+	<segmentation>
+		<segment id="s-1.01" xref="u-1.01">MARKET SQUARE</segment>
+		<mini-segment id="s-1.02" xref="u-1.02">A 1</mini-segment>
+		<segment id="s-1.03" xref="u-1.03">Open-air market.</segment>
+		<segment id="s-1.04" xref="u-1.04">Fruit, vegatables, flowers, berries, fish and handicrafts for sale.</segment>
+		<segment id="s-1.05" xref="u-1.05">Open Monday to Saturday 7 a.m. - 2 p.m.</segment>
+		<segment id="s-1.06" xref="u-1.06">The Market Hall is nearby.</segment>
+		<segment id="s-1.07" xref="u-1.07">LINNANMÄKI AMUSEMENT PARK</segment>
+		<mini-segment id="s-1.08" xref="u-1.08">A 2</mini-segment>
+		<segment id="s-1.09" xref="u-1.09">Located on Helsinginkatu.</segment>
+		<segment id="s-1.10" xref="u-1.10">Open from May to September.</segment>
+		<segment id="s-1.11" xref="u-1.11">Peacock variety show.</segment>
+		<segment id="s-1.12" xref="u-1.12">Restaurant and cafes.</segment>
+		<segment id="s-1.13" xref="u-1.13">FOUR TOURIST ISLANDS</segment>
+		<segment id="s-1.14" xref="u-1.14">KORKEASAARI ZOO</segment>
+		<mini-segment id="s-1.15" xref="u-1.15">AB 3</mini-segment>
+		<segment id="s-1.16" xref="u-1.16">The Helsinki Zoo.</segment>
+		<segment id="s-1.17" xref="u-1.17">Summer restaurant and cafes.</segment>
+		<segment id="s-1.18" xref="u-1.18">During the summer, ferry service from the North Harbour at the end of Aleksanterinkatu and motorboat service from the shore of Hakaniemi Square.</segment>
+		<segment id="s-1.19" xref="u-1.19">The pedestrian bridge from Mustikkamaa to Korkeasaari is expected to be finished in 1972.</segment>
+		<segment id="s-1.20" xref="u-1.20">A maritime museum is being built on Hylkysaari Island adjoining Korkeasaari.</segment>
+		<segment id="s-1.21" xref="u-1.21">PIHLAJASAARI ISLAND</segment>
+		<mini-segment id="s-1.22" xref="u-1.22">AB 4</mini-segment>
+		<segment id="s-1.23" xref="u-1.23">Beach for swimming and sunbathing.</segment>
+		<segment id="s-1.24" xref="u-1.24">Cafe.</segment>
+		<segment id="s-1.25" xref="u-1.25">Motorboat service during the summer from the quay at the end of Laivurinkatu.</segment>
+		<segment id="s-1.26" xref="u-1.26">SEURASAARI ISLAND</segment>
+		<mini-segment id="s-1.27" xref="u-1.27">AB 5</mini-segment>
+		<segment id="s-1.28" xref="u-1.28">National park and open-air museum.</segment>
+		<segment id="s-1.29" xref="u-1.29">In the summer a varied schedule of outdoor events.</segment>
+		<segment id="s-1.30" xref="u-1.30">Beach.</segment>
+		<segment id="s-1.31" xref="u-1.31">Summer restaurant and cafe.</segment>
+		<segment id="s-1.32" xref="u-1.32">Bus No. 24 from Erottaja.</segment>
+		<segment id="s-1.33" xref="u-1.33">During the summer also a motor-boat service.</segment>
+		<segment id="s-1.34" xref="u-1.34">SUOMENLINNA FORTRESS</segment>
+		<mini-segment id="s-1.35" xref="u-1.35">AB 6</mini-segment>
+		<segment id="s-1.36" xref="u-1.36">Old naval fortress.</segment>
+		<segment id="s-1.37" xref="u-1.37">Armfelt and Ehrensvärd Museums and the Coast Defence Section of the Military Museum.</segment>
+		<segment id="s-1.38" xref="u-1.38">Summer restaurant and cafes.</segment>
+		<segment id="s-1.39" xref="u-1.39">Ferry service from the Market Square.</segment>
+		<segment id="s-1.40" xref="u-1.40">During the summer also motor-boat service.</segment>
+		<segment id="s-1.41" xref="u-1.41" alt="Map: Helsinki"/>
+	</segmentation>
+	<rst-structure>
+		<multi-span id="span-1.01" nuclei="span-1.03 span-1.06" relation="list"/>
+		<mini-span id="span-1.02" attribuend="s-1.01" attribute="s-1.02" relation="identification"/>
+		<span id="span-1.03" nucleus="s-1.03" satellites="s-1.04 s-1.06" relation="elaboration"><title xref="span-1.02"/></span>
+		<span id="span-1.04" nucleus="s-1.03" satellites="s-1.05" relation="enablement"/>
+		
+		<mini-span id="span-1.05" attribuend="s-1.07" attribute="s-1.08" relation="identification"/>
+		<span id="span-1.06" nucleus="s-1.09" satellites="s-1.10" relation="enablement"><title xref="span-1.05"/></span>
+		<span id="span-1.07" nucleus="s-1.09" satellites="span-1.08" relation="elaboration"/>
+		<multi-span id="span-1.08" nuclei="s-1.11 s-1.12" relation="joint"/>
+		
+		<multi-span id="span-1.09" nuclei="s-1.13 s-1.41" relation="joint"/>
+		<multi-span id="span-1.10" nuclei="span-1.12 span-1.16 span-1.19 span-1.24" relation="list"><title xref="span-1.09"/></multi-span>
+		
+		<mini-span id="span-1.11" attribuend="s-1.14" attribute="s-1.15" relation="identification"/>
+		<span id="span-1.12" nucleus="s-1.16" satellites="s-1.18" relation="enablement"><title xref="span-1.11"/></span>
+		<span id="span-1.12-m" nucleus="s-1.16" satellites="s-1.17 span-1.13" relation="elaboration"/>
+		<multi-span id="span-1.13" nuclei="s-1.19 s-1.20" relation="joint"/>
+		
+		<mini-span id="span-1.15" attribuend="s-1.21" attribute="s-1.22" relation="identification"/>
+		<span id="span-1.16" nucleus="s-1.23" satellites="s-1.24" relation="elaboration"><title xref="span-1.15"/></span>
+		<span id="span-1.17" nucleus="s-1.23" satellites="s-1.25" relation="elaboration"/>
+		
+		<mini-span id="span-1.18" attribuend="s-1.26" attribute="s-1.27" relation="identification"/>
+		<span id="span-1.19" nucleus="s-1.28" satellites="span-1.20" relation="elaboration"><title xref="span-1.18"/></span>
+		<multi-span id="span-1.20" nuclei="s-1.29 s-1.30 s-1.31" relation="joint"/>
+		<span id="span-1.21" nucleus="s-1.28" satellites="span-1.22" relation="enablement"/>
+		<multi-span id="span-1.22" nuclei="s-1.32 s-1.33" relation="joint"/>
+		
+		<mini-span id="span-1.23" attribuend="s-1.34" attribute="s-1.35" relation="identification"/>
+		<span id="span-1.24" nucleus="s-1.36" satellites="span-1.25" relation="elaboration"><title xref="span-1.23"/></span>
+		<multi-span id="span-1.25" nuclei="s-1.37 s-1.38" relation="joint"/>
+		<span id="span-1.26" nucleus="s-1.36" satellites="span-1.27" relation="enablement"/>
+		<multi-span id="span-1.27" nuclei="s-1.39 s-1.40" relation="joint"/>
+	</rst-structure>
+</gemRst>

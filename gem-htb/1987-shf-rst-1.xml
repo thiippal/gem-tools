@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemRst>
+	<segmentation>
+		<segment id="s-1.01" xref="u-1.01" alt="Map: Munkkiniemi-Töölö-Meilahti"/>
+		<segment id="s-1.02" xref="u-1.02">3</segment>
+		<segment id="s-1.03" xref="u-1.03">Töölö -- Meilahti -- Munkkiniemi</segment>
+		<segment id="s-1.04" xref="u-1.07">Töölö was planned as new suburb of Helsinki at the beginning of the century and the area north of it, Meilahti, was incorporated into the plan in the 1920s and 1930s.</segment>
+		<segment id="s-1.05" xref="u-1.08">In 1946 Munkkiniemi was annexed to Helsinki following major adjustments to the city boundaries.</segment>
+		<segment id="s-1.06" xref="u-1.09">(1)  We begin our walk at the Töölö Market, which has been as we know it today since the late 1930s.</segment>
+		<segment id="s-1.07" xref="u-1.10">There are flowers and vegetables on sale at the market from 7 to 14 on Mondays to Saturdays.</segment>
+		<segment id="s-1.08" xref="u-1.11">- Let us now head for Topeliuksenkatu.</segment>
+		<segment id="s-1.09" xref="u-1.12">(2) On the left is the Töölö Church, completed in 1929 (architect Hilding Ekelund).</segment>
+		<segment id="s-1.10" xref="u-1.13">(3) On the right is the Töölö Hospital, now part of Helsinki University Central Hospital.</segment>
+		<segment id="s-1.11" xref="u-1.14">It was built as a Red Cross hospital in the early 1930s (architect Jussi Paatela).</segment>
+		<segment id="s-1.12" xref="u-1.15">- Turn into Sibeliuksenkatu and walk down to Topelius Park.</segment>
+		<segment id="s-1.13" xref="u-1.16">(4) On the left are the Kivelä Hospital grounds.</segment>
+		<segment id="s-1.14" xref="u-1.17">The first buildings were completed at the turn of the century, the big brick buildings were designed by Gunnar Taucher in the 1930s.</segment>
+		<segment id="s-1.15" xref="u-1.18">(5) The Töölö Library (Aarne Ervi, 1970) is on Topeliuksenkatu.</segment>
+		<segment id="s-1.16" xref="u-1.19">At the entrance is Kari Juva's Reading Room, a piece of sculpture created in 1972.</segment>
+		<segment id="s-1.17" xref="u-1.20">(6) Ilmatar and the Sea-duck, a statue on a Kalevala theme by Aarre Aaltonen, stands on a little hillock and was erected in 1946.</segment>
+		<segment id="s-1.18" xref="u-1.21">- We now cross Mechelininkatu to Sibelius Park.</segment>
+		<segment id="s-1.19" xref="u-1.22">(7) In the park stands the Sibelius Monument, the work of Eila Hiltunen in 1967.</segment>
+		<segment id="s-1.20" xref="u-1.23">- Crossing Rajasaarentie we proceed along the edge of the park across Linnakoskenkatu to Tavaststjernankatu.</segment>
+	</segmentation>
+	<rst-structure>
+		<multi-span id="span-1.01" nuclei="s-1.01 span-1.01-m" relation="joint"/>
+		<multi-span id="span-1.01-m" nuclei="s-1.02 s-1.03" relation="joint"/>
+		<span id="span-1.02" nucleus="s-1.04" satellites="s-1.05" relation="elaboration"><title xref="span-1.01-m"/></span>
+		<span id="span-1.03" nucleus="span-1.04" satellites="span-1.02" relation="background"/>
+		<multi-span id="span-1.04" nuclei="span-1.05 s-1.08 s-1.09 span-1.06 s-1.12 span-1.07 span-1.08 s-1.17 s-1.18 s-1.19 s-1.20" relation="sequence"/>
+		<span id="span-1.05" nucleus="s-1.06" satellites="s-1.07" relation="elaboration"/>
+		<span id="span-1.06" nucleus="s-1.10" satellites="s-1.11" relation="elaboration"/>
+		<span id="span-1.07" nucleus="s-1.13" satellites="s-1.14" relation="elaboration"/>
+		<span id="span-1.08" nucleus="s-1.15" satellites="s-1.16" relation="elaboration"/>
+	</rst-structure>
+</gemRst>

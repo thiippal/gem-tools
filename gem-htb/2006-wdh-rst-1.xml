@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemRst>
+	<segmentation>
+		<segment id="s-1.01" xref="u-1.01" alt="Photo: Dinner table with the Lutheran Cathedral in the background"/>
+		<segment id="s-1.02" xref="u-1.02" alt="Photo: A couple walking on the Esplanade"/>
+		<segment id="s-1.03" xref="u-1.03">Helsinki -- the enjoyable experience</segment>
+		<segment id="s-1.04" xref="u-1.04">Helsinki is a modern European capital where an urban lifestyle, the sea and nature interact.</segment>
+		<segment id="s-1.05" xref="u-1.05">Most sights and attractions are within walking distance of the city centre.</segment>
+		<segment id="s-1.06" xref="u-1.06">Getting around the town is easy, so an occasional visitor can experience and accomplish surprisingly much, even during one weekend.</segment>
+		<segment id="s-1.07" xref="u-1.07">Add a day or two to your visit, and the various wealth of opportunities in neighbouring cities, even countries, are easily within reach.</segment>
+		<segment id="s-1.08" xref="u-1.08">Whether it is the sights, shopping, restaurants, culture or entertainment you are looking for, Helsinki will fulfil your expectations.</segment>
+		<segment id="s-1.09" xref="u-1.09">A wide selection of quality restaurants is available within walking distance, along with large-scale shopping centres and fashionable boutiques.</segment>
+		<segment id="s-1.10" xref="u-1.10">Come and see for yourself -- Helsinki welcomes you with open arms, every day of the year!</segment>
+		<segment id="s-1.11" xref="u-1.11">Making the most of your visit</segment>
+		<segment id="s-1.12" xref="u-1.12">This brochure has been designed to help you enjoy Helsinki without having to spend unnecessary amount of time planning your next move.</segment>
+		<segment id="s-1.13" xref="u-1.13">Besides useful information about places to go and things to do, you will find plenty of valuable offers from local shops, restaurants and tour operators.</segment>
+		<segment id="s-1.14" xref="u-1.14">Helsinki Expert coupons should be presented for discounts when purchasing.</segment>
+		<segment id="s-1.15" xref="u-1.15">Other discounts you can claim by simply presenting this procure at the point of purchase.</segment>
+		<segment id="s-1.16" xref="u-1.16">So go ahead, make the most of your visit to the Daughter of the Baltic!</segment>
+		<segment id="s-1.17" xref="u-1.17">And afterwards, feel free to give this brochure to a friend, colleague or whoever you might know is thinking about stopping by.</segment>
+		<segment id="s-1.18" xref="u-1.18">This way, they will also be able to get the benefits -- and to enjoy Helsinki as much as you have!</segment>
+		<mini-segment id="s-1.19" xref="u-1.19" alt="Illustration: Coat of arms"/>
+		<segment id="s-1.20" xref="u-1.20">City of Helsinki</segment>
+		<segment id="s-1.21" xref="u-1.21">Tourist &amp; Convention Bureau</segment>
+		<segment id="s-1.22" xref="u-1.22">Pohjoisesplanadi 19</segment>
+		<segment id="s-1.23" xref="u-1.23">FI-00099 City of Helsinki</segment>
+		<segment id="s-1.24" xref="u-1.24">Tel. +358 (09) 169 3757, Fax +358 (0)9 169 3839</segment>
+		<segment id="s-1.25" xref="u-1.25">e-mail: tourist.info@hel.fi</segment>
+		<segment id="s-1.26" xref="u-1.26">Opening hours:</segment>
+		<segment id="s-1.27" xref="u-1.27">2.5.-30.9. Mon-Fri 9am-8pm, Sat-Sun 9am-6pm</segment>
+		<segment id="s-1.28" xref="u-1.28">1.10.-1.5. Mon-Fri 9am-6pm, Sat-Sun 10am-4pm</segment>
+		<segment id="s-1.29" xref="u-1.29">Further information about sights and events:</segment>
+		<segment id="s-1.30" xref="u-1.30">www.visithelsinki.fi</segment>
+		<segment id="s-1.31" xref="u-1.31" alt="Photo: A couple in a bar"/>
+	</segmentation>
+	<rst-structure>
+		<multi-span id="span-1.01-m" nuclei="span-1.03 span-1.08" relation="joint"/>
+		<multi-span id="span-1.02" nuclei="s-1.01 s-1.02 s-1.03" relation="restatement"/>
+		<span id="span-1.03" nucleus="s-1.04" satellites="span-1.04 span-1.05" relation="elaboration"><title xref="span-1.02"/></span>
+		<span id="span-1.04" nucleus="s-1.05" satellites="s-1.06 s-1.07" relation="enablement"/>
+		<span id="span-1.05" nucleus="s-1.08" satellites="span-1.06" relation="motivation"/>
+		<span id="span-1.06" nucleus="s-1.09" satellites="s-1.10" relation="motivation"/>
+		
+		<multi-span id="span-1.07" nuclei="s-1.11 s-1.31" relation="restatement"/>
+		<span id="span-1.08" nucleus="s-1.12" satellites="s-1.13 span-1.09" relation="elaboration"><title xref="span-1.07"/></span>
+		<span id="span-1.09" nucleus="s-1.14" satellites="s-1.15" relation="enablement"/>
+		<span id="span-1.10" nucleus="s-1.12" satellites="span-1.11" relation="motivation"/>
+		<multi-span id="span-1.11" nuclei="s-1.16 span-1.12" relation="sequence"/>
+		<span id="span-1.12" nucleus="s-1.17" satellites="s-1.18" relation="means"/>
+		
+		<mini-span id="span-1.13" attribuend="s-1.20" attribute="s-1.19" relation="identification"/>
+		<span id="span-1.14" nucleus="span-1.13" satellites="span-1.15 span-1.16 span-1.17" relation="enablement"/>
+		<multi-span id="span-1.15" nuclei="s-1.22 s-1.23 s-1.24 s-1.25" relation="joint"><title xref="s-1.21"/></multi-span>
+		<multi-span id="span-1.16" nuclei="s-1.27 s-1.28" relation="joint"><title xref="s-1.26"/></multi-span>
+		<span id="span-1.17" nucleus="s-1.29" satellites="s-1.30" relation="enablement"/>
+		
+		<span id="span-1.18" nucleus="s-1.12" satellites="span-1.13" relation="enablement"/>
+	</rst-structure>
+</gemRst>

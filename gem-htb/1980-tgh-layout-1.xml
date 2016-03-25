@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemLayout>
+	<segmentation>
+		<layout-unit id="lay-4.01" xref="u-4.01" alt="Photo: Suomenlinna in winter"/>
+		<layout-unit id="lay-4.02" xref="u-4.02 u-4.03 u-4.04"/>
+		<layout-unit id="lay-4.03" xref="u-4.05" alt="Line: Thick"/>
+		<layout-unit id="lay-4.04" xref="u-4.06" alt="Line: Thin"/>
+		<layout-unit id="lay-4.05" xref="u-4.07">EXPLORING THE AREA</layout-unit>
+		<layout-unit id="lay-4.06" xref="u-4.08" alt="Line: Thin"/>
+		<layout-unit id="lay-4.07" xref="u-4.09" alt="Line: Thick"/>
+		<layout-unit id="lay-4.08" xref="u-4.10" alt="Photo: Architectural detail (Kullervo)"/>
+		<layout-unit id="lay-4.09" xref="u-4.11 u-4.12"/>
+		<layout-unit id="lay-4.10" xref="u-4.13 u-4.14"/>
+		<layout-unit id="lay-4.11" xref="u-4.15 u-4.16 u-4.17"/>
+		<layout-unit id="lay-4.12" xref="u-4.18 u-4.19 u-4.20.1"/>
+		<layout-unit id="lay-4.13" xref="u-4.20.2"/>
+		<layout-unit id="lay-4.14" xref="u-4.21 u-4.22"/>
+		<layout-unit id="lay-4.15" xref="u-4.23"/>
+		<layout-unit id="lay-4.16" xref="u-4.24 u-4.25"/>
+		<layout-unit id="lay-4.17" xref="u-4.26"/>
+		<layout-unit id="lay-4.18" xref="u-4.27" alt="Photo: Tapiola"/>
+		<layout-unit id="lay-4.19" xref="u-4.28"/>
+		<layout-unit id="lay-4.20" xref="u-4.29" alt="Photo: Tarvaspää"/>
+		<layout-unit id="lay-4.21" xref="u-4.30 u-4.31"/>
+		<layout-unit id="lay-4.22" xref="u-4.32" alt="Photo: Railway station tower"/>
+		<layout-unit id="lay-4.23" xref="u-4.33 u-4.34"/>
+	</segmentation>
+	<realization>
+		<graphics xref="lay-4.01" type="photo" colors="mixed" width="204mm" height="204mm"/>
+		<text xref="lay-4.02 lay-4.23" font-family="serif" font-size="4" font-style="normal" font-weight="normal" case="mixed" color="white" background-color="black" border="rectangular" border-style="solid"/>
+		<graphics xref="lay-4.03 lay-4.07" type="two-d-element" two-d-element-type="line" colors="black" width="92mm" element-weight="bold"/>
+		<graphics xref="lay-4.04 lay-4.06" type="two-d-element" two-d-element-type="line" colors="black" width="92mm" element-weight="normal"/>
+		<text xref="lay-4.05" font-family="serif" font-size="15" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<graphics xref="lay-4.08" type="photo" colors="mixed" width="34mm" height="78mm"/>
+		<text xref="lay-4.09 lay-4.10 lay-4.11 lay-4.12 lay-4.13 lay-4.14 lay-4.15 lay-4.16 lay-4.17" font-family="serif" font-size="5" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<graphics xref="lay-4.18" type="photo" colors="mixed" width="92mm" height="52mm"/>
+		<graphics xref="lay-4.20" type="photo" colors="mixed" width="93mm" height="59mm"/>
+		<text xref="lay-4.19 lay-4.21" font-family="serif" font-size="4" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<graphics xref="lay-4.22" type="photo" colors="mixed" width="53mm" height="92mm"/>
+	</realization>
+<layout-structure>
+	<layout-root id="tgh-1980-l-pages-7-8" orientation="landscape">
+		<layout-chunk id="page-7" location="col-1" area-ref="pages-a-7-8">
+			<layout-leaf xref="lay-4.01" location="col-1" area-ref="pages-a-7-8"/>
+			<layout-leaf xref="lay-4.02" location="cell-22"  area-ref="page-a-7-b-1"/>
+		</layout-chunk>
+		<layout-chunk id="page-8" location="col-2" area-ref="pages-a-7-8">
+			<layout-chunk id="page-8-header" location="multi" area-ref="page-a-8-b">
+				<layout-leaf xref="lay-4.03" location="row-1" area-ref="page-a-8-b-1"/>
+				<layout-leaf xref="lay-4.04" location="row-1" area-ref="page-a-8-b-1"/>
+				<layout-leaf xref="lay-4.05" location="col-1" area-ref="page-a-8-b-2"/>
+				<layout-leaf xref="lay-4.06" location="row-3" area-ref="page-a-8-b-1"/>
+				<layout-leaf xref="lay-4.07" location="row-3" area-ref="page-a-8-b-1"/>
+			</layout-chunk>
+			<layout-chunk id="page-8-column-1" location="row-3" area-ref="page-a-8-b">
+				<layout-leaf xref="lay-4.08" location="inset" displace="column-1-text" area-ref="page-a-8-b" halign="top" valign="left"/>
+				<layout-chunk id="column-1-text" location="row-3" flow-around="lay-4.08">
+					<layout-leaf xref="lay-4.09" location="row-3" area-ref="page-a-8-b"/>
+					<layout-leaf xref="lay-4.10" location="row-3" area-ref="page-a-8-b"/>
+					<layout-leaf xref="lay-4.11" location="row-3" area-ref="page-a-8-b"/>
+					<layout-leaf xref="lay-4.12" location="row-3" area-ref="page-a-8-b"/>
+				</layout-chunk>
+			<layout-chunk id="page-8-column-1-photo" location="multi" area-ref="page-a-8-b">
+				<layout-leaf xref="lay-4.18" location="row-4" area-ref="page-a-8-b"/>
+				<layout-leaf xref="lay-4.19" location="row-5" area-ref="page-a-8-b"/>
+			</layout-chunk>
+			</layout-chunk>
+			<layout-chunk id="page-8-column-2" location="multi" area-ref="page-a-8-c">
+				<layout-chunk id="page-8-column-2-photo" location="itemizer">
+					<layout-leaf xref="lay-4.20" location="row-1" area-ref="page-a-8-c"/>
+					<layout-leaf xref="lay-4.21" location="row-2" area-ref="page-a-8-c"/>
+				</layout-chunk>
+				<layout-chunk id="column-2-text" location="row-3" flow-around="column-2-photo" area-ref="page-a-8-c">
+					<layout-leaf xref="lay-4.13" location="row-3" area-ref="page-a-8-c"/>
+					<layout-leaf xref="lay-4.14" location="row-3" area-ref="page-a-8-c"/>
+					<layout-leaf xref="lay-4.15" location="row-3"  overlap-area="page-a-8-c-1" area-ref="page-a-8-c"/>
+					<layout-leaf xref="lay-4.16" location="col-1" area-ref="page-a-8-c-1"/>
+					<layout-leaf xref="lay-4.17" location="col-1" area-ref="page-a-8-c-1"/>
+				</layout-chunk>
+				<layout-chunk id="column-2-photo" displace="column-2-text" location="multi" area-ref="page-a-8-c">
+					<layout-leaf xref="lay-4.22"  location="col-2" area-ref="page-a-8-c-1"/>
+					<layout-leaf xref="lay-4.23" location="row-2" area-ref="page-a-8-c-2"/>
+				</layout-chunk>
+			</layout-chunk>
+		</layout-chunk>
+	</layout-root>
+</layout-structure>
+	<area-model>
+	<!--
+		<area-root id="tgh-1980-a-cover" cols="1" rows="4" hspacing="100" vspacing="2 12 78 9" height="204mm" width="408mm">
+			<sub-area id="tgh-1980-a-cover-b" location="row-2" cols="3" rows="1" hspacing="28 21 51" vspacing="100" height="22mm" width="408mm">
+				<sub-area id="tgh-1980-a-cover-b-1" location="col-2" cols="3" rows="3" hspacing="3 92 5" vspacing="22 68 10" width="84mm" height="22mm"/>
+			</sub-area>
+			<sub-area id="tgh-1980-a-cover-c" location="row-4" cols="2" rows="1" hspacing="75 25" vspacing="100" height="18mm" width="408mm">
+				<sub-area id="tgh-1980-a-cover-c-1" location="col-2" cols="2" rows="2" hspacing="91 9" vspacing="72 28" height="18mm" width="102mm"/>
+			</sub-area>
+		</area-root>
+		<area-root id="tgh-1980-a-pages-1-2" cols="2" rows="1" hspacing="50 50" vspacing="100" height="204mm" width="408mm">
+			<sub-area id="page-a-1" location="col-1" cols="1" rows="2" hspacing="100" vspacing="82 13 5" height="27mm" width="204mm">
+				<sub-area id="page-a-1-b" location="row-2" cols="3" rows="1" hspacing="66 29 5" vspacing="100" height="27mm" width="204mm">
+					<sub-area id="page-a-1-b-1" location="col-2" cols="3" rows="3" hspacing="5 90 5" vspacing="14 76 10" height="27mm" width="60mm"/>
+				</sub-area>
+			</sub-area>
+			<sub-area id="page-a-2" location="col-2" cols="5" rows="2" hspacing="4 46 1 46 3" vspacing="3 97" height="204mm" width="408mm">
+				<sub-area id="page-a-2-b" location="cell-22" cols="1" rows="4" hspacing="100" vspacing="2 7 3 88" width="93mm" height="198mm">
+					<sub-area id="page-a-2-b-1" location="row-2" cols="1" rows="3" hspacing="100" vspacing="16 68 16" width="93mm" height="22mm">
+						<sub-area id="page-a-2-b-2" location="row-2" cols="2" rows="1" hspacing="55 45" vspacing="100" width="93mm" height="15mm"/>
+					</sub-area>
+					<sub-area id="page-a-2-b-3" location="inset" cols="1" rows="2" hspacing="100" vspacing="73 27" height="92mm" width="47mm"/>
+				</sub-area>
+				<sub-area id="page-a-2-c" location="cell-42" cols="1" rows="3" hspacing="100" vspacing="55 8 37" width="93mm" height="198mm">
+					<sub-area id="page-a-2-c-1" location="inset" cols="1" rows="1" hspacing="100" vspacing="100" width="73mm" height="45mm"/>
+					<sub-area id="page-a-2-c-2" location="inset" cols="1" rows="1" hspacing="100" vspacing="100" height="73mm" width="133mm"/>
+				</sub-area>
+			</sub-area>
+		</area-root>
+		<area-root id="pages-a-3-4" cols="2" rows="1" hspacing="50 50" vspacing="100" height="204mm" width="408mm">
+			<sub-area id="page-a-3" location="col-1" cols="3" rows="1" hspacing="100" vspacing="86 9 5" height="204mm" width="204mm">
+				<sub-area id="page-a-3-b" location="row-2" cols="3" rows="1" hspacing="59 36 5" vspacing="100" width="204mm" height="18mm">
+					<sub-area id="page-a-3-b-1" location="col-2" cols="3" rows="3" hspacing="4 92 4" vspacing="25 50 25" height="18mm" width="74mm"/>
+				</sub-area>
+			</sub-area>
+			<sub-area id="page-a-4" location="col-2" cols="5" rows="2" hspacing="4 46 1 46 4" vspacing="3 97" height="204mm" width="204mm">
+				<sub-area id="page-a-4-b" location="cell-22" cols="1" rows="8" hspacing="100" vspacing="11 14 3 34 3 5 24 6" width="93mm" height="198mm">
+					<sub-area id="page-a-4-b-1" location="row-1" cols="1" rows="3" hspacing="100" vspacing="14 63 23" height="22mm" width="93mm">
+						<sub-area id="page-a-4-b-2" location="row-2" cols="2" rows="1" hspacing="50 50" vspacing="100" height="14mm" width="93mm"/>
+					</sub-area>
+				</sub-area>
+				<sub-area id="page-a-4-c" location="cell-42" cols="1" rows="5" hspacing="100" vspacing="43 5 43 3 6" width="93mm" height="198mm"/>
+			</sub-area>
+		</area-root>
+		<area-root id="pages-a-5-6" cols="2" rows="1" hspacing="50 50" vspacing="100" height="204mm" width="408mm">
+			<sub-area id="page-a-5" location="col-1" cols="1" rows="3" hspacing="100" vspacing="87 7 6" height="204mm" width="204mm">
+				<sub-area id="page-a-5-b" location="row-2" cols="3" rows="1" hspacing="34 60 6" vspacing="100" height="15mm" width="204mm">
+					<sub-area id="page-a-5-b-1" location="col-2" cols="3" rows="3" hspacing="2 96 2" vspacing="20 60 20" height="15mm" width="123mm"/>
+				</sub-area>
+			</sub-area>
+			<sub-area id="page-a-6" location="col-2" cols="5" rows="2" hspacing="4 46 1 46 4" vspacing="3 97" height="204mm" width="204mm">
+				<sub-area id="page-a-6-b" location="cell-22" cols="1" rows="9" hspacing="100" vspacing="36 1 2 3 16 31 1 5 5" height="198mm" width="93mm"/>
+				<sub-area id="page-a-6-c" location="cell-42" cols="1" rows="8" hspacing="100" vspacing="36 1 3 1 47 1 6 5" height="198mm" width="93mm"/>
+			</sub-area>
+		</area-root>-->
+		<!-- The area-root below is the one currently under analysis. -->
+		<area-root id="tgh-1980-a-pages-a-7-8" cols="2" rows="1" hspacing="50 50" vspacing="100" height="204mm" width="408mm">
+			<sub-area id="page-a-7" location="col-1" cols="1" rows="3" hspacing="100" vspacing="82 13 5" height="204mm" width="204mm">
+				<sub-area id="page-a-7-b" location="row-2" cols="3" rows="1" hspacing="67 29 4" vspacing="100" height="17mm" width="204mm">
+					<sub-area id="page-a-7-b-1" location="col-2" cols="3" rows="3" hspacing="5 90 5" vspacing="7 86 7" height="17mm" width="60mm"/>
+				</sub-area>
+			</sub-area>
+			<sub-area id="page-a-8" location="col-2" cols="5" rows="2" hspacing="4 46 1 46 4" vspacing="3 97" height="204mm" width="204mm">
+				<sub-area id="page-a-8-b" location="cell-22" cols="1" rows="6" hspacing="100" vspacing="10 47 3 29 5 6" width="93mm" height="198mm">
+					<sub-area id="page-a-8-b-1" location="row-1" cols="1" rows="3" hspacing="14 63 23" vspacing="100" width="93mm" height="21mm">
+						<sub-area id="page-a-8-b-2" location="row-2" cols="2" rows="1" hspacing="44 56" vspacing="100" width="93mm" height="14mm"/>
+					</sub-area>
+				</sub-area>
+				<sub-area id="page-a-8-c" location="cell-42" cols="1" rows="4" hspacing="100" vspacing="30 4 20 46" width="93mm" height="198mm">
+					<sub-area id="page-a-8-c-1" location="row-4" cols="2" rows="1" hspacing="43 47" vspacing="100" width="93mm" height="92mm">
+						<sub-area id="page-a-8-c-2" location="col-2" cols="1" rows="3" hspacing="100" vspacing="67 19 14" height="92mm" width="53mm"/>
+					</sub-area>
+				</sub-area>
+			</sub-area>
+		</area-root>
+		<!--
+		<area-root id="pages-a-9-10" cols="2" rows="1" hspacing="50 50" vspacing="100" height="204mm" width="408mm">
+			<sub-area id="page-a-9" location="col-1" cols="1" rows="3" hspacing="100" vspacing="81 13 6" height="204mm" width="204mm">
+				<sub-area id="page-a-9-b" location="row-2" cols="3" rows="1" hspacing="66 29 5" vspacing="100" height="27mm" width="204mm">
+					<sub-area id="page-a-9-b-1" location="col-2" cols="3" rows="3" hspacing="3 94 3" vspacing="15 70 15" height="27mm" width="60mm"/>
+				</sub-area>
+			</sub-area>
+			<sub-area id="page-a-10" location="col-2" cols="5" rows="2" hspacing="4 46 1 46 4" vspacing="3 97" height="204mm" width="204mm">
+				<sub-area id="page-a-10-b" location="cell-22" cols="1" rows="7" hspacing="100" vspacing="10 1 33 3 40 5 8" width="93mm" height="198mm">
+					<sub-area id="page-a-10-b-1" location="row-1" cols="1" rows="3" hspacing="100" vspacing="14 67 19" width="93mm" height="21mm">
+						<sub-area id="page-a-10-b-2" location="row-2" cols="2" rows="1" hspacing="45 55" vspacing="100" width="93mm" height="14mm"/>
+					</sub-area>
+					<sub-area id="page-a-10-b-3" location="row-3" cols="3" rows="1" hspacing="48 2 50" vspacing="100" height="66mm" width="93mm"/>
+				</sub-area>
+				<sub-area id="page-a-10-c" location="cell-42" cols="1" rows="7" hspacing="100" vspacing="42 4 1 41 1 4 7" width="93mm" height="198mm"/>
+			</sub-area>
+		</area-root>
+		<area-root id="pages-a-11-12" cols="2" rows="1" hspacing="50 50" vspacing="100" height="204mm" width="408mm">
+			<sub-area id="page-a-11" location="col-1" cols="1" rows="3" hspacing="100" vspacing="86 9 5" height="204mm" width="204mm">
+				<sub-area id="page-a-11-b" location="row-2" cols="3" rows="1" hspacing="49 47 4" vspacing="100" width="204mm" height="18mm">
+					<sub-area id="page-a-11-b-1" location="row-2" cols="3" rows="3" hspacing="2 97 1" vspacing="16 68 16" width="95mm" height="18mm"/>
+				</sub-area>
+			</sub-area>
+			<sub-area id="page-a-12" location="col-2" cols="5" rows="2" hspacing="4 46 1 46 4" vspacing="3 97" height="204mm" width="204mm">
+				<sub-area id="page-a-12-b" location="cell-22" cols="1" rows="7" hspacing="100" vspacing="10 1 18 2 25 38 6" height="198mm" width="93mm">
+					<sub-area id="page-a-12-b-1" location="row-1" cols="1" rows="3" hspacing="100" vspacing="14 67 19" height="21mm" width="93mm">
+						<sub-area id="page-12-b-2" location="row-2" cols="2" rows="1" hspacing="67 33" vspacing="100" width="93mm" height="14mm"/>
+					</sub-area>
+				</sub-area>
+				<sub-area id="page-a-12-c" location="cell-42" cols="1" rows="11" hspacing="100" vspacing="8 3 21 6 7 14 5 24 1 5 6" height="198mm" width="93mm"/>
+			</sub-area>
+		</area-root>
+		<area-root id="pages-a-13-14" cols="2" rows="1" hspacing="75 25" vspacing="100" height="204mm" width="408mm">
+			<sub-area id="page-a-13" location="col-1" cols="1" rows="2" hspacing="100" vspacing="67 33" width="303mm" height="204mm">
+				<sub-area id="page-a-13-b" location="row-2" cols="2" rows="1" hspacing="74 26" vspacing="100" width="303mm" height="68mm"/>
+			</sub-area>
+			<sub-area id="page-a-14" location="col-2" cols="3" rows="2" hspacing="4 88 8" vspacing="3 97" height="204mm" width="105mm">
+				<sub-area id="page-a-14-b" location="cell-22" cols="1" rows="7" hspacing="100" vspacing="10 21 2 2 2 53 10" width="92mm" height="198mm">
+					<sub-area id="page-a-14-b-1" location="row-1" cols="1" rows="3" hspacing="100" vspacing="14 67 19" height="21mm" width="92mm">
+						<sub-area id="page-14-b-2" location="row-2" cols="2" rows="1" hspacing="87 13" vspacing="100" width="92mm" height="14mm"/>
+					</sub-area>
+					<sub-area id="page-a-14-b-3" location="row-4" cols="3" rows="1" hspacing="23 53 24" vspacing="100" height="4mm" width="92mm"/>
+				</sub-area>
+			</sub-area>
+		</area-root>
+		-->
+	</area-model>
+</gemLayout>

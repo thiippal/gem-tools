@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<gemNav>
+	<pointer id="p-1.01" type="cross-reference" from="s-1.03" to="" range="phone">
+		<content xref="u-1.03"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.02" type="cross-reference" from="s-1.11" to="" range="phone">
+		<content xref="u-1.11"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.03" type="cross-reference" from="s-1.34" to="" range="phone">
+		<content xref="u-1.34"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.04" type="cross-reference" from="s-1.50" to="" range="phone">
+		<content xref="u-1.50"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.05" type="cross-reference" from="s-1.56" to="" range="phone">
+		<content xref="u-1.56"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.06" type="cross-reference" from="s-1.60" to="" range="phone">
+		<content xref="u-1.60"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.07" type="cross-reference" from="s-1.69" to="" range="phone">
+		<content xref="u-1.69"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.08" type="cross-reference" from="s-1.80" to="" range="phone">
+		<content xref="u-1.80"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.09" type="cross-reference" from="s-1.98" to="" range="phone">
+		<content xref="u-1.98"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.10" type="cross-reference" from="s-1.106" to="" range="phone">
+		<content xref="u-1.107"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.11" type="cross-reference" from="s-1.113" to="" range="phone">
+		<content xref="u-1.114"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.12" type="cross-reference" from="s-1.114" to="" range="corpus-external">
+		<content xref="u-1.115"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.13" type="cross-reference" from="s-1.122" to="" range="phone">
+		<content xref="u-1.123"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.14" type="cross-reference" from="s-1.123" to="" range="corpus-external">
+		<content xref="u-1.124"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.15" type="cross-reference" from="s-1.135" to="" range="phone">
+		<content xref="u-1.136"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.16" type="cross-reference" from="s-1.136" to="" range="corpus-external">
+		<content xref="u-1.137"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.17" type="cross-reference" from="s-1.148" to="" range="phone">
+		<content xref="u-1.149"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.18" type="cross-reference" from="s-1.149" to="" range="corpus-external">
+		<content xref="u-1.150"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.19" type="cross-reference" from="s-1.155" to="" range="phone">
+		<content xref="s-1.156"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.20" type="cross-reference" from="s-1.158" to="" range="corpus-external">
+		<content xref="s-1.159"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.21" type="cross-reference" from="s-1.169" to="" range="phone">
+		<content xref="u-1.170"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.22" type="cross-reference" from="s-1.170" to="" range="corpus-external">
+		<content xref="u-1.171"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.23" type="cross-reference" from="s-1.178" to="" range="phone">
+		<content xref="s-1.179"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-1.24" type="cross-reference" from="s-1.179" to="" range="corpus-external">
+		<content xref="u-1.180"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.01" type="cross-reference" from="s-2.03" to="" range="phone">
+		<content xref="u-2.03"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.02" type="cross-reference" from="s-2.06" to="" range="corpus-external">
+		<content xref="u-2.06"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.03" type="cross-reference" from="s-2.07" to="e-2.01" range="document-internal">
+		<content xref="u-2.07"/>
+		<address xref="e-2.01" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.04" type="cross-reference" from="s-2.087" to="e-2.02" range="document-internal">
+		<content xref="u-2.08"/>
+		<address xref="e-2.02" address-precision="start-only"/>
+	</pointer>
+	<entry id="e-2.01" xref="u-1.181" layout-chunk="page-3-row-8"/>
+	<entry id="e-2.02" xref="u-1.184" layout-chunk="page-3-row-8"/>
+	<pointer id="p-2.05" type="cross-reference" from="s-2.12" to="" range="phone">
+		<content xref="u-2.12"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.06" type="cross-reference" from="s-2.13" to="" range="corpus-external">
+		<content xref="u-2.13"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.07" type="cross-reference" from="s-2.21" to="" range="phone">
+		<content xref="u-2.21"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.08" type="cross-reference" from="s-2.23" to="" range="corpus-external">
+		<content xref="u-2.23"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.09" type="cross-reference" from="s-2.29" to="" range="phone">
+		<content xref="u-2.29"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.10" type="cross-reference" from="s-2.30" to="" range="corpus-external">
+		<content xref="u-2.30"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.11" type="cross-reference" from="s-2.38" to="" range="phone">
+		<content xref="u-2.38"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.12" type="cross-reference" from="s-2.40" to="" range="corpus-external">
+		<content xref="u-2.40"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.13" type="cross-reference" from="s-2.47" to="" range="phone">
+		<content xref="u-2.47"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.14" type="cross-reference" from="s-2.48" to="" range="corpus-external">
+		<content xref="u-2.48"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.15" type="cross-reference" from="s-2.60" to="" range="phone">
+		<content xref="u-2.60"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.16" type="cross-reference" from="s-2.65" to="" range="phone">
+		<content xref="u-2.65"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.17" type="cross-reference" from="s-2.66" to="" range="corpus-external">
+		<content xref="u-2.66"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.18" type="cross-reference" from="s-2.68" to="" range="corpus-external">
+		<content xref="u-2.68"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.19" type="cross-reference" from="s-2.70" to="" range="phone">
+		<content xref="u-2.70"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.20" type="cross-reference" from="s-2.82" to="" range="corpus-external">
+		<content xref="u-2.82"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.21" type="cross-reference" from="s-2.91" to="" range="phone">
+		<content xref="u-2.91"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.22" type="cross-reference" from="s-2.92" to="" range="corpus-external">
+		<content xref="u-2.92"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.23" type="cross-reference" from="s-2.100" to="" range="phone">
+		<content xref="u-2.100"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.24" type="cross-reference" from="s-2.102" to="" range="corpus-external">
+		<content xref="u-2.102"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.25" type="cross-reference" from="s-2.113" to="" range="phone">
+		<content xref="u-2.113"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.26" type="cross-reference" from="s-2.114" to="" range="corpus-external">
+		<content xref="u-2.114"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.27" type="cross-reference" from="s-2.123" to="" range="phone">
+		<content xref="u-2.123"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.28" type="cross-reference" from="s-2.124" to="" range="corpus-external">
+		<content xref="u-2.124"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.29" type="cross-reference" from="s-2.130" to="" range="phone">
+		<content xref="u-2.130"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.30" type="cross-reference" from="s-2.131" to="" range="corpus-external">
+		<content xref="u-2.131"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.31" type="cross-reference" from="s-2.141" to="" range="phone">
+		<content xref="u-2.141"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.32" type="cross-reference" from="s-2.142" to="" range="corpus-external">
+		<content xref="u-2.142"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.33" type="cross-reference" from="s-2.150" to="" range="phone">
+		<content xref="u-2.150"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.34" type="cross-reference" from="s-2.151" to="" range="corpus-external">
+		<content xref="u-2.151"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.35" type="cross-reference" from="s-2.162" to="" range="phone">
+		<content xref="u-2.162"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.36" type="cross-reference" from="s-2.163" to="" range="corpus-external">
+		<content xref="u-2.163"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.37" type="cross-reference" from="s-2.170" to="" range="phone">
+		<content xref="u-2.170"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.38" type="cross-reference" from="s-2.171" to="" range="corpus-external">
+		<content xref="u-2.171"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.39" type="cross-reference" from="s-2.179" to="" range="phone">
+		<content xref="u-2.179"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.40" type="cross-reference" from="s-2.180" to="" range="corpus-external">
+		<content xref="u-2.180"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.41" type="cross-reference" from="s-2.188" to="" range="phone">
+		<content xref="u-2.188"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.42" type="cross-reference" from="s-2.189" to="" range="corpus-external">
+		<content xref="u-2.189"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.43" type="cross-reference" from="s-2.194" to="" range="phone">
+		<content xref="u-2.194"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.44" type="cross-reference" from="s-2.195" to="" range="corpus-external">
+		<content xref="u-2.195"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.45" type="cross-reference" from="s-2.203" to="" range="phone">
+		<content xref="u-2.204"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.46" type="cross-reference" from="s-2.204" to="" range="corpus-external">
+		<content xref="u-2.204"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.47" type="cross-reference" from="s-2.211" to="" range="phone">
+		<content xref="u-2.211"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.48" type="cross-reference" from="s-2.212" to="" range="corpus-external">
+		<content xref="u-2.212"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.49" type="cross-reference" from="s-2.220" to="" range="phone">
+		<content xref="u-2.220"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.50" type="cross-reference" from="s-2.221" to="" range="corpus-external">
+		<content xref="u-2.221"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.51" type="cross-reference" from="s-2.228" to="" range="phone">
+		<content xref="u-2.228"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.52" type="cross-reference" from="s-2.229" to="" range="corpus-external">
+		<content xref="u-2.229"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.53" type="cross-reference" from="s-2.236" to="" range="phone">
+		<content xref="u-2.236"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.54" type="cross-reference" from="s-2.237" to="" range="corpus-external">
+		<content xref="u-2.237"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.55" type="cross-reference" from="s-2.243" to="" range="phone">
+		<content xref="u-2.243"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.56" type="cross-reference" from="s-2.244" to="" range="corpus-external">
+		<content xref="u-2.244"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.57" type="cross-reference" from="s-2.250" to="" range="phone">
+		<content xref="u-2.250"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.58" type="cross-reference" from="s-2.251" to="" range="corpus-external">
+		<content xref="u-2.251"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.59" type="cross-reference" from="s-2.256" to="" range="phone">
+		<content xref="u-2.256"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.60" type="cross-reference" from="s-2.257" to="" range="corpus-external">
+		<content xref="u-2.257"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.61" type="cross-reference" from="s-2.257" to="" range="in-view">
+		<content xref="u-2.257"/>
+		<address xref="e-2.03" address-precision="start-only"/>
+	</pointer>
+	<entry id="e-2.03" xref="u-2.258" layout-chunk="page-6-row-7"/>
+	<pointer id="p-2.62" type="cross-reference" from="s-2.270" to="" range="phone">
+		<content xref="u-2.270"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.63" type="cross-reference" from="s-2.271" to="" range="corpus-external">
+		<content xref="u-2.271"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.64" type="cross-reference" from="s-2.284" to="" range="phone">
+		<content xref="u-2.284"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+	<pointer id="p-2.65" type="cross-reference" from="s-2.293" to="" range="phone">
+		<content xref="u-2.293"/>
+		<address xref="" address-precision="start-only"/>
+	</pointer>
+</gemNav>

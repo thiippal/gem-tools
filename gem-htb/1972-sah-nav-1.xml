@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemNav>
+	<pointer id="p-1.01" type="cross-reference" from="s-1.01" to="e-1.01" range="in-view">
+		<content xref="u-1.02"/>
+		<address xref="e-1.01" address-precision="start-end"/>
+	</pointer>
+	<pointer id="p-1.02" type="cross-reference" from="s-1.08" to="e-1.01" range="in-view">
+		<content xref="u-1.08"/>
+		<address xref="e-1.01" address-precision="start-end"/>
+	</pointer>
+	<pointer id="p-1.03" type="cross-reference" from="s-1.15" to="e-1.01" range="in-view">
+		<content xref="u-1.15"/>
+		<address xref="e-1.01" address-precision="start-end"/>
+	</pointer>
+	<pointer id="p-1.04" type="cross-reference" from="s-1.22" to="e-1.01" range="in-view">
+		<content xref="u-1.22"/>
+		<address xref="e-1.01" address-precision="start-end"/>
+	</pointer>
+	<pointer id="p-1.05" type="cross-reference" from="s-1.27" to="e-1.01" range="in-view">
+		<content xref="u-1.27"/>
+		<address xref="e-1.01" address-precision="start-end"/>
+	</pointer>
+	<pointer id="p-1.06" type="cross-reference" from="s-1.35" to="e-1.01" range="in-view">
+		<content xref="u-1.35"/>
+		<address xref="e-1.01" address-precision="start-end"/>
+	</pointer>
+	<entry id="e-1.01" xref="s-1.41"/>
+</gemNav>

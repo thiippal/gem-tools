@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemLayout>
+	<segmentation>
+		<layout-unit id="lay-1.01" xref="u-1.01">useums museums museums museums museums museums museums 
+			<layout-unit id="lay-1.01.1" xref="u-1.01.1">museums</layout-unit> museums museums muse
+		</layout-unit>
+		<layout-unit id="lay-1.02" xref="u-1.02 u-1.03 u-1.04">
+			<layout-unit id="lay-1.02.1" xref="u-1.02.1">Sederholm House,</layout-unit> Aleksanterinkatu 16-18, tel. (09) 169 3625.
+		</layout-unit>
+		<layout-unit id="lay-1.03" xref="u-1.05">Disabled persons: access for wheelchairs, lift, Inva-WC.</layout-unit>
+		<layout-unit id="lay-1.04" xref="u-1.06 u-1.07 u-1.08 u-1.09 u-1.10">
+			<layout-unit id="lay-1.04.1" xref="u-1.06.1">Tuomarinkylä Museum,</layout-unit> Tuomarinkylä Manor, tel. 728 7428.</layout-unit>
+		<layout-unit id="lay-1.05" xref="u-1.11">Disabled persons, difficult for wheelchairs, assistant needed.</layout-unit>
+		<layout-unit id="lay-1.06" xref="u-1.12 u-1.13">Other services: Cafe Tuomarinkylän Kartano in the yard, tel. (09) 728 5700.</layout-unit>
+		<layout-unit id="lay-1.07" xref="u-1.14 u-1.15 u-1.16">
+			<layout-unit id="lay-1.07.1" xref="u-1.14.1">Children's Museum,</layout-unit> in one of the outhouses at Tuomarinkylä Manor, tel. (09) 752 1694.
+		</layout-unit>
+		<layout-unit id="lay-1.08" xref="u-1.17">Disabled persons: difficult for wheelchairs, assistant needed.</layout-unit>
+		<layout-unit id="lay-1.09" xref="u-1.18 u-1.19 u-1.20 u-1.21">
+			<layout-unit id="lay-1.09.1" xref="u-1.18.1">Worker's Home Museum,</layout-unit> Kirstinkuja 4, tel. (09) 146 1039.
+		</layout-unit>
+		<layout-unit id="lay-1.10" xref="u-1.22">Disabled persons: no access for wheelchairs.</layout-unit>
+		<layout-unit id="lay-1.11" xref="u-1.23 u-1.24 u-1.25 u-1.26">The City Museums are open Wed-Sun 11-17.</layout-unit>
+		<layout-unit id="lay-1.12" xref="u-1.27 u-1.28 u-1.29">Admission: adults 20 FIM, children (under 18) free, OAPs 10 FIM, OAP groups 10 FIM/person, other groups 10 FIM/person.</layout-unit>
+		<layout-unit id="lay-1.13" xref="u-1.30 u-1.31 u-1.32 u-1.33 u-1.34">
+			<layout-unit id="lay-1.13.1" xref="u-1.30.1">Helsinki Car Museum,</layout-unit> Munkkisaarenkatu 12, tel. (09) 667 123.</layout-unit>
+		<layout-unit id="lay-1.14" xref="u-1.35">www.hel.fi</layout-unit>
+		<layout-unit id="lay-1.15" xref="u-1.36">8</layout-unit>
+		<layout-unit id="lay-1.16" xref="u-1.37">Admission: adults 30 FIM, children (7-15 years) 10 FIM, OAPs 15 FIM, groups (10 or more) 15 FIM/person.</layout-unit>
+		<layout-unit id="lay-1.17" xref="u-1.38">Disabled persons: access for wheelchairs, Inva-WC.</layout-unit>
+		<layout-unit id="lay-1.18" xref="u-1.39 u-1.40 u-1.41 u-1.42">Other services: Merilinja cafeteria, tel. (09) 654 101, same entrance as for Car Museum.</layout-unit>
+		<layout-unit id="lay-1.19" xref="u-1.43">
+			<layout-unit id="lay-1.19.1" xref="u-1.43.1">Cable Factory,</layout-unit> Tallberginkatu 1</layout-unit>
+		<layout-unit id="lay-1.20" xref="u-1.44 u-1.45">
+			<layout-unit id="lay-1.20.1" xref="u-1.44.1">Hotel and Restaurant Museum,</layout-unit> at the Cable Factory, tel. (09) 693 1774.
+		</layout-unit>
+		<layout-unit id="lay-1.21" xref="u-1.46 u-1.47 u-1.48">
+			<layout-unit id="lay-1.21.1" xref="u-1.46.1">Photographic Museum of Finland,</layout-unit> at the Cable Factory, tel. (09) 686 6360.</layout-unit>
+		<layout-unit id="lay-1.22" xref="u-1.49 u-1.50">Admission: charge to be announced when the museum opens.</layout-unit>
+		<layout-unit id="lay-1.23" xref="u-1.51">Disabled persons: access for wheelchairs, assistant needed, lift.</layout-unit>
+		<layout-unit id="lay-1.24" xref="u-1.52">Other services: cafe and restaurant at the Cable Factory.</layout-unit>
+		<layout-unit id="lay-1.25" xref="u-1.53 u-1.54 u-1.55 u-1.56 u-1.57">
+			<layout-unit id="lay-1.25.1" xref="u-1.53.1">Theatre Museum,</layout-unit> at the Cable Factory, tel. (09) 694 5088.</layout-unit>
+		<layout-unit id="lay-1.26" xref="u-1.58 u-1.59">Admission: adults 20 FIM, children (over 7) 10 FIM, OAPs 10 FIM, OAP groups 10 FIM/person, other groups 10 FIM/person.</layout-unit>
+		<layout-unit id="lay-1.27" xref="u-1.60">Disabled persons: no access for wheelchairs at the Aleksanterinkatu museum.</layout-unit>
+		<layout-unit id="lay-1.28" xref="u-1.61 u-1.62 u-1.63 u-1.64 u-1.65 u-1.66 u-1.67">
+			<layout-unit id="lay-1.28.1" xref="u-1.61.1">Natural History Museum</layout-unit> (Zoological Museum), Pohjoinen Rautatienkatu 13, tel. (09) 191 7400.
+		</layout-unit>
+		<layout-unit id="lay-1.29" xref="u-1.68 u-1.69">Admission: (higher price for special exhibitions) adults 25 FIM, children (7-15 years) 10 FIM, OAP groups booking in advance 10 FIM/person, no other group reductions.</layout-unit>
+		<layout-unit id="lay-1.30" xref="u-1.70">9</layout-unit>
+		<layout-unit id="lay-1.31" xref="u-1.71">www.hel.fi</layout-unit>
+	</segmentation>
+	<layout-structure>
+		<layout-root id="www-1999-l-pages-1-2" orientation="landscape">
+			<layout-leaf xref="lay-1.01" location="row-2" area-ref="www-1999-a-pages-1-2"/>
+			<layout-chunk id="page-1" location="multi" area-ref="www-1999-a-pages-1-2">
+				<layout-chunk id="page-1-column-1-entry-1" location="cell-11" area-ref="page-a-1-b">
+					<layout-leaf xref="lay-1.02" location="cell-11" area-ref="page-a-1-b"/>
+					<layout-leaf xref="lay-1.03" location="cell-11" area-ref="page-a-1-b" vindent="3mm"/>
+				</layout-chunk>
+				<layout-chunk id="page-1-column-1-entry-2" location="cell-11" area-ref="page-a-1-b">
+					<layout-leaf xref="lay-1.04" location="cell-11" area-ref="page-a-1-b" vindent="10mm"/>
+					<layout-leaf xref="lay-1.05" location="cell-11" area-ref="page-a-1-b" vindent="3mm"/>
+					<layout-leaf xref="lay-1.06" location="cell-11" area-ref="page-a-1-b" vindent="3mm"/>
+				</layout-chunk>
+				<layout-chunk id="page-1-column-1-entry-3" location="cell-11" area-ref="page-a-1-b">
+					<layout-leaf xref="lay-1.07" location="cell-11" area-ref="page-a-1-b" vindent="10mm"/>
+					<layout-leaf xref="lay-1.08" location="cell-11" area-ref="page-a-1-b" vindent="3mm"/>
+				</layout-chunk>
+				<layout-chunk id="page-1-column-2-entry-1" location="cell-11" area-ref="page-a-1-c">
+					<layout-leaf xref="lay-1.09" location="cell-11" area-ref="page-a-1-c"/>
+					<layout-leaf xref="lay-1.10" location="cell-11" area-ref="page-a-1-c" vindent="3mm"/>
+				</layout-chunk>
+				<layout-chunk id="page-1-column-2-entry-2" location="cell-11" area-ref="page-a-1-c">
+					<layout-leaf xref="lay-1.11" location="cell-11" area-ref="page-a-1-c" vindent="10mm"/>
+					<layout-leaf xref="lay-1.12" location="cell-11" area-ref="page-a-1-c" vindent="3mm"/>
+				</layout-chunk>
+				<layout-chunk id="page-1-column-2-entry-3" location="cell-11" area-ref="page-a-1-c">
+					<layout-leaf xref="lay-1.13" location="cell-11" area-ref="page-a-1-c" vindent="10mm"/>
+				</layout-chunk>
+				<layout-chunk id="page-1-navigation" location="cell-46" area-ref="www-1999-a-pages-1-2">
+					<layout-leaf xref="lay-1.14" location="cell-46" area-ref="www-1999-a-pages-1-2" valign="left"/>
+					<layout-leaf xref="lay-1.15" location="cell-46" area-ref="www-1999-a-pages-1-2"/>
+				</layout-chunk>
+			</layout-chunk>
+			<layout-chunk id="page-2" location="multi" area-ref="www-1999-a-pages-1-2">
+				<layout-chunk id="page-2-column-1-entry-1" location="cell-11" area-ref="page-a-2-b">
+					<layout-leaf xref="lay-1.16" location="cell-11" area-ref="page-a-2-b"/>
+					<layout-leaf xref="lay-1.17" location="cell-11" area-ref="page-a-2-b" vindent="3mm"/>
+					<layout-leaf xref="lay-1.18" location="cell-11" area-ref="page-a-2-b" vindent="3mm"/>
+				</layout-chunk>
+				<layout-chunk id="page-2-column-1-entry-2" location="cell-11" area-ref="page-a-2-b">
+					<layout-leaf xref="lay-1.19" location="cell-11" area-ref="page-a-2-b" vindent="10mm"/>
+				</layout-chunk>
+				<layout-chunk id="page-2-column-1-entry-3" location="cell-11" area-ref="page-a-2-b">
+					<layout-leaf xref="lay-1.20" location="cell-11" area-ref="page-a-2-b" vindent="10mm"/>
+				</layout-chunk>				
+				<layout-chunk id="page-2-column-1-entry-4" location="cell-11" area-ref="page-a-2-b">
+					<layout-leaf xref="lay-1.21" location="cell-11" area-ref="page-a-2-b" vindent="3mm"/>
+					<layout-leaf xref="lay-1.22" location="cell-11" area-ref="page-a-2-b" vindent="3mm"/>
+					<layout-leaf xref="lay-1.23" location="cell-11" area-ref="page-a-2-b" vindent="3mm"/>
+					<layout-leaf xref="lay-1.24" location="cell-11" area-ref="page-a-2-b" vindent="3mm"/>			
+				</layout-chunk>
+				<layout-chunk id="page-2-column-2-entry-1" location="cell-11" area-ref="page-a-2-c">
+					<layout-leaf xref="lay-1.25" location="cell-11" area-ref="page-a-2-c"/>
+					<layout-leaf xref="lay-1.26" location="cell-11" area-ref="page-a-2-c" vindent="3mm"/>
+					<layout-leaf xref="lay-1.27" location="cell-11" area-ref="page-a-2-c" vindent="3mm"/>
+				</layout-chunk>
+				<layout-chunk id="page-2-column-2-entry-2" location="cell-11" area-ref="page-a-2-c">
+					<layout-leaf xref="lay-1.28" location="cell-11" area-ref="page-a-2-c" vindent="10mm"/>
+					<layout-leaf xref="lay-1.29" location="cell-11" area-ref="page-a-2-c" vindent="3mm"/>
+				</layout-chunk>
+				<layout-chunk id="page-2-navigation" location="cell-86" area-ref="www-1999-a-pages-1-2">
+					<layout-leaf xref="lay-1.30" location="cell-86" area-ref="www-1999-a-pages-1-2" valign="right"/>
+					<layout-leaf xref="lay-1.31" location="cell-86" area-ref="www-1999-a-pages-1-2" valign="right"/>
+				</layout-chunk>
+			</layout-chunk>
+		</layout-root>
+	</layout-structure>
+	<area-model>
+		<area-root id="www-1999-a-pages-1-2" cols="9" rows="7" hspacing="3 19 2 19 10 19 2 19 5" vspacing="4 2 5 77 6 2 4" height="210mm" width="296mm">
+			<sub-area id="page-a-1-b" location="cell-24" cols="1" rows="1" hspacing="100" vspacing="100" height="163mm" width="55mm"/>
+			<sub-area id="page-a-1-c" location="cell-44" cols="1" rows="1" hspacing="100" vspacing="100" height="163mm" width="55mm"/>
+			<sub-area id="page-a-2-b" location="cell-64" cols="1" rows="1" hspacing="100" vspacing="100" height="163mm" width="55mm"/>
+			<sub-area id="page-a-2-c" location="cell-84" cols="1" rows="1" hspacing="100" vspacing="100" height="163mm" width="55mm"/>
+		</area-root>
+	</area-model>
+	<realization>
+		<text xref="lay-1.01" font-family="sans-serif" font-size="9" font-style="normal" font-weight="normal" case="smalls" color="grey"/>
+		<text xref="lay-1.02 lay-1.03 lay-1.04 lay-1.05 lay-1.06 lay-1.07 lay-1.08 lay-1.09 lay-1.10 lay-1.11 lay-1.12 lay-1.13 lay-1.16 lay-1.17 lay-1.18 lay-1.19 lay-1.20 lay-1.21 lay-1.22 lay-1.23 lay-1.24 lay-1.25 lay-1.26 lay-1.27 lay-1.28 lay-1.29" font-family="sans-serif" font-size="4" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<text xref="lay-1.14 lay-1.31" font-family="sans-serif" font-size="3" font-style="normal" font-weight="bold" case="smalls" color="grey"/>
+		<text xref="lay-1.15 lay-1.30" font-family="sans-serif" font-size="6" font-style="normal" font-weight="bold" case="smalls" color="black"/>
+		<hi-text xref="lay-1.01.1" context="lay-1.01" font-family="sans-serif" font-size="9" font-style="normal" font-weight="normal" case="smalls" color="black"/>
+		<hi-text xref="lay-1.02.1" context="lay-1.02" font-family="sans-serif" font-size="4" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.04.1" context="lay-1.04" font-family="sans-serif" font-size="4" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.07.1" context="lay-1.07" font-family="sans-serif" font-size="4" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.09.1" context="lay-1.09" font-family="sans-serif" font-size="4" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.13.1" context="lay-1.13" font-family="sans-serif" font-size="4" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.19.1" context="lay-1.19" font-family="sans-serif" font-size="4" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.20.1" context="lay-1.20" font-family="sans-serif" font-size="4" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.21.1" context="lay-1.21" font-family="sans-serif" font-size="4" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.25.1" context="lay-1.25" font-family="sans-serif" font-size="4" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+		<hi-text xref="lay-1.28.1" context="lay-1.28" font-family="sans-serif" font-size="4" font-style="normal" font-weight="bold" case="mixed" color="black"/>
+	</realization>
+</gemLayout>

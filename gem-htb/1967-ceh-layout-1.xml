@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemLayout>
+	<segmentation>
+		<layout-unit id="lay-1.01" xref="u-1.01">July</layout-unit>
+		<layout-unit id="lay-1.02" xref="u-1.02 u-1.03 u-1.04 u-1.05 u-1.06">
+			<layout-unit id="lay-1.02.1" xref="u-1.02"/>
+			<layout-unit id="lay-1.02.2" xref="u-1.03"/>
+			<layout-unit id="lay-1.02.3" xref="u-1.04"/>
+			<layout-unit id="lay-1.02.4" xref="u-1.05"/>
+			<layout-unit id="lay-1.02.5" xref="u-1.06"/>
+		</layout-unit>
+		<layout-unit id="lay-1.03" xref="u-1.07 u-1.08 u-1.09 u-1.10 u-1.11">
+			<layout-unit id="lay-1.03.1" xref="u-1.07">CONFEDERATION EUROPÉENE DE L'AGRICULTURE</layout-unit>
+			<layout-unit id="lay-1.03.2" xref="u-1.08">Otaniemi</layout-unit>
+			<layout-unit id="lay-1.03.3" xref="u-1.09">Pellervo-Seura</layout-unit>
+			<layout-unit id="lay-1.03.4" xref="u-1.10">Mr. Eskelinen</layout-unit>
+			<layout-unit id="lay-1.03.5" xref="u-1.11">tel: 61 064</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.04" xref="u-1.12">August</layout-unit>
+		<layout-unit id="lay-1.05" xref="u-1.13 u-1.14 u-1.15 u-1.16 u-1.17 u-1.18">
+			<layout-unit id="lay-1.05.1" xref="u-1.13">1--16</layout-unit>
+			<layout-unit id="lay-1.05.2" xref="u-1.14">INTERNATIONAL ESPERANTO CONFERENCE</layout-unit>
+			<layout-unit id="lay-1.05.3" xref="u-1.15">Dipoli</layout-unit>
+			<layout-unit id="lay-1.05.4" xref="u-1.16">Finnish Esperanto Association</layout-unit>
+			<layout-unit id="lay-1.05.5" xref="u-1.17">Mr. Lehtivaara</layout-unit>
+			<layout-unit id="lay-1.05.6" xref="u-1.18">tel: 77 80 38</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.06" xref="u-1.19 u-1.120 u-1.20-m u-1.21 u-1.22 u-1.23">
+			<layout-unit id="lay-1.06.1" xref="u-1.19">24--31</layout-unit>
+			<layout-unit id="lay-1.06.2" xref="u-1.20">BOY SCOUT WORLD CONGRESS</layout-unit>
+			<layout-unit id="lay-1.06.3" xref="u-1.20-m">Dipoli</layout-unit>
+			<layout-unit id="lay-1.06.4" xref="u-1.21">Suomen Partiopoikajärjestö</layout-unit>
+			<layout-unit id="lay-1.06.5" xref="u-1.22">Hämeent. 10</layout-unit>
+			<layout-unit id="lay-1.06.6" xref="u-1.23">tel: 71 18 22</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.07" xref="u-1.23-m u-1.24 u-1.25 u-1.26 u-1.27">
+			<layout-unit id="lay-1.07.1" xref="u-1.23-m">29--31</layout-unit>
+			<layout-unit id="lay-1.07.2" xref="u-1.24">LADIES' ROUND TABLE CIRCLE</layout-unit>
+			<layout-unit id="lay-1.07.3" xref="u-1.25">Dipoli</layout-unit>
+			<layout-unit id="lay-1.07.4" xref="u-1.26">Mrs. Lassila</layout-unit>
+			<layout-unit id="lay-1.07.5" xref="u-1.27">tel: 42 77 45</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.08" xref="u-1.28">September</layout-unit>
+		<layout-unit id="lay-1.09" xref="u-1.29 u-1.30 u-1.31 u-1.32 u-1.33">
+			<layout-unit id="lay-1.09.1" xref="u-1.29">19--28</layout-unit>
+			<layout-unit id="lay-1.09.2" xref="u-1.30">IX FINNISH TRADE FAIR</layout-unit>
+			<layout-unit id="lay-1.09.3" xref="u-1.31">Exhibition Hall</layout-unit>
+			<layout-unit id="lay-1.09.4" xref="u-1.32">The Finnish Fair Corporation</layout-unit>
+			<layout-unit id="lay-1.09.5" xref="u-1.33">tel: 44 00 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.10" xref="u-1.34">1970</layout-unit>
+		<layout-unit id="lay-1.11" xref="u-1.35">February</layout-unit>
+		<layout-unit id="lay-1.12" xref="u-1.36 u-1.37 u-1.38 u-1.39 u-1.40">
+			<layout-unit id="lay-1.12.1" xref="u-1.36">13--22</layout-unit>
+			<layout-unit id="lay-1.12.2" xref="u-1.37">BOAT AND CAMPING SHOW</layout-unit>
+			<layout-unit id="lay-1.12.3" xref="u-1.38">Exhibition Hall</layout-unit>
+			<layout-unit id="lay-1.12.4" xref="u-1.39">The Finnish Fair Corporation</layout-unit>
+			<layout-unit id="lay-1.12.5" xref="u-1.40">tel: 44 00 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.13" xref="u-1.41">May</layout-unit>
+		<layout-unit id="lay-1.14" xref="u-1.41-m u-1.42 u-1.43 u-1.44 u-1.45">
+			<layout-unit id="lay-1.14.1" xref="u-1.41-m">16--30</layout-unit>
+			<layout-unit id="lay-1.14.2" xref="u-1.42">HELSINKI FESTIVAL</layout-unit>
+			<layout-unit id="lay-1.14.3" xref="u-1.43">Helsinki-viikon Säätiö</layout-unit>
+			<layout-unit id="lay-1.14.4" xref="u-1.44">Unionink. 28</layout-unit>
+			<layout-unit id="lay-1.14.5" xref="u-1.45">tel: 65 36 90</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.15" xref="u-1.46">June</layout-unit>
+		<layout-unit id="lay-1.16" xref="u-1.47 u-1.48 u-1.49 u-1.50">
+			<layout-unit id="lay-1.16.1" xref="u-1.47">12</layout-unit>
+			<layout-unit id="lay-1.16.2" xref="u-1.48">HELSINKI DAY</layout-unit>
+			<layout-unit id="lay-1.16.3" xref="u-1.49">Helsingin kaupunki</layout-unit>
+			<layout-unit id="lay-1.16.4" xref="u-1.50">tel: 71 60 11/3795</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.17" xref="u-1.51">August</layout-unit>
+		<layout-unit id="lay-1.18" xref="u-1.52 u-1.53 u-1.53-m u-1.54 u-1.55 u-1.56">
+			<layout-unit id="lay-1.18.1" xref="u-1.52">4 - 14</layout-unit>
+			<layout-unit id="lay-1.18.2" xref="u-1.53">INTERNATIONAL YOUTH HOSTEL ORGANIZATIONS CONFERENCE</layout-unit>
+			<layout-unit id="lay-1.18.3" xref="u-1.53-m">Otaniemi</layout-unit>
+			<layout-unit id="lay-1.18.4" xref="u-1.54">Suomen Retkeilymajajärjestö</layout-unit>
+			<layout-unit id="lay-1.18.5" xref="u-1.55">tel: 64 17 99</layout-unit>
+			<layout-unit id="lay-1.18.6" xref="u-1.56">Mr. Sorakuru</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.19" xref="u-1.57">September</layout-unit>
+		<layout-unit id="lay-1.20" xref="u-1.58 u-1.59 u-1.60 u-1.61 u-1.62">
+			<layout-unit id="lay-1.20.1" xref="u-1.58">17--27</layout-unit>
+			<layout-unit id="lay-1.20.2" xref="u-1.59">HELSINKI INTERNATIONAL TRADE FAIR</layout-unit>
+			<layout-unit id="lay-1.20.3" xref="u-1.60">Exhibition Hall</layout-unit>
+			<layout-unit id="lay-1.20.4" xref="u-1.61">The Finnish Fair Corporation</layout-unit>
+			<layout-unit id="lay-1.20.5" xref="u-1.62">tel: 44 00 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.21" xref="u-1.63">October/November</layout-unit>
+		<layout-unit id="lay-1.22" xref="u-1.64 u-1.65 u-1.66 u-1.67">
+			<layout-unit id="lay-1.22.1" xref="u-1.64">EXHIBITION OF BUSINESS MACHINES AND EQUIPMENT '70</layout-unit>
+			<layout-unit id="lay-1.22.2" xref="u-1.65">Exhibition Hall</layout-unit>
+			<layout-unit id="lay-1.22.3" xref="u-1.66">The Finnish Fair Corporation</layout-unit>
+			<layout-unit id="lay-1.22.4" xref="u-1.67">tel: 44 00 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.23" xref="u-1.68">5</layout-unit>
+		<layout-unit id="lay-1.24" xref="u-1.69">1971</layout-unit>
+		<layout-unit id="lay-1.25" xref="u-1.70">May</layout-unit>
+		<layout-unit id="lay-1.26" xref="u-1.71 u-1.72 u-1.73 u-1.74 u-1.75">
+			<layout-unit id="lay-1.26.1" xref="u-1.71">16--30</layout-unit>
+			<layout-unit id="lay-1.26.2" xref="u-1.72">HELSINKI FESTIVAL</layout-unit>
+			<layout-unit id="lay-1.26.3" xref="u-1.73">Helsinki-viikon Säätiö</layout-unit>
+			<layout-unit id="lay-1.26.4" xref="u-1.74">Unionink. 28</layout-unit>
+			<layout-unit id="lay-1.26.5" xref="u-1.75">tel: 65 36 90</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.27" xref="u-1.76">June</layout-unit>
+		<layout-unit id="lay-1.28" xref="u-1.77 u-1.78 u-1.79 u-1.80 u-1.81">
+			<layout-unit id="lay-1.28.1" xref="u-1.77">SCANDINAVIAN BUILDING CONFERENCE</layout-unit>
+			<layout-unit id="lay-1.28.2" xref="u-1.78">Otaniemi</layout-unit>
+			<layout-unit id="lay-1.28.3" xref="u-1.79">Teknillinen Korkeakoulu</layout-unit>
+			<layout-unit id="lay-1.28.4" xref="u-1.80">Mr. Kelopuu</layout-unit>
+			<layout-unit id="lay-1.28.5" xref="u-1.81">tel: 46 01 45</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.29" xref="u-1.82 u-1.83 u-1.84 u-1.85">
+			<layout-unit id="lay-1.29.1" xref="u-1.82">12</layout-unit>
+			<layout-unit id="lay-1.29.2" xref="u-1.83">HELSINKI DAY</layout-unit>
+			<layout-unit id="lay-1.29.3" xref="u-1.84">Helsingin kaupunki</layout-unit>
+			<layout-unit id="lay-1.29.4" xref="u-1.85">tel: 71 60 11/3795</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.30" xref="u-1.86">August</layout-unit>
+		<layout-unit id="lay-1.31" xref="u-1.87 u-1.88 u-1.89 u-1.90">
+			<layout-unit id="lay-1.31.1" xref="u-1.87">EUROPEAN ATHLETICS CHAMPIONSHIPS</layout-unit>
+			<layout-unit id="lay-1.31.2" xref="u-1.88">Suomen Urheiluliitto</layout-unit>
+			<layout-unit id="lay-1.31.3" xref="u-1.89">Mr. Valste</layout-unit>
+			<layout-unit id="lay-1.31.4" xref="u-1.90">tel: 41 86 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.32" xref="u-1.91">1974</layout-unit>
+		<layout-unit id="lay-1.33" xref="u-1.92">June</layout-unit>
+		<layout-unit id="lay-1.34" xref="u-1.93 u-1.94 u-1.95 u-1.96 u-1.97">
+			<layout-unit id="lay-1.34.1" xref="u-1.93">INTERNATIONAL BANKING SUMMER SCHOOL</layout-unit>
+			<layout-unit id="lay-1.34.2" xref="u-1.94">Dipoli</layout-unit>
+			<layout-unit id="lay-1.34.3" xref="u-1.95">Suomen Pankkiyhdistys</layout-unit>
+			<layout-unit id="lay-1.34.4" xref="u-1.96">Dr. Ilaskivi</layout-unit>
+			<layout-unit id="lay-1.34.5" xref="u-1.97">tel: 13 521</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.35" xref="u-1.98 u-1.99"/>
+		<layout-unit id="lay-1.36" xref="u-1.100 u-1.101 u-1.102 u-1.103 u-1.104 u-1.105 u-1.106 u-1.107 u-1.108">
+			<layout-unit id="lay-1.36.1" xref="u-1.100">IMPORTANT NOTE</layout-unit>
+			<layout-unit id="lay-1.36.2" xref="u-1.101 u-1.102 u-1.103 u-1.104 u-1.105 u-1.106 u-1.107"/>
+			<layout-unit id="lay-1.36.3" xref="u-1.108"/>
+		</layout-unit>
+		<layout-unit id="lay-1.37" xref="u-1.109">2000/11/67 SKK Oy</layout-unit>
+		<layout-unit id="lay-1.38" xref="u-1.110">HELSINKI CITY TOURIST OFFICE</layout-unit>
+		<layout-unit id="lay-1.39" xref="u-1.111 u-1.112 u-1.113">
+			<layout-unit id="lay-1.39.1" xref="u-1.111">Helsinki City Tourist Office</layout-unit>
+			<layout-unit id="lay-1.39.2" xref="u-1.112">P. Esplanaadikatu 17</layout-unit>
+			<layout-unit id="lay-1.39.3" xref="u-1.113">tel: 14 004</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.40" xref="u-1.114">No 21</layout-unit>
+		<layout-unit id="lay-1.41" xref="u-1.115">Important notes at the end of list</layout-unit>
+		<layout-unit id="lay-1.42" xref="u-1.116">COMING EVENTS IN HELSINKI 1967-1971</layout-unit>
+		<layout-unit id="lay-1.43" xref="u-1.117">October</layout-unit>
+		<layout-unit id="lay-1.44" xref="u-1.118 u-1.119 u-1.120 u-1.121 u-1.122 u-1.123 u-1.124">
+			<layout-unit id="lay-1.44.1" xref="u-1.118">23--19.11</layout-unit>
+			<layout-unit id="lay-1.44.2" xref="u-1.119">ALVAR AALTO EXHIBITION</layout-unit>
+			<layout-unit id="lay-1.44.3" xref="u-1.120">Ateneum</layout-unit>
+			<layout-unit id="lay-1.44.4" xref="u-1.121">Suomen Taideakatemia</layout-unit>
+			<layout-unit id="lay-1.44.5" xref="u-1.122">Nykytaide</layout-unit>
+			<layout-unit id="lay-1.44.6" xref="u-1.123">Dr. Korte</layout-unit>
+			<layout-unit id="lay-1.44.7" xref="u-1.124">tel: 65 43 64</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.45" xref="u-1.125">November</layout-unit>
+		<layout-unit id="lay-1.46" xref="u-1.126 u-1.127 u-1.128 u-1.129 u-1.130 u-1.131">
+			<layout-unit id="lay-1.46.1" xref="u-1.126">8--12</layout-unit>
+			<layout-unit id="lay-1.46.2" xref="u-1.127">FOOD FAIR</layout-unit>
+			<layout-unit id="lay-1.46.3" xref="u-1.128">Exhibition Hall</layout-unit>
+			<layout-unit id="lay-1.46.4" xref="u-1.129">The Finnish Fair Corporation</layout-unit>
+			<layout-unit id="lay-1.46.5" xref="u-1.130">tel: 44 00 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.47" xref="u-1.132 u-1.133 u-1.134 u-1.135 u-1.136 u-1.137">
+			<layout-unit id="lay-1.47.1" xref="u-1.131">12 - 18</layout-unit>
+			<layout-unit id="lay-1.47.2" xref="u-1.132">MEDICAL CONFERENCE</layout-unit>
+			<layout-unit id="lay-1.47.3" xref="u-1.133">(School of Economics)</layout-unit>
+			<layout-unit id="lay-1.47.4" xref="u-1.134">Kauppakorkeakoulu</layout-unit>
+			<layout-unit id="lay-1.47.5" xref="u-1.135">Suomen Lääkäriliitto</layout-unit>
+			<layout-unit id="lay-1.47.6" xref="u-1.136">Ruoholahdenk. 4</layout-unit>
+			<layout-unit id="lay-1.47.7" xref="u-1.137">tel: 64 29 01</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.48" xref="u-1.138 u-1.139 u-1.140 u-1.141 u-1.42">
+			<layout-unit id="lay-1.48.1" xref="u-1.138">20--24</layout-unit>
+			<layout-unit id="lay-1.48.2" xref="u-1.139">UNION FORAINE EUROPÉENNE BOARD OF DIRECTORS MEETING</layout-unit>
+			<layout-unit id="lay-1.48.3" xref="u-1.140">Lasten Päivän Säätiö</layout-unit>
+			<layout-unit id="lay-1.48.4" xref="u-1.141">Linnanmäki</layout-unit>
+			<layout-unit id="lay-1.48.5" xref="u-1.142">tel: 70 391/Miss Karasuo</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.49" xref="u-1.143 u-1.144 u-1.145 u-1.146 u-1.147 u-1.148 u-1.149">
+			<layout-unit id="lay-1.49.1" xref="u-1.143">22--23</layout-unit>
+			<layout-unit id="lay-1.49.2" xref="u-1.144">MEETING OF REPRESENTATIVES OF THE GENERAL UNION OF AGRICULTURAL SOCIETIES</layout-unit>
+			<layout-unit id="lay-1.49.3" xref="u-1.145">(Master Builders' House)</layout-unit>
+			<layout-unit id="lay-1.49.4" xref="u-1.146">Rakennusmestarien talo</layout-unit>
+			<layout-unit id="lay-1.49.5" xref="u-1.147">Maatalousseurojen Keskusliitto</layout-unit>
+			<layout-unit id="lay-1.49.6" xref="u-1.148">Lönnrotink. 13</layout-unit>
+			<layout-unit id="lay-1.49.7" xref="u-1.149">tel: 64 30 21/Mr. Repo</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.50" xref="u-1.150 u-1.151 u-1.152 u-1.153 u-1.154">
+			<layout-unit id="lay-1.50.1" xref="u-1.150">23--24</layout-unit>
+			<layout-unit id="lay-1.50.2" xref="u-1.151">AGRONOMISTS' AGRICULTURAL ECONOMY CONFERENCE</layout-unit>
+			<layout-unit id="lay-1.50.3" xref="u-1.152">Agronomien Yhdistys</layout-unit>
+			<layout-unit id="lay-1.50.4" xref="u-1.153">P. Makasiinik. 6</layout-unit>
+			<layout-unit id="lay-1.50.5" xref="u-1.154">tel: 62 86 50</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.51" xref="u-1.155 u-1.156 u-1.157 u-1.158 u-1.159">
+			<layout-unit id="lay-1.51.1" xref="u-1.155">23--25</layout-unit>
+			<layout-unit id="lay-1.51.2" xref="u-1.156">FINNISH RED CROSS GENERAL MEETING</layout-unit>
+			<layout-unit id="lay-1.51.3" xref="u-1.157">Suomen Punainen Risti</layout-unit>
+			<layout-unit id="lay-1.51.4" xref="u-1.158">Tehtaank. 1 A</layout-unit>
+			<layout-unit id="lay-1.51.5" xref="u-1.159">tel: 12 811/Mr. Toivonen</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.52" xref="u-1.160 u-1.161 u-1.162 u-1.163 u-1.164 u-1.165 u-1.165-m">
+			<layout-unit id="lay-1.52.1" xref="u-1.160">25</layout-unit>
+			<layout-unit id="lay-1.52.2" xref="u-1.161">AGRONOMISTS' ASSOCIATION AUTUMN MEETING</layout-unit>
+			<layout-unit id="lay-1.52.3" xref="u-1.162">(Scientific Societies Centre)</layout-unit>
+			<layout-unit id="lay-1.52.4" xref="u-1.163">Tieteellisten seurain talo</layout-unit>
+			<layout-unit id="lay-1.52.5" xref="u-1.164">Agronomien Yhdistys</layout-unit>
+			<layout-unit id="lay-1.52.6" xref="u-1.165">P. Makasiinik. 6 A</layout-unit>
+			<layout-unit id="lay-1.52.7" xref="u-1.165-m">tel: 63 25 42/Liuttula</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.53" xref="u-1.166 u-1.167 u-1.168 u-1.169 u-1.170">
+			<layout-unit id="lay-1.53.1" xref="u-1.166">25--1.11</layout-unit>
+			<layout-unit id="lay-1.53.2" xref="u-1.167">FINNISH WORK WEEK</layout-unit>
+			<layout-unit id="lay-1.53.3" xref="u-1.168">Suomen Työn Liitto</layout-unit>
+			<layout-unit id="lay-1.53.4" xref="u-1.169">Runebergink. 60 B</layout-unit>
+			<layout-unit id="lay-1.53.5" xref="u-1.170">tel: 44 00 27</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.54" xref="u-1.171 u-1.172 u-1.173 u-1.174 u-1.175 u-1.176 u-1.177">
+			<layout-unit id="lay-1.54.1" xref="u-1.171">30</layout-unit>
+			<layout-unit id="lay-1.54.2" xref="u-1.172">FINLAND - EAST GERMANY</layout-unit>
+			<layout-unit id="lay-1.54.3" xref="u-1.173">INTERNATIONAL ICE HOCKEY</layout-unit>
+			<layout-unit id="lay-1.54.4" xref="u-1.174">Ice Stadium</layout-unit>
+			<layout-unit id="lay-1.54.5" xref="u-1.175">Suomen Jääkiekkoliitto</layout-unit>
+			<layout-unit id="lay-1.54.6" xref="u-1.176">Topeliuksenk. 41 a</layout-unit>
+			<layout-unit id="lay-1.54.7" xref="u-1.177">tel: 41 86 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.55" xref="u-1.178">December</layout-unit>
+		<layout-unit id="lay-1.56" xref="u-1.179 u-1.180 u-1.181 u-1.182 u-1.183">
+			<layout-unit id="lay-1.56.1" xref="u-1.179">5</layout-unit>
+			<layout-unit id="lay-1.56.2" xref="u-1.180">THE 50th ANNIVERSARY OF FINNISH INDEPENDENCE - MAIN CEREMONY</layout-unit>
+			<layout-unit id="lay-1.56.3" xref="u-1.181">Ice Stadium</layout-unit>
+			<layout-unit id="lay-1.56.4" xref="u-1.182">Itsenäisyyden juhlavuoden neuvottelukunta</layout-unit>
+			<layout-unit id="lay-1.56.5" xref="u-1.183">tel. 44 81 94</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-1.57" xref="u-1.184 u-1.185 u-1.186 u-1.187 u-1.188 u-1.189 u-1.190">
+			<layout-unit id="lay-1.57.1" xref="u-1.184">14</layout-unit>
+			<layout-unit id="lay-1.57.2" xref="u-1.185">FINLAND - NORWAY</layout-unit>
+			<layout-unit id="lay-1.57.3" xref="u-1.186">INTERNATIONAL ICE HOCKEY</layout-unit>
+			<layout-unit id="lay-1.57.4" xref="u-1.187">Ice Stadium</layout-unit>
+			<layout-unit id="lay-1.57.5" xref="u-1.188">Suomen Jääkiekkoliitto</layout-unit>
+			<layout-unit id="lay-1.57.6" xref="u-1.189">Topeliuksenk 41 a</layout-unit>
+			<layout-unit id="lay-1.57.7" xref="u-1.190">tel: 41 86 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.01" xref="u-2.01">1968</layout-unit>
+		<layout-unit id="lay-2.02" xref="u-2.02">January</layout-unit>
+		<layout-unit id="lay-2.03" xref="u-2.03 u-2.04 u-2.05 u-2.06 u-2.07 u-2.08 u-2.09">
+			<layout-unit id="lay-2.03.1" xref="u-2.03">10</layout-unit>
+			<layout-unit id="lay-2.03.2" xref="u-2.04">FINLAND - CANADA</layout-unit>
+			<layout-unit id="lay-2.03.3" xref="u-2.05">INTERNATIONAL ICE HOCKEY</layout-unit>
+			<layout-unit id="lay-2.03.4" xref="u-2.06">Ice Stadium</layout-unit>
+			<layout-unit id="lay-2.03.5" xref="u-2.07">Suomen Jääkiekkoliitto</layout-unit>
+			<layout-unit id="lay-2.03.6" xref="u-2.08">Topeliuksenk. 41 a</layout-unit>
+			<layout-unit id="lay-2.03.7" xref="u-2.09">tel: 41 86 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.04" xref="u-2.10 u-2.11 u-2.12 u-2.13 u-2.14 u-2.15">
+			<layout-unit id="lay-2.04.1" xref="u-2.10">21</layout-unit>
+			<layout-unit id="lay-2.04.2" xref="u-2.11">INVALIDS' ASSOCIATION 30th ANNIVERSARY</layout-unit>
+			<layout-unit id="lay-2.04.3" xref="u-2.12">City Theatre</layout-unit>
+			<layout-unit id="lay-2.04.4" xref="u-2.13">Suomen Siviili- ja asevelvollisuusinvalidien Liitto ry</layout-unit>
+			<layout-unit id="lay-2.04.5" xref="u-2.14">Mannerheimint. 44</layout-unit>
+			<layout-unit id="lay-2.04.6" xref="u-2.15">tel: 44 05 66</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.05" xref="u-2.16 u-2.17 u-2.18 u-2.19 u-2.20 u-2.21 u-2.22">
+			<layout-unit id="lay-2.05.1" xref="u-2.16">19</layout-unit>
+			<layout-unit id="lay-2.05.2" xref="u-2.17">FINLAND - ESTHONIA</layout-unit>
+			<layout-unit id="lay-2.05.3" xref="u-2.18">BOXING</layout-unit>
+			<layout-unit id="lay-2.05.4" xref="u-2.19">Suomen Nyrkkeilyliitto</layout-unit>
+			<layout-unit id="lay-2.05.5" xref="u-2.20">Topeliuksenk. 41 a</layout-unit>
+			<layout-unit id="lay-2.05.6" xref="u-2.21">tel: 41 86 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.06" xref="u-2.22">February</layout-unit>
+		<layout-unit id="lay-2.07" xref="u-2.23 u-2.24 u-2.25 u-2.26 u-2.27 u-2.28 u-2.29">
+			<layout-unit id="lay-2.07.1" xref="u-2.23">12--13</layout-unit>
+			<layout-unit id="lay-2.07.2" xref="u-2.24">PRODUCTIVITY DAYS</layout-unit>
+			<layout-unit id="lay-2.07.3" xref="u-2.25">(School of Economics)</layout-unit>
+			<layout-unit id="lay-2.07.4" xref="u-2.26">Kauppakorkeakoulu</layout-unit>
+			<layout-unit id="lay-2.07.5" xref="u-2.27">Rationalisointiliitto</layout-unit>
+			<layout-unit id="lay-2.07.6" xref="u-2.28">Mr. Haapala</layout-unit>
+			<layout-unit id="lay-2.07.7" xref="u-2.29">tel: 44 02 61</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.08" xref="u-2.30">March</layout-unit>
+		<layout-unit id="lay-2.09" xref="u-2.31 u-2.32 u-2.33 u-2.34 u-2.35 u-2.36">
+			<layout-unit id="lay-2.09.1" xref="u-2.31">15--24</layout-unit>
+			<layout-unit id="lay-2.09.2" xref="u-2.32">BOAT AND CAMPING SHOW</layout-unit>
+			<layout-unit id="lay-2.09.3" xref="u-2.33">Exhibition Hall</layout-unit>
+			<layout-unit id="lay-2.09.4" xref="u-2.34">The Finnish Fair Corporation</layout-unit>
+			<layout-unit id="lay-2.09.5" xref="u-2.35">Messuhallit</layout-unit>
+			<layout-unit id="lay-2.09.6" xref="u-2.36">tel: 44 00 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.10" xref="u-2.37 u-2.38 u-2.39 u-2.40 u-2.41 u-2.42">
+			<layout-unit id="lay-2.10.1" xref="u-2.37">29--7.4</layout-unit>
+			<layout-unit id="lay-2.10.2" xref="u-2.38">BOAT SHOW '68</layout-unit>
+			<layout-unit id="lay-2.10.3" xref="u-2.39">Ice Stadium</layout-unit>
+			<layout-unit id="lay-2.10.4" xref="u-2.40">Nyländska Jaktklubben</layout-unit>
+			<layout-unit id="lay-2.10.5" xref="u-2.41">Muukalaiskatu 11 A</layout-unit>
+			<layout-unit id="lay-2.10.6" xref="u-2.42">tel: 63 49 55</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.11" xref="u-2.43">April</layout-unit>
+		<layout-unit id="lay-2.12" xref="u-2.45 u-2.46 u-2.47 u-2.48 u-2.49 u-2.50">
+			<layout-unit id="lay-2.12.1" xref="u-2.44">21--5.5</layout-unit>
+			<layout-unit id="lay-2.12.2" xref="u-2.45">HOLIDAY ON ICE</layout-unit>
+			<layout-unit id="lay-2.12.3" xref="u-2.46">ICE SHOW</layout-unit>
+			<layout-unit id="lay-2.12.4" xref="u-2.47">Ice Stadium</layout-unit>
+			<layout-unit id="lay-2.12.5" xref="u-2.48">Musiikki Fazer</layout-unit>
+			<layout-unit id="lay-2.12.6" xref="u-2.49">Mr. Groundstroem</layout-unit>
+			<layout-unit id="lay-2.12.7" xref="u-2.50">tel: 10 751</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.13" xref="u-2.51">May</layout-unit>
+		<layout-unit id="lay-2.14" xref="u-2.52 u-2.53 u-2.54 u-2.55 u-2.56 u-2.57 u-2.58">
+			<layout-unit id="lay-2.14.1" xref="u-2.52">4--12</layout-unit>
+			<layout-unit id="lay-2.14.2" xref="u-2.53">6th HELSINKI EXHIBITION OF PHOTOGRAPHIC ART</layout-unit>
+			<layout-unit id="lay-2.14.3" xref="u-2.54">(Master Builder's House)</layout-unit>
+			<layout-unit id="lay-2.14.4" xref="u-2.55">Rakennusmestarien talo</layout-unit>
+			<layout-unit id="lay-2.14.5" xref="u-2.56">Suomen Kameraseurojen Liitto</layout-unit>
+			<layout-unit id="lay-2.14.6" xref="u-2.57">Kalevank. 21 A 5</layout-unit>
+			<layout-unit id="lay-2.14.7" xref="u-2.58">tel: 64 42 56</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.15" xref="u-2.59 u-2.60 u-2.61 u-2.62 u-2.63 u-2.64">
+			<layout-unit id="lay-2.15.1" xref="u-2.59">15--19</layout-unit>
+			<layout-unit id="lay-2.15.2" xref="u-2.60">HEATING, PLUMBING AND AIR CONDITIONING FAIR</layout-unit>
+			<layout-unit id="lay-2.15.3" xref="u-2.61">Exhibition Hall</layout-unit>
+			<layout-unit id="lay-2.15.4" xref="u-2.62">The Finnish Fair Corporation</layout-unit>
+			<layout-unit id="lay-2.15.5" xref="u-2.63">Messuhallit</layout-unit>
+			<layout-unit id="lay-2.15.6" xref="u-2.64">tel: 44 00 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.16" xref="u-2.65 u-2.66 u-2.67 u-2.68 u-2.69">
+			<layout-unit id="lay-2.16.1" xref="u-2.65">16--17</layout-unit>
+			<layout-unit id="lay-2.16.2" xref="u-2.66">SCANDINAVIAN OIL HEATING CONGRESS '68</layout-unit>
+			<layout-unit id="lay-2.16.3" xref="u-2.67">Öljylämmitysteknillinen yhdistys</layout-unit>
+			<layout-unit id="lay-2.16.4" xref="u-2.68">Arkadiank. 12</layout-unit>
+			<layout-unit id="lay-2.16.5" xref="u-2.69">tel: 49 45 76</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.17" xref="u-2.70 u-2.71 u-2.72 u-2.73 u-2.74">
+			<layout-unit id="lay-2.17.1" xref="u-2.70">16--30</layout-unit>
+			<layout-unit id="lay-2.17.2" xref="u-2.71">HELSINKI FESTIVAL</layout-unit>
+			<layout-unit id="lay-2.17.3" xref="u-2.72">Helsinki-viikon säätiö</layout-unit>
+			<layout-unit id="lay-2.17.4" xref="u-2.73">Unionink. 28</layout-unit>
+			<layout-unit id="lay-2.17.5" xref="u-2.74">tel: 65 36 90</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.18" xref="u-2.75 u-2.76 u-2.77 u-2.78 u-2.79 u-2.80 u-2.81">
+			<layout-unit id="lay-2.18.1" xref="u-2.75">17--19</layout-unit>
+			<layout-unit id="lay-2.18.2" xref="u-2.76">HELSINKI ASSOCIATION OF HANDICRAFTS AND INDUSTRY CENTENARY</layout-unit>
+			<layout-unit id="lay-2.18.3" xref="u-2.77">(Swedish School of Economics)</layout-unit>
+			<layout-unit id="lay-2.18.4" xref="u-2.78">Ruotsal. Kauppakorkeakoulu</layout-unit>
+			<layout-unit id="lay-2.18.5" xref="u-2.79">Helsingin käsityö- ja teollisuusyhdistys</layout-unit>
+			<layout-unit id="lay-2.18.6" xref="u-2.80">Tehtaank. 29</layout-unit>
+			<layout-unit id="lay-2.18.7" xref="u-2.81">tel: 63 78 07</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.19" xref="u-2.82 u-2.83 u-2.84 u-2.85 u-2.86 u-2.87">
+			<layout-unit id="lay-2.19.1" xref="u-2.82">19--23</layout-unit>
+			<layout-unit id="lay-2.19.2" xref="u-2.83">IFOSA</layout-unit>
+			<layout-unit id="lay-2.19.3" xref="u-2.84">EUROPEAN CONGRESS</layout-unit>
+			<layout-unit id="lay-2.19.4" xref="u-2.85">Oy Wulff Ab</layout-unit>
+			<layout-unit id="lay-2.19.5" xref="u-2.86">Store Manager Rope</layout-unit>
+			<layout-unit id="lay-2.19.6" xref="u-2.87">tel: 64 63 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.20" xref="u-2.88">2</layout-unit>
+		<layout-unit id="lay-2.21" xref="u-2.89">June</layout-unit>
+		<layout-unit id="lay-2.22" xref="u-2.90 u-2.91 u-2.92 u-2.93 u-2.94 u-2.95">
+			<layout-unit id="lay-2.22.1" xref="u-2.90">3</layout-unit>
+			<layout-unit id="lay-2.22.2" xref="u-2.91">FINLAND - DENMARK</layout-unit>
+			<layout-unit id="lay-2.22.3" xref="u-2.92">FOOTBALL</layout-unit>
+			<layout-unit id="lay-2.22.4" xref="u-2.93">Suomen Palloliitto</layout-unit>
+			<layout-unit id="lay-2.22.5" xref="u-2.94">Bulevardi 28</layout-unit>
+			<layout-unit id="lay-2.22.6" xref="u-2.95">tel: 63 49 32</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.23" xref="u-2.96 u-2.97 u-2.98 u-2.99 u-2.100 u-2.101">
+			<layout-unit id="lay-2.23.1" xref="u-2.96">5--9</layout-unit>
+			<layout-unit id="lay-2.23.2" xref="u-2.97">SCANDINAVIAN COMPUTER CONGRES</layout-unit>
+			<layout-unit id="lay-2.23.3" xref="u-2.98">Otaniemi</layout-unit>
+			<layout-unit id="lay-2.23.4" xref="u-2.99">Valtion Tietokonekeskus</layout-unit>
+			<layout-unit id="lay-2.23.5" xref="u-2.100">Mr. Andersin</layout-unit>
+			<layout-unit id="lay-2.23.6" xref="u-2.101">tel: 13 665</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.24" xref="u-2.102 u-2.103 u-2.104 u-2.105 u-2.106">
+			<layout-unit id="lay-2.24.1" xref="u-2.102">8--9</layout-unit>
+			<layout-unit id="lay-2.24.2" xref="u-2.103">MEETING OF TECHNICAL PRINT FOREMEN</layout-unit>
+			<layout-unit id="lay-2.24.3" xref="u-2.104">Suomen Faktoriliitto</layout-unit>
+			<layout-unit id="lay-2.24.4" xref="u-2.105">Kasarmik. 34</layout-unit>
+			<layout-unit id="lay-2.24.5" xref="u-2.106">tel: 66 20 72</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.25" xref="u-2.107 u-2.108 u-2.109 u-2.110 u-2.111">
+			<layout-unit id="lay-2.25.1" xref="u-2.107">9--14</layout-unit>
+			<layout-unit id="lay-2.25.2" xref="u-2.108">17th INTERNATIONAL LYCEUM CLUB CONGRESS</layout-unit>
+			<layout-unit id="lay-2.25.3" xref="u-2.109">Helsingin Lyceumklubi</layout-unit>
+			<layout-unit id="lay-2.25.4" xref="u-2.110">Lönnrotink. 11</layout-unit>
+			<layout-unit id="lay-2.25.5" xref="u-2.111">tel. 33 17 87/Mrs. Kärki</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.26" xref="u-2.112 u-2.113 u-2.114 u-2.115 u-2.116 u-2.117">
+			<layout-unit id="lay-2.26.1" xref="u-2.112">10--??</layout-unit>
+			<layout-unit id="lay-2.26.2" xref="u-2.113">SCANDINAVIAN RHEUMATOLOGY CONGRESS</layout-unit>
+			<layout-unit id="lay-2.26.3" xref="u-2.114">Otaniemi</layout-unit>
+			<layout-unit id="lay-2.26.4" xref="u-2.115">Reumaliitto</layout-unit>
+			<layout-unit id="lay-2.26.5" xref="u-2.116">Dr. Kirpilä</layout-unit>
+			<layout-unit id="lay-2.26.6" xref="u-2.117">tel: 65 28 03</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.27" xref="u-2.118 u-2.119 u-2.120 u-2.121">
+			<layout-unit id="lay-2.27.1" xref="u-2.118">12</layout-unit>
+			<layout-unit id="lay-2.27.2" xref="u-2.119">HELSINKI DAY</layout-unit>
+			<layout-unit id="lay-2.27.3" xref="u-2.120">Helsingin kaupunki</layout-unit>
+			<layout-unit id="lay-2.27.4" xref="u-2.121">tel: 71 60 11/3795</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.28" xref="u-2.122 u-2.123 u-2.124 u-2.125 u-2.126">
+			<layout-unit id="lay-2.28.1" xref="u-2.122">12--13</layout-unit>
+			<layout-unit id="lay-2.28.2" xref="u-2.123">40th ANNIVERSARY OF THE BUS FEDERATION</layout-unit>
+			<layout-unit id="lay-2.28.3" xref="u-2.124">Linja-autoliitto ry</layout-unit>
+			<layout-unit id="lay-2.28.4" xref="u-2.125">P. Rautatienk. 19 c</layout-unit>
+			<layout-unit id="lay-2.28.5" xref="u-2.126">tel: 44 01 55</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.29" xref="u-2.127 u-2.128 u-2.129 u-2.130 u-2.1231">
+			<layout-unit id="lay-2.29.1" xref="u-2.127">15--20</layout-unit>
+			<layout-unit id="lay-2.29.2" xref="u-2.128">INTERNATIONAL WALLPAPER INDUSTRY CONGRESS</layout-unit>
+			<layout-unit id="lay-2.29.3" xref="u-2.129">Suomen Tapettitehtaiden yhdistys</layout-unit>
+			<layout-unit id="lay-2.29.4" xref="u-2.130">tel: 62 84 13</layout-unit>
+			<layout-unit id="lay-2.29.5" xref="u-2.131">Mr. Winckelmann</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.30" xref="u-2.132 u-2.133 u-2.134 u-2.135">
+			<layout-unit id="lay-2.30.1" xref="u-2.132">FINNISH ASSOCIATION OF DRUGSTORES EUROPEAN CONGRESS</layout-unit>
+			<layout-unit id="lay-2.30.2" xref="u-2.133">Suomen Kemikalikauppiasliitto</layout-unit>
+			<layout-unit id="lay-2.30.3" xref="u-2.134">Runebergink. 49 A</layout-unit>
+			<layout-unit id="lay-2.30.4" xref="u-2.135">tel: 44 06 36</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.31" xref="u-2.136 u-2.137 u-2.138 u-2.139 u-2.140 u-2.141">
+			<layout-unit id="lay-2.31.1" xref="u-2.136">16--19</layout-unit>
+			<layout-unit id="lay-2.31.2" xref="u-2.137">CONGRESS OF SCANDINAVIAN MOTHERS</layout-unit>
+			<layout-unit id="lay-2.31.3" xref="u-2.138">Otaniemi</layout-unit>
+			<layout-unit id="lay-2.31.4" xref="u-2.139">Suomalainen ja Ruotsalainen Marttaliitto</layout-unit>
+			<layout-unit id="lay-2.31.5" xref="u-2.140">Uudenmaankatu 24</layout-unit>
+			<layout-unit id="lay-2.31.6" xref="u-2.141">tel: 63 05 53/Törngren</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.32" xref="u-2.142 u-2.143 u-2.144 u-2.145 u-2.146">
+			<layout-unit id="lay-2.32.1" xref="u-2.142">24--29</layout-unit>
+			<layout-unit id="lay-2.32.2" xref="u-2.143">CONGRESS OF THE INTERNATIONAL ASSOCIATION OF MEDICAL LABORATORY TECHNICIANS</layout-unit>
+			<layout-unit id="lay-2.32.3" xref="u-2.144">Miss Seija Helenius</layout-unit>
+			<layout-unit id="lay-2.32.4" xref="u-2.145">Meilahden sairaala</layout-unit>
+			<layout-unit id="lay-2.32.5" xref="u-2.146">tel: 41 84 11/laboratory</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.33" xref="u-2.147 u-2.148 u-2.149 u-2.150 u-2.151 u-2.152">
+			<layout-unit id="lay-2.33.1" xref="u-2.147">30--2.7</layout-unit>
+			<layout-unit id="lay-2.33.2" xref="u-2.148">INTERNATIONAL UNION OF AGRICULTURAL JOURNALISTS</layout-unit>
+			<layout-unit id="lay-2.33.3" xref="u-2.149">Otaniemi</layout-unit>
+			<layout-unit id="lay-2.33.4" xref="u-2.150">Maataloustoimittajien Liitto</layout-unit>
+			<layout-unit id="lay-2.33.5" xref="u-2.151">Miss Kittilä</layout-unit>
+			<layout-unit id="lay-2.33.6" xref="u-2.152">tel: 61 741</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.34" xref="u-2.153">July</layout-unit>
+		<layout-unit id="lay-2.35" xref="u-2.154 u-2.155 u-2.156 u-2.157 u-2.158 u-2.159">
+			<layout-unit id="lay-2.35.1" xref="u-2.154">2--6</layout-unit>
+			<layout-unit id="lay-2.35.2" xref="u-2.155">XIV CIOSTA CONGRESS</layout-unit>
+			<layout-unit id="lay-2.35.3" xref="u-2.156">Dipoli</layout-unit>
+			<layout-unit id="lay-2.35.4" xref="u-2.157">Työtehoseura</layout-unit>
+			<layout-unit id="lay-2.35.5" xref="u-2.158">Dr. Martti Sipilä</layout-unit>
+			<layout-unit id="lay-2.35.6" xref="u-2.159">tel: 64 34 16</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.36" xref="u-2.160 u-2.161 u-2.162 u-2.163 u-2.164">
+			<layout-unit id="lay-2.36.1" xref="u-2.160">15--22</layout-unit>
+			<layout-unit id="lay-2.36.2" xref="u-2.161">INTERNATIONAL CONGRESS OF VIROLOGY</layout-unit>
+			<layout-unit id="lay-2.36.3" xref="u-2.162">Prof. Oker-Blom</layout-unit>
+			<layout-unit id="lay-2.36.4" xref="u-2.163">Yliopiston Virusopin laitos</layout-unit>
+			<layout-unit id="lay-2.36.5" xref="u-2.164">tel: 41 85 11/280</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.37" xref="u-2.165">August</layout-unit>
+		<layout-unit id="lay-2.38" xref="u-2.166 u-2.167 u-2.168 u-2.169 u-2.170">
+			<layout-unit id="lay-2.38.1" xref="u-2.166">1--14</layout-unit>
+			<layout-unit id="lay-2.38.2" xref="u-2.167">WORLD STUDENTS CHRISTIAN MOVEMENT CONGRESS</layout-unit>
+			<layout-unit id="lay-2.38.3" xref="u-2.168">Otaniemi</layout-unit>
+			<layout-unit id="lay-2.38.4" xref="u-2.169">Rev. Juhani Simojoki</layout-unit>
+			<layout-unit id="lay-2.38.5" xref="u-2.170">tel: 11 466</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.39" xref="u-2.171 u-2.172 u-2.173 u-2.174 u-2.175 u-2.176">
+			<layout-unit id="lay-2.39.1" xref="u-2.171">1--14</layout-unit>
+			<layout-unit id="lay-2.39.2" xref="u-2.172">MEDICAL STUDENTS' CONFERENCE</layout-unit>
+			<layout-unit id="lay-2.39.3" xref="u-2.173">Otaniemi</layout-unit>
+			<layout-unit id="lay-2.39.4" xref="u-2.174">Lääketieteenkandidaattiseura</layout-unit>
+			<layout-unit id="lay-2.39.5" xref="u-2.175">Mr. Kesämeri</layout-unit>
+			<layout-unit id="lay-2.39.6" xref="u-2.176">tel: 64 06 40</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.40" xref="u-2.17 u-2.178 u-2.179 u-2.180 u-2.181">
+			<layout-unit id="lay-2.40.1" xref="u-2.177">4--11</layout-unit>
+			<layout-unit id="lay-2.40.2" xref="u-2.178">INTERNATIONAL SOCIETY OF BUSINESS EDUCATION</layout-unit>
+			<layout-unit id="lay-2.40.3" xref="u-2.179">Dipoli</layout-unit>
+			<layout-unit id="lay-2.40.4" xref="u-2.180">Dr. Herrgård</layout-unit>
+			<layout-unit id="lay-2.40.5" xref="u-2.181">tel: 41 33 32</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.41" xref="u-2.182">3</layout-unit>
+		<layout-unit id="lay-2.42" xref="u-2.183 u-2.184 u-2.185 u-2.186 u-2.187 u-2.188 u-2.189">
+			<layout-unit id="lay-2.42.1" xref="u-2.183">12--17</layout-unit>
+			<layout-unit id="lay-2.42.2" xref="u-2.184">INTERNATIONAL SETTLEMENT CONFERENCE</layout-unit>
+			<layout-unit id="lay-2.42.3" xref="u-2.185">Kalliola</layout-unit>
+			<layout-unit id="lay-2.42.4" xref="u-2.186">I.F.S.</layout-unit>
+			<layout-unit id="lay-2.42.5" xref="u-2.187">Kristillis-yhteiskunnallinen Työskeskusliitto</layout-unit>
+			<layout-unit id="lay-2.42.6" xref="u-2.188">Sturenk. 11</layout-unit>
+			<layout-unit id="lay-2.42.7" xref="u-2.189">tel: 71 22 42</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.43" xref="u-2.190 u-2.191 u-2.192 u-2.193 u-2.194">
+			<layout-unit id="lay-2.43.1" xref="u-2.190">18--24</layout-unit>
+			<layout-unit id="lay-2.43.2" xref="u-2.191">14th INTERNATIONAL CONFERENCE OF SOCIAL WORK</layout-unit>
+			<layout-unit id="lay-2.43.3" xref="u-2.192">Sosiaalihuollon Keskusliitto</layout-unit>
+			<layout-unit id="lay-2.43.4" xref="u-2.193">tel: 64 47 85</layout-unit>
+			<layout-unit id="lay-2.43.5" xref="u-2.194">Mr. Lappalainen</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.44" xref="u-2.195 u-2.196 u-2.197 u-2.198 u-2.199 u-2.200">
+			<layout-unit id="lay-2.44.1" xref="u-2.195">26--29</layout-unit>
+			<layout-unit id="lay-2.44.2" xref="u-2.196">INTERNATIONAL SOCIAL SECURITY ASSOCIATION</layout-unit>
+			<layout-unit id="lay-2.44.3" xref="u-2.197">Merimieseläkekassa</layout-unit>
+			<layout-unit id="lay-2.44.4" xref="u-2.198">Rauhank. 15</layout-unit>
+			<layout-unit id="lay-2.44.5" xref="u-2.199">tel. 65 84 33</layout-unit>
+			<layout-unit id="lay-2.44.6" xref="u-2.200">Mr. Oravisto</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.45" xref="u-2.201 u-2.202 u-2.203 u-2.204 u-2.205 u-2.206">
+			<layout-unit id="lay-2.45.1" xref="u-2.201">30--1.9</layout-unit>
+			<layout-unit id="lay-2.45.2" xref="u-2.202">RATIONALIZATION STUDY CONFERENCE</layout-unit>
+			<layout-unit id="lay-2.45.3" xref="u-2.203">Otaniemi</layout-unit>
+			<layout-unit id="lay-2.45.4" xref="u-2.204">Suomen Rationalisointiliitto</layout-unit>
+			<layout-unit id="lay-2.45.5" xref="u-2.205">Mr. Elomaa</layout-unit>
+			<layout-unit id="lay-2.45.6" xref="u-2.206">tel: 12 531</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.46" xref="u-2.207">September</layout-unit>
+		<layout-unit id="lay-2.47" xref="u-2.208 u-2.209 u-2.210 u-2.211 u-2.212">
+			<layout-unit id="lay-2.47.1" xref="u-2.208">16--17</layout-unit>
+			<layout-unit id="lay-2.47.2" xref="u-2.209">SCANDINAVIAN PERIODICALS CONGRESS</layout-unit>
+			<layout-unit id="lay-2.47.3" xref="u-2.210">Aikakauslehtien Liitto</layout-unit>
+			<layout-unit id="lay-2.47.4" xref="u-2.211">Mr. Mäkeläinen</layout-unit>
+			<layout-unit id="lay-2.47.5" xref="u-2.212">tel: 64 50 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.48" xref="u-2.213 u-2.214 u-2.215 u-2.216 u-2.217">
+			<layout-unit id="lay-2.48.1" xref="u-2.213">19--29</layout-unit>
+			<layout-unit id="lay-2.48.2" xref="u-2.214">HELSINKI INTERNATIONAL TRADE FAIR</layout-unit>
+			<layout-unit id="lay-2.48.3" xref="u-2.215">Exhibition Hall</layout-unit>
+			<layout-unit id="lay-2.48.4" xref="u-2.216">The Finnish Fair Corporation</layout-unit>
+			<layout-unit id="lay-2.48.5" xref="u-2.217">tel: 44 00 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.49" xref="u-2.218">October</layout-unit>
+		<layout-unit id="lay-2.50" xref="u-2.219 u-2.220 u-2.221 u-2.222 u-2.223 u-2.224 u-2.225">
+			<layout-unit id="lay-2.50.1" xref="u-2.219">2--4</layout-unit>
+			<layout-unit id="lay-2.50.2" xref="u-2.220">CONFERENCE OF SCANDINAVIAN TRAFFIC EXPERTS</layout-unit>
+			<layout-unit id="lay-2.50.3" xref="u-2.221">(Master Builders' House)</layout-unit>
+			<layout-unit id="lay-2.50.4" xref="u-2.222">Rakennusmestarien talo</layout-unit>
+			<layout-unit id="lay-2.50.5" xref="u-2.223">Helsingin kaupungin liikennelaitos</layout-unit>
+			<layout-unit id="lay-2.50.6" xref="u-2.224">tel: 44 34 20</layout-unit>
+			<layout-unit id="lay-2.50.7" xref="u-2.225">Mrs. Lilja</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.51" xref="u-2.226">1969</layout-unit>
+		<layout-unit id="lay-2.52" xref="u-2.227">February</layout-unit>
+		<layout-unit id="lay-2.53" xref="u-2.228 u-2.229 u-2.230 u-2.231 u-2.232">
+			<layout-unit id="lay-2.53.1" xref="u-2.228">14--23</layout-unit>
+			<layout-unit id="lay-2.53.2" xref="u-2.229">BOAT AND CAMPING SHOW</layout-unit>
+			<layout-unit id="lay-2.53.3" xref="u-2.230">Exhibition Hall</layout-unit>
+			<layout-unit id="lay-2.53.4" xref="u-2.231">The Finnish Fair Corporation</layout-unit>
+			<layout-unit id="lay-2.53.5" xref="u-2.232">tel: 44 00 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.54" xref="u-2.233">April</layout-unit>
+		<layout-unit id="lay-2.55" xref="u-2.234 u-2.235 u-2.236 u-2.237 u-2.238 u-2.239">
+			<layout-unit id="lay-2.55.1" xref="u-2.234">18--27</layout-unit>
+			<layout-unit id="lay-2.55.2" xref="u-2.235">EXHIBITION OF WORK EFFICIENCY</layout-unit>
+			<layout-unit id="lay-2.55.3" xref="u-2.236">Exhibition Hall</layout-unit>
+			<layout-unit id="lay-2.55.4" xref="u-2.237">Työtehoseura</layout-unit>
+			<layout-unit id="lay-2.55.5" xref="u-2.238">Dr. Martti Sipilä</layout-unit>
+			<layout-unit id="lay-2.55.6" xref="u-2.239">tel: 65 34 16</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.56" xref="u-2.240">May</layout-unit>
+		<layout-unit id="lay-2.57" xref="u-2.241 u-2.242 u-2.243 u-2.244 u-2.245">
+			<layout-unit id="lay-2.57.1" xref="u-2.241">9--18</layout-unit>
+			<layout-unit id="lay-2.57.2" xref="u-2.242">INTERNATIONAL MOTOR SHOW</layout-unit>
+			<layout-unit id="lay-2.57.3" xref="u-2.243">Exhibition Hall</layout-unit>
+			<layout-unit id="lay-2.57.4" xref="u-2.244">The Finnish Fair Corporation</layout-unit>
+			<layout-unit id="lay-2.57.5" xref="u-2.245">tel: 44 00 11</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.58" xref="u-2.246 u-2.247 u-2.248 u-2.249 u-2.250">
+			<layout-unit id="lay-2.58.1" xref="u-2.246">16--30</layout-unit>
+			<layout-unit id="lay-2.58.2" xref="u-2.247">HELSINKI FESTIVAL</layout-unit>
+			<layout-unit id="lay-2.58.3" xref="u-2.248">Helsinki-viikon säätiö</layout-unit>
+			<layout-unit id="lay-2.58.4" xref="u-2.249">Unionink. 28</layout-unit>
+			<layout-unit id="lay-2.58.5" xref="u-2.250">tel: 65 36 90</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.59" xref="u-2.251">June</layout-unit>
+		<layout-unit id="lay-2.60" xref="u-2.252 u-2.253 u-2.254 u-2.255 u-2.256">
+			<layout-unit id="lay-2.60.1" xref="u-2.252">3--7</layout-unit>
+			<layout-unit id="lay-2.60.2" xref="u-2.253">SCANDINAVIAN SURGEONS' CONGRESS</layout-unit>
+			<layout-unit id="lay-2.60.3" xref="u-2.254">Dipoli</layout-unit>
+			<layout-unit id="lay-2.60.4" xref="u-2.255">Dr. Pär Slätis</layout-unit>
+			<layout-unit id="lay-2.60.5" xref="u-2.256">tel: 44 04 91</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.61" xref="u-2.257 u-2.258 u-2.259 u-2.260">
+			<layout-unit id="lay-2.61.1" xref="u-2.257">12</layout-unit>
+			<layout-unit id="lay-2.61.2" xref="u-2.258">HELSINKI DAY</layout-unit>
+			<layout-unit id="lay-2.61.3" xref="u-2.259">Helsingin kaupunki</layout-unit>
+			<layout-unit id="lay-2.61.4" xref="u-2.260">tel: 71 60 11/3795</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.62" xref="u-2.261 u-2.262 u-2.263 u-2.264 u-2.265">
+			<layout-unit id="lay-2.62.1" xref="u-2.261">23--26</layout-unit>
+			<layout-unit id="lay-2.62.2" xref="u-2.262">EUROPEAN ASSOCIATION OF ANIMAL PRODUCTION</layout-unit>
+			<layout-unit id="lay-2.62.3" xref="u-2.263">Dipoli</layout-unit>
+			<layout-unit id="lay-2.62.4" xref="u-2.264">Dr. Holma (Councellor of Agriculture)</layout-unit>
+			<layout-unit id="lay-2.62.5" xref="u-2.265">tel. 61 971</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.63" xref="u-2.266 u-2.267 u-2.268 u-2.269 u-2.270">
+			<layout-unit id="lay-2.63.1" xref="u-2.266">GIRL GUIDES WORLD CONGRESS</layout-unit>
+			<layout-unit id="lay-2.63.2" xref="u-2.267">Otaniemi</layout-unit>
+			<layout-unit id="lay-2.63.3" xref="u-2.268">Suomen Partiotyttöjärjestö</layout-unit>
+			<layout-unit id="lay-2.63.4" xref="u-2.269">Miss Elina Veistäjä</layout-unit>
+			<layout-unit id="lay-2.63.5" xref="u-2.270">tel: 65 01 00</layout-unit>
+		</layout-unit>
+		<layout-unit id="lay-2.64" xref="u-2.271">4</layout-unit>
+	</segmentation>
+	<layout-structure>
+		<layout-root id="ceh-1967-l-side-1" orientation="landscape">
+			<layout-chunk id="page-5" location="col-1" area-ref="side-a-1">
+				<layout-chunk id="page-5-entry-1-2" location="multi" area-ref="side-a-1-b">
+					<layout-leaf xref="lay-1.01" location="cell-11" area-ref="side-a-1-b" halign="top" valign="left"/>
+					<layout-chunk id="p5-entry-1" location="multi" area-ref="side-a-1-b">
+						<layout-leaf xref="lay-1.02.1" location="cell-12" area-ref="side-a-1-b" halign="top" valign="left"/>
+						<layout-chunk id="p5-entry-1-col-2" location="cell-22" halign="top" valign="left">
+							<layout-leaf xref="lay-1.02.2" location="cell-22" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.02.3" location="cell-22" area-ref="side-a-1-b"/>
+						</layout-chunk>
+						<layout-chunk id="p5-entry-1-col-3" location="cell-32" halign="top" valign="left">
+							<layout-leaf xref="lay-1.02.4" location="cell-32" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.02.5" location="cell-32" area-ref="side-a-1-b"/>
+						</layout-chunk>
+						<layout-chunk id="p5-entry-2" location="multi" area-ref="side-a-1-b">
+							<layout-chunk id="p5-entry-2-col-2" location="cell-23" halign="top" valign="left">
+								<layout-leaf xref="lay-1.03.2" location="cell-23" area-ref="side-a-1-b"/>
+								<layout-leaf xref="lay-1.03.3" location="cell-23" area-ref="side-a-1-b"/>
+							</layout-chunk>
+							<layout-chunk id="p5-entry-2-col-3" location="cell-33" halign="top" valign="left">
+								<layout-leaf xref="lay-1.03.4" location="cell-33" area-ref="side-a-1-b"/>
+								<layout-leaf xref="lay-1.03.5" location="cell-33" area-ref="side-a-1-b"/>
+							</layout-chunk>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-5-entry-3-4-5" location="multi" area-ref="side-a-1-b">
+					<layout-leaf xref="lay-1.04" location="cell-14" area-ref="side-a-1-b" halign="top" valign="left"/>
+					<layout-chunk id="p5-entry-3" location="multi" area-ref="side-a-1-b">
+						<layout-leaf xref="lay-1.05.1" location="cell-15" area-ref="side-a-1-b" halign="top" valign="left"/>
+						<layout-chunk id="p5-entry-3-col-2" location="cell-25" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.05.2" location="cell-25" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.05.3" location="cell-25" area-ref="side-a-1-b"/>
+						</layout-chunk>
+						<layout-chunk id="p5-entry-3-col-3" location="cell-35" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.05.4" location="cell-35" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.05.5" location="cell-35" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.05.6" location="cell-35" area-ref="side-a-1-b"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p5-entry-4" location="multi" area-ref="side-a-1-b">
+						<layout-leaf xref="lay-1.06.1" location="cell-16" area-ref="side-a-1-b" halign="top" valign="left"/>
+						<layout-chunk id="p5-entry-4-col-2" location="cell-26" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.06.2" location="cell-26" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.06.3" location="cell-26" area-ref="side-a-1-b"/>
+						</layout-chunk>
+						<layout-chunk id="p5-entry-4-col-3" location="cell-36" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.06.4" location="cell-36" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.06.5" location="cell-36" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.06.6" location="cell-36" area-ref="side-a-1-b"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p5-entry-5" location="multi" area-ref="side-a-1-b">
+						<layout-leaf xref="lay-1.07.1" location="cell-17" area-ref="side-a-1-b"/>
+						<layout-chunk id="p5-entry-5-col-2" location="cell-27" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.07.2" location="cell-27" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.07.3" location="cell-27" area-ref="side-a-1-b"/>
+						</layout-chunk>
+						<layout-chunk id="p5-entry-5-col-3" location="cell-37" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.07.4" location="cell-37" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.07.5" location="cell-37" area-ref="side-a-1-b"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-5-entry-6" location="multi" area-ref="side-a-1-b">
+					<layout-leaf xref="lay-1.08" location="cell-18" area-ref="side-a-1-b"/>
+					<layout-chunk id="p5-entry-6" location="multi" area-ref="side-a-1-b">
+						<layout-leaf xref="lay-1.09.1" location="cell-19" area-ref="side-a-1-b"/>
+						<layout-chunk id="p5-entry-6-col-2" location="cell-29" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.09.2" location="cell-29" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.09.3" location="cell-29" area-ref="side-a-1-b"/>
+						</layout-chunk>
+						<layout-chunk id="p5-entry-6-col-3" location="cell-39" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.09.4" location="cell-39" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.09.5" location="cell-39" area-ref="side-a-1-b"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-5-entry-7" location="multi" area-ref="side-a-1-b">
+					<layout-leaf xref="lay-1.10" location="cell-110" area-ref="side-a-1-b" halign="top" valign="left"/>
+					<layout-leaf xref="lay-1.11" location="cell-111" area-ref="side-a-1-b" halign="top" valign="left"/>
+					<layout-chunk id="p5-entry-7" location="multi" area-ref="side-a-1-b">
+						<layout-leaf xref="lay-1.12.1" location="cell-112" area-ref="side-a-1-b" halign="top" valign="left"/>
+						<layout-chunk id="p5-entry-7-col-2" location="cell-212" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.12.2" location="cell-212" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.12.3" location="cell-212" area-ref="side-a-1-b"/>
+						</layout-chunk>
+						<layout-chunk id="p5-entry-7-col-3" location="cell-312" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.12.4" location="cell-312" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.12.5" location="cell-312" area-ref="side-a-1-b"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-5-entry-8" location="multi" area-ref="side-a-1-b">
+					<layout-leaf xref="lay-1.13" location="cell-113" area-ref="side-a-1-b" halign="top" valign="left"/>
+					<layout-chunk id="p5-entry-8" location="multi" area-ref="side-a-1-b">
+						<layout-leaf xref="lay-1.14.1" location="cell-114" area-ref="side-a-1-b" halign="top" valign="left"/>
+						<layout-chunk id="p5-entry-8-col-2" location="cell-214" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.14.2" location="cell-214" area-ref="side-a-1-b"/>
+						</layout-chunk>
+						<layout-chunk id="p5-entry-8-col-3" location="cell-314" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.14.3" location="cell-314" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.14.4" location="cell-314" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.14.5" location="cell-314" area-ref="side-a-1-b"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-5-entry-9" location="multi" area-ref="side-a-1-b">
+					<layout-leaf xref="lay-1.15" location="cell-115" area-ref="side-a-1-b" halign="top" valign="left"/>
+					<layout-chunk id="p5-entry-9" location="multi" area-ref="side-a-1-b">
+						<layout-leaf xref="lay-1.16.1" location="cell-116" area-ref="side-a-1-b" halign="top" valign="left"/>
+						<layout-chunk id="p5-entry-9-col-2" location="cell-216" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.16.2" location="cell-216" area-ref="side-a-1-b"/>
+						</layout-chunk>
+						<layout-chunk id="p5-entry-9-col-3" location="cell-316" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.16.3" location="cell-316" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.16.4" location="cell-316" area-ref="side-a-1-b"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-5-entry-10" location="multi" area-ref="side-a-1-b">
+					<layout-leaf xref="lay-1.17" location="cell-117" area-ref="side-a-1-b" halign="top" valign="left"/>
+					<layout-chunk id="p5-entry-10" location="multi" area-ref="side-a-1-b">
+						<layout-leaf xref="lay-1.18.1" location="cell-118" area-ref="side-a-1-b" halign="top" valign="left"/>
+						<layout-chunk id="p5-entry-10-col-2" location="cell-218" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.18.2" location="cell-218" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.18.3" location="cell-218" area-ref="side-a-1-b"/>
+						</layout-chunk>
+						<layout-chunk id="p5-entry-10-col-3" location="cell-318" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.18.4" location="cell-318" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.18.5" location="cell-318" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.18.6" location="cell-318" area-ref="side-a-1-b"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-5-entry-11" location="multi" area-ref="side-a-1-b">
+					<layout-leaf xref="lay-1.19" location="cell-119" area-ref="side-a-1-b" halign="top" valign="left"/>
+					<layout-chunk id="p5-entry-11" location="multi" area-ref="side-a-1-b">
+						<layout-leaf xref="lay-1.20.1" location="cell-120" area-ref="side-a-1-b" halign="top" valign="left"/>
+						<layout-chunk id="p5-entry-11-col-2" location="cell-220" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.20.2" location="cell-220" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.20.3" location="cell-220" area-ref="side-a-1-b"/>
+						</layout-chunk>
+						<layout-chunk id="p5-entry-11-col-3" location="cell-320" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.20.4" location="cell-320" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.20.5" location="cell-320" area-ref="side-a-1-b"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-5-entry-12" location="multi" area-ref="side-a-1-b">
+					<layout-leaf xref="lay-1.21" location="cell-121" area-ref="side-a-1-b" halign="top" valign="left"/>
+					<layout-chunk id="p5-entry-12" location="multi" area-ref="side-a-1-b">
+						<layout-chunk id="p5-entry-12-col-2" location="cell-221" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.22.1" location="cell-221" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.22.2" location="cell-221" area-ref="side-a-1-b"/>
+						</layout-chunk>
+						<layout-chunk id="p5-entry-12-col-3" location="cell-321" area-ref="side-a-1-b" halign="top" valign="left">
+							<layout-leaf xref="lay-1.22.3" location="cell-321" area-ref="side-a-1-b"/>
+							<layout-leaf xref="lay-1.22.4" location="cell-321" area-ref="side-a-1-b"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-leaf xref="lay-1.23" location="row-3" halign="top" valign="left" area-ref="ceh-1967-a-side-1"/>
+			</layout-chunk>
+			<layout-chunk id="page-6" location="col-3" area-ref="side-a-1">
+				<layout-chunk id="page-6-entry-1" location="multi" area-ref="side-a-1-b">
+					<layout-leaf xref="lay-1.24" location="cell-11" area-ref="side-a-1-c-1" halign="top" valign="left"/>
+					<layout-leaf xref="lay-1.25" location="cell-12" area-ref="side-a-1-c-1" halign="top" valign="left"/>
+					<layout-chunk id="p6-entry-1" location="multi" area-ref="side-a-1-c-1">
+						<layout-leaf xref="lay-1.26.1" location="cell-13" area-ref="side-a-1-c-1" halign="top" valign="left"/>
+						<layout-chunk id="p6-entry-1-col-2" location="cell-23" area-ref="side-a-1-c-1" halign="top" valign="left">
+							<layout-leaf xref="lay-1.26.2" location="cell-23" area-ref="side-a-1-c-1"/>
+						</layout-chunk>
+						<layout-chunk id="p6-entry-1-col-3" location="cell-33" area-ref="side-a-1-c-1" halign="top" valign="left">
+							<layout-leaf xref="lay-1.26.3" location="cell-33" area-ref="side-a-1-c-1"/>
+							<layout-leaf xref="lay-1.26.4" location="cell-33" area-ref="side-a-1-c-1"/>
+							<layout-leaf xref="lay-1.26.5" location="cell-33" area-ref="side-a-1-c-1"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-6-entry-2-3" location="multi" area-ref="side-a-1-b">
+					<layout-leaf xref="lay-1.27" location="cell-14" area-ref="side-a-1-c-1" halign="top" valign="left"/>
+					<layout-chunk id="p6-entry-2" location="multi" area-ref="side-a-1-c-1">
+						<layout-chunk id="p6-entry-2-col-2" location="cell-25" area-ref="side-a-1-c-1" halign="top" valign="left">
+							<layout-leaf xref="lay-1.28.1" location="cell-25" area-ref="side-a-1-c-1"/>
+							<layout-leaf xref="lay-1.28.2" location="cell-25" area-ref="side-a-1-c-1"/>
+						</layout-chunk>
+						<layout-chunk id="p6-entry-2-col-3" location="cell-35" area-ref="side-a-1-c-1" halign="top" valign="left">
+							<layout-leaf xref="lay-1.28.3" location="cell-35" area-ref="side-a-1-c-1"/>
+							<layout-leaf xref="lay-1.28.4" location="cell-35" area-ref="side-a-1-c-1"/>
+							<layout-leaf xref="lay-1.28.5" location="cell-35" area-ref="side-a-1-c-1"/>
+						</layout-chunk>
+						<layout-chunk id="p6-entry-3" location="multi" area-ref="side-a-1-c-1">
+							<layout-leaf xref="lay-1.29.1" location="cell-16" area-ref="side-a-1-c-1" halign="top" valign="left"/>
+							<layout-chunk id="p6-entry-3-col-2" location="cell-26" area-ref="side-a-1-c-1" halign="top" valign="left">
+								<layout-leaf xref="lay-1.29.2" location="cell-26" area-ref="side-a-1-c-1"/>
+							</layout-chunk>
+							<layout-chunk id="p6-entry-3-col-3" location="cell-36" area-ref="side-a-1-c-1" halign="top" valign="left">
+								<layout-leaf xref="lay-1.29.3" location="cell-36" area-ref="side-a-1-c-1"/>
+								<layout-leaf xref="lay-1.29.4" location="cell-36" area-ref="side-a-1-c-1"/>
+							</layout-chunk>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="page-6-entry-4" location="multi" area-ref="side-a-1-b">
+						<layout-leaf xref="lay-1.30" location="cell-17" area-ref="side-a-1-c-1" halign="top" valign="left"/>
+						<layout-chunk id="p6-entry-4" location="multi" area-ref="side-a-1-c-1">
+							<layout-chunk id="p6-entry-4-col-2" location="cell-28" area-ref="side-a-1-c-1" halign="top" valign="left">
+								<layout-leaf xref="lay-1.31.1" location="cell-28" area-ref="side-a-1-c-1"/>
+							</layout-chunk>
+							<layout-chunk id="p6-entry-4-col-3" location="cell-38" area-ref="side-a-1-c-1" halign="top" valign="left">
+								<layout-leaf xref="lay-1.31.2" location="cell-38" area-ref="side-a-1-c-1"/>
+								<layout-leaf xref="lay-1.31.3" location="cell-38" area-ref="side-a-1-c-1"/>
+								<layout-leaf xref="lay-1.31.4" location="cell-38" area-ref="side-a-1-c-1"/>
+							</layout-chunk>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-6-entry-5" location="multi" area-ref="side-a-1-b">
+					<layout-leaf xref="lay-1.32" location="cell-19" area-ref="side-a-1-c-1" halign="top" valign="left"/>
+					<layout-leaf xref="lay-1.33" location="cell-110" area-ref="side-a-1-c-1" halign="top" valign="left"/>
+					<layout-chunk id="p6-entry-5" location="multi" area-ref="side-a-1-c-1">
+						<layout-chunk id="p6-entry-5-col-2" location="cell-211" area-ref="side-a-1-c-1" halign="top" valign="left">
+							<layout-leaf xref="lay-1.34.1" location="cell-211" area-ref="side-a-1-c-1"/>
+							<layout-leaf xref="lay-1.34.2" location="cell-211" area-ref="side-a-1-c-1"/>
+						</layout-chunk>
+						<layout-chunk id="p6-entry-5-col-3" location="cell-311" area-ref="side-a-1-c-1" halign="top" valign="left">
+							<layout-leaf xref="lay-1.34.3" location="cell-311" area-ref="side-a-1-c-1"/>
+							<layout-leaf xref="lay-1.34.4" location="cell-311" area-ref="side-a-1-c-1"/>
+							<layout-leaf xref="lay-1.34.5" location="cell-311" area-ref="side-a-1-c-1"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-leaf xref="lay-1.35" location="row-2" area-ref="side-a-1-c"/>
+				<layout-chunk id="page-6-text" location="row-3">
+					<layout-leaf xref="lay-1.36.1" location="row-3" area-ref="side-a-1-c" halign="top" valign="left"/>
+					<layout-leaf xref="lay-1.36.2" location="row-3" area-ref="side-a-1-c"/>
+					<layout-leaf xref="lay-1.36.3" location="row-3" area-ref="side-a-1-c"/>
+				</layout-chunk>
+				<layout-leaf xref="lay-1.37" location="row-5" area-ref="side-a-1-c" halign="top" valign="right"/>
+			</layout-chunk>
+			<layout-chunk id="page-1" location="col-5" area-ref="side-a-1">
+				<layout-chunk id="page-1-header" location="row-1" area-ref="side-a-1-d">
+					<layout-chunk id="page-1-header-left" location="col-1" area-ref="side-a-1-d-1" halign="top" valign="left">
+						<layout-leaf xref="lay-1.38" location="col-1" area-ref="side-a-1-d-1"/>
+						<layout-leaf xref="lay-1.39" location="col-1" area-ref="side-a-1-d-1"/>
+					</layout-chunk>
+					<layout-chunk id="page-1-header-right" location="col-3" area-ref="side-a-1-d-1" halign="top" valign="left">
+						<layout-leaf xref="lay-1.40" location="col-3" area-ref="side-a-1-d-1"/>
+						<layout-leaf xref="lay-1.41" location="col-3" area-ref="side-a-1-d-1"/>
+					</layout-chunk>
+					<layout-leaf xref="lay-1.42" location="row-3" area-ref="side-a-1-d" valign="center"/>
+				</layout-chunk>
+				<layout-chunk id="page-1-entry-1" location="multi" area-ref="side-a-1-d">
+					<layout-leaf xref="lay-1.43" location="cell-11" area-ref="side-a-1-d-2" halign="top" valign="left"/>
+					<layout-chunk id="p1-entry-1" location="multi" area-ref="side-a-1-d-2">
+						<layout-leaf xref="lay-1.44.1" location="cell-12" area-ref="side-a-1-d-2" halign="top" valign="left"/>
+						<layout-chunk id="p1-entry-1-col-2" location="cell-22" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.44.2" location="cell-22" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.44.3" location="cell-22" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+						<layout-chunk id="p1-entry-x-col-3" location="cell-32" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.44.4" location="cell-32" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.44.5" location="cell-32" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.44.6" location="cell-32" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.44.7" location="cell-32" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-1-entry-2-3-4-5-6-7-8-9-10" location="multi" area-ref="side-a-1-d">
+					<layout-leaf xref="lay-1.45" location="cell-13" area-ref="side-a-1-d-2" halign="top" valign="left"/>
+					<layout-chunk id="p1-entry-2" location="multi" area-ref="side-a-1-d-2">
+						<layout-leaf xref="lay-1.46.1" location="cell-14" area-ref="side-a-1-d-2" halign="top" valign="left"/>
+						<layout-chunk id="p1-entry-2-col-2" location="cell-24" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.46.2" location="cell-24" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.46.3" location="cell-24" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+						<layout-chunk id="p1-entry-2-col-3" location="cell-34" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.46.4" location="cell-34" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.46.5" location="cell-34" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p1-entry-3" location="multi" area-ref="side-a-1-d-2">
+						<layout-leaf xref="lay-1.47.1" location="cell-15" area-ref="side-a-1-d-2" halign="top" valign="left"/>
+						<layout-chunk id="p1-entry-3-col-2" location="cell-25" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.47.2" location="cell-25" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.47.3" location="cell-25" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.47.4" location="cell-25" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+						<layout-chunk id="p1-entry-3-col-3" location="cell-35" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.47.5" location="cell-35" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.47.6" location="cell-35" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.47.7" location="cell-35" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p1-entry-4" location="multi" area-ref="side-a-1-d-2">
+						<layout-leaf xref="lay-1.48.1" location="cell-16" area-ref="side-a-1-d-2" halign="top" valign="left"/>
+						<layout-chunk id="p1-entry-4-col-2" location="cell-26" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.48.2" location="cell-26" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+						<layout-chunk id="p1-entry-4-col-3" location="cell-36" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.48.3" location="cell-36" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.48.4" location="cell-36" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.48.5" location="cell-36" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p1-entry-5" location="multi" area-ref="side-a-1-d-2">
+						<layout-leaf xref="lay-1.49.1" location="cell-17" area-ref="side-a-1-d-2" halign="top" valign="left"/>
+						<layout-chunk id="p1-entry-5-col-2" location="cell-27" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.49.2" location="cell-27" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.49.3" location="cell-27" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.49.4" location="cell-27" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+						<layout-chunk id="p1-entry-5-col-3" location="cell-37" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.49.5" location="cell-37" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.49.6" location="cell-37" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.49.7" location="cell-37" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p1-entry-6" location="multi" area-ref="side-a-1-d-2">
+						<layout-leaf xref="lay-1.50.1" location="cell-18" area-ref="side-a-1-d-2" halign="top" valign="left"/>
+						<layout-chunk id="p1-entry-6-col-2" location="cell-28" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.50.2" location="cell-28" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+						<layout-chunk id="p1-entry-6-col-3" location="cell-38" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.50.3" location="cell-38" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.50.4" location="cell-38" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.50.5" location="cell-38" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p1-entry-7" location="multi" area-ref="side-a-1-d-2">
+						<layout-leaf xref="lay-1.51.1" location="cell-19" area-ref="side-a-1-d-2" halign="top" valign="left"/>
+						<layout-chunk id="p1-entry-7-col-2" location="cell-29" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.51.2" location="cell-29" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+						<layout-chunk id="p1-entry-7-col-3" location="cell-39" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.51.3" location="cell-39" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.51.4" location="cell-39" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.51.5" location="cell-39" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p1-entry-8" location="multi" area-ref="side-a-1-d-2">
+						<layout-leaf xref="lay-1.52.1" location="cell-10" area-ref="side-a-1-d-2" halign="top" valign="left"/>
+						<layout-chunk id="p1-entry-8-col-2" location="cell-210" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.52.2" location="cell-210" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.52.3" location="cell-210" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.52.4" location="cell-210" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+						<layout-chunk id="p1-entry-8-col-3" location="cell-310" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.52.5" location="cell-310" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.52.6" location="cell-310" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.52.7" location="cell-310" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p1-entry-9" location="multi" area-ref="side-a-1-d-2">
+						<layout-leaf xref="lay-1.53.1" location="cell-111" area-ref="side-a-1-d-2" halign="top" valign="left"/>
+						<layout-chunk id="p1-entry-9-col-2" location="cell-211" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.53.2" location="cell-211" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+						<layout-chunk id="p1-entry-9-col-3" location="cell-311" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.53.3" location="cell-311" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.53.4" location="cell-311" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.53.5" location="cell-311" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p1-entry-10" location="multi" area-ref="side-a-1-d-2">
+						<layout-leaf xref="lay-1.54.1" location="cell-112" area-ref="side-a-1-d-2" halign="top" valign="left"/>
+						<layout-chunk id="p1-entry-10-col-2" location="cell-212" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.54.2" location="cell-212" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.54.3" location="cell-212" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+						<layout-chunk id="p1-entry-10-col-3" location="cell-312" area-ref="side-a-1-d-2" halign="top" valign="left">
+							<layout-leaf xref="lay-1.54.4" location="cell-312" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.54.5" location="cell-312" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.54.6" location="cell-312" area-ref="side-a-1-d-2"/>
+							<layout-leaf xref="lay-1.54.7" location="cell-312" area-ref="side-a-1-d-2"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="page-1-entry-11-12" location="multi" area-ref="side-a-1-d">
+						<layout-leaf xref="lay-1.55" location="cell-113" area-ref="side-a-1-d-2" halign="top" valign="left"/>
+						<layout-chunk id="p1-entry-11" location="multi" area-ref="side-a-1-d-2">
+							<layout-leaf xref="lay-1.56.1" location="cell-114" area-ref="side-a-1-d-2" halign="top" valign="left"/>
+							<layout-chunk id="p1-entry-11-col-2" location="cell-214" area-ref="side-a-1-d-2" halign="top" valign="left">
+								<layout-leaf xref="lay-1.56.2" location="cell-214" area-ref="side-a-1-d-2"/>
+								<layout-leaf xref="lay-1.56.3" location="cell-214" area-ref="side-a-1-d-2"/>
+							</layout-chunk>
+							<layout-chunk id="p1-entry-11-col-3" location="cell-314" area-ref="side-a-1-d-2" halign="top" valign="left">
+								<layout-leaf xref="lay-1.56.4" location="cell-314" area-ref="side-a-1-d-2"/>
+								<layout-leaf xref="lay-1.56.5" location="cell-314" area-ref="side-a-1-d-2"/>
+							</layout-chunk>
+						</layout-chunk>
+						<layout-chunk id="p1-entry-12" location="multi" area-ref="side-a-1-d-2">
+							<layout-leaf xref="lay-1.57.1" location="cell-115" area-ref="side-a-1-d-2" halign="top" valign="left"/>
+							<layout-chunk id="p1-entry-12-col-2" location="cell-215" area-ref="side-a-1-d-2" halign="top" valign="left">
+								<layout-leaf xref="lay-1.57.2" location="cell-215" area-ref="side-a-1-d-2"/>
+								<layout-leaf xref="lay-1.57.3" location="cell-215" area-ref="side-a-1-d-2"/>
+								<layout-leaf xref="lay-1.57.4" location="cell-215" area-ref="side-a-1-d-2"/>
+							</layout-chunk>
+							<layout-chunk id="p1-entry-12-col-3" location="cell-315" area-ref="side-a-1-d-2" halign="top" valign="left">
+								<layout-leaf xref="lay-1.57.5" location="cell-315" area-ref="side-a-1-d-2"/>
+								<layout-leaf xref="lay-1.57.6" location="cell-315" area-ref="side-a-1-d-2"/>
+								<layout-leaf xref="lay-1.57.7" location="cell-315" area-ref="side-a-1-d-2"/>
+							</layout-chunk>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+			</layout-chunk>
+		</layout-root>
+		<layout-root id="ceh-1967-l-side-2" orientation="landscape">
+			<layout-chunk id="page-2" location="multi" area-ref="side-a-2-b">
+				<layout-chunk id="page-2-entry-1-2-3" location="multi" area-ref="side-a-2-b">
+					<layout-leaf xref="lay-2.01" location="cell-11" area-ref="side-a-2-b" halign="top" valign="left"/>
+					<layout-leaf xref="lay-2.02" location="cell-12" area-ref="side-a-2-b" halign="top" valign="left"/>
+					<layout-chunk id="p2-entry-1" location="multi" area-ref="side-a-2-b">
+						<layout-leaf xref="lay-2.03.1" location="cell-13" area-ref="side-a-2-b" halign="top" valign="left"/>
+						<layout-chunk id="p2-entry-1-col-2" location="cell-23" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.03.2" location="cell-23" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.03.3" location="cell-23" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.03.4" location="cell-23" area-ref="side-a-2-b"/>
+						</layout-chunk>
+						<layout-chunk id="p2-entry-1-col-3" location="cell-33" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.03.5" location="cell-33" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.03.6" location="cell-33" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.03.7" location="cell-33" area-ref="side-a-2-b"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p2-entry-2" location="multi" area-ref="side-a-2-b">
+						<layout-leaf xref="lay-2.04.1" location="cell-14" area-ref="side-a-2-b" halign="top" valign="left"/>
+						<layout-chunk id="p2-entry-2-col-2" location="cell-24" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.04.2" location="cell-24" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.04.3" location="cell-24" area-ref="side-a-2-b"/>
+						</layout-chunk>
+						<layout-chunk id="p2-entry-2-col-3" location="cell-34" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.04.4" location="cell-34" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.04.5" location="cell-34" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.04.6" location="cell-34" area-ref="side-a-2-b"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p2-entry-3" location="multi" area-ref="side-a-2-b">
+						<layout-leaf xref="lay-2.05.1" location="cell-15" area-ref="side-a-2-b" halign="top" valign="left"/>
+						<layout-chunk id="p2-entry-3-col-2" location="cell-25" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.05.2" location="cell-25" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.05.3" location="cell-25" area-ref="side-a-2-b"/>
+						</layout-chunk>
+						<layout-chunk id="p2-entry-3-col-3" location="cell-35" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.05.4" location="cell-35" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.05.5" location="cell-35" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.05.6" location="cell-35" area-ref="side-a-2-b"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-2-entry-4" location="multi" area-ref="side-a-2-b">
+					<layout-leaf xref="lay-2.06" location="cell-16" area-ref="side-a-2-b"/>
+					<layout-chunk id="p2-entry-4" location="multi" area-ref="side-a-2-b">
+						<layout-leaf xref="lay-2.07.1" location="cell-17" area-ref="side-a-2-b" halign="top" valign="left"/>
+						<layout-chunk id="p2-entry-4-col-2" location="cell-27" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.07.2" location="cell-27" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.07.3" location="cell-27" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.07.4" location="cell-27" area-ref="side-a-2-b"/>
+						</layout-chunk>
+						<layout-chunk id="p2-entry-4-col-3" location="cell-37" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.07.5" location="cell-37" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.07.6" location="cell-37" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.07.7" location="cell-37" area-ref="side-a-2-b"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-2-entry-5-6" location="multi" area-ref="side-a-2-b">
+					<layout-leaf xref="lay-2.08" location="cell-18" area-ref="side-a-2-b"/>
+					<layout-chunk id="p2-entry-5" location="multi" area-ref="side-a-2-b">
+						<layout-leaf xref="lay-2.09.1" location="cell-19" area-ref="side-a-2-b" halign="top" valign="left"/>
+						<layout-chunk id="p2-entry-5-col-2" location="cell-29" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.09.2" location="cell-29" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.09.3" location="cell-29" area-ref="side-a-2-b"/>
+						</layout-chunk>
+						<layout-chunk id="p2-entry-5-col-3" location="cell-39" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.09.4" location="cell-39" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.09.5" location="cell-39" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.09.6" location="cell-39" area-ref="side-a-2-b"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p2-entry-6" location="multi" area-ref="side-a-2-b">
+						<layout-leaf xref="lay-2.10.1" location="cell-110" area-ref="side-a-2-b" halign="top" valign="left"/>
+						<layout-chunk id="p2-entry-6-col-2" location="cell-210" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.10.2" location="cell-210" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.10.3" location="cell-210" area-ref="side-a-2-b"/>
+						</layout-chunk>
+						<layout-chunk id="p2-entry-6-col-3" location="cell-310" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.10.4" location="cell-310" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.10.5" location="cell-310" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.10.6" location="cell-310" area-ref="side-a-2-b"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-2-entry-7" location="multi" area-ref="side-a-2-b">
+					<layout-leaf xref="lay-2.11" location="cell-111" area-ref="side-a-2-b"/>
+					<layout-chunk id="p2-entry-7" location="multi" area-ref="side-a-2-b">
+						<layout-leaf xref="lay-2.12.1" location="cell-112" area-ref="side-a-2-b" halign="top" valign="left"/>
+						<layout-chunk id="p2-entry-7-col-2" location="cell-212" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.12.2" location="cell-212" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.12.3" location="cell-212" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.12.4" location="cell-212" area-ref="side-a-2-b"/>
+						</layout-chunk>
+						<layout-chunk id="p2-entry-7-col-3" location="cell-312" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.12.5" location="cell-312" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.12.6" location="cell-312" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.12.7" location="cell-312" area-ref="side-a-2-b"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-2-entry-8-9-10-11-12-13" location="multi" area-ref="side-a-2-b">
+					<layout-leaf xref="lay-2.13" location="cell-113" area-ref="side-a-2-b"/>
+					<layout-chunk id="p2-entry-8" location="multi" area-ref="side-a-2-b">
+						<layout-leaf xref="lay-2.14.1" location="cell-114" area-ref="side-a-2-b" halign="top" valign="left"/>
+						<layout-chunk id="p2-entry-8-col-2" location="cell-214" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.14.2" location="cell-214" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.14.3" location="cell-214" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.14.4" location="cell-214" area-ref="side-a-2-b"/>
+						</layout-chunk>
+						<layout-chunk id="p2-entry-8-col-3" location="cell-314" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.14.5" location="cell-314" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.14.6" location="cell-314" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.14.7" location="cell-314" area-ref="side-a-2-b"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p2-entry-9" location="multi" area-ref="side-a-2-b">
+						<layout-leaf xref="lay-2.15.1" location="cell-115" area-ref="side-a-2-b" halign="top" valign="left"/>
+						<layout-chunk id="p2-entry-9-col-2" location="cell-215" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.15.2" location="cell-215" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.15.3" location="cell-215" area-ref="side-a-2-b"/>
+						</layout-chunk>
+						<layout-chunk id="p2-entry-9-col-3" location="cell-315" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.15.4" location="cell-315" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.15.5" location="cell-315" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.15.6" location="cell-315" area-ref="side-a-2-b"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p2-entry-10" location="multi" area-ref="side-a-2-b">
+						<layout-leaf xref="lay-2.16.1" location="cell-116" area-ref="side-a-2-b" halign="top" valign="left"/>
+						<layout-chunk id="p2-entry-10-col-2" location="cell-216" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.16.2" location="cell-216" area-ref="side-a-2-b"/>
+						</layout-chunk>
+						<layout-chunk id="p2-entry-10-col-3" location="cell-316" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.16.3" location="cell-316" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.16.4" location="cell-316" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.16.5" location="cell-316" area-ref="side-a-2-b"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p2-entry-11" location="multi" area-ref="side-a-2-b">
+						<layout-leaf xref="lay-2.17.1" location="cell-117" area-ref="side-a-2-b" halign="top" valign="left"/>
+						<layout-chunk id="p2-entry-11-col-2" location="cell-217" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.17.2" location="cell-217" area-ref="side-a-2-b"/>
+						</layout-chunk>
+						<layout-chunk id="p2-entry-11-col-3" location="cell-317" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.17.3" location="cell-317" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.17.4" location="cell-317" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.17.5" location="cell-317" area-ref="side-a-2-b"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p2-entry-12" location="multi" area-ref="side-a-2-b">
+						<layout-leaf xref="lay-2.18.1" location="cell-118" area-ref="side-a-2-b" halign="top" valign="left"/>
+						<layout-chunk id="p2-entry-12-col-2" location="cell-218" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.18.2" location="cell-218" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.18.3" location="cell-218" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.18.4" location="cell-218" area-ref="side-a-2-b"/>
+						</layout-chunk>
+						<layout-chunk id="p2-entry-12-col-3" location="cell-318" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.18.5" location="cell-318" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.18.6" location="cell-318" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.18.7" location="cell-318" area-ref="side-a-2-b"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p2-entry-13" location="multi" area-ref="side-a-2-b">
+						<layout-leaf xref="lay-2.19.1" location="cell-119" area-ref="side-a-2-b" halign="top" valign="left"/>
+						<layout-chunk id="p2-entry-13-col-2" location="cell-219" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.19.2" location="cell-219" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.19.3" location="cell-219" area-ref="side-a-2-b"/>
+						</layout-chunk>
+						<layout-chunk id="p2-entry-13-col-3" location="cell-319" area-ref="side-a-2-b" halign="top" valign="left">
+							<layout-leaf xref="lay-2.19.4" location="cell-319" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.19.5" location="cell-319" area-ref="side-a-2-b"/>
+							<layout-leaf xref="lay-2.19.6" location="cell-319" area-ref="side-a-2-b"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-leaf xref="lay-2.20" location="col-2" area-ref="side-a-2-e" halign="top" valign="left"/>
+			</layout-chunk>
+			<layout-chunk id="page-3" location="multi" area-ref="side-a-2-c">
+				<layout-chunk id="page-3-entry-1-2-3-4-5-6-7-8-9-10-11-12" location="multi" area-ref="side-a-2-b">
+					<layout-leaf xref="lay-2.21" location="cell-11" area-ref="side-a-2-c"/>
+					<layout-chunk id="p3-entry-1" location="multi" area-ref="side-a-2-c">
+						<layout-leaf xref="lay-2.22.1" location="cell-12" area-ref="side-a-2-c" halign="top" valign="left"/>
+						<layout-chunk id="p3-entry-1-col-2" location="cell-22" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.22.2" location="cell-22" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.22.3" location="cell-22" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-1-col-3" location="cell-32" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.22.4" location="cell-32" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.22.5" location="cell-32" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.22.6" location="cell-32" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p3-entry-2" location="multi" area-ref="side-a-2-c">
+						<layout-leaf xref="lay-2.23.1" location="cell-13" area-ref="side-a-2-c" halign="top" valign="left"/>
+						<layout-chunk id="p3-entry-2-col-2" location="cell-23" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.23.2" location="cell-23" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.23.3" location="cell-23" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-2-col-3" location="cell-33" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.23.4" location="cell-33" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.23.5" location="cell-33" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.23.6" location="cell-33" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p3-entry-3" location="multi" area-ref="side-a-2-c">
+						<layout-leaf xref="lay-2.24.1" location="cell-14" area-ref="side-a-2-c" halign="top" valign="left"/>
+						<layout-chunk id="p3-entry-3-col-2" location="cell-24" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.24.2" location="cell-24" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-3-col-3" location="cell-34" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.24.3" location="cell-34" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.24.4" location="cell-34" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.24.5" location="cell-34" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p3-entry-4" location="multi" area-ref="side-a-2-c">
+						<layout-leaf xref="lay-2.25.1" location="cell-15" area-ref="side-a-2-c" halign="top" valign="left"/>
+						<layout-chunk id="p3-entry-4-col-2" location="cell-25" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.25.2" location="cell-25" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-4-col-3" location="cell-35" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.25.3" location="cell-35" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.25.4" location="cell-35" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.25.5" location="cell-35" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p3-entry-5" location="multi" area-ref="side-a-2-c">
+						<layout-leaf xref="lay-2.26.1" location="cell-16" area-ref="side-a-2-c" halign="top" valign="left"/>
+						<layout-chunk id="p3-entry-5-col-2" location="cell-26" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.26.2" location="cell-26" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.26.3" location="cell-26" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-5-col-3" location="cell-36" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.26.4" location="cell-36" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.26.5" location="cell-36" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.26.6" location="cell-36" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p3-entry-6" location="multi" area-ref="side-a-2-c">
+						<layout-leaf xref="lay-2.27.1" location="cell-17" area-ref="side-a-2-c" halign="top" valign="left"/>
+						<layout-chunk id="p3-entry-6-col-2" location="cell-27" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.27.2" location="cell-27" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-6-col-3" location="cell-37" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.27.3" location="cell-37" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.27.4" location="cell-37" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p3-entry-7" location="multi" area-ref="side-a-2-c">
+						<layout-leaf xref="lay-2.28.1" location="cell-18" area-ref="side-a-2-c" halign="top" valign="left"/>
+						<layout-chunk id="p3-entry-7-col-2" location="cell-28" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.28.2" location="cell-28" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-7-col-3" location="cell-38" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.28.3" location="cell-38" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.28.4" location="cell-38" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.28.5" location="cell-38" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p3-entry-8" location="multi" area-ref="side-a-2-c">
+						<layout-leaf xref="lay-2.29.1" location="cell-19" area-ref="side-a-2-c" halign="top" valign="left"/>
+						<layout-chunk id="p3-entry-8-col-2" location="cell-29" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.29.2" location="cell-29" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-8-col-3" location="cell-39" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.29.3" location="cell-39" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.29.4" location="cell-39" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.29.5" location="cell-39" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p3-entry-9" location="multi" area-ref="side-a-2-c">
+						<layout-chunk id="p3-entry-9-col-2" location="cell-210" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.30.1" location="cell-210" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-9-col-3" location="cell-310" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.30.2" location="cell-310" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.30.3" location="cell-310" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.30.4" location="cell-310" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p3-entry-10" location="multi" area-ref="side-a-2-c">
+						<layout-leaf xref="lay-2.31.1" location="cell-111" area-ref="side-a-2-c" halign="top" valign="left"/>
+						<layout-chunk id="p3-entry-10-col-2" location="cell-211" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.31.2" location="cell-211" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.31.3" location="cell-211" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-10-col-3" location="cell-311" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.31.4" location="cell-311" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.31.5" location="cell-311" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.31.6" location="cell-311" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p3-entry-11" location="multi" area-ref="side-a-2-c">
+						<layout-leaf xref="lay-2.32.1" location="cell-112" area-ref="side-a-2-c" halign="top" valign="left"/>
+						<layout-chunk id="p3-entry-11-col-2" location="cell-212" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.32.2" location="cell-212" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-11-col-3" location="cell-312" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.32.3" location="cell-312" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.32.4" location="cell-312" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.32.5" location="cell-312" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p3-entry-12" location="multi" area-ref="side-a-2-c">
+						<layout-leaf xref="lay-2.33.1" location="cell-113" area-ref="side-a-2-c" halign="top" valign="left"/>
+						<layout-chunk id="p3-entry-12-col-2" location="cell-213" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.33.2" location="cell-213" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.33.3" location="cell-213" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-12-col-3" location="cell-313" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.33.4" location="cell-313" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.33.5" location="cell-313" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.33.6" location="cell-313" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-3-entry-13-14" location="multi" area-ref="side-a-2-b">
+					<layout-leaf xref="lay-2.34" location="cell-114" area-ref="side-a-2-b"/>
+					<layout-chunk id="p3-entry-13" location="multi" area-ref="side-a-2-c">
+						<layout-leaf xref="lay-2.35.1" location="cell-115" area-ref="side-a-2-c" halign="top" valign="left"/>
+						<layout-chunk id="p3-entry-13-col-2" location="cell-215" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.35.2" location="cell-215" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.35.3" location="cell-215" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-13-col-3" location="cell-315" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.35.4" location="cell-315" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.35.5" location="cell-315" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.35.6" location="cell-315" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p3-entry-14" location="multi" area-ref="side-a-2-c">
+						<layout-leaf xref="lay-2.36.1" location="cell-116" area-ref="side-a-2-c" halign="top" valign="left"/>
+						<layout-chunk id="p3-entry-14-col-2" location="cell-216" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.36.2" location="cell-216" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-14-col-3" location="cell-316" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.36.3" location="cell-316" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.36.4" location="cell-316" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.36.5" location="cell-316" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-3-entry-15-16-17" location="multi" area-ref="side-a-2-c">
+					<layout-leaf xref="lay-2.37" location="cell-117" area-ref="side-a-2-b"/>
+					<layout-chunk id="p3-entry-15" location="multi" area-ref="side-a-2-c">
+						<layout-leaf xref="lay-2.38.1" location="cell-118" area-ref="side-a-2-c" halign="top" valign="left"/>
+						<layout-chunk id="p3-entry-15-col-2" location="cell-218" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.38.2" location="cell-218" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.38.3" location="cell-218" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-15-col-3" location="cell-318" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.38.4" location="cell-318" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.38.5" location="cell-318" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p3-entry-16" location="multi" area-ref="side-a-2-c">
+						<layout-leaf xref="lay-2.39.1" location="cell-119" area-ref="side-a-2-c" halign="top" valign="left"/>
+						<layout-chunk id="p3-entry-16-col-2" location="cell-219" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.39.2" location="cell-219" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.39.3" location="cell-219" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-16-col-3" location="cell-319" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.39.4" location="cell-319" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.39.5" location="cell-319" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.39.6" location="cell-319" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p3-entry-17" location="multi" area-ref="side-a-2-c">
+						<layout-leaf xref="lay-2.40.1" location="cell-120" area-ref="side-a-2-c" halign="top" valign="left"/>
+						<layout-chunk id="p3-entry-17-col-2" location="cell-220" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.40.2" location="cell-220" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.40.3" location="cell-220" area-ref="side-a-2-c"/>
+						</layout-chunk>
+						<layout-chunk id="p3-entry-17-col-3" location="cell-320" area-ref="side-a-2-c" halign="top" valign="left">
+							<layout-leaf xref="lay-2.40.4" location="cell-320" area-ref="side-a-2-c"/>
+							<layout-leaf xref="lay-2.40.5" location="cell-320" area-ref="side-a-2-c"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-leaf xref="lay-2.41" location="col-4" area-ref="side-a-2-e" halign="top" valign="left"/>
+			</layout-chunk>
+			<layout-chunk id="page-4" location="multi" area-ref="side-a-2-d">
+				<layout-chunk id="page-4-entry-1-2-3-4" location="multi" area-ref="side-a-2-d">
+					<layout-chunk id="p4-entry-1" location="multi" area-ref="side-a-2-d">
+						<layout-leaf xref="lay-2.42.1" location="cell-11" area-ref="side-a-2-d" halign="top" valign="left"/>
+						<layout-chunk id="p4-entry-1-col-2" location="cell-21" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.42.2" location="cell-21" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.42.3" location="cell-21" area-ref="side-a-2-d"/>
+						</layout-chunk>
+						<layout-chunk id="p4-entry-1-col-3" location="cell-31" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.42.4" location="cell-31" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.42.5" location="cell-31" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.42.6" location="cell-31" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.42.7" location="cell-31" area-ref="side-a-2-d"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p4-entry-2" location="multi" area-ref="side-a-2-d">
+						<layout-leaf xref="lay-2.43.1" location="cell-12" area-ref="side-a-2-d" halign="top" valign="left"/>
+						<layout-chunk id="p4-entry-2-col-2" location="cell-22" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.43.2" location="cell-22" area-ref="side-a-2-d"/>
+						</layout-chunk>
+						<layout-chunk id="p4-entry-2-col-3" location="cell-32" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.43.3" location="cell-32" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.43.4" location="cell-32" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.43.5" location="cell-32" area-ref="side-a-2-d"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p4-entry-3" location="multi" area-ref="side-a-2-d">
+						<layout-leaf xref="lay-2.44.1" location="cell-13" area-ref="side-a-2-d" halign="top" valign="left"/>
+						<layout-chunk id="p4-entry-3-col-2" location="cell-23" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.44.2" location="cell-23" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.44.3" location="cell-23" area-ref="side-a-2-d"/>
+						</layout-chunk>
+						<layout-chunk id="p4-entry-3-col-3" location="cell-33" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.44.4" location="cell-33" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.44.5" location="cell-33" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.44.6" location="cell-33" area-ref="side-a-2-d"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p4-entry-4" location="multi" area-ref="side-a-2-d">
+						<layout-leaf xref="lay-2.45.1" location="cell-14" area-ref="side-a-2-d" halign="top" valign="left"/>
+						<layout-chunk id="p4-entry-4-col-2" location="cell-24" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.45.2" location="cell-24" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.45.3" location="cell-24" area-ref="side-a-2-d"/>
+						</layout-chunk>
+						<layout-chunk id="p4-entry-4-col-3" location="cell-34" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.45.4" location="cell-34" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.45.5" location="cell-34" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.45.6" location="cell-34" area-ref="side-a-2-d"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-4-entry-5-6" location="multi" area-ref="side-a-2-d">
+					<layout-leaf xref="lay-2.46" location="cell-15" area-ref="side-a-2-d" halign="top" valign="left"/>
+					<layout-chunk id="p4-entry-5" location="multi" area-ref="side-a-2-d">
+						<layout-leaf xref="lay-2.47.1" location="cell-16" area-ref="side-a-2-d" halign="top" valign="left"/>
+						<layout-chunk id="p4-entry-5-col-2" location="cell-26" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.47.2" location="cell-26" area-ref="side-a-2-d"/>
+						</layout-chunk>
+						<layout-chunk id="p4-entry-5-col-3" location="cell-36" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.47.3" location="cell-36" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.47.4" location="cell-36" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.47.5" location="cell-36" area-ref="side-a-2-d"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p4-entry-6" location="multi" area-ref="side-a-2-d">
+						<layout-leaf xref="lay-2.48.1" location="cell-17" area-ref="side-a-2-d" halign="top" valign="left"/>
+						<layout-chunk id="p4-entry-6-col-2" location="cell-27" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.48.2" location="cell-27" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.48.3" location="cell-27" area-ref="side-a-2-d"/>
+						</layout-chunk>
+						<layout-chunk id="p4-entry-6-col-3" location="cell-37" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.48.4" location="cell-37" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.48.5" location="cell-37" area-ref="side-a-2-d"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-4-entry-7" location="multi" area-ref="side-a-2-d">
+					<layout-leaf xref="lay-2.49" location="cell-18" area-ref="side-a-2-d" halign="top" valign="left"/>
+					<layout-chunk id="p4-entry-7" location="multi" area-ref="side-a-2-d">
+						<layout-leaf xref="lay-2.50.1" location="cell-19" area-ref="side-a-2-d" halign="top" valign="left"/>
+						<layout-chunk id="p4-entry-7-col-2" location="cell-29" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.50.2" location="cell-29" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.50.3" location="cell-29" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.50.4" location="cell-29" area-ref="side-a-2-d"/>
+						</layout-chunk>
+						<layout-chunk id="p4-entry-7-col-3" location="cell-39" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.50.4" location="cell-39" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.50.5" location="cell-39" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.50.6" location="cell-39" area-ref="side-a-2-d"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-4-entry-8" location="multi" area-ref="side-a-2-d">
+					<layout-leaf xref="lay-2.51" location="cell-110" area-ref="side-a-2-d" halign="top" valign="left"/>
+					<layout-leaf xref="lay-2.52" location="cell-111" area-ref="side-a-2-d" halign="top" valign="left"/>
+					<layout-chunk id="p4-entry-8" location="multi" area-ref="side-a-2-d">
+						<layout-leaf xref="lay-2.53.1" location="cell-112" area-ref="side-a-2-d" halign="top" valign="left"/>
+						<layout-chunk id="p4-entry-8-col-2" location="cell-212" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.53.2" location="cell-212" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.53.3" location="cell-212" area-ref="side-a-2-d"/>
+						</layout-chunk>
+						<layout-chunk id="p4-entry-8-col-3" location="cell-312" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.53.4" location="cell-312" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.53.5" location="cell-312" area-ref="side-a-2-d"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-4-entry-9" location="multi" area-ref="side-a-2-d">
+					<layout-leaf xref="lay-2.51" location="cell-113" area-ref="side-a-2-d" halign="top" valign="left"/>
+					<layout-chunk id="p4-entry-9" location="multi" area-ref="side-a-2-d">
+						<layout-leaf xref="lay-2.55.1" location="cell-114" area-ref="side-a-2-d" halign="top" valign="left"/>
+						<layout-chunk id="p4-entry-9-col-2" location="cell-214" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.55.2" location="cell-214" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.55.3" location="cell-214" area-ref="side-a-2-d"/>
+						</layout-chunk>
+						<layout-chunk id="p4-entry-9-col-3" location="cell-314" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.55.4" location="cell-314" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.55.5" location="cell-314" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.55.6" location="cell-314" area-ref="side-a-2-d"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="page-4-entry-10-11" location="multi" area-ref="side-a-2-d">
+					<layout-leaf xref="lay-2.56" location="cell-115" area-ref="side-a-2-d" halign="top" valign="left"/>
+					<layout-chunk id="p4-entry-10" location="multi" area-ref="side-a-2-d">
+						<layout-leaf xref="lay-2.57.1" location="cell-116" area-ref="side-a-2-d" halign="top" valign="left"/>
+						<layout-chunk id="p4-entry-10-col-2" location="cell-216" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.57.2" location="cell-216" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.57.3" location="cell-216" area-ref="side-a-2-d"/>
+						</layout-chunk>
+						<layout-chunk id="p4-entry-10-col-3" location="cell-316" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.57.4" location="cell-316" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.57.5" location="cell-316" area-ref="side-a-2-d"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p4-entry-11" location="multi" area-ref="side-a-2-d">
+						<layout-leaf xref="lay-2.58.1" location="cell-117" area-ref="side-a-2-d" halign="top" valign="left"/>
+						<layout-chunk id="p4-entry-11-col-2" location="cell-217" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.58.2" location="cell-217" area-ref="side-a-2-d"/>
+						</layout-chunk>
+						<layout-chunk id="p4-entry-11-col-3" location="cell-317" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.58.3" location="cell-317" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.58.4" location="cell-317" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.58.5" location="cell-317" area-ref="side-a-2-d"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="p4-entry-12-13-14-15" location="itemizer">
+					<layout-leaf xref="lay-2.59" location="cell-118" area-ref="side-a-2-d" halign="top" valign="left"/>
+					<layout-chunk id="p4-entry-12" location="multi" area-ref="side-a-2-d">
+						<layout-leaf xref="lay-2.60.1" location="cell-119" area-ref="side-a-2-d" halign="top" valign="left"/>
+						<layout-chunk id="p4-entry-12-col-2" location="cell-219" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.60.2" location="cell-219" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.60.3" location="cell-219" area-ref="side-a-2-d"/>
+						</layout-chunk>
+						<layout-chunk id="p4-entry-12-col-3" location="cell-319" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.60.4" location="cell-319" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.60.5" location="cell-319" area-ref="side-a-2-d"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p4-entry-13" location="multi" area-ref="side-a-2-d">
+						<layout-leaf xref="lay-2.61.1" location="cell-120" area-ref="side-a-2-d" halign="top" valign="left"/>
+						<layout-chunk id="p4-entry-13-col-2" location="cell-220" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.61.2" location="cell-220" area-ref="side-a-2-d"/>
+						</layout-chunk>
+						<layout-chunk id="p4-entry-13-col-3" location="cell-320" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.61.3" location="cell-320" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.61.4" location="cell-320" area-ref="side-a-2-d"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p4-entry-14" location="multi" area-ref="side-a-2-d">
+						<layout-leaf xref="lay-2.62.1" location="cell-121" area-ref="side-a-2-d" halign="top" valign="left"/>
+						<layout-chunk id="p4-entry-14-col-2" location="cell-221" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.62.2" location="cell-221" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.62.3" location="cell-221" area-ref="side-a-2-d"/>
+						</layout-chunk>
+						<layout-chunk id="p4-entry-14-col-3" location="cell-321" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.62.4" location="cell-321" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.62.5" location="cell-321" area-ref="side-a-2-d"/>
+						</layout-chunk>
+					</layout-chunk>
+					<layout-chunk id="p4-entry-15" location="multi" area-ref="side-a-2-d">
+						<layout-chunk id="p4-entry-15-col-2" location="cell-222" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.63.1" location="cell-222" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.63.2" location="cell-222" area-ref="side-a-2-d"/>
+						</layout-chunk>
+						<layout-chunk id="p4-entry-15-col-3" location="cell-322" area-ref="side-a-2-d" halign="top" valign="left">
+							<layout-leaf xref="lay-2.63.3" location="cell-322" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.63.4" location="cell-322" area-ref="side-a-2-d"/>
+							<layout-leaf xref="lay-2.63.5" location="cell-322" area-ref="side-a-2-d"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-leaf xref="lay-2.64" location="col-6" area-ref="side-a-2-e" halign="top" valign="left"/>
+			</layout-chunk>
+		</layout-root>
+	</layout-structure>
+	<area-model>
+		<area-root id="ceh-1967-a-side-1" cols="1" rows="3" hspacing="100" vspacing="7 86 7" width="283mm" height="206mm">
+			<sub-area id="side-a-1" location="row-2" cols="6" rows="1" hspacing="31 3 31 3 31 1" vspacing="100" width="283mm" height="176mm">
+				<sub-area id="side-a-1-b" location="col-1" cols="3" rows="21" hspacing="13 50 37" vspacing="2 5 7 2 7 5 6 2 9 4 2 6 2 7 2 5 9 2 7 2 7" width="88mm" height="176mm"/>
+				<sub-area id="side-a-1-c" location="col-3" cols="1" rows="5" hspacing="50 6 18 22 4" vspacing="100" width="88mm" height="176mm">
+					<sub-area id="side-a-1-c-1" location="row-1" cols="3" rows="11" hspacing="13 50 37" vspacing="7 3 15 3 10 10 5 15 7 5 20" height="88mm" width="88mm"/>
+				</sub-area>
+				<sub-area id="side-a-1-d" location="col-5" cols="1" rows="5" hspacing="100" vspacing="6 5 7 7 76" width="87mm" height="176mm">
+					<sub-area id="side-a-1-d-1" location="row-1" cols="3" rows="1" hspacing="43 20 37" vspacing="100" height="11mm" width="87mm"/>
+					<sub-area id="side-a-1-d-2" location="row-5" cols="3" rows="15" hspacing="13 50 37" vspacing="2 10 2 5 7 7 10 7 7 8 7 9 2 7 10" height="134mm" width="87mm"/>
+				</sub-area>
+			</sub-area>
+		</area-root>
+		<area-root id="ceh-1967-a-side-2" cols="1" rows="3" hspacing="100" vspacing="7 86 7" width="283mm" height="206mm">
+			<sub-area id="side-a-2" location="row-2" cols="6" rows="1" hspacing="1 30 3 30 3 33" vspacing="100" height="176mm" width="283mm">
+				<sub-area id="side-a-2-b" location="col-2" cols="3" rows="19" hspacing="13 50 37" vspacing="7 1 5 8 7 2 7 2 6 6 2 7 2 7 5 6 5 8 7" width="86mm" height="176mm"/>
+				<sub-area id="side-a-2-c" location="col-4" cols="3" rows="20" hspacing="13 50 37" vspacing="2 5 5 5 5 5 4 6 6 5 7 6 7 2 5 6 2 5 5 7" width="86mm" height="176mm"/>
+				<sub-area id="side-a-2-d" location="col-6" cols="3" rows="22" hspacing="10 48 42" vspacing="8 5 7 6 2 5 6 2 7 3 2 4 2 6 2 4 6 2 5 4 5 7" width="91mm" height="176mm"/>
+			</sub-area>
+			<sub-area id="side-a-2-e" location="row-3" cols="6" rows="1" hspacing="1 30 3 30 3 33" vspacing="100" height="13mm" width="283mm"/>
+		</area-root>
+	</area-model>
+	<realization><!-- Body text, dates and location-->
+		<text xref="lay-1.02.1 lay-1.02.3 lay-1.02.4 lay-1.02.5 lay-1.03.2 lay-1.03.3  lay-1.03.4 lay-1.03.5 lay-1.05.1 lay-1.05.3 lay-1.05.4 lay-1.05.5 lay-1.05.6 lay-1.06.1 lay-1.06.3  lay-1.06.4 lay-1.06.5 lay-1.06.6 lay-1.07.1 lay-1.07.3 lay-1.07.4 lay-1.07.5 lay-1.09.1 lay-1.09.3  lay-1.09.4 lay-1.09.5 lay-1.12.1 lay-1.12.3 lay-1.12.4 lay-1.12.5 lay-1.14.1 lay-1.14.3 lay-1.14.4  lay-1.14.5 lay-1.16.1 lay-1.16.3 lay-1.16.4 lay-1.18.1 lay-1.18.3 lay-1.18.4 lay-1.18.5 lay-1.18.6  lay-1.20.1 lay-1.20.2 lay-1.20.3 lay-1.20.4 lay-1.20.5 lay-1.22.2 lay-1.22.3 lay-1.22.4 lay-1.26.1  lay-1.26.3 lay-1.26.4 lay-1.26.5 lay-1.28.1 lay-1.28.3 lay-1.28.4 lay-1.28.5 lay-1.29.1 lay-1.29.3  lay-1.29.4 lay-1.31.2 lay-1.31.3 lay-1.31.4 lay-1.34.2 lay-1.34.3 lay-1.34.4 lay-1.34.5 lay-1.35  lay-1.36.2 lay-1.37 lay-1.39 lay-1.44.1 lay-1.44.3 lay-1.44.4 lay-1.44.5 lay-1.44.6 lay-1.44.7  lay-1.46.1 lay-1.46.3 lay-1.46.4 lay-1.46.5 lay-1.47.2 lay-1.47.3 lay-1.47.4 lay-1.47.5  lay-1.47.6 lay-1.47.7 lay-1.48.1 lay-1.48.3 lay-1.48.4 lay-1.48.5 lay-1.49.1 lay-1.49.3 lay-1.49.4 lay-1.49.5  lay-1.49.6 lay-1.49.7 lay-1.50.1 lay-1.50.3 lay-1.50.4 lay-1.50.5 lay-1.51.1 lay-1.51.3 lay-1.51.4  lay-1.51.5 lay-1.52.1 lay-1.52.3 lay-1.52.4 lay-1.52.5 lay-1.52.6 lay-1.52.7 lay-1.53.1 lay-1.53.3  lay-1.53.4 lay-1.53.5 lay-1.54.1 lay-1.54.4 lay-1.54.5 lay-1.54.6 lay-1.54.7 lay-1.56.1 lay-1.56.3  lay-1.56.4 lay-1.56.5 lay-1.57.1 lay-1.57.4 lay-1.57.5 lay-1.57.6 lay-1.57.7 lay-2.03.1 lay-2.03.4  lay-2.03.5 lay-2.03.6 lay-2.03.7 lay-2.04.1 lay-2.04.3 lay-2.04.4 lay-2.04.5 lay-2.04.6 lay-2.05.1  lay-2.05.3 lay-2.05.4 lay-2.05.5 lay-2.05.6 lay-2.07.1 lay-2.07.3 lay-2.07.4 lay-2.07.5 lay-2.07.6  lay-2.07.7 lay-2.09.1 lay-2.09.3 lay-2.09.4 lay-2.09.5 lay-2.09.6 lay-2.10.1 lay-2.10.3 lay-2.10.4  lay-2.10.5 lay-2.10.6 lay-2.12.1 lay-2.12.4 lay-2.12.5 lay-2.12.6 lay-2.12.7 lay-2.14.1 lay-2.14.3  lay-2.14.4 lay-2.14.5 lay-2.14.6 lay-2.14.7 lay-2.15.1 lay-2.15.3 lay-2.15.4 lay-2.15.5 lay-2.15.6  lay-2.16.1 lay-2.16.3 lay-2.16.4 lay-2.16.5 lay-2.17.1 lay-2.17.3 lay-2.17.4 lay-2.17.5 lay-2.18.1  lay-2.18.3 lay-2.18.4 lay-2.18.5 lay-2.18.6 lay-2.18.7 lay-2.19.1 lay-2.19.4 lay-2.19.5 lay-2.19.6  lay-2.22.1 lay-2.22.4 lay-2.22.5 lay-2.22.6 lay-2.23.1 lay-2.23.3 lay-2.23.4 lay-2.23.5 lay-2.23.6  lay-2.24.1 lay-2.24.3 lay-2.24.4 lay-2.24.5 lay-2.25.1 lay-2.25.3 lay-2.25.4 lay-2.25.5 lay-2.26.1  lay-2.26.3 lay-2.26.4 lay-2.26.5 lay-2.26.6 lay-2.27.1 lay-2.27.3 lay-2.27.4 lay-2.28.1 lay-2.28.3  lay-2.28.4 lay-2.28.5 lay-2.29.1 lay-2.29.3 lay-2.29.4 lay-2.29.5 lay-2.30.2 lay-2.30.3 lay-2.30.4  lay-2.31.1 lay-2.31.3 lay-2.31.4 lay-2.31.5 lay-2.31.6 lay-2.32.1 lay-2.32.3 lay-2.32.4 lay-2.32.5  lay-2.33.1 lay-2.33.3 lay-2.33.4 lay-2.33.5 lay-2.33.6 lay-2.35.1 lay-2.35.3 lay-2.35.4 lay-2.35.5  lay-2.35.6 lay-2.36.1 lay-2.36.3 lay-2.36.4 lay-2.36.5 lay-2.38.1 lay-2.38.3 lay-2.38.4 lay-2.38.5  lay-2.39.1 lay-2.39.3 lay-2.39.4 lay-2.39.5 lay-2.39.6 lay-2.40.1 lay-2.40.3 lay-2.40.4 lay-2.40.5  lay-2.42.1 lay-2.42.3 lay-2.42.4 lay-2.42.5 lay-2.42.6 lay-2.42.7 lay-2.43.1 lay-2.43.3 lay-2.43.4  lay-2.43.5 lay-2.44.1 lay-2.44.3 lay-2.44.4 lay-2.44.5 lay-2.44.6 lay-2.45.1 lay-2.45.3 lay-2.45.4  lay-2.45.5 lay-2.45.6 lay-2.47.1 lay-2.47.3 lay-2.47.4 lay-2.47.5 lay-2.48.1 lay-2.48.3 lay-2.48.4  lay-2.48.5 lay-2.50.1 lay-2.50.3 lay-2.50.4 lay-2.50.5 lay-2.50.6 lay-2.50.7 lay-2.53.1 lay-2.53.3  lay-2.53.4 lay-2.53.5 lay-2.55.1 lay-2.55.3 lay-2.55.4 lay-2.55.5 lay-2.55.6 lay-2.57.1 lay-2.57.3  lay-2.57.4 lay-2.57.5 lay-2.58.1 lay-2.58.3 lay-2.58.4 lay-2.58.5 lay-2.60.1 lay-2.60.3 lay-2.60.4  lay-2.60.5 lay-2.61.1 lay-2.61.3 lay-2.61.4 lay-2.62.1 lay-2.62.3 lay-2.62.4 lay-2.62.5 lay-2.63.2  lay-2.63.3 lay-2.63.4 lay-2.63.5" font-family="sans-serif" font-size="5" font-style="normal" font-weight="normal" case="mixed" color="black"/><!-- Month -->
+		<text xref="lay-1.01 lay-1.04 lay-1.08 lay-1.11 lay-1.13 lay-1.15 lay-1.17 lay-1.19  lay-1.21 lay-1.25 lay-1.27 lay-1.30 lay-1.33 lay-1.41 lay-1.43 lay-1.45 lay-1.55 lay-2.02 lay-2.06  lay-2.08 lay-2.11 lay-2.13 lay-2.21 lay-2.34 lay-2.37 lay-2.46 lay-2.49 lay-2.52 lay-2.54 lay-2.56  lay-2.59" font-family="sans-serif" font-size="5" font-style="normal" font-weight="bold" case="mixed" color="black"/><!-- Event name -->
+		<text xref="lay-1.02.2 lay-1.03.1 lay-1.05.2 lay-1.06.2 lay-1.07.2 lay-1.09.2  lay-1.12.2 lay-1.14.2 lay-1.16.2 lay-1.18.2 lay-1.20.2 lay-1.22.1 lay-1.26.2 lay-1.28.2 lay-1.29.2  lay-1.31.1 lay-1.34.1 lay-1.36.3 lay-1.38 lay-1.44.2 lay-1.46.2 lay-1.47.1 lay-1.48.2 lay-1.49.2  lay-1.50.2 lay-1.51.2 lay-1.52.2 lay-1.53.2 lay-1.54.2 lay-1.54.3 lay-1.56.2 lay-1.57.2 lay-1.57.3  lay-2.03.2 lay-2.03.3 lay-2.05.2 lay-2.05.3 lay-2.07.2 lay-2.09.2 lay-2.10.2 lay-2.12.2 lay-2.12.3  lay-2.14.2 lay-2.15.2 lay-2.16.2 lay-2.17.2 lay-2.18.2 lay-2.19.2 lay-2.19.3 lay-2.22.2 lay-2.22.3  lay-2.23.2 lay-2.24.2 lay-2.25.2 lay-2.26.2 lay-2.27.2 lay-2.28.2 lay-2.29.2 lay-2.30.1 lay-2.31.2  lay-2.32.2 lay-2.33.2 lay-2.35.2 lay-2.36.2 lay-2.38.2 lay-2.39.2 lay-2.40.2 lay-2.42.2 lay-2.43.2  lay-2.44.2 lay-2.45.2 lay-2.47.2 lay-2.48.2 lay-2.50.2 lay-2.53.2 lay-2.55.2 lay-2.57.2 lay-2.58.2  lay-2.60.2 lay-2.61.2 lay-2.62.2 lay-2.63.1" font-family="sans-serif" font-size="5" font-style="normal" font-weight="normal" case="caps" color="black"/><!-- Year -->
+		<text xref="lay-1.10 lay-1.24 lay-1.32 lay-2.01 lay-2.51" font-family="sans-serif" font-size="8" font-style="normal" font-weight="normal" case="mixed" color="black"/><!-- Page number -->
+		<text xref="lay-1.23 lay-2.20 lay-2.41 lay-2.64" font-family="sans-serif" font-size="6" font-style="normal" font-weight="normal" case="mixed" color="black"/><!-- Note-->
+		<text xref="lay-1.36.1" font-family="sans-serif" font-size="5" font-style="normal" font-weight="bold" case="caps" color="black"/><!-- Header -->
+		<text xref="lay-1.42" font-family="sans-serif" font-size="9" font-style="normal" font-weight="normal" case="caps" color="black"/><!-- Issue number -->
+		<text xref="lay-1.40" font-family="sans-serif" font-size="6" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<chunk xref="ceh-1967-l-side-1 ceh-1967-l-side-2" background-color="white"/>
+	</realization>
+</gemLayout>

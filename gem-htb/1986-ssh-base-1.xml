@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemBase>
+	<unit id="u-1.01">SUOMENLINNA</unit>
+	<unit id="u-1.02">86</unit>
+	<unit id="u-1.03" alt="Illustration: Tomb of Ehrensvaerd"></unit>
+	<unit id="u-1.04">SEAFORTRESS IN HELSINKI</unit>
+	<unit id="u-1.05" alt="Illustration: Blue triangle"></unit>
+	<unit id="u-1.06">The island fortress of Suomenlinna is one of Helsinki's most notable sights.</unit>
+	<unit id="u-1.07">This unique architectural monument today serves a wide range of recreational and cultural functions and is still a thriving residential district as well.</unit>
+	<unit id="u-1.08">At one time Suomenlinna, or Sveaborg as it was then called, was the greatest fortress in the Swedish empire.</unit>
+	<unit id="u-1.09">Started in 1748, the fortification work involved six islands off the southern tip of Helsinki and was directed by Augustin Enrensvärd.</unit>
+	<unit id="u-1.10" alt="Photo: King's Gate"></unit>
+	<unit id="u-1.11">The flags of three different nations have flown over Suomenlinna's ramparts.</unit>
+	<unit id="u-1.12">The fortress was Sweden's shield against the Russian Empire for 60 years until it surrendered to the enemy in 1808, during the War of Finland.</unit>
+	<unit id="u-1.13">It was used by the Russians for the next 110 years.</unit>
+	<unit id="u-1.14">In 1855, during the Crimean War, it was bombarded by a British Fleet.</unit>
+	<unit id="u-1.15">After Finland had gained independence in 1917, the fortress was given its present name, which means "the fortress of Finland".</unit>
+	<unit id="u-1.16">It continued to serve as a part of the nation's defences until 1973.</unit>
+	<unit id="u-1.17">Suomenlinna's main tourist attraction is the fortifications on Susisaari and Kustaanmiekka islands, which now form a single island.</unit>
+	<unit id="u-1.18">Kustaanmiekka is a small, well-preserved bastioned fort with concatenated defence walls and tunnels.</unit>
+	<unit id="u-1.19">The island's foremost sight is the King's Gate.</unit>
+	<unit id="u-1.20">The main fortress is located on Susisaari Island, which also includes a number of parks and squares.</unit>
+	<unit id="u-1.21">This island's most important sight is the building complex and square around Ehrensvärd's tomb.</unit>
+	<unit id="u-1.22" alt="Map: Suomenlinna"></unit>
+	<unit id="u-2.01">Piper Café</unit>
+	<unit id="u-2.02" alt="Photo: Piper Cafe"></unit>
+	<unit id="u-2.03">The café stands on Suomenlinna's highest point and commands a splendid view of the sea and surrounding park.</unit>
+	<unit id="u-2.04">Coffee, soft drinks, sandwiches, hamburgers .</unit>
+	<unit id="u-2.05">There are also tables outside.</unit>
+	<unit id="u-2.06">Open 9 May --- 31 May daily 10 am-5pm, 1 June --- 31 August 10 am-5 pm.</unit>
+	<unit id="u-2.07" alt="Line: Horizontal"/>
+	<unit id="u-2.08">Helga Café Ship</unit>
+	<unit id="u-2.09">Converted sand yawl in Tykistölahti Bay.</unit>
+	<unit id="u-2.10">Food also served.</unit>
+	<unit id="u-2.11">Specialty pizzas.</unit>
+	<unit id="u-2.12"><unit id="u-2.12.1">Open from 1 </unit><unit id="u-2.12.2">May Mon---Sat 10 am-8 pm, Sun 10 </unit></unit>
+	<unit id="u-2.13" alt="Line: Vertical"></unit>
+	<unit id="u-2.14" alt="Line: Horizontal"/>
+	<unit id="u-2.15">Katharina Café</unit>
+	<unit id="u-2.16">Located in the Nordic Arts Centre.</unit>
+	<unit id="u-2.17"><unit id="u-2.17.1">Opening hours</unit><unit id="u-2.17.2">same as for the Jetty Barracks Gallery.</unit></unit>
+	<unit id="u-2.18" alt="Line: Vertical"/>
+	<unit id="u-2.19" alt="Line: Horizontal"/>
+	<unit id="u-2.20">Public Beach</unit>
+	<unit id="u-2.21"><unit id="u-2.21.1">The beach, on the northern cove between Susisaari and Kustaanmiekka islands, is open</unit><unit id="u-2.21.2">and guarded 15 June --- 16 August daily 10 am-6 pm.</unit></unit>
+	<unit id="u-2.22">Shower and changing facilities.</unit>
+	<unit id="u-2.23" alt="Line: Vertical"/>
+	<unit id="u-2.24" alt="Line: Horizontal"/>
+	<unit id="u-2.25">Summer theatre</unit>
+	<unit id="u-2.26">Plays are performed (in Finnish) at the Good Conscience Bastion during the summer months.</unit>
+	<unit id="u-2.27">Information, tel. 718 622.</unit>
+	<unit id="u-2.28" alt="Photo: Summer theatre at the bastion"/>
+	<unit id="u-2.29" alt="Line: Horizontal"/>
+	<unit id="u-2.30">Information kiosk</unit>
+	<unit id="u-2.31">The kiosk alongside Tykistölahti Bay sells brochures, maps, souvenirs etc.</unit>
+	<unit id="u-2.32">Guided tours also start here.</unit>
+	<unit id="u-2.32-m" alt="Line: Vertical"/>
+	<unit id="u-2.33">Tel. 668 341.</unit>
+	<unit id="u-2.34">Open 11 May --- 31 August daily 10 am-5 pm.</unit>
+	<unit id="u-2.35">Boat connections</unit>
+	<unit id="u-2.36">1. FERRY, MS Suomenlinna-Sveaborg, Market Square --- Suomenlinna Jetty --- Market Square.</unit>
+	<unit id="u-2.37">Year round except as in point 2.</unit>
+	<unit id="u-2.38">2. FERRY, MS Suomenlinna-Sveaborg, Market Square --- Suomenlinna Jetty --- Market Square.</unit>
+	<unit id="u-2.39">1 May --- 30 November Sat---Sun.</unit>
+	<unit id="u-2.40">3. WATERBUSES, MS Amiraali, MS Walhalla and MS Viapori.</unit>
+	<unit id="u-2.41">Market Square --- Tykistölahti Bay --- King's Gate --- Market Square.</unit>
+	<unit id="u-2.42">17 May --- 31 August.</unit>
+	<unit id="u-2.43">4. WATERBUSES, MS Amiraali, MS Walhalla and MS Viapori.</unit>
+	<unit id="u-2.44">1 May --- 16 June and 1---14 September.</unit>
+	<unit id="u-2.45">* = except Saturdays and Sundays ** = last boat on Sundays and when Walhalla Restaurant is closed.</unit>
+	<unit id="u-2.46" alt="Illustration: Arrow right"/>
+	<unit id="u-2.47" alt="Illustration: Arrow left"/>
+	<unit id="u-2.49">HELSINKI---SUOMENLINNA</unit>
+	<unit id="u-2.50">1</unit>
+	<unit id="u-2.51">2</unit>
+	<unit id="u-2.52">3</unit>
+	<unit id="u-2.53">4</unit>
+	<unit id="u-2.55">SUOMENLINNA---HELSINKI</unit>
+	<unit id="u-2.56">1</unit>
+	<unit id="u-2.57">2</unit>
+	<unit id="u-2.58">3</unit>
+	<unit id="u-2.59">4</unit>
+	<unit id="u-2.60">7.40</unit>
+	<unit id="u-2.61">8.30</unit>
+	<unit id="u-2.62">9.30</unit>
+	<unit id="u-2.63">10.30</unit>
+	<unit id="u-2.64">11.30</unit>
+	<unit id="u-2.65">12.30</unit>
+	<unit id="u-2.66">13.30</unit>
+	<unit id="u-2.67">14.30</unit>
+	<unit id="u-2.68">15.30</unit>
+	<unit id="u-2.69">16.35</unit>
+	<unit id="u-2.70">17.30</unit>
+	<unit id="u-2.71">18.30</unit>
+	<unit id="u-2.72">19.10</unit>
+	<unit id="u-2.73">19.50</unit>
+	<unit id="u-2.74">20.30</unit>
+	<unit id="u-2.75">21.10</unit>
+	<unit id="u-2.76">21.50</unit>
+	<unit id="u-2.77">22.30</unit>
+	<unit id="u-2.78">23.30</unit>
+	<unit id="u-2.79">0.30</unit>
+	<unit id="u-2.80">1.30</unit>
+	<unit id="u-2.81">7.40</unit>
+	<unit id="u-2.82">8.30</unit>
+	<unit id="u-2.83">9.30</unit>
+	<unit id="u-2.84">10.10</unit>
+	<unit id="u-2.85">10.50</unit>
+	<unit id="u-2.86">11.30</unit>
+	<unit id="u-2.87">12.10</unit>
+	<unit id="u-2.88">12.50</unit>
+	<unit id="u-2.89">13.30</unit>
+	<unit id="u-2.90">14.30</unit>
+	<unit id="u-2.91">15.10</unit>
+	<unit id="u-2.92">15.50</unit>
+	<unit id="u-2.93">16.30</unit>
+	<unit id="u-2.94">17.10</unit>
+	<unit id="u-2.95">17.50</unit>
+	<unit id="u-2.96">18.30</unit>
+	<unit id="u-2.97">19.10</unit>
+	<unit id="u-2.98">19.50</unit>
+	<unit id="u-2.99">20.30</unit>
+	<unit id="u-2.100">21.10</unit>
+	<unit id="u-2.101">21.50</unit>
+	<unit id="u-2.102">22.30</unit>
+	<unit id="u-2.103">23.30</unit>
+	<unit id="u-2.104">0.30</unit>
+	<unit id="u-2.105">1.30</unit>
+	<unit id="u-2.106">8.00*</unit>
+	<unit id="u-2.107">9.00</unit>
+	<unit id="u-2.108">10.00</unit>
+	<unit id="u-2.109">10.30</unit>
+	<unit id="u-2.110">11.00</unit>
+	<unit id="u-2.111">11.30</unit>
+	<unit id="u-2.112">12.00</unit>
+	<unit id="u-2.113">12.30</unit>
+	<unit id="u-2.114">13.00</unit>
+	<unit id="u-2.115">13.30</unit>
+	<unit id="u-2.116">14.00</unit>
+	<unit id="u-2.117">14.30</unit>
+	<unit id="u-2.118">15.00</unit>
+	<unit id="u-2.119">15.30</unit>
+	<unit id="u-2.120">16.00</unit>
+	<unit id="u-2.121">16.30</unit>
+	<unit id="u-2.122">17.00</unit>
+	<unit id="u-2.123">17.30</unit>
+	<unit id="u-2.124">18.00</unit>
+	<unit id="u-2.125">19.00**</unit>
+	<unit id="u-2.126">20.00</unit>
+	<unit id="u-2.127">21.00</unit>
+	<unit id="u-2.128">22.00</unit>
+	<unit id="u-2.129">23.00</unit>
+	<unit id="u-2.130">24.00</unit>
+	<unit id="u-2.131">8.00*</unit>
+	<unit id="u-2.132">9.00</unit>
+	<unit id="u-2.133">10.00</unit>
+	<unit id="u-2.134">11.00</unit>
+	<unit id="u-2.135">12.00</unit>
+	<unit id="u-2.136">13.00</unit>
+	<unit id="u-2.137">14.00</unit>
+	<unit id="u-2.138">15.00</unit>
+	<unit id="u-2.139">16.00</unit>
+	<unit id="u-2.140">17.00</unit>
+	<unit id="u-2.141">7.20</unit>
+	<unit id="u-2.142">8.00</unit>
+	<unit id="u-2.143">9.00</unit>
+	<unit id="u-2.144">10.00</unit>
+	<unit id="u-2.145">11.00</unit>
+	<unit id="u-2.146">12.10</unit>
+	<unit id="u-2.147">13.10</unit>
+	<unit id="u-2.148">14.10</unit>
+	<unit id="u-2.149">15.10</unit>
+	<unit id="u-2.150">16.05</unit>
+	<unit id="u-2.151">17.10</unit>
+	<unit id="u-2.152">18.10</unit>
+	<unit id="u-2.153">18.50</unit>
+	<unit id="u-2.154">19.30</unit>
+	<unit id="u-2.155">20.10</unit>
+	<unit id="u-2.156">20.50</unit>
+	<unit id="u-2.157">21.30</unit>
+	<unit id="u-2.158">22.10</unit>
+	<unit id="u-2.159">23.10</unit>
+	<unit id="u-2.160">0.10</unit>
+	<unit id="u-2.161">1.10</unit>
+	<unit id="u-2.162">1.45</unit>
+	<unit id="u-2.163">7.20</unit>
+	<unit id="u-2.164">8.00</unit>
+	<unit id="u-2.165">9.00</unit>
+	<unit id="u-2.166">9.50</unit>
+	<unit id="u-2.167">10.30</unit>
+	<unit id="u-2.168">11.10</unit>
+	<unit id="u-2.169">11.50</unit>
+	<unit id="u-2.170">12.30</unit>
+	<unit id="u-2.171">13.10</unit>
+	<unit id="u-2.172">14.10</unit>
+	<unit id="u-2.173">14.50</unit>
+	<unit id="u-2.174">15.30</unit>
+	<unit id="u-2.175">16.10</unit>
+	<unit id="u-2.176">16.50</unit>
+	<unit id="u-2.177">17.30</unit>
+	<unit id="u-2.178">18.10</unit>
+	<unit id="u-2.179">18.50</unit>
+	<unit id="u-2.180">19.30</unit>
+	<unit id="u-2.181">20.10</unit>
+	<unit id="u-2.182">20.50</unit>
+	<unit id="u-2.183">21.30</unit>
+	<unit id="u-2.184">22.10</unit>
+	<unit id="u-2.185">23.10</unit>
+	<unit id="u-2.186">0.10</unit>
+	<unit id="u-2.187">1.10</unit>
+	<unit id="u-2.188">1.45</unit>
+	<unit id="u-2.189">7.30*</unit>
+	<unit id="u-2.190">8.30*</unit>
+	<unit id="u-2.191">9.30*</unit>
+	<unit id="u-2.192">10.30</unit>
+	<unit id="u-2.193">11.00</unit>
+	<unit id="u-2.194">11.30</unit>
+	<unit id="u-2.195">12.00</unit>
+	<unit id="u-2.196">12.30</unit>
+	<unit id="u-2.197">13.00</unit>
+	<unit id="u-2.198">13.30</unit>
+	<unit id="u-2.199">14.00</unit>
+	<unit id="u-2.200">14.30</unit>
+	<unit id="u-2.201">15.00</unit>
+	<unit id="u-2.202">15.30</unit>
+	<unit id="u-2.203">16.00</unit>
+	<unit id="u-2.204">16.30</unit>
+	<unit id="u-2.205">17.00</unit>
+	<unit id="u-2.206">17.30</unit>
+	<unit id="u-2.207">18.00</unit>
+	<unit id="u-2.208">18.30</unit>
+	<unit id="u-2.209">19.30**</unit>
+	<unit id="u-2.210">20.30</unit>
+	<unit id="u-2.211">21.30</unit>
+	<unit id="u-2.212">22.30</unit>
+	<unit id="u-2.213">23.30</unit>
+	<unit id="u-2.214">0.30</unit>
+	<unit id="u-2.215">7.30*</unit>
+	<unit id="u-2.216">8.30*</unit>
+	<unit id="u-2.217">9.30</unit>
+	<unit id="u-2.218">10.30</unit>
+	<unit id="u-2.219">11.30</unit>
+	<unit id="u-2.220">12.30</unit>
+	<unit id="u-2.221">13.30</unit>
+	<unit id="u-2.222">14.30</unit>
+	<unit id="u-2.223">15.30</unit>
+	<unit id="u-2.224">16.30</unit>
+	<unit id="u-2.225">17.30</unit>
+	<unit id="u-2.227">Tourist information in Helsinki</unit>
+	<unit id="u-2.228">Helsinki City Tourist Office</unit>
+	<unit id="u-2.229">Pohjoisesplanadi 19</unit>
+	<unit id="u-2.230">Tel. 169 3757</unit>
+	<unit id="u-2.231">Information revised January 1986</unit>
+	<unit id="u-2.232">The publisher is not responsible for possible changes.</unit>
+	<unit id="u-2.233" alt="Line: Horizontal"/>
+	<unit id="u-2.234">Publisher: Helsinki City Tourist Office in co-operation with the Ehrensvärd Society.</unit>
+	<unit id="u-2.235">Guide services</unit>
+	<unit id="u-2.236">The best way to find out about Suomenlinna is to take one of the guided tours offered daily.</unit>
+	<unit id="u-2.237">Tours start from the information kiosk at Tykistölahti Bay and last about 1½ hours.</unit>
+	<unit id="u-2.238">Your guide will point out places of interest on Susisaari and Kustaanmiekka islands and tell you about the history of the fortress.</unit>
+	<unit id="u-2.239" alt="Line: Vertical"/>
+	<unit id="u-2.240">From 1 June to 31 August, guided tours are offred in English at 12.30 and 2.30 pm daily.</unit>
+	<unit id="u-2.241">Tickets are on sale at the information kiosk.</unit>
+	<unit id="u-2.242">Groups may also book buides for other times, tel. 668 154.</unit>
+	<unit id="u-2.243" alt="Line: Horizontal"/>
+	<unit id="u-2.244" alt="Photo: Room interior"/>
+	<unit id="u-2.245" alt="Illustration: Ship"/>
+	<unit id="u-2.246">Open 3---31 May daily 10 am-4 pm, 1 June ---30 Sept. 10 am-5 pm, 1 Oct. --- 30 Nov. Sat, Sun 11am-3 pm.</unit>
+	<unit id="u-2.247">Ehrensvärd Museum</unit>
+	<unit id="u-2.248">Historical museum on Susisaari Island.</unit>
+	<unit id="u-2.249"><unit id="u-2.249.1">It includes a model ship collection and officer's quarters</unit><unit id="u-2.249.2"> dating from the 18th century, as well as exhibitions detailing Suomenlinna's military past.</unit></unit>
+	<unit id="u-2.250" alt="Line: Vertical"/>
+	<unit id="u-2.251" alt="Line: Horizontal"/>
+	<unit id="u-2.252">Armfelt Museum</unit>
+	<unit id="u-2.253">Reconstruction of a 19th century upper-class home in a former barracks.</unit>
+	<unit id="u-2.254">The museum includes five well-furnished rooms and a collection of china.</unit>
+	<unit id="u-2.255">Model ship exhibition in the summer of 1986.</unit>
+	<unit id="u-2.256">Open 12 May --- 31 August daily 11am-5.30 pm.</unit>
+	<unit id="u-2.257">In September Sat-Sun only.</unit>
+	<unit id="u-2.257-m" alt="Photo: China"/>
+	<unit id="u-2.258" alt="Line: Horizontal"/>
+	<unit id="u-2.259">Coastal Artillery Museum</unit>
+	<unit id="u-2.260">Arms museum in a vaulted powder room on Kustaanmiekka Island.</unit>
+	<unit id="u-2.261"><unit id="u-2.261.1">The items on display date mainly from the first and</unit><unit id="u-2.261.2"> second world wars.</unit></unit>
+	<unit id="u-2.262" alt="Line: Vertical"/>
+	<unit id="u-2.263">Open 10 May --- 31 August daily 11 am-5 pm.</unit>
+	<unit id="u-2.264">Submarine Vesikko</unit>
+	<unit id="u-2.265" alt="Photo: Submarine Vesikko"/>
+	<unit id="u-2.266" alt="Line: Vertical"/>
+	<unit id="u-2.267">Situated on the north-eastern edge of Susisaari Island.</unit>
+	<unit id="u-2.268">The Vesikko was built in Turku in 1931---33 and took part in World War Two.</unit>
+	<unit id="u-2.269">Visitors are allowed on board.</unit>
+	<unit id="u-2.270">Open 10 May --- 31 August daily 11 am-5 pm.</unit>
+	<unit id="u-2.271" alt="Line: Horizontal"/>
+	<unit id="u-2.272">Nordic Arts Centre</unit>
+	<unit id="u-2.273"><unit id="u-2.273.1">Exhibitions and book sales at the Jetty Barracks Gallery and</unit><unit id="u-2.273.2"> the Garrison Barracks on Susisaari Island.</unit></unit>
+	<unit id="u-2.274" alt="Line: Vertical"/>
+	<unit id="u-2.275">Jetty Barracks Gallery: Contemporary Scandinavian art 9 Apr. -- 21 Sept.</unit>
+	<unit id="u-2.276">Mon---Fri 12---8 pm.</unit>
+	<unit id="u-2.277">Gallery Augusta open 30 Apr --- 21 Sept. daily 12---6 pm.</unit>
+	<unit id="u-2.278" alt="Line: Vertical"/>
+	<unit id="u-2.279" alt="Photo: Jetty Barracks"/>
+	<unit id="u-2.280" alt="Line: Horizontal"/>
+	<unit id="u-2.281">Suomenlinna Church</unit>
+	<unit id="u-2.282"><unit id="u-2.282.1">Orthodox garrison church dating from 1854 which has been redecorated in the Lutheran</unit><unit id="u-2.282.2"> style.</unit></unit>
+	<unit id="u-2.283">Open Sundays 12---4 pm.</unit>
+	<unit id="u-2.284" alt="Line: Vertical"/>
+	<unit id="u-2.285" alt="Line: Horizontal"/>
+	<unit id="u-2.286">Doll and Toy Museum</unit>
+	<unit id="u-2.287">The museum, on Iso Mustasaari Island, includes items from the late 19th to mid 20th century.</unit>
+	<unit id="u-2.288"><unit id="u-2.288.1">Open 10 May --- 31 Au-</unit><unit id="u-2.288.2">gust daily 10 am-5 pm, 1 September --- 31 October weekends 11 am-3 pm.</unit></unit>
+	<unit id="u-2.289" alt="Line: Vertical"/>
+	<unit id="u-2.290" alt="Line: Horizontal"/>
+	<unit id="u-2.291">Walhalla Restaurant</unit>
+	<unit id="u-2.292">Located on Kustaanmiekka Island, the Walhalla includes a first-class restaurant, cafeteria and pub.</unit>
+	<unit id="u-2.293">A brick casemate dating from the 1750s serves as the dining-room, with bar and other facilities situated in granite casemates and around a reconstructed bastion.</unit>
+	<unit id="u-2.294" alt="Line: Vertical"/>
+	<unit id="u-2.295">Open 13 May --- 5 September.</unit>
+	<unit id="u-2.296">The restaurant is open Mon --- Sat from 11.30 am to midnight, on Sundays 11.30 am-6 pm.</unit>
+	<unit id="u-2.297">The terrace is open Mon---Sat 10 am--11 pm, on Sundays 10 am- 6pm.</unit>
+	<unit id="u-2.298">Tel. 668 552.</unit>
+</gemBase>
+
+

@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemLayout>
+	<segmentation>
+		<layout-unit id="lay-1.01" xref="u-1.01">SUOMENLINNA</layout-unit>
+		<layout-unit id="lay-1.02" xref="u-1.02">86</layout-unit>
+		<layout-unit id="lay-1.03" xref="u-1.03" alt="Illustration: Tomb of Ehrensvaerd"/>
+		<layout-unit id="lay-1.04" xref="u-1.04">SEAFORTRESS IN HELSINKI</layout-unit>
+		<layout-unit id="lay-1.05" xref="u-1.05" alt="Illustration: Blue triangle"/>
+		<layout-unit id="lay-1.06" xref="u-1.06 u-1.07 u-1.08 u-1.09"/>
+		<layout-unit id="lay-1.07" xref="u-1.10" alt="Photo: King's Gate"/>
+		<layout-unit id="lay-1.08" xref="u-1.11 u-1.12 u-1.13 u-1.14 u-1.15 u-1.16 u-1.17 u-1.18 u-1.19 u-1.20 u-1.21">The flags of three different nations have flown over Suomenlinna's ramparts.</layout-unit>
+		<layout-unit id="lay-1.09" xref="u-1.22" alt="Map: Suomenlinna"/>
+		<layout-unit id="lay-2.01" xref="u-2.01">Piper Café</layout-unit>
+		<layout-unit id="lay-2.02" xref="u-2.02">Photo: Piper Cafe</layout-unit>
+		<layout-unit id="lay-2.03" xref="u-2.03 u-2.04 u-2.05">The café stands on Suomenlinna's highest point and commands a splendid view of the sea and surrounding park.</layout-unit>
+		<layout-unit id="lay-2.04" xref="u-2.06">Open 9 May --- 31 May daily 10 am-5pm, 1 June --- 31 August 10 am-5 pm.</layout-unit>
+		<layout-unit id="line-2.05" xref="u-2.07" alt="Line: Horizontal"/>
+		<layout-unit id="lay-2.06" xref="u-2.08">Helga Café Ship</layout-unit>
+		<layout-unit id="lay-2.07" xref="u-2.09 u-2.10 u-2.11 u-2.12.1">Converted sand yawl in Tykistölahti Bay.</layout-unit>
+		<layout-unit id="lay-2.08" xref="u-2.12.2"/>
+		<layout-unit id="line-2.09" xref="u-2.13" alt="Line: Vertical"/>
+		<layout-unit id="line-2.10" xref="u-2.14" alt="Line: Horizontal"/>
+		<layout-unit id="lay-2.11" xref="u-2.15">Katharina Café</layout-unit>
+		<layout-unit id="lay-2.12" xref="u-2.16 u-2.17.1">Located in the Nordic Arts Centre.</layout-unit>
+		<layout-unit id="lay-2.13" xref="u-2.17.2"/>
+		<layout-unit id="line-2.14" xref="u-2.18" alt="Line: Vertical"/>
+		<layout-unit id="line-2.15" xref="u-2.19" alt="Line: Horizontal"/>
+		<layout-unit id="lay-2.16" xref="u-2.20">Public Beach</layout-unit>
+		<layout-unit id="lay-2.17" xref="u-2.21.1"/>
+		<layout-unit id="lay-2.18" xref="u-2.21.2 u-2.22">Shower and changing facilities.</layout-unit>
+		<layout-unit id="line-2.19" xref="u-2.23" alt="Line: Vertical"/>
+		<layout-unit id="line-2.20" xref="u-2.24" alt="Line: Horizontal"/>
+		<layout-unit id="lay-2.21" xref="u-2.25">Summer theatre</layout-unit>
+		<layout-unit id="lay-2.22" xref="u-2.26 u-2.27">Plays are performed (in Finnish) at the Good Conscience Bastion during the summer months.</layout-unit>
+		<layout-unit id="lay-2.23" xref="u-2.28" alt="Photo: Summer theatre at the bastion"/>
+		<layout-unit id="line-2.24" xref="u-2.29" alt="Line: Horizontal"/>
+		<layout-unit id="lay-2.25" xref="u-2.30">Information kiosk</layout-unit>
+		<layout-unit id="lay-2.26" xref="u-2.31 u-2.32 u-2.33">The kiosk alongside Tykistölahti Bay sells brochures, maps, souvenirs etc.</layout-unit>
+		<layout-unit id="lay-2.27" xref="u-2.34">Open 11 May --- 31 August daily 10 am-5 pm.</layout-unit>
+		<layout-unit id="line-2.27-m" xref="u-2.32-m"/>
+		<layout-unit id="lay-2.28" xref="u-2.35">Boat connections</layout-unit>
+		<layout-unit id="lay-2.29" xref="u-2.36 u-2.37">1. FERRY, MS Suomenlinna-Sveaborg, Market Square --- Suomenlinna Jetty --- Market Square.</layout-unit>
+		<layout-unit id="lay-2.30" xref="u-2.38 u-2.39">2. FERRY, MS Suomenlinna-Sveaborg, Market Square --- Suomenlinna Jetty --- Market Square.</layout-unit>
+		<layout-unit id="lay-2.31" xref="u-2.40 u-2.41 u-2.42">3. WATERBUSES, MS Amiraali, MS Walhalla and MS Viapori.</layout-unit>
+		<layout-unit id="lay-2.32" xref="u-2.43 u-2.44">WATERBUSES, MS Amiraali, MS Walhalla and MS Viapori.</layout-unit>
+		<layout-unit id="lay-2.33" xref="u-2.45">* = except Saturdays and Sundays ** = last boat on Sundays and when Walhalla Restaurant is closed.</layout-unit>
+		<layout-unit id="lay-2.34" xref="u-2.46" alt="Illustration: Arrow right"/>
+		<layout-unit id="lay-2.35" xref="u-2.47" alt="Illustration: Arrow left"/>
+		<layout-unit id="lay-2.37" xref="u-2.49">HELSINKI---SUOMENLINNA</layout-unit>
+		<layout-unit id="lay-2.38" xref="u-2.50">1</layout-unit>
+		<layout-unit id="lay-2.39" xref="u-2.51">2</layout-unit>
+		<layout-unit id="lay-2.40" xref="u-2.52">3</layout-unit>
+		<layout-unit id="lay-2.41" xref="u-2.53">4</layout-unit>
+		<layout-unit id="lay-2.43" xref="u-2.55">SUOMENLINNA---HELSINKI</layout-unit>
+		<layout-unit id="lay-2.44" xref="u-2.56">1</layout-unit>
+		<layout-unit id="lay-2.45" xref="u-2.57">2</layout-unit>
+		<layout-unit id="lay-2.46" xref="u-2.58">3</layout-unit>
+		<layout-unit id="lay-2.47" xref="u-2.59">4</layout-unit>
+		<layout-unit id="lay-2.48" xref="u-2.60 u-2.61 u-2.62 u-2.63">7.40</layout-unit>
+		<layout-unit id="lay-2.49" xref="u-2.64">11.30</layout-unit>
+		<layout-unit id="lay-2.50" xref="u-2.65">12.30</layout-unit>
+		<layout-unit id="lay-2.51" xref="u-2.66">13.30</layout-unit>
+		<layout-unit id="lay-2.52" xref="u-2.67">14.30</layout-unit>
+		<layout-unit id="lay-2.53" xref="u-2.68">15.30</layout-unit>
+		<layout-unit id="lay-2.54" xref="u-2.69">16.35</layout-unit>
+		<layout-unit id="lay-2.55" xref="u-2.70">17.30</layout-unit>
+		<layout-unit id="lay-2.56" xref="u-2.71 u-2.72 u-2.73  u-2.74  u-2.75  u-2.76  u-2.77  u-2.78  u-2.79  u-2.80">18.30</layout-unit>
+		<layout-unit id="lay-2.57" xref="u-2.81 u-2.82  u-2.83  u-2.84  u-2.85  u-2.86  u-2.87  u-2.88">7.40</layout-unit>
+		<layout-unit id="lay-2.58" xref="u-2.89">13.30</layout-unit>
+		<layout-unit id="lay-2.59" xref="u-2.90 u-2.91">14.30</layout-unit>
+		<layout-unit id="lay-2.60" xref="u-2.92 u-2.93 u-2.94">15.50</layout-unit>
+		<layout-unit id="lay-2.61" xref="u-2.95 u-2.96 u-2.97 u-2.98 u-2.99 u-2.100 u-2.101  u-2.102  u-2.103  u-2.104  u-2.105">17.50</layout-unit>
+		<layout-unit id="lay-2.62" xref="u-2.106 u-2.107 u-2.108 u-2.109 u-2.110  u-2.111 u-2.112 u-2.113 u-2.114 u-2.115 u-2.116 u-2.117 u-2.118 u-2.119 u-2.120 u-2.121 u-2.122 u-2.123 u-2.124">8.00*</layout-unit>
+		<layout-unit id="lay-2.63" xref="u-2.125">19.00**</layout-unit>
+		<layout-unit id="lay-2.64" xref="u-2.126 u-2.127 u-2.128 u-2.129 u-2.130">20.00</layout-unit>
+		<layout-unit id="lay-2.65" xref="u-2.131 u-2.132 u-2.133">8.00*</layout-unit>
+		<layout-unit id="lay-2.66" xref="u-2.134">11.00</layout-unit>
+		<layout-unit id="lay-2.67" xref="u-2.135">12.00</layout-unit>
+		<layout-unit id="lay-2.68" xref="u-2.136">13.00</layout-unit>
+		<layout-unit id="lay-2.69" xref="u-2.137">14.00</layout-unit>
+		<layout-unit id="lay-2.70" xref="u-2.138">15.00</layout-unit>
+		<layout-unit id="lay-2.71" xref="u-2.139">16.00</layout-unit>
+		<layout-unit id="lay-2.72" xref="u-2.140">17.00</layout-unit>
+		<layout-unit id="lay-2.73" xref="u-2.141 u-2.142 u-2.143 u-2.144 u-2.145">7.20</layout-unit>
+		<layout-unit id="lay-2.74" xref="u-2.146">12.10</layout-unit>
+		<layout-unit id="lay-2.75" xref="u-2.147">13.10</layout-unit>
+		<layout-unit id="lay-2.76" xref="u-2.148">14.10</layout-unit>
+		<layout-unit id="lay-2.77" xref="u-2.149">15.10</layout-unit>
+		<layout-unit id="lay-2.78" xref="u-2.150">16.05</layout-unit>
+		<layout-unit id="lay-2.79" xref="u-2.151">17.10</layout-unit>
+		<layout-unit id="lay-2.80" xref="u-2.152">18.10</layout-unit>
+		<layout-unit id="lay-2.81" xref="u-2.153 u-2.154 u-2.155 u-2.156 u-2.157 u-2.158 u-2.159 u-2.160 u-2.161 u-2.162">18.50</layout-unit>
+		<layout-unit id="lay-2.82" xref="u-2.163 u-2.164 u-2.165 u-2.166 u-2.167 u-2.168 u-2.169 u-2.170 u-2.171">7.20</layout-unit>
+		<layout-unit id="lay-2.83" xref="u-2.172">14.10</layout-unit>
+		<layout-unit id="lay-2.84" xref="u-2.173 u-2.174 u-2.175">14.50</layout-unit>
+		<layout-unit id="lay-2.85" xref="u-2.176 u-2.177 u-2.178">16.50</layout-unit>
+		<layout-unit id="lay-2.86" xref="u-2.179 u-2.180 u-2.181 u-2.182 u-2.183 u-2.184 u-2.185 u-2.186 u-2.187 u-2.188">18.50</layout-unit>
+		<layout-unit id="lay-2.87" xref="u-2.189 u-2.190 u-2.191 u-2.192 u-2.193 u-2.194 u-2.195 u-2.196 u-2.197 u-2.198 u-2.199 u-2.200 u-2.201 u-2.202 u-2.203 u-2.204 u-2.205 u-2.206 u-2.207">7.30*</layout-unit>
+		<layout-unit id="lay-2.88" xref="u-2.208 u-2.209 u-2.210">18.30</layout-unit>
+		<layout-unit id="lay-2.89" xref="u-2.211 u-2.212 u-2.213 u-2.214">21.30</layout-unit>
+		<layout-unit id="lay-2.90" xref="u-2.215 u-2.216 u-2.217">7.30*</layout-unit>
+		<layout-unit id="lay-2.91" xref="u-2.218 u-2.219">10.30</layout-unit>
+		<layout-unit id="lay-2.92" xref="u-2.220">12.30</layout-unit>
+		<layout-unit id="lay-2.93" xref="u-2.221">13.30</layout-unit>
+		<layout-unit id="lay-2.94" xref="u-2.222">14.30</layout-unit>
+		<layout-unit id="lay-2.95" xref="u-2.223">15.30</layout-unit>
+		<layout-unit id="lay-2.96" xref="u-2.224">16.30</layout-unit>
+		<layout-unit id="lay-2.97" xref="u-2.225">17.30</layout-unit>
+		<layout-unit id="lay-2.99" xref="u-2.227">Tourist information in Helsinki</layout-unit>
+		<layout-unit id="lay-2.100" xref="u-2.228 u-2.229 u-2.230">Helsinki City Tourist Office</layout-unit>
+		<layout-unit id="lay-2.101" xref="u-2.231 u-2.232">Information revised January 1986</layout-unit>
+		<layout-unit id="line-2.102" xref="u-2.233" alt="Line: Horizontal"/>
+		<layout-unit id="lay-2.103" xref="u-2.234">Publisher: Helsinki City Tourist Office in co-operation with the Ehrensvärd Society.</layout-unit>
+		<layout-unit id="lay-2.104" xref="u-2.235">Guide services</layout-unit>
+		<layout-unit id="lay-2.105" xref="u-2.236 u-2.237 u-2.238">The best way to find out about Suomenlinna is to take one of the guided tours offered daily.</layout-unit>
+		<layout-unit id="line-2.106" xref="u-2.239" alt="Line: Vertical"/>
+		<layout-unit id="lay-2.107" xref="u-2.240 u-2.241">From 1 June to 31 August, guided tours are offred in English at 12.30 and 2.30 pm daily.</layout-unit>
+		<layout-unit id="lay-2.108" xref="u-2.242">Groups may also book buides for other times, tel. 668 154.</layout-unit>
+		<layout-unit id="line-2.109" xref="u-2.243" alt="Line: Horizontal"/>
+		<layout-unit id="lay-2.110" xref="u-2.244" alt="Photo: Room interior"/>
+		<layout-unit id="lay-2.111" xref="u-2.245" alt="Illustration: Ship"/>
+		<layout-unit id="lay-2.112" xref="u-2.246">Open 3---31 May daily 10 am-4 pm, 1 June ---30 Sept. 10 am-5 pm, 1 Oct. --- 30 Nov. Sat, Sun 11am-3 pm.</layout-unit>
+		<layout-unit id="lay-2.113" xref="u-2.247">Ehrensvärd Museum</layout-unit>
+		<layout-unit id="lay-2.114" xref="u-2.248 u-2.249.1">Historical museum on Susisaari Island.</layout-unit>
+		<layout-unit id="lay-2.115" xref="u-2.249.2"/>
+		<layout-unit id="line-2.116" xref="u-2.250" alt="Line: Vertical"/>
+		<layout-unit id="line-2.117" xref="u-2.251" alt="Line: Horizontal"/>
+		<layout-unit id="lay-2.118" xref="u-2.252">Armfelt Museum</layout-unit>
+		<layout-unit id="lay-2.119" xref="u-2.253 u-2.254">Reconstruction of a 19th century upper-class home in a former barracks.</layout-unit>
+		<layout-unit id="lay-2.120" xref="u-2.255">Model ship exhibition in the summer of 1986.</layout-unit>
+		<layout-unit id="lay-2.121" xref="u-2.256 u-2.257">Open 12 May --- 31 August daily 11am-5.30 pm.</layout-unit>
+		<layout-unit id="lay-2.121-m" xref="u-2.257-m"/>
+		<layout-unit id="line-2.122" xref="u-2.258" alt="Line: Horizontal"/>
+		<layout-unit id="lay-2.123" xref="u-2.259">Coastal Artillery Museum</layout-unit>
+		<layout-unit id="lay-2.124" xref="u-2.260 u-2.261.1">Arms museum in a vaulted powder room on Kustaanmiekka Island.</layout-unit>
+		<layout-unit id="lay-2.125" xref="u-2.261.2"/>
+		<layout-unit id="line-2.126" xref="u-2.262" alt="Line: Vertical"/>
+		<layout-unit id="lay-2.127" xref="u-2.263">Open 10 May --- 31 August daily 11 am-5 pm.</layout-unit>
+		<layout-unit id="lay-2.128" xref="u-2.264">Submarine Vesikko</layout-unit>
+		<layout-unit id="lay-2.129" xref="u-2.265" alt="Photo: Submarine Vesikko"/>
+		<layout-unit id="line-2.130" xref="u-2.266" alt="Line: Horizontal"/>
+		<layout-unit id="lay-2.131" xref="u-2.267 u-2.268 u-2.269">Situated on the north-eastern edge of Susisaari Island.</layout-unit>
+		<layout-unit id="lay-2.132" xref="u-2.270">Open 10 May --- 31 August daily 11 am-5 pm.</layout-unit>
+		<layout-unit id="line-2.133" xref="u-2.271" alt="Line: Horizontal"/>
+		<layout-unit id="lay-2.134" xref="u-2.272">Nordic Arts Centre</layout-unit>
+		<layout-unit id="lay-2.135" xref="u-2.273.1"/>
+		<layout-unit id="lay-2.136" xref="u-2.273.2"/>
+		<layout-unit id="line-2.137" xref="u-2.274" alt="Line: Vertical"/>
+		<layout-unit id="lay-2.138" xref="u-2.275 u-2.276 u-2.277">Jetty Barracks Gallery: Contemporary Scandinavian art 9 Apr. -- 21 Sept.</layout-unit>
+		<layout-unit id="line-2.139" xref="u-2.278" alt="Line: Horizontal"/>
+		<layout-unit id="lay-2.140" xref="u-2.279" alt="Photo: Jetty Barracks"/>
+		<layout-unit id="line-2.141" xref="u-2.280" alt="Line: Horizontal"/>
+		<layout-unit id="lay-2.142" xref="u-2.281">Suomenlinna Church</layout-unit>
+		<layout-unit id="lay-2.143" xref="u-2.282.1"/>
+		<layout-unit id="lay-2.144" xref="u-2.282.2 u-2.283"/>
+		<layout-unit id="line-2.145" xref="u-2.284" alt="Line: Vertical"/>
+		<layout-unit id="line-2.146" xref="u-2.285" alt="Line: Horizontal"/>
+		<layout-unit id="lay-2.147" xref="u-2.286">Doll and Toy Museum</layout-unit>
+		<layout-unit id="lay-2.148" xref="u-2.287 u-2.288.1">The museum, on Iso Mustasaari Island, includes items from the late 19th to mid 20th century.</layout-unit>
+		<layout-unit id="lay-2.149" xref="u-2.288.2"/>
+		<layout-unit id="line-2.150" xref="u-2.289" alt="Line: Vertical"/>
+		<layout-unit id="line-2.151" xref="u-2.290" alt="Line: Horizontal"/>
+		<layout-unit id="lay-2.152" xref="u-2.291">Walhalla Restaurant</layout-unit>
+		<layout-unit id="lay-2.153" xref="u-2.292 u-2.293">Located on Kustaanmiekka Island, the Walhalla includes a first-class restaurant, cafeteria and pub.</layout-unit>
+		<layout-unit id="line-2.154" xref="u-2.294" alt="Line: Vertical"/>
+		<layout-unit id="lay-2.155" xref="u-2.295 u-2.296 u-2.297 u-2.298">Open 13 May --- 5 September.</layout-unit>
+	</segmentation>
+	<layout-structure>
+		<layout-root id="ssh-1986-l-side-1" orientation="landscape">
+			<layout-chunk id="side-1-header" location="multi" area-ref="page-a-1">
+				<layout-leaf xref="lay-1.01" location="col-2" area-ref="page-a-1-b" halign="top" valign="left"/>
+				<layout-leaf xref="lay-1.02" location="col-2" area-ref="page-a-1-b" halign="bottom" valign="left"/>
+				<layout-leaf xref="lay-1.03" location="row-3" area-ref="page-a-1" valign="center" overlap-area="page-a-1-b"/>
+				<layout-leaf xref="lay-1.04" location="row-4" area-ref="page-a-1" valign="center"/>
+				<layout-leaf xref="lay-1.05" location="col-1" area-ref="ssh-1986-a-side-1" valign="left" halign="top"/>
+			</layout-chunk>
+			<layout-chunk id="side-1-column-1" location="multi" area-ref="page-a-1">
+				<layout-leaf xref="lay-1.06" location="col-2" area-ref="page-a-1-c" valign="left" halign="top"/>
+				<layout-leaf xref="lay-1.07" location="row-6" area-ref="page-a-1"/>
+			</layout-chunk>
+			<layout-chunk id="side-1-column-2" location="row-2" area-ref="page-a-2-b">
+				<layout-leaf xref="lay-1.08" location="row-2" area-ref="page-a-2-b"/>
+				<layout-leaf xref="lay-1.09" location="col-3" area-ref="ssh-1986-a-side-1"/>
+			</layout-chunk>
+		</layout-root>
+		<layout-root id="ssh-1986-l-side-2" orientation="landscape">
+			<layout-chunk id="side-2-column-1" location="multi" area-ref="page-b-1">
+				<layout-chunk id="side-2-column-1-box-1" location="multi" area-ref="page-b-1">
+					<layout-leaf xref="lay-2.01" location="row-1" area-ref="page-b-1" valign="left" halign="top"/>
+					<layout-leaf xref="lay-2.02" location="cell-22" area-ref="page-b-1-b"/>
+					<layout-leaf xref="lay-2.03" location="cell-24" area-ref="page-b-1-b" valign="left" halign="top"/>
+					<layout-leaf xref="lay-2.04" location="cell-24" area-ref="page-b-1-b" valign="left"/>
+				</layout-chunk>
+				<layout-leaf xref="line-2.05" location="row-3" area-ref="page-b-1" delimiter-after="row-2" delimiter-before="row-4" halign="center"/>
+				<layout-chunk id="side-2-column-1-para-1" location="multi" area-ref="page-b-1">
+					<layout-leaf xref="lay-2.06" location="row-4" area-ref="page-b-1" valign="left" halign="top"/>
+					<layout-leaf xref="lay-2.07" location="col-1" area-ref="page-b-1-c" valign="left" halign="top"/>
+					<layout-leaf xref="lay-2.08" location="col-3" area-ref="page-b-1-c" valign="left" halign="top"/>
+					<layout-leaf xref="line-2.09" location="col-2" area-ref="page-b-1-c" delimiter-after="col-1" delimiter-before="col-3"/>
+				</layout-chunk>
+				<layout-leaf xref="line-2.10" location="row-6" area-ref="page-b-1" delimiter-after="row-5" delimiter-before="row-7" halign="center"/>
+				<layout-chunk id="side-2-column-1-para-2" location="multi" area-ref="page-b-1">
+					<layout-leaf xref="lay-2.11" location="row-7" area-ref="page-b-1"/>
+					<layout-leaf xref="lay-2.12" location="col-1" area-ref="page-b-1-d" valign="left" halign="top"/>
+					<layout-leaf xref="lay-2.13" location="col-3" area-ref="page-b-1-d" valign="left" halign="top"/>
+					<layout-leaf xref="line-2.14" location="col-2" area-ref="page-b-1-d" delimiter-after="col-1" delimiter-before="col-3"/>
+				</layout-chunk>
+				<layout-leaf xref="line-2.15" location="row-9" area-ref="page-b-1" delimiter-after="row-8" delimiter-before="row-10" halign="center"/>
+				<layout-chunk id="side-2-column-1-para-3" location="multi" area-ref="page-b-1">
+					<layout-leaf xref="lay-2.16" location="row-10" area-ref="page-b-1"/>
+					<layout-leaf xref="lay-2.17" location="col-1" area-ref="page-b-1-e" valign="left" halign="top"/>
+					<layout-leaf xref="lay-2.18" location="col-3" area-ref="page-b-1-e" valign="left" halign="top"/>
+					<layout-leaf xref="line-2.19" location="col-2" area-ref="page-b-1-e" delimiter-after="col-1" delimiter-before="col-3"/>
+				</layout-chunk>
+				<layout-leaf xref="line-2.20" location="row-12" area-ref="page-b-1" delimiter-after="row-11" delimiter-before="row-13" halign="center"/>
+				<layout-chunk id="side-2-column-1-box-2" location="multi" area-ref="page-b-1">
+					<layout-leaf xref="lay-2.21" location="row-2" area-ref="page-b-1-f-1"/>
+					<layout-leaf xref="lay-2.22" location="row-3" area-ref="page-b-1-f-1"/>
+					<layout-leaf xref="lay-2.23" location="cell-42" area-ref="page-b-1-f"/>
+				</layout-chunk>
+				<layout-leaf xref="line-2.24" location="row-14" area-ref="page-b-1" delimiter-after="row-13" delimiter-before="row-15" halign="center"/>
+				<layout-chunk id="side-2-column-1-para-5" location="multi" area-ref="page-b-1">
+					<layout-leaf xref="lay-2.25" location="row-15" area-ref="page-b-1"/>
+					<layout-leaf xref="lay-2.26" location="col-1" area-ref="page-b-1-g" valign="left" halign="top"/>
+					<layout-leaf xref="lay-2.27" location="col-3" area-ref="page-b-1-g" valign="left" halign="top"/>
+					<layout-leaf xref="line-2.27-m" location="col-2" area-ref="page-b-1-g" delimiter-after="col-1" delimiter-before="col-3"/>
+				</layout-chunk>
+			</layout-chunk>
+			<layout-chunk id="side-2-column-2" location="multi" area-ref="page-b-2">
+				<layout-chunk id="side-2-column-2-para-1" location="multi" area-ref="page-b-2">
+					<layout-leaf xref="lay-2.28" location="row-1" area-ref="page-b-2" valign="left" halign="top"/>
+					<layout-chunk id="side-2-column-2-para-1-list" location="multi" area-ref="page-b-2-b">
+						<layout-leaf xref="lay-2.29" location="row-1" area-ref="page-b-2-b" valign="left" halign="top"/>
+						<layout-leaf xref="lay-2.30" location="row-2" area-ref="page-b-2-b" valign="left" halign="top"/>
+						<layout-leaf xref="lay-2.31" location="row-3" area-ref="page-b-2-b" valign="left" halign="top"/>
+						<layout-leaf xref="lay-2.32" location="row-4" area-ref="page-b-2-b" valign="left" halign="top"/>
+						<layout-leaf xref="lay-2.33" location="row-5" area-ref="page-b-2-b" valign="left"/>
+					</layout-chunk>
+					<layout-chunk id="side-2-column-2-para-1-illustrations" location="multi" area-ref="page-b-2-c">
+						<layout-leaf xref="lay-2.34" location="col-2" area-ref="page-b-2-c"/>
+						<layout-leaf xref="lay-2.35" location="col-4" area-ref="page-b-2-c"/>
+					</layout-chunk>
+					<layout-chunk id="side-2-column-2-table" location="multi" area-ref="page-b-2">
+						<layout-chunk id="side-2-column-2-table-header-1" location="multi" area-ref="page-b-2">
+							<layout-leaf xref="lay-2.37" location="col-1" area-ref="page-b-2-d" halign="bottom" valign="center"/>
+							<layout-leaf xref="lay-2.38" location="col-1" area-ref="page-b-2-e" halign="center" valign="center"/>
+							<layout-leaf xref="lay-2.39" location="col-2" area-ref="page-b-2-e" halign="center" valign="center"/>
+							<layout-leaf xref="lay-2.40" location="col-3" area-ref="page-b-2-e" halign="center" valign="center"/>
+							<layout-leaf xref="lay-2.41" location="col-4" area-ref="page-b-2-e" halign="center" valign="center"/>
+						</layout-chunk>
+						<layout-chunk id="side-2-column-2-table-header-2" location="multi" area-ref="page-b-2">
+							<layout-leaf xref="lay-2.43" location="col-2" area-ref="page-b-2-d" halign="bottom" valign="center"/>
+							<layout-leaf xref="lay-2.44" location="col-5" area-ref="page-b-2-e" halign="center" valign="center"/>
+							<layout-leaf xref="lay-2.45" location="col-6" area-ref="page-b-2-e" halign="center" valign="center"/>
+							<layout-leaf xref="lay-2.46" location="col-7" area-ref="page-b-2-e" halign="center" valign="center"/>
+							<layout-leaf xref="lay-2.47" location="col-8" area-ref="page-b-2-e" halign="center" valign="center"/>
+						</layout-chunk>
+						<layout-chunk id="side-2-column-2-table-column-1" location="col-1" area-ref="page-b-2-f">
+							<layout-leaf xref="lay-2.48" location="col-1" area-ref="page-b-2-f" valign="center" top="1mm"/>
+							<layout-leaf xref="lay-2.49" location="col-1" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.50" location="col-1" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.51" location="col-1" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.52" location="col-1" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.53" location="col-1" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.54" location="col-1" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.55" location="col-1" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.56" location="col-1" area-ref="page-b-2-f" valign="center" top="4mm"/>
+						</layout-chunk>
+						<layout-chunk id="side-2-column-2-table-column-2" location="col-2" area-ref="page-b-2-f">
+							<layout-leaf xref="lay-2.57" location="col-2" area-ref="page-b-2-f" valign="center" top="1mm"/>
+							<layout-leaf xref="lay-2.58" location="col-2" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.59" location="col-2" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.60" location="col-2" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.61" location="col-2" area-ref="page-b-2-f" valign="center" top="4mm"/>
+						</layout-chunk>
+						<layout-chunk id="side-2-column-2-table-column-3" location="col-3" area-ref="page-b-2-f">
+							<layout-leaf xref="lay-2.62" location="col-3" area-ref="page-b-2-f" valign="center" top="1mm"/>
+							<layout-leaf xref="lay-2.63" location="col-3" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.64" location="col-3" area-ref="page-b-2-f" valign="center" top="4mm"/>
+						</layout-chunk>
+						<layout-chunk id="side-2-column-2-table-column-4" location="col-3" area-ref="page-b-2-f">
+							<layout-leaf xref="lay-2.65" location="col-4" area-ref="page-b-2-f" valign="center" top="1mm"/>
+							<layout-leaf xref="lay-2.66" location="col-4" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.67" location="col-4" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.68" location="col-4" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.69" location="col-4" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.70" location="col-4" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.71" location="col-4" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.72" location="col-4" area-ref="page-b-2-f" valign="center" top="4mm"/>
+						</layout-chunk>
+						<layout-chunk id="side-2-column-2-table-column-5" location="col-3" area-ref="page-b-2-f">
+							<layout-leaf xref="lay-2.73" location="col-5" area-ref="page-b-2-f" valign="center" top="1mm"/>
+							<layout-leaf xref="lay-2.74" location="col-5" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.75" location="col-5" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.76" location="col-5" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.77" location="col-5" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.78" location="col-5" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.79" location="col-5" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.80" location="col-5" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.81" location="col-5" area-ref="page-b-2-f" valign="center" top="4mm"/>
+						</layout-chunk>
+						<layout-chunk id="side-2-column-2-table-column-6" location="col-3" area-ref="page-b-2-f">
+							<layout-leaf xref="lay-2.82" location="col-6" area-ref="page-b-2-f" valign="center" top="1mm"/>
+							<layout-leaf xref="lay-2.83" location="col-6" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.84" location="col-6" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.85" location="col-6" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.86" location="col-6" area-ref="page-b-2-f" valign="center" top="4mm"/>
+						</layout-chunk>
+						<layout-chunk id="side-2-column-2-table-column-7" location="col-3" area-ref="page-b-2-f">
+							<layout-leaf xref="lay-2.87" location="col-7" area-ref="page-b-2-f" valign="center" top="1mm"/>
+							<layout-leaf xref="lay-2.88" location="col-7" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.89" location="col-7" area-ref="page-b-2-f" valign="center" top="4mm"/>
+						</layout-chunk>
+						<layout-chunk id="side-2-column-2-table-column-8" location="col-3" area-ref="page-b-2-f">
+							<layout-leaf xref="lay-2.90" location="col-8" area-ref="page-b-2-f" valign="center" top="1mm"/>
+							<layout-leaf xref="lay-2.91" location="col-8" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.92" location="col-8" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.93" location="col-8" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.94" location="col-8" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.95" location="col-8" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.96" location="col-8" area-ref="page-b-2-f" valign="center" top="4mm"/>
+							<layout-leaf xref="lay-2.97" location="col-8" area-ref="page-b-2-f" valign="center" top="4mm"/>
+						</layout-chunk>
+					</layout-chunk>
+				</layout-chunk>
+				<layout-chunk id="side-2-column-2-para-2" location="multi" area-ref="page-b-2">
+					<layout-leaf xref="lay-2.99" location="row-7" area-ref="page-b-2" valign="left" halign="top"/>
+					<layout-leaf xref="lay-2.100" location="col-2" area-ref="page-b-2-g" valign="left" halign="top"/>
+					<layout-leaf xref="lay-2.101" location="col-3" area-ref="page-b-2-g" valign="right" halign="top"/>
+				</layout-chunk>
+				<layout-leaf xref="line-2.102" location="row-8" halign="bottom" delimiter-after="row-7" delimiter-before="row-9"/>
+				<layout-leaf xref="lay-2.103" location="col-2" area-ref="page-b-2-h" valign="left" halign="top"/>
+			</layout-chunk>
+			<layout-chunk id="side-2-column-3" location="multi" area-ref="page-b-3">
+				<layout-chunk id="side-2-column-3-para-1" location="multi" area-ref="page-b-3">
+					<layout-leaf xref="lay-2.104" location="row-1" area-ref="page-b-3" valign="left" halign="top"/>
+					<layout-leaf xref="lay-2.105" location="col-1" area-ref="page-b-3-b" valign="left" halign="top"/>
+					<layout-leaf xref="line-2.106" location="col-2" area-ref="page-b-3-b" valign="center" delimiter-after="col-1" delimiter-before="col-3"/>
+					<layout-leaf xref="lay-2.107" location="col-3" area-ref="page-b-3-b" valign="left" halign="top"/>
+					<layout-leaf xref="lay-2.108" location="col-3" area-ref="page-b-3-b" valign="left"/>
+				</layout-chunk>
+				<layout-leaf xref="line-2.109" location="row-3" area-ref="page-b-3" delimiter-after="row-2" delimiter-before="row-4" halign="center"/>
+				<layout-chunk id="side-2-column-3-box-1" location="multi" area-ref="page-b-3">
+					<layout-leaf xref="lay-2.110" location="col-2" area-ref="page-b-3-c"/>
+					<layout-leaf xref="lay-2.111" location="row-1" area-ref="page-b-3-c-1" valign="center"/>
+					<layout-leaf xref="lay-2.112" location="col-2" area-ref="page-b-3-c-2" halign="top" valign="left"/>
+				</layout-chunk>
+				<layout-chunk id="side-2-column-3-para-2" location="multi" area-ref="page-b-3">
+					<layout-leaf xref="lay-2.113" location="row-6" area-ref="page-b-3"/>
+					<layout-leaf xref="lay-2.114" location="col-1" area-ref="page-b-3-d" valign="left" halign="top"/>
+					<layout-leaf xref="lay-2.115" location="col-3" area-ref="page-b-3-d" valign="left" halign="top"/>
+					<layout-leaf xref="line-2.116" location="col-2" area-ref="page-b-3-d" delimiter-after="col-2" delimiter-before="col-3" valign="center"/>
+				</layout-chunk>
+				<layout-leaf xref="line-2.117" location="row-8" bottom="page-b-3" halign="center" delimiter-after="row-7" delimiter-before="row-9"/>
+				<layout-chunk id="side-2-column-3-para-3" location="multi" area-ref="page-b-3">
+					<layout-leaf xref="lay-2.118" location="cell-11" area-ref="page-b-3-e" valign="left" halign="top"/>
+					<layout-leaf xref="lay-2.119" location="cell-12" area-ref="page-b-3-e" valign="left" halign="top"/>
+					<layout-leaf xref="lay-2.120" location="cell-12" area-ref="page-b-3-e" valign="left"/>
+					<layout-leaf xref="lay-2.121" location="cell-12" area-ref="page-b-3-e" valign="left"/>
+					<layout-leaf xref="lay-2.121-m" location="row-1" area-ref="page-b-3-e-1"/>
+				</layout-chunk>
+				<layout-leaf xref="line-2.122" location="row-9" halign="bottom" delimiter-before="row-10"/>
+				<layout-chunk id="side-2-column-3-para-4" location="multi" area-ref="page-b-3">
+					<layout-leaf xref="lay-2.123" location="row-10" area-ref="page-b-3"/>
+					<layout-leaf xref="lay-2.124" location="col-1" area-ref="page-b-3-f" halign="top" valign="left"/>
+					<layout-leaf xref="lay-2.125" location="col-3" area-ref="page-b-3-f" halign="top" valign="left"/>
+					<layout-leaf xref="line-2.126" location="col-2" area-ref="page-b-3-f" valign="center" delimiter-after="col-1" delimiter-before="col-3"/>
+					<layout-leaf xref="lay-2.127" location="col-3" area-ref="page-b-3-f" valign="left"/>
+				</layout-chunk>
+			</layout-chunk>
+			<layout-chunk id="side-2-column-4" location="multi" area-ref="page-b-4">
+				<layout-chunk id="side-2-column-4-box-1" location="multi" area-ref="page-b-4">
+					<layout-leaf xref="lay-2.128" location="row-1" area-ref="page-b-4" halign="top" valign="left"/>
+					<layout-leaf xref="lay-2.129" location="col-1" area-ref="page-b-4-b"/>
+					<layout-leaf xref="line-2.130" location="col-2" area-ref="page-b-4-b" valign="left" delimiter-after="col-1" delimiter-before="col-3"/>
+					<layout-leaf xref="lay-2.131" location="col-3" halign="top" valign="left"/>
+					<layout-leaf xref="lay-2.132" location="col-3" valign="left"/>
+				</layout-chunk>
+				<layout-leaf xref="line-2.133" location="row-3" area-ref="page-b-4" delimiter-before="row-4" delimiter-after="row-2"/>
+				<layout-chunk id="side-2-column-4-para-1" location="multi" area-ref="page-b-4">
+					<layout-leaf xref="lay-2.134" location="row-4" area-ref="page-b-4" halign="top" valign="left"/>
+					<layout-leaf xref="lay-2.135" location="col-1" area-ref="page-b-4-c" halign="top" valign="left"/>
+					<layout-leaf xref="lay-2.136" location="col-2" area-ref="page-b-4-c" halign="top" valign="left"/>
+					<layout-leaf xref="line-2.137" location="col-3" valign="center" delimiter-after="col-1" delimiter-before="col-3"/>
+				</layout-chunk>
+				<layout-chunk id="side-2-column-4-box-2" location="multi" area-ref="page-b-4">
+					<layout-leaf xref="lay-2.138" location="row-2" area-ref="page-b-4-d-1" valign="left" halign="top"/>
+					<layout-leaf xref="line-2.139" location="col-3" area-ref="page-b-4-d" valign="right" delimiter-after="col-2" delimiter-before="col-4"/>
+					<layout-leaf xref="lay-2.140" location="col-4" area-ref="page-b-4-d"/>
+				</layout-chunk>
+				<layout-leaf xref="line-2.141" location="row-8" area-ref="page-b-4" delimiter-before="row-9" delimiter-after="row-7"/>
+				<layout-chunk id="side-2-column-4-para-2" location="multi" area-ref="page-b-4">
+					<layout-leaf xref="lay-2.142" location="row-9" area-ref="page-b-4" halign="top" valign="left"/>
+					<layout-leaf xref="lay-2.143" location="col-1" area-ref="page-b-4-e" halign="top" valign="left"/>
+					<layout-leaf xref="lay-2.144" location="col-3" area-ref="page-b-4-e" halign="top" valign="left"/>
+					<layout-leaf xref="line-2.145" location="col-2" area-ref="page-b-4-e" valign="center" delimiter-after="col-1" delimiter-before="col-3"/>
+				</layout-chunk>
+				<layout-leaf xref="line-2.146" location="row-11" area-ref="page-b-4" delimiter-before="row-12" delimiter-after="row-10"/>
+				<layout-chunk id="side-2-column-4-para-3" location="multi" area-ref="page-b-4">
+					<layout-leaf xref="lay-2.147" location="row-12" area-ref="page-b-4" halign="top" valign="left"/>
+					<layout-leaf xref="lay-2.148" location="col-1" area-ref="page-b-4-f" halign="top" valign="left"/>
+					<layout-leaf xref="lay-2.149" location="col-3" area-ref="page-b-4-f" halign="top" valign="left"/>
+					<layout-leaf xref="line-2.150" location="col-2" area-ref="page-b-4-f" valign="center" delimiter-after="col-1" delimiter-before="col-3"/>
+				</layout-chunk>
+				<layout-leaf xref="line-2.151" location="row-14" area-ref="page-b-4" delimiter-before="row-15" delimiter-after="row-13"/>
+				<layout-chunk id="side-2-column-4-para-4" location="multi" area-ref="page-b-4">
+					<layout-leaf xref="lay-2.152" location="row-15" area-ref="page-b-4" halign="top" valign="left"/>
+					<layout-leaf xref="lay-2.153" location="col-1" area-ref="page-b-4-g" halign="top" valign="left"/>
+					<layout-leaf xref="lay-2.155" location="col-3" area-ref="page-b-4-g" halign="top" valign="left"/>
+					<layout-leaf xref="line-2.154" location="col-2" area-ref="page-b-4-g" valign="center" delimiter-after="col-1" delimiter-before="col-3"/>
+				</layout-chunk>
+			</layout-chunk>
+		</layout-root>
+	</layout-structure>
+	<realization>
+		<text xref="lay-1.01" font-family="serif" font-size="28" font-style="normal" font-weight="normal" case="caps" color="black"/>
+		<text xref="lay-1.02" font-family="serif" font-size="16" font-style="normal" font-weight="normal" case="caps" color="white"/>
+		<graphics xref="lay-1.03" type="illustration" colors="black" height="45mm" width="90mm"/>
+		<text xref="lay-1.04" font-family="serif" font-size="22" font-style="normal" font-weight="normal" case="caps" color="black"/>
+		<graphics xref="lay-1.05" type="two-d-element" two-d-element-type="triangle" colors="turqoise"/>
+		<text xref="lay-1.06" font-family="serif" font-size="7" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<graphics xref="lay-1.07" type="photo" colors="mixed" height="60mm" width="100mm"/>
+		<text xref="lay-1.08" font-family="serif" font-size="6" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<graphics xref="lay-1.09" type="map" colors="mixed" height="208mm" width="297mm"/><!-- Headers -->
+		<text xref="lay-2.01 lay-2.06 lay-2.11 lay-2.16 lay-2.21 lay-2.25 lay-2.28 lay-2.99 lay-2.104 lay-2.113 lay-2.118 lay-2.123 lay-2.128 lay-2.134 lay-2.142 lay-2.147 lay-2.152" font-family="serif" font-size="8" font-style="normal" font-weight="normal" case="mixed" color="black"/><!-- Boxes and paragraphs -->
+		<text xref="lay-2.03 lay-2.04 lay-2.07 lay-2.08 lay-2.12 lay-2.13 lay-2.17 lay-2.18 lay-2.22 lay-2.26 lay-2.27 lay-2.105 lay-2.107 lay-2.108 lay-2.112 lay-2.114 lay-2.115 lay-2.119 lay-2.120 lay-2.121 lay-2.124 lay-2.125 lay-2.127 lay-2.131 lay-2.132 lay-2.135 lay-2.136 lay-2.138 lay-2.143 lay-2.144 lay-2.148 lay-2.149 lay-2.153 lay-2.155" font-family="serif" font-size="4" font-style="normal" font-weight="normal" case="mixed" color="black"/><!-- Vertical lines -->
+		<graphics xref="line-2.09" type="two-d-element" two-d-element-type="line" colors="black" width="0.3mm" length="10mm" direction="vertical"/>
+		<graphics xref="line-2.14" type="two-d-element" two-d-element-type="line" colors="black" width="0.3mm" length="7mm" direction="vertical"/>
+		<graphics xref="line-2.15" type="two-d-element" two-d-element-type="line" colors="black" width="0.3mm" length="10mm" direction="vertical"/>
+		<graphics xref="line-2.19" type="two-d-element" two-d-element-type="line" colors="black" width="0.3mm" length="13mm" direction="vertical"/>
+		<graphics xref="line-2.27-m" type="two-d-element" two-d-element-type="line" colors="black" width="0.3mm" length="14mm" direction="vertical"/>
+		<graphics xref="line-2.106" type="two-d-element" two-d-element-type="line" colors="black" width="0.3mm" length="40mm" direction="vertical"/>
+		<graphics xref="line-2.116" type="two-d-element" two-d-element-type="line" colors="black" width="0.3mm" length="11mm" direction="vertical"/>
+		<graphics xref="line-2.126" type="two-d-element" two-d-element-type="line" colors="black" width="0.3mm" length="15mm" direction="vertical"/>
+		<graphics xref="line-2.137" type="two-d-element" two-d-element-type="line" colors="black" width="0.3mm" length="8mm" direction="vertical"/>
+		<graphics xref="line-2.14" type="two-d-element" two-d-element-type="line" colors="black" width="0.3mm" length="10mm" direction="vertical"/>
+		<graphics xref="line-2.150" type="two-d-element" two-d-element-type="line" colors="black" width="0.3mm" length="14mm" direction="vertical"/>
+		<graphics xref="line-2.154" type="two-d-element" two-d-element-type="line" colors="black" width="0.3mm" length="34mm" direction="vertical"/><!-- Horizontal lines -->
+		<graphics xref="line-2.05 line-2.10 line-2.15 line-2.20 line-2.24 line-2.102 line-2.109 line-2.117 line-2.122 line-2.130 line-2.133 line-2.139 line-2.141 line-2.146 line-2.151" type="two-d-element" two-d-element-type="line" colors="black" width="0.3mm" length="94mm" direction="horizontal"/><!-- Photographs -->
+		<graphics xref="lay-2.02" type="photo" colors="mixed" width="45mm" height="38mm"/>
+		<graphics xref="lay-2.23" type="photo" colors="mixed" width="45mm" height="38mm"/>
+		<graphics xref="lay-2.110" type="photo" colors="mixed" width="46mm" height="40mm"/>
+		<graphics xref="lay-2.121-m" type="photo" colors="mixed" width="42mm" height="40mm" border="rectangular" border-color="black" border-style="solid"/>
+		<graphics xref="lay-2.129" type="photo" colors="mixed" width="47mm" height="35mm"/>
+		<graphics xref="lay-2.140" type="photo" colors="mixed" width="47mm" height="35mm"/>
+		<chunk xref="side-2-column-1-box-1" background-color="#CADD8E" border="rectangular" border-color="black" border-style="solid"/>
+		<chunk xref="side-2-column-1-box-2" background-color="#BE957F" border="rectangular" border-color="black" border-style="solid"/>
+		<chunk xref="side-2-column-3-box-1" background-color="#90A4BD" border="rectangular" border-color="black" border-style="solid"/>
+		<chunk xref="side-2-column-4-box-1" background-color="#B8DADB" border="rectangular" border-color="black" border-style="solid"/>
+		<chunk xref="side-2-column-4-box-2" background-color="#ECB4A5" border="rectangular" border-color="black" border-style="solid"/><!-- Illustrations -->
+		<graphics xref="lay-2.111" type="illustration" colors="black" background-color="blue" width="34mm" height="23mm" border="rectangular" border-color="black" border-style="solid"/><!-- Table descriptions, titles and numbering and tourist info -->
+		<text xref="lay-2.29 lay-2.30 lay-2.31 lay-2.32 lay-2.33 lay-2.100 lay-2.101 lay-2.103" font-family="serif" font-size="4" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<text xref="lay-2.37 lay-2.38 lay-2.39 lay-2.40 lay-2.41 lay-2.43 lay-2.44 lay-2.45 lay-2.46 lay-2.47" font-family="serif" font-size="6" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<graphics xref="lay-2.34" type="two-d-element" two-d-element-type="arrow" direction="right" height="7mm" width="18mm" colors="black"/>
+		<graphics xref="lay-2.35" type="two-d-element" two-d-element-type="arrow" direction="left" height="7mm" width="18mm" colors="black"/><!-- Table columns -->
+		<chunk xref="side-2-column-2-table-column-1" background-color="#93CEE0"/>
+		<chunk xref="side-2-column-2-table-column-3" background-color="#93CEE0"/>
+		<chunk xref="side-2-column-2-table-column-5" background-color="#FFF29C"/>
+		<chunk xref="side-2-column-2-table-column-8" background-color="#FFF29C"/>
+		<text xref="lay-2.48 lay-2.49 lay-2.50 lay-2.51 lay-2.52 lay-2.53 lay-2.54 lay-2.55 lay-2.56 lay-2.57 lay-2.58 lay-2.59 lay-2.60 lay-2.61 lay-2.62 lay-2.63 lay-2.64 lay-2.65 lay-2.66 lay-2.67 lay-2.68 lay-2.69 lay-2.70 lay-2.71 lay-2.72 lay-2.73 lay-2.74 lay-2.75 lay-2.76 lay-2.77 lay-2.78 lay-2.79 lay-2.80 lay-2.81 lay-2.82 lay-2.83 lay-2.84 lay-2.85 lay-2.86 lay-2.87 lay-2.88 lay-2.89 lay-2.90 lay-2.91 lay-2.92 lay-2.93 lay-2.94 lay-2.95 lay-2.96 lay-2.97" font-family="serif" font-size="5" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+	</realization>
+	<area-model>
+		<area-root id="ssh-1986-a-side-1" cols="3" rows="1" hspacing="25 1 74" vspacing="100" height="208mm" width="396mm">
+			<sub-area id="page-a-1" location="col-1" cols="1" rows="6" hspacing="100" vspacing="4 9 16 11 32 28" height="208mm" width="100mm">
+				<sub-area id="page-a-1-b" location="row-2" cols="2" rows="1" hspacing="3 97" vspacing="100" width="100mm" height="20mm"/>
+				<sub-area id="page-a-1-c" location="row-5" cols="2" rows="1" hspacing="3 97" vspacing="100" width="100mm" height="67mm"/>
+			</sub-area>
+			<sub-area id="page-a-2" location="col-3" cols="2" rows="1" hspacing="31 69" vspacing="100" height="208mm" width="292mm">
+				<sub-area id="page-a-2-b" location="col-1" cols="1" rows="2" hspacing="100" vspacing="40 60" width="90mm" height="208mm"/>
+			</sub-area>
+		</area-root>
+		<area-root id="ssh-1986-a-side-2" cols="8" rows="3" hspacing="2 96 2" vspacing="24 1 24 1 24 1 24 1" height="208mm" width="396mm">
+			<sub-area id="page-b-1" location="cell-22" cols="1" rows="16" hspacing="100" vspacing="4 21 3 4 6 3 4 4 3 3 6 3 21 3 4 8" height="199mm" width="93mm">
+				<sub-area id="page-b-1-b" location="row-2" cols="5" rows="3" hspacing="1 49 3 41 6" vspacing="5 90 5" height="42mm" width="93mm"/>
+				<sub-area id="page-b-1-c" location="row-5" cols="3" rows="1" hspacing="48 4 48" vspacing="100" height="11mm" width="93mm"/>
+				<sub-area id="page-b-1-d" location="row-8" cols="3" rows="1" hspacing="48 4 48" vspacing="100" height="7mm" width="93mm"/>
+				<sub-area id="page-b-1-e" location="row-11" cols="3" rows="1" hspacing="48 4 48" vspacing="100" height="12mm" width="93mm"/>
+				<sub-area id="page-b-1-f" location="row-14" cols="5" rows="3" hspacing="3 44 2 48 1" vspacing="5 92 3" height="42mm" width="93mm">
+					<sub-area id="page-b-1-f-1" location="cell-22" cols="1" rows="3" hspacing="100" vspacing="3 26 71" height="38mm" width="41mm"/>
+				</sub-area>
+				<sub-area id="page-b-1-g" location="row-16" cols="3" rows="1" hspacing="48 4 48" vspacing="100" height="15mm" width="93mm"/>
+			</sub-area>
+			<sub-area id="page-b-2" location="cell-42" cols="1" rows="9" hspacing="100" vspacing="6 20 7 3 47 2 3 6 6" height="199mm" width="95mm">
+				<sub-area id="page-b-2-b" location="row-2" cols="1" rows="4" hspacing="100" vspacing="20 15 25 40" height="40mm" width="95mm"/>
+				<sub-area id="page-b-2-c" location="row-3" cols="5" rows="1" hspacing="19 19 28 20 14" vspacing="100" height="13mm" width="95mm"/>
+				<sub-area id="page-b-2-d" location="row-4" cols="2" rows="1" hspacing="50 50" vspacing="100" height="5mm" width="95mm"/>
+				<sub-area id="page-b-2-e" location="row-5" cols="8" rows="1" hspacing="11 13 13 13 13 13 13 11" vspacing="100" height="4mm" width="95mm"/>
+				<sub-area id="page-b-2-f" location="row-5" cols="8" rows="1" hspacing="11 13 13 13 13 13 13 11" vspacing="100" height="92mm" width="95mm"/>
+				<sub-area id="page-b-2-g" location="row-8" cols="3" rows="1" hspacing="1 58 41" vspacing="100" height="12mm" width="95mm"/>
+				<sub-area id="page-b-2-h" location="row-9" cols="2" rows="1" hspacing="48 52" vspacing="100" height="12mm" width="95mm"/>
+			</sub-area>
+			<sub-area id="page-b-3" location="cell-62" cols="1" rows="11" hspacing="100" vspacing="4 21 3 20 1 4 6 4 26 3 8" height="199mm" width="94mm">
+				<sub-area id="page-b-3-b" location="row-2" cols="3" rows="1" hspacing="49 3 48" vspacing="100" height="42mm" width="94mm"/>
+				<sub-area id="page-b-3-c" location="row-4" cols="3" rows="1" hspacing="1 49 50" vspacing="100" height="40mm" width="94mm">
+					<sub-area id="page-b-3-c-1" location="col-3" cols="1" rows="2" hspacing="100" vspacing="58 42" height="40mm" width="46mm">
+						<sub-area id="page-b-3-c-2" location="row-2" cols="3" rows="1" hspacing="4 80 16" vspacing="100" height="17mm" width="46mm"/>
+					</sub-area>
+				</sub-area>
+				<sub-area id="page-b-3-d" location="row-7" cols="3" rows="1" hspacing="49 3 48" vspacing="100" height="11mm" width="94mm"/>
+				<sub-area id="page-b-3-e" location="row-9" cols="3" rows="3" hspacing="48 7 45" vspacing="8 86 6" height="51mm" width="94mm">
+					<sub-area id="page-b-3-e-1" location="cell-32" cols="1" rows="2" hspacing="100" vspacing="93 7" height="44mm" width="42mm"/>
+				</sub-area>
+				<sub-area id="page-b-3-f" location="row-11" cols="3" rows="1" hspacing="49 3 48" vspacing="100" height="15mm" width="94mm"/>
+			</sub-area>
+			<sub-area id="page-b-4" location="cell-82" cols="1" rows="15" hspacing="100" vspacing="4 18 3 4 4 3 18 3 3 3 4 8 3 3 19" height="199mm" width="94mm">
+				<sub-area id="page-b-4-b" location="row-2" cols="4" rows="1" hspacing="50 3 44 3" vspacing="100" height="36mm" width="94mm"/>
+				<sub-area id="page-b-4-c" location="row-5" cols="3" rows="1" hspacing="48 4 48" vspacing="100" height="8mm" width="94mm"/>
+				<sub-area id="page-b-4-d" location="row-7" cols="4" rows="1" hspacing="5 43 2 50" vspacing="100" height="36mm" width="94mm">
+					<sub-area id="page-b-4-d-1" location="col-2" cols="1" rows="2" hspacing="100" vspacing="8 92" height="36mm" width="40mm"/>
+				</sub-area>
+				<sub-area id="page-b-4-e" location="row-10" cols="3" rows="1" hspacing="48 4 48" vspacing="100" height="11mm" width="94mm"/>
+				<sub-area id="page-b-4-f" location="row-13" cols="3" rows="1" hspacing="48 4 48" vspacing="100" height="15mm" width="94mm"/>
+				<sub-area id="page-b-4-g" location="row-16" cols="3" rows="1" hspacing="48 4 48" vspacing="100" height="35mm" width="94mm"/>
+			</sub-area>
+		</area-root>
+	</area-model>
+</gemLayout>

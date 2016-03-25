@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gemLayout>
+	<segmentation><!-- Front and back covers -->
+		<layout-unit id="lay-1.01" xref="u-1.01"/>
+		<layout-unit id="lay-1.02" xref="u-1.02 u-1.03 u-1.04 u-1.05 u-1.06">
+			<layout-unit id="lay-1.02.1" xref="u-1.02"/>
+			<layout-unit id="lay-1.02.2" xref="u-1.03 u-1.04 u-1.05 u-1.06"/>
+		</layout-unit>
+		<layout-unit id="lay-1.03" xref="u-1.07"/>
+		<layout-unit id="lay-1.04" xref="u-1.08 u-1.09">
+			<layout-unit id="lay-1.04.1" xref="u-1.08"/>
+			<layout-unit id="lay-1.04.2" xref="u-1.09"/>
+		</layout-unit>
+		<layout-unit id="lay-1.05" xref="u-1.10"/>
+		<layout-unit id="lay-1.06" xref="u-1.11"/>
+		<layout-unit id="lay-1.07" xref="u-1.12"/>
+		<!-- Pages 1-2 -->
+		<layout-unit id="lay-2.01" xref="u-2.01"/>
+		<layout-unit id="lay-2.02" xref="u-2.02 u-2.03">
+			<layout-unit id="lay-2.02.1" xref="u-2.02.1"/>
+			<layout-unit id="lay-2.02.2" xref="u-2.02.2"/>
+		</layout-unit>
+		<layout-unit id="lay-2.03" xref="u-2.04 u-2.05">
+			<layout-unit id="lay-2.03.1" xref="u-2.05.1"/>
+			<layout-unit id="lay-2.03.2" xref="u-2.05.2"/>
+			<layout-unit id="lay-2.03.3" xref="u-2.05.3"/>
+		</layout-unit>
+		<layout-unit id="lay-2.04" xref="u-2.06 u-2.07 u-2.08 u-2.09 u-2.10 u-2.11 u-2.12">
+			<layout-unit id="lay-2.04.1" xref="u-2.10.1"/>
+			<layout-unit id="lay-2.04.2" xref="u-2.11.1"/>
+			<layout-unit id="lay-2.04.3" xref="u-2.11.2"/>
+		</layout-unit>
+		<layout-unit id="lay-2.05" xref="u-2.13 u-2.14 u-2.15">
+			<layout-unit id="lay-2.05.1" xref="u-2.14.1"/>
+			<layout-unit id="lay-2.05.2" xref="u-2.14.2"/>
+		</layout-unit>
+		<layout-unit id="lay-2.06" xref="u-2.16 u-2.17">
+			<layout-unit id="lay-2.06.1" xref="u-2.16.1"/>
+			<layout-unit id="lay-2.06.2" xref="u-2.16.2"/>
+			<layout-unit id="lay-2.06.3" xref="u-2.16.3"/>
+			<layout-unit id="lay-2.06.4" xref="u-2.16.4"/>
+			<layout-unit id="lay-2.06.5" xref="u-2.16.5"/>
+		</layout-unit>
+		<layout-unit id="lay-2.07" xref="u-2.18 u-2.19 u-2.20 u-2.21 u-2.22 u-2.23 u-2.24 u-2.25">
+			<layout-unit id="lay-2.07.1" xref="u-2.20.1"/>
+			<layout-unit id="lay-2.07.2" xref="u-2.21.1"/>
+			<layout-unit id="lay-2.07.3" xref="u-2.21.2"/>
+			<layout-unit id="lay-2.07.4" xref="u-2.23.1"/>
+			<layout-unit id="lay-2.07.5" xref="u-2.23.2"/>
+			<layout-unit id="lay-2.07.6" xref="u-2.24.1"/>
+		</layout-unit>
+		<layout-unit id="lay-2.08" xref="u-2.26 u-2.27 u-2.28 u-2.29 u-2.30 u-2.31">
+			<layout-unit id="lay-2.08.1" xref="u-2.27.1"/>
+			<layout-unit id="lay-2.08.2" xref="u-2.30.1"/>
+			<layout-unit id="lay-2.08.3" xref="u-2.30.2"/>
+			<layout-unit id="lay-2.08.4" xref="u-2.31.1"/>
+			<layout-unit id="lay-2.08.5" xref="u-2.31.2"/>
+		</layout-unit>
+		<layout-unit id="lay-2.09" xref="u-2.32.1"/>
+		<layout-unit id="lay-2.10" xref="u-2.32.2 u-2.33 u-2.34 u-2.35 u-2.36 u-2.37 u-2.38 u-2.39 u-2.40 u-2.41 u-2.42">
+			<layout-unit id="lay-2.10.1" xref="u-2.33.1"/>
+			<layout-unit id="lay-2.10.2" xref="u-2.33.2"/>
+			<layout-unit id="lay-2.10.3" xref="u-2.38.1"/>
+			<layout-unit id="lay-2.10.4" xref="u-2.38.2"/>
+		</layout-unit>
+		<layout-unit id="lay-2.11" xref="u-2.43 u-2.44 u-2.45 u-2.46 u-2.47 u-2.48">
+			<layout-unit id="lay-2.11.1" xref="u-2.43.1"/>
+			<layout-unit id="lay-2.11.2" xref="u-2.43.2"/>
+			<layout-unit id="lay-2.11.3" xref="u-2.44.1"/>
+			<layout-unit id="lay-2.11.4" xref="u-2.44.2"/>
+			<layout-unit id="lay-2.11.5" xref="u-2.44.3"/>
+			<layout-unit id="lay-2.11.6" xref="u-2.44.4"/>
+		</layout-unit>
+		<layout-unit id="lay-2.12" xref="u-2.49 u-2.50 u-2.51 u-2.52 u-2.53 u-2.54 u-2.55 u-2.56 u-2.57">
+			<layout-unit id="lay-2.12.1" xref="u-2.49.1"/>
+			<layout-unit id="lay-2.12.2" xref="u-2.52.1"/>
+			<layout-unit id="lay-2.12.3" xref="u-2.54.1"/>
+			<layout-unit id="lay-2.12.4" xref="u-2.54.2"/>
+			<layout-unit id="lay-2.12.5" xref="u-2.56.1"/>
+		</layout-unit>
+		<layout-unit id="lay-2.13" xref="u-2.58 u-2.59.1"/>
+		<layout-unit id="lay-2.14" xref="u-2.59.2 u-2.60 u-2.61 u-2.62 u-2.63">
+			<layout-unit id="lay-2.14.1" xref="u-2.59.3"/>
+			<layout-unit id="lay-2.14.2" xref="u-2.63.1"/>
+		</layout-unit>
+		<layout-unit id="lay-2.15" xref="u-2.64 u-2.65">
+			<layout-unit id="lay-2.15.1" xref="u-2.64.1"/>
+			<layout-unit id="lay-2.15.2" xref="u-2.65.1"/>
+		</layout-unit>
+		<layout-unit id="lay-2.16" xref="u-2.66 u-2.67 u-2.68">
+			<layout-unit id="lay-2.16.1" xref="u-2.66.1"/>
+			<layout-unit id="lay-2.16.2" xref="u-2.66.2"/>
+		</layout-unit>
+		<layout-unit id="lay-2.17" xref="u-2.69 u-2.70 u-2.71 u-2.72 u-2.73 u-2.74 u-2.75">
+			<layout-unit id="lay-2.17.1" xref="u-2.69.1"/>
+			<layout-unit id="lay-2.17.2" xref="u-2.69.2"/>
+			<layout-unit id="lay-2.17.3" xref="u-2.73.1"/>
+			<layout-unit id="lay-2.17.4" xref="u-2.73.2"/>
+			<layout-unit id="lay-2.17.5" xref="u-2.73.3"/>
+		</layout-unit>
+		<layout-unit id="lay-2.18" xref="u-2.76 u-2.77 u-2.78">
+			<layout-unit id="lay-2.18.1" xref="u-2.76.1"/>
+			<layout-unit id="lay-2.18.2" xref="u-2.76.2"/>
+		</layout-unit>
+	</segmentation>
+	<layout-structure>
+		<layout-root id="wth-1983-l-cover" orientation="portrait">
+			<layout-chunk id="back-cover" location="multi" area-ref="page-a-back">
+			<layout-leaf xref="lay-1.01" location="row-2" area-ref="page-a-back" valign="left"/>
+			<layout-chunk id="publisher-and-contact-info" location="multi" area-ref="page-a-back">
+			<layout-leaf xref="lay-1.02.1" location="col-1" area-ref="page-a-back-b" valign="left"/>
+			<layout-leaf xref="lay-1.02.2" location="col-2" area-ref="page-a-back-b" valign="left" halign="top"/>
+			</layout-chunk>
+			<layout-leaf xref="lay-1.03" location="row-4" area-ref="page-a-back" valign="right" halign="top"/>
+			</layout-chunk>
+			<layout-chunk id="front-cover" location="multi" area-ref="page-a-front">
+			<layout-chunk id="title-and-illustration" location="multi" area-ref="page-a-front">
+			<layout-chunk id="title" location="multi" area-ref="page-a-front-c">
+			<layout-leaf xref="lay-1.04.1" location="col-2" area-ref="page-a-front-c-1"/>
+			<layout-leaf xref="lay-1.04.2" location="col-2" area-ref="page-a-front-c-2" valign="left"/>
+			</layout-chunk>
+			<layout-leaf xref="lay-1.05" location="row-2" area-ref="page-a-front-d" halign="top"/>
+			</layout-chunk>
+			<layout-leaf xref="lay-1.06" location="row-4" area-ref="page-a-front-c" halign="top" valign="left"/>
+			<layout-leaf xref="lay-1.07" location="row-3" area-ref="page-a-front"/>
+			</layout-chunk>
+		</layout-root>
+		<layout-root id="wth-1983-l-pages-1-2" orientation="portrait">
+			<layout-chunk id="page-1" location="multi" area-ref="page-a-1">
+				<layout-leaf xref="lay-2.01" location="col-2" area-ref="page-a-1-b"/>
+				<layout-chunk id="page-1-column-left" location="row-1" area-ref="page-a-1-c">
+					<layout-leaf xref="lay-2.02" location="row-1" area-ref="page-a-1-c"/>
+					<layout-leaf xref="lay-2.03" location="row-1" area-ref="page-a-1-c"/>
+					<layout-leaf xref="lay-2.04" location="row-1" area-ref="page-a-1-c"/>
+					<layout-leaf xref="lay-2.05" location="row-1" area-ref="page-a-1-c"/>
+				</layout-chunk>
+				<layout-chunk id="page-1-column-right" location="row-3" area-ref="page-a-1-c">
+					<layout-leaf xref="lay-2.06" location="row-3" area-ref="page-a-1-c"/>
+					<layout-leaf xref="lay-2.07" location="row-3" area-ref="page-a-1-c"/>
+					<layout-leaf xref="lay-2.08" location="row-3" area-ref="page-a-1-c"/>
+					<layout-leaf xref="lay-2.09" location="row-3" area-ref="page-a-1-c"/>
+				</layout-chunk>
+			</layout-chunk>
+			<layout-chunk id="page-2" location="multi" area-ref="page-a-2">
+				<layout-chunk id="page-2-column-left" location="row-1" area-ref="page-a-2-b">
+					<layout-leaf xref="lay-2.10" location="row-1" area-ref="page-a-2-b"/>
+					<layout-leaf xref="lay-2.11" location="row-1" area-ref="page-a-2-b"/>
+					<layout-leaf xref="lay-2.12" location="row-1" area-ref="page-a-2-b"/>
+					<layout-leaf xref="lay-2.13" location="row-1" area-ref="page-a-2-b"/>
+				</layout-chunk>
+				<layout-chunk id="page-2-column-right" location="row-3" area-ref="page-a-2-b">
+					<layout-leaf xref="lay-2.14" location="row-3" area-ref="page-a-2-b"/>
+					<layout-leaf xref="lay-2.15" location="row-3" area-ref="page-a-2-b"/>
+					<layout-leaf xref="lay-2.16" location="row-3" area-ref="page-a-2-b"/>
+					<layout-leaf xref="lay-2.17" location="row-3" area-ref="page-a-2-b"/>
+					<layout-leaf xref="lay-2.18" location="row-3" area-ref="page-a-2-b"/>
+				</layout-chunk>
+			</layout-chunk>
+		</layout-root>
+	</layout-structure>
+	<area-model>
+		<area-root id="wth-1983-a-cover" cols="4" rows="1" hspacing="3 45 2 50" vspacing="100" height="294mm" width="418mm">
+			<sub-area id="page-a-back" location="col-2" cols="1" rows="4" hspacing="100" vspacing="88 2 7 3" height="294mm" width="187mm">
+				<sub-area id="page-a-back-b" location="row-3" cols="2" rows="1" hspacing="10 90" vspacing="100" width="187mm" height="21mm"/>
+			</sub-area>
+			<sub-area id="page-a-front" location="col-4" cols="1" rows="3" hspacing="100" vspacing="10 13 77" height="294mm" width="209mm">
+				<sub-area id="page-a-front-b" location="row-2" cols="3" rows="1" hspacing="84 14 2" vspacing="100" height="38mm" width="209mm">
+					<sub-area id="page-a-front-c" location="col-1" cols="1" rows="4" hspacing="100" vspacing="31 33 18 18" height="38mm" width="177mm">
+						<sub-area id="page-a-front-c-1" location="row-1" cols="2" rows="1" hspacing="20 80" vspacing="100" height="12mm" width="177mm"/>
+						<sub-area id="page-a-front-c-2" location="row-2" cols="2" rows="1" hspacing="23 77" vspacing="100" height="13mm" width="177mm"/>
+					</sub-area>
+					<sub-area id="page-a-front-d" location="col-2" cols="1" rows="2" hspacing="100" vspacing="31 69" width="32mm" height="38mm"/>
+				</sub-area>
+			</sub-area>
+		</area-root>
+		<area-root id="wth-1983-a-pages-1-2" cols="5" rows="1" hspacing="3 44 6 44 3" vspacing="100" height="294mm" width="418mm">
+			<sub-area id="page-a-1" location="col-2" cols="1" rows="5" hspacing="100" vspacing="16 4 14 60 6" height="294mm" width="185mm">
+				<sub-area id="page-a-1-b" location="row-2" cols="3" rows="1" hspacing="9 80 11" vspacing="100" height="13mm" width="185mm"/>
+				<sub-area id="page-a-1-c" location="row-4" cols="3" rows="1" hspacing="48 4 48" vspacing="100" height="179mm" width="185mm"/>
+			</sub-area>
+			<sub-area id="page-a-2" location="col-4" cols="1" rows="3" hspacing="100" vspacing="7 69 24" height="294mm" width="185mm">
+				<sub-area id="page-a-2-b" location="row-2" cols="3" rows="1" hspacing="48 4 48" vspacing="100" height="204mm" width="185mm"/>
+			</sub-area>
+		</area-root>
+	</area-model>
+	<realization>
+		<chunk xref="wth-1983-l-cover wth-1983-l-pages-1-2" background-color="#FFFE7F"/>
+		<graphics xref="lay-1.01" type="two-d-element" two-d-element-type="line" colors="black" width="187mm"/>
+		<text xref="lay-1.03" font-family="sans-serif" font-size="4" font-style="normal" font-weight="normal" case="mixed" color="black"/>
+		<text xref="lay-1.04.1" font-family="sans-serif" font-size="20" font-style="italic" font-weight="normal" case="mixed" color="red"/>
+		<text xref="lay-1.04.2" font-family="sans-serif" font-size="26" font-style="italic" font-weight="bold" case="caps" color="red"/>
+		<graphics xref="lay-1.05" type="two-d-element" two-d-element-type="icon" colors="red" width="26mm" height="26mm"/>
+		<text xref="lay-1.06" font-family="sans-serif" font-size="4" font-style="normal" font-weight="normal" case="caps" color="black"/>
+		<graphics xref="lay-1.07" type="map" colors="mixed" width="208mm" height="228mm"/>
+		<text xref="lay-2.01" font-family="sans-serif" font-size="26" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<text xref="lay-1.02 lay-2.02 lay-2.03 lay-2.04 lay-2.05 lay-2.06 lay-2.07 lay-2.08 lay-2.09 lay-2.10 lay-2.11 lay-2.12 lay-2.13 lay-2.14 lay-2.15 lay-2.16 lay-2.17 lay-2.18" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black"/>
+		<hi-text xref="lay-2.02.1" context="lay-2.02" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.02.2" context="lay-2.02" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.03.1" context="lay-2.03" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.03.2" context="lay-2.03" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.03.3" context="lay-2.03" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.04.1" context="lay-2.04" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.04.1" context="lay-2.04" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.04.2" context="lay-2.04" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.05.1" context="lay-2.05" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.05.2" context="lay-2.05" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.06.1" context="lay-2.06" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.06.2" context="lay-2.06" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.06.3" context="lay-2.06" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.07.1" context="lay-2.07" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.07.2" context="lay-2.07" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.07.3" context="lay-2.07" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.07.4" context="lay-2.07" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.07.5" context="lay-2.07" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.07.6" context="lay-2.07" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.08.1" context="lay-2.08" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.08.2" context="lay-2.08" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.08.3" context="lay-2.08" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.08.4" context="lay-2.08" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.08.5" context="lay-2.08" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.10.1" context="lay-2.10" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.10.2" context="lay-2.10" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.10.3" context="lay-2.10" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.10.4" context="lay-2.10" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.11.1" context="lay-2.11" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.11.2" context="lay-2.11" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.11.3" context="lay-2.11" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.11.4" context="lay-2.11" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.11.5" context="lay-2.11" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.11.6" context="lay-2.11" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.12.1" context="lay-2.12" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.12.2" context="lay-2.12" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.12.3" context="lay-2.12" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.12.4" context="lay-2.12" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.12.5" context="lay-2.12" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.14.1" context="lay-2.14" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.14.2" context="lay-2.14" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.15.1" context="lay-2.15" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.15.2" context="lay-2.15" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.16.1" context="lay-2.16" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.16.2" context="lay-2.16" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.17.1" context="lay-2.17" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.17.2" context="lay-2.17" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.17.3" context="lay-2.17" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.17.4" context="lay-2.17" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.17.5" context="lay-2.17" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+		<hi-text xref="lay-2.18.1" context="lay-2.18" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="caps" color="black"/>
+		<hi-text xref="lay-2.18.2" context="lay-2.18" font-family="sans-serif" font-size="6" font-style="italic" font-weight="normal" case="mixed" color="black" background-color="red"/>
+	</realization>
+</gemLayout>
