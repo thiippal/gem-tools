@@ -6,32 +6,68 @@
 # IMPORT THE NECESSARY PACKAGES
 # -----------------------------
 
-# Computer vision
-import cv2
-import mahotas
-import numpy as np
-import imutils
-
-# Optical character recognition
-import pytesser
-
-# Natural language processing
-import nltk
-
-# Logging
+# From Python site packages
+import sys
 import logging
 import warnings
 from logging import FileHandler
-from vlogging import VisualRecord
-
-# Connected-component analysis
-from skimage import measure
-
-# Machine learning
 import pickle
 
-from sklearn.cross_validation import train_test_split
-from sklearn.ensemble import RandomForestClassifier
+# OpenCV 2.4.* for general computer vision tasks
+try:
+    import cv2
+except ImportError:
+    sys.exit("Module OpenCV not found ... aborting.")
+
+# Mahotas for Haralick textures
+try:
+    import mahotas
+except ImportError:
+    sys.exit("Module Mahotas not found ... aborting.")
+
+# NumPy
+try:
+    import numpy as np
+except ImportError:
+    sys.exit("Module NumPy not found ... aborting.")
+
+# Imutils for additional convenience functions for OpenCV
+try:
+    import imutils
+except ImportError:
+    sys.exit("Module imutils not found ... aborting.")
+
+# Optical character recognition
+try:
+    import pytesser
+except ImportError:
+    sys.exit("Module pytesser not found ... aborting.")
+
+# Natural Language Toolkit for NLP tasks
+try:
+    import nltk
+except ImportError:
+    sys.exit("Module nltk not found ... aborting.")
+
+# visual-logging for visual logs
+try:
+    from vlogging import VisualRecord
+except ImportError:
+    sys.exit("Module vlogging not found ... aborting.")
+
+# scikit-image for connected-component analysis
+try:
+    from skimage import measure
+except ImportError:
+    sys.exit("Module skimage not found ... aborting.")
+
+# scikit-learn for machine learning
+try:
+    from sklearn.cross_validation import train_test_split
+    from sklearn.ensemble import RandomForestClassifier
+except ImportError:
+    sys.exit("Module sklearn not found ... aborting.")
+
 
 # --------------
 # SET UP LOGGING
@@ -51,46 +87,49 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 # DEFINE FUNCTIONS
 # ----------------
 
-
-##############################
-# Classify regions of interest
-##############################
-
-
 def classify(contours, img, model):
+    """
+    Classify regions of interest detected in the input image.
 
-    """ Classifies the regions of interest detected in the input image. """
+    Args:
+        contours: A list of contours for the regions of interest to be classified.
+        img: The input image.
+        model: A model for classifying the contours.
+
+    Returns:
+        A dictionary of regions of interest and their types.
+    """
 
     # Work with a copy of the input image
     image = img.copy()
-    
+
     # Set up a dictionary for contour types
     contour_types = {}
 
     # Loop over the contours
     for number, contour in enumerate(contours):
-        
+
         # Extract the bounding box coordinates
         (x, y, w, h) = cv2.boundingRect(contour)
-        
+
         # Extract the region of interest from the image
-        bounding_box = image[y:y+h, x:x+w]
+        bounding_box = image[y:y + h, x:x + w]
         # Describe the features of the bounding box
         features = describe(bounding_box)
         # Classify the bounding box
         prediction = model.predict(features)[0]
-    
+
         # Define the label size and position in the image
         # One digit
         if prediction == 'text' and len(str(number)) == 1:
             if x < image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 217, 87), 1)
                 cv2.rectangle(image, (x + w, y), (x + w + 20, y + 20), (85, 217, 87), -1)
-                cv2.putText(image, str(number), (x+w+3, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x + w + 3, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
             if x > image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 217, 87), 1)
                 cv2.rectangle(image, (x - 20, y - 16), (w, y), (85, 217, 87), -1)
-                cv2.putText(image, str(number), (x-30, y+20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x - 30, y + 20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
             # Add the classification to the dictionary
             contour_types[number] = prediction
 
@@ -99,11 +138,11 @@ def classify(contours, img, model):
             if x < image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 217, 87), 1)
                 cv2.rectangle(image, (x + w, y), (x + w + 35, y + 20), (85, 217, 87), -1)
-                cv2.putText(image, str(number), (x+w+3, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x + w + 3, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
             if x > image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 217, 87), 1)
-                cv2.rectangle(image, (x, y), (x-32, y+20), (85, 217, 87), -1)
-                cv2.putText(image, str(number), (x-30, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                cv2.rectangle(image, (x, y), (x - 32, y + 20), (85, 217, 87), -1)
+                cv2.putText(image, str(number), (x - 30, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
             # Add the classification to the dictionary
             contour_types[number] = prediction
 
@@ -112,11 +151,11 @@ def classify(contours, img, model):
             if x < image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 87, 217), 1)
                 cv2.rectangle(image, (x + w, y), (x + w + 20, y + 20), (85, 87, 217), -1)
-                cv2.putText(image, str(number), (x+w+3, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x + w + 3, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
             if x > image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 87, 217), 1)
                 cv2.rectangle(image, (x - 20, y - 16), (w, y), (85, 87, 217), -1)
-                cv2.putText(image, str(number), (x-30, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x - 30, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
             # Add the classification to the dictionary
             contour_types[number] = prediction
 
@@ -125,11 +164,11 @@ def classify(contours, img, model):
             if x < image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 87, 217), 1)
                 cv2.rectangle(image, (x + w, y), (x + w + 35, y + 20), (85, 87, 217), -1)
-                cv2.putText(image, str(number), (x+w+5, y+20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                cv2.putText(image, str(number), (x + w + 5, y + 20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
             if x > image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 87, 217), 1)
-                cv2.rectangle(image, (x, y), (x-32, y+20), (85, 87, 217), -1)
-                cv2.putText(image, str(number), (x-30, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                cv2.rectangle(image, (x, y), (x - 32, y + 20), (85, 87, 217), -1)
+                cv2.putText(image, str(number), (x - 30, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
             # Add the classification to the dictionary
             contour_types[number] = prediction
 
@@ -139,49 +178,46 @@ def classify(contours, img, model):
     # Return the dictionaries
     return contours, contour_types
 
-###########################
-# Define a visual log entry
-###########################
-
-
-def vlog(image, title):
-
-    """ Creates entries for the visual log. """
-
-    logger.debug(VisualRecord(title, image, fmt='png'))
-
-#############################################################
-# Describe images using color statistics and Haralick texture
-#############################################################
-
+    # TODO Does this function have to return a list of contours?
 
 def describe(image):
+    """
+    Describe the input image using colour statistics and Haralick texture.
 
-    """ Describes the input image using colour statistics and Haralick texture. Returns a numpy array. """
+    Args:
+        image: The image to be described.
+
+    Returns:
+        A horizontally stacked numpy array consisting of colour statistics and Haralick texture.
+    """
 
     (means, stds) = cv2.meanStdDev(cv2.cvtColor(image, cv2.COLOR_BGR2HSV))
     colorstats = np.concatenate([means, stds]).flatten()
-    
+
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     haralick = mahotas.features.haralick(gray).mean(axis=0)
-    
+
     return np.hstack([colorstats, haralick])
 
-############################
-# Detect regions of interest
-############################
+def detect_roi(image, kernelsize, iterations):
+    """
+    Detect regions of interest in the input image.
 
+    Args:
+        image: The input image.
+        kernelsize: An (x, y) tuple determing kernel size for morphological operations.
+        iterations: An integer determining how many iterations are performed for morphological operations.
 
-def detect_roi(input, kernelsize):
-
-    """Detects regions of interest in the input image."""
+    Returns:
+        A list of contours for masking regions of interest in the image.
+    """
 
     # Log the input image
-    logger.debug("Image width: {}, height: {}".format(input.shape[1], input.shape[0]))
-    vlog(input, "Original image")
+    logger.debug("Image width: {}, height: {}".format(image.shape[1], image.shape[0]))
+    vlog(image, "Original image")
 
     # Convert the image to grayscale
-    gray = cv2.cvtColor(input, cv2.COLOR_BGR2GRAY)
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
     # Log the result
     vlog(gray, "Grayscale")
@@ -198,10 +234,10 @@ def detect_roi(input, kernelsize):
     vlog(blurred, "Bilaterally filtered")
 
     # Perform Otsu's thresholding
-    (T, thresholded) = cv2.threshold(blurred, 0, 255, cv2.THRESH_OTSU)
+    (t, thresholded) = cv2.threshold(blurred, 0, 255, cv2.THRESH_OTSU)
 
     # Log the result
-    logger.debug("Otsu's threshold: {}".format(T))
+    logger.debug("Otsu's threshold: {}".format(t))
     vlog(thresholded, "Thresholded")
 
     # Define a kernel
@@ -215,24 +251,23 @@ def detect_roi(input, kernelsize):
     vlog(gradient, "Morphological gradient applied")
 
     # Erode the image twice
-    eroded = cv2.erode(gradient, None, iterations=2)
+    eroded = cv2.erode(gradient, None, iterations=iterations)
 
     # Log the result
     vlog(eroded, "Morphological gradient eroded")
 
     # Perform connected components analysis
-    labels = measure.label(eroded, neighbors=8, background = 0)
+    labels = measure.label(eroded, neighbors=8, background=0)
     gradient_mask = np.zeros(eroded.shape, dtype="uint8")
 
     # Loop over the labels
-    # The *numpixels* parameter could be included in the function
     for (i, label) in enumerate(np.unique(labels)):
         if label == -1:
             continue
         labelmask = np.zeros(gradient.shape, dtype="uint8")
         labelmask[labels == label] = 255
         numpixels = cv2.countNonZero(labelmask)
-    
+
         if numpixels > 90:
             gradient_mask = cv2.add(gradient_mask, labelmask)
 
@@ -258,30 +293,34 @@ def detect_roi(input, kernelsize):
 
     return maskcontours
 
-###################################
-# Draw regions of interest manually
-###################################
+def draw_roi(img, contours, contour_types):
+    """
+    Draw regions of interest manually on an image using OpenCV GUI.
 
+    Args:
+        img: Input image.
+        contours: A list of contours.
+        contour_types: A list of contour types (text, photo).
 
-def draw_roi(img, updated_contours, updated_contour_types):
+    Returns:
+        Updated lists of contours and contour types.
+    """
 
-    """ Draw regions of interest manually. """
-    
     # Work with a copy of the input image
     image = img.copy()
-    
+
     # Resize the image
     image = imutils.resize(image, height=700)
-    
+
     # Calculate the aspect ratio
     ratio = float(image.shape[1]) / img.shape[1]
-    
+
     # Update the contours by multiplying them by the ratio.
-    for c in updated_contours:
+    for c in contours:
         c[0], c[1], c[2], c[3] = c[0] * ratio, c[1] * ratio, c[2] * ratio, c[3] * ratio
-    
+
     # Draw the contours on the image
-    for ctype, contour in zip(updated_contour_types.values(), updated_contours):
+    for ctype, contour in zip(contour_types.values(), contours):
 
         # Extract the bounding box
         (x, y, w, h) = cv2.boundingRect(contour)
@@ -294,36 +333,37 @@ def draw_roi(img, updated_contours, updated_contour_types):
 
     # Create a clone for cancelling input
     clone = image.copy()
-    
+
     # Set drawing mode to false
     drawing = False
-    
+
     # Set graphics mode to false
     graphics = False
-    
+
     # Set up a list for coordinates
     refpt = []
-    
+
     # Set up a list for contours
     drawn_boxes = []
 
     # Define the mouse event / drawing function
     def draw(event, x, y, flags, param):
         global refpt, drawing, ccounter
-        
-        ccounter = int(len(updated_contour_types) + 1)
+
+        ccounter = int(len(contour_types) + 1)
 
         if event == cv2.EVENT_LBUTTONDOWN:
             refpt = [(x, y)]
             drawing = True
-    
+
         elif event == cv2.EVENT_LBUTTONUP:
             refpt.append((x, y))
             drawing = False
-            
+
             # Construct a contour from the coordinates
-            box = np.array([[[refpt[0][0], refpt[0][1]]], [[refpt[0][0], refpt[1][1]]], [[refpt[1][0], refpt[1][1]]], [[refpt[1][0], refpt[0][1]]]], dtype="int32")
-            
+            box = np.array([[[refpt[0][0], refpt[0][1]]], [[refpt[0][0], refpt[1][1]]], [[refpt[1][0], refpt[1][1]]],
+                            [[refpt[1][0], refpt[0][1]]]], dtype="int32")
+
             # Check if graphics mode is active
             if graphics:
                 # Draw a bounding box for graphics
@@ -331,46 +371,46 @@ def draw_roi(img, updated_contours, updated_contour_types):
                 # Append the contour to the list of contours and contour types
                 drawn_boxes.append(box)
                 # Add the contour type to the dictionary
-                updated_contour_types[str(ccounter)] = 'photo'
+                contour_types[str(ccounter)] = 'photo'
                 # Update the counter
                 ccounter += 1
-            
+
             else:
                 # Draw a bounding box for text
                 cv2.rectangle(image, refpt[0], refpt[1], (85, 217, 87), 1)
                 # Append the contour to the list of contours and contour types
                 drawn_boxes.append(box)
                 # Add the contour type to the dictionary
-                updated_contour_types[str(ccounter)] = 'text'
+                contour_types[str(ccounter)] = 'text'
                 # Update the counter
                 ccounter += 1
-            
+
             # Display the image to show the drawn
             cv2.imshow("Draw regions of interest", image)
 
     # Create GUI window and assign the mouse event function
     cv2.namedWindow("Draw regions of interest", flags=cv2.cv.CV_WINDOW_NORMAL)
     cv2.setMouseCallback("Draw regions of interest", draw)
-    
+
     # Show the document image
     while True:
         cv2.imshow("Draw regions of interest", image)
         key = cv2.waitKey(0)
-        
+
         # Press 'r' to reset the image
         if key == ord('r'):
             image = clone.copy()
-            
+
             # Check if any regions of interest have been designated
             if len(drawn_boxes) >= 1:
                 del drawn_boxes[-1]
             else:
                 continue
-    
+
         # Press 'g' to switch to graphics mode
         if key == ord('g'):
             graphics = True
-        
+
         # Press 't' to switch to graphics mode
         if key == ord('t'):
             graphics = False
@@ -385,133 +425,189 @@ def draw_roi(img, updated_contours, updated_contour_types):
     cv2.destroyAllWindows()
 
     # Add the manually drawn boxes to the contour array
-    updated_contours = np.append(updated_contours, drawn_boxes, axis=0)
+    contours = np.append(contours, drawn_boxes, axis=0)
 
     # Return the contours to their original size
     nratio = float(img.shape[1]) / image.shape[1]
-    
+
     # Update the contours by multiplying them by the ratio.
-    for c in updated_contours:
+    for c in contours:
         c[0], c[1], c[2], c[3] = c[0] * nratio, c[1] * nratio, c[2] * nratio, c[3] * nratio
 
-    return updated_contours, updated_contour_types
-
-####################
-# Extract base units
-####################
-
+    return contours, contour_types
 
 def extract_bu(original, x, w, y, h, num):
+    """
+    Extract base units from layout units consisting of written text.
 
-    """ Extracts base units from layout units consisting of written text. """
-    
-    # Get the dimensions of the input image
-    oh = original.shape[0]
-    ow = original.shape[1]
-    
+    Args:
+        original: The input image.
+        x: X-coordinate of the bounding box.
+        w: Width of the bounding box.
+        y: Y-coordinate of the bounding box.
+        h: Height of the bounding box.
+        num: The number of contour.
+
+    Returns:
+        The layout unit identifier and the base units contained within it.
+    """
+
     # Extract the region defined by the bounding box
-    roi = original[y:y+h, x:x+w]
-    
+    roi = original[y: y + h, x: x + w]
+
     # Convert the region of interest into grayscale
     gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
-    
+
     # Perform thresholding using Otsu's method
-    (T, thresholded) = cv2.threshold(gray, 0, 255, cv2.THRESH_OTSU)
-    
+    (t, thresholded) = cv2.threshold(gray, 0, 255, cv2.THRESH_OTSU)
+
     # Resize the thresholded image to 200% of the original
     resized = imutils.resize(thresholded, width=2 * w)
-    
+
     # Feed the resized image to Pytesser
     content = pytesser.mat_to_string(resized)
     unicode_content = unicode(content, 'utf-8')
-    
+
     # Tokenize sentences for base units
     bu = tokenize(unicode_content)
-    
+
     # Return the extracted base units
     return num, bu
 
-#################################
-# Generate layout unit annotation
-#################################
+def false_positives(fp_list):
+    """
+    Mark false positives among the detected contours.
 
+    Args:
+        fp_list: A list of identifiers for their contours.
 
-def generate_text(original, x, w, y, h, num, base_layout_mapping):
+    Returns:
+        A list of false positives.
+    """
+    # Check if the user marked any false positives.
+    if len(fp_list) == 0:
+        return
 
-    """ Generates XML annotation for textual layout units. """
-    
-    # Get the dimensions of the input image
-    oh = original.shape[0]
-    ow = original.shape[1]
+    else:
+        # Set up a list for false positives.
+        false_positives = []
 
-    # Extract the region defined by the bounding box
-    roi = original[y:y+h, x:x+w]
-    
-    # Save the extracted region into a file
-    roi_path = 'output/' + str(num + 1) + '_text' + '_' + str(y) + '_' + str(y+h) + '_' + str(x) + '_' + str(x+w)
-    # cv2.imwrite("%s.png" % roi_path, roi)
-    
-    # Fetch the base units from the dictionary for cross-referencing and append them to the list
-    xrefs = []
-    for base_id, layout_xref in base_layout_mapping.items():
-        if layout_xref == num:
-            xrefs.append(base_id)
-    
-    # Generate annotation for the layout unit segmentation
-    lu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" src="' + str(roi_path) + '.png" xref="' + ' '.join(xrefs) + '" ' + 'location="sa-1.' + str(num + 1) + '"/>\n'
-    
-    # Generate annotation for the area model
-    sa = '\t\t<sub-area id="sa-1.' + str(num + 1) + '" ' + 'bbox="' + str(float(x)/ow) + ' ' + str(float(y)/oh) + ' ' + str(float(x + w)/ow) + ' ' + str(float(y + h)/oh) + '"' + '/>\n'
-    
-    # Generate annotation for the realization information
-    re = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="text"/>\n'
-    
-    # Return the annotation
-    return lu, sa, re
+        # Loop over the false positives and delete their entries from the dictionaries.
+        for fp in fp_list.split():
+            key = int(fp)
+            false_positives.append(key)
 
+    # Return the list of false positives.
+    return false_positives
 
 def generate_photo(original, x, w, y, h, num, base_layout_mapping):
+    """
+    Generate XML annotation for graphical layout units.
 
-    """ Generates XML annotation for graphical layout units. """
-    
+    Args:
+        original: The input image.
+        x: X-coordinate of the bounding box.
+        w: Width of the bounding box.
+        y: Y-coordinate of the bounding box.
+        h: Height of the bounding box.
+        num: The number of contour.
+        base_layout_mapping: A dictionary mapping the base units to the layout units.
+
+    Returns:
+        Annotations for layout segmentation, area model and realization information.
+    """
+
     # Get the dimensions of the input image
     oh = original.shape[0]
     ow = original.shape[1]
-    
+
     # Extract the region defined by the bounding box
-    roi = original[y:y+h, x:x+w]
-    
+    roi = original[y:y + h, x:x + w]
+
     # Save the extracted region into a file
-    roi_path = 'output/' + str(num+1) + '_photo' + '_' + str(y) + '_' + str(y+h) + '_' + str(x) + '_' + str(x+w)
+    roi_path = 'output/' + str(num + 1) + '_photo' + '_' + str(y) + '_' + str(y + h) + '_' + str(x) + '_' + str(x + w)
     # cv2.imwrite("%s.png" % roi_path, roi)
 
     # Fetch the base units from the dictionary for cross-referencing and append them to the list
-    xrefs = []
+    base_xref = []
     for base_id, layout_xref in base_layout_mapping.items():
         if layout_xref == num:
-            xrefs.append(base_id)
+            base_xref.append(base_id)
 
     # Generate annotation for the layout unit segmentation
-    vlu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" alt="Photo" src="' + str(roi_path) + '.png" xref="' + ' '.join(xrefs) + '"/>\n'
+    vlu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" alt="Photo" src="' + str(roi_path) \
+          + '.png" xref="' + ' '.join(base_xref) + '"/>\n'
 
     # Generate annotation for the area model
-    vsa = '\t\t<sub-area id="sa-1.' + str(num + 1) + '" ' + 'bbox="' + str(float(x)/ow) + ' ' + str(float(y)/oh) + ' ' + str(float(x + w)/ow) + ' ' + str(float(y + h)/oh) + '"' + '/>\n'
+    vsa = '\t\t<sub-area id="sa-1.' + str(num + 1) + '" ' + 'bbox="' + str(float(x) / ow) \
+          + ' ' + str(float(y) / oh) + ' ' + str(float(x + w) / ow) + ' ' + str(float(y + h) / oh) + '"' + '/>\n'
 
     # Generate annotation for the realization information
-    vre = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="photo" width="' + str(float(w) / ow) + '" height="' + str(float(h) / oh) + '"/>\n'
+    vre = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="photo" width="' \
+          + str(float(w) / ow) + '" height="' + str(float(h) / oh) + '"/>\n'
 
     # Return the annotation
     return vlu, vsa, vre
 
-############################
-# Pre-process the input image
-############################
+def generate_text(original, x, w, y, h, num, base_layout_mapping):
+    """
+    Generate XML annotation for textual layout units.
 
+    Args:
+        original: The input image.
+        x: X-coordinate of the bounding box.
+        w: Width of the bounding box.
+        y: Y-coordinate of the bounding box.
+        h: Height of the bounding box.
+        num: The number of contour.
+        base_layout_mapping: A dictionary mapping the base units to the layout units.
+
+    Returns:
+        Annotations for layout segmentation, area model and realization information.
+    """
+
+    # Get the dimensions of the input image
+    oh = original.shape[0]
+    ow = original.shape[1]
+
+    # Extract the region defined by the bounding box
+    roi = original[y: y + h, x: x + w]
+
+    # Save the extracted region into a file
+    roi_path = 'output/' + str(num + 1) + '_text' + '_' + str(y) + '_' + str(y + h) + '_' + str(x) + '_' + str(x + w)
+    # cv2.imwrite("%s.png" % roi_path, roi)
+
+    # Fetch the base units from the dictionary for cross-referencing and append them to the list
+    base_xref = []
+    for base_id, layout_xref in base_layout_mapping.items():
+        if layout_xref == num:
+            base_xref.append(base_id)
+
+    # Generate annotation for the layout unit segmentation
+    lu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" src="' + str(roi_path) \
+         + '.png" xref="' + ' '.join(base_xref) + '" ' + 'location="sa-1.' + str(num + 1) + '"/>\n'
+
+    # Generate annotation for the area model
+    sa = '\t\t<sub-area id="sa-1.' + str(num + 1) + '" ' + 'bbox="' + str(float(x) / ow) \
+         + ' ' + str(float(y) / oh) + ' ' + str(float(x + w) / ow) + ' ' + str(float(y + h) / oh) + '"' + '/>\n'
+
+    # Generate annotation for the realization information
+    re = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="text"/>\n'
+
+    # Return the annotation
+    return lu, sa, re
 
 def preprocess(filepath):
+    """
+    Extracts basic information from the input file and resizes it to a canonical width of 1200px.
 
-    """ Resizes the input image to a canonical width of 1200 pixels. """
-    
+    Args:
+        filepath: A path to the image.
+
+    Returns:
+        The original image, its filename and path, and the resized image.
+    """
+
     # Read the input image
     input_image = cv2.imread(filepath)
 
@@ -519,42 +615,51 @@ def preprocess(filepath):
     filename = filepath.split('/')[1].split('.')[0]
 
     # Resize the image to a canonical width of 1200 pixels
-    preprocessed_image = imutils.resize(input_image, width = 1200)
-    
+    preprocessed_image = imutils.resize(input_image, width=1200)
+
     # Return the preprocessed image
     return preprocessed_image, input_image, filename, filepath
 
-##################
-# Project contours
-##################
-
-
 def project(image, original, contours):
+    """
+    Projects contours detected in the original image the new image.
 
-    """ Projects the detected contours on the high-resolution input image. """
-    
+    Args:
+        image: The image on which the contours are to be projected.
+        original: The original image used for detecting the initial list of contours.
+        contours: A list of contours in the original image.
+
+    Returns:
+        An updated list of contours.
+    """
+
     # Calculate the ratio for resizing the image.
     ratio = float(original.shape[1]) / image.shape[1]
-    
+
     # Update the contours by multiplying them by the ratio.
     for c in contours:
         c[0], c[1], c[2], c[3] = c[0] * ratio, c[1] * ratio, c[2] * ratio, c[3] * ratio
-    
+
     # Return the updated contours.
     return contours
 
-##########################
-# Redraw detected contours
-##########################
+def redraw(image, classified_contours, contour_types, fp_list):
+    """
+    Remove false positives and other errors and redraw the contours on the input image.
 
+    Args:
+        image: The input image.
+        classified_contours: A list of contours.
+        contour_types: A dictionary of contour types.
+        fp_list: A list of false positives.
 
-def redraw(img, classified_contours, contour_types, fp_list):
-
-    """ Redraws the detected contours. """
+    Returns:
+        Lists of updated contours and contour types.
+    """
 
     # Work with a copy of the input image
-    verimg = img.copy()
-    
+    verimg = image.copy()
+
     # Check if the false positives list contains values.
     if fp_list:
         # Loop over the list and pop out false positives.
@@ -566,17 +671,17 @@ def redraw(img, classified_contours, contour_types, fp_list):
 
         # Set up a counter for identifiers
         counter = 0
-        
+
         # Set up a dictionary for the updated list of contour types
         updated_contour_types = {}
-    
+
         for ctype, contour in zip(contour_types.values(), updated_contours):
             # Set up a counter for identifiers
             counter += 1
-        
+
             # Extract the bounding box
             (x, y, w, h) = cv2.boundingRect(contour)
-        
+
             # Define the label size and position in the image
             # Text, one digit
             if ctype == 'text' and len(str(counter)) == 1:
@@ -590,43 +695,43 @@ def redraw(img, classified_contours, contour_types, fp_list):
                     cv2.putText(verimg, str(counter), (x - 30, y + 20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
                 # Add the classification to the dictionary
                 updated_contour_types[counter] = ctype
-        
+
             # Text, two digits
             if ctype == 'text' and len(str(counter)) == 2:
                 if x < verimg.shape[0] / 2:
                     cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 217, 87), 1)
                     cv2.rectangle(verimg, (x + w, y), (x + w + 35, y + 20), (85, 217, 87), -1)
-                    cv2.putText(verimg, str(counter), (x+w+3, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                    cv2.putText(verimg, str(counter), (x + w + 3, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
                 if x > verimg.shape[0] / 2:
                     cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 217, 87), 1)
-                    cv2.rectangle(verimg, (x, y), (x-32, y+20), (85, 217, 87), -1)
-                    cv2.putText(verimg, str(counter), (x-30, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                    cv2.rectangle(verimg, (x, y), (x - 32, y + 20), (85, 217, 87), -1)
+                    cv2.putText(verimg, str(counter), (x - 30, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
                 # Add the classification to the dictionary
                 updated_contour_types[counter] = ctype
 
-        # Image, one digit
+                # Image, one digit
             if ctype == 'photo' and len(str(counter)) == 1:
                 if x < verimg.shape[0] / 2:
                     cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
                     cv2.rectangle(verimg, (x + w, y), (x + w + 20, y + 20), (85, 87, 217), -1)
-                    cv2.putText(verimg, str(counter), (x+w+3, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                    cv2.putText(verimg, str(counter), (x + w + 3, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
                 if x > verimg.shape[0] / 2:
                     cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
                     cv2.rectangle(verimg, (x - 20, y - 16), (w, y), (85, 87, 217), -1)
-                    cv2.putText(verimg, str(counter), (x-30, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                    cv2.putText(verimg, str(counter), (x - 30, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
                 # Add the classification to the dictionary
                 updated_contour_types[counter] = ctype
 
-        # Two digits
+                # Two digits
             if ctype == 'photo' and len(str(counter)) == 2:
                 if x < verimg.shape[0] / 2:
                     cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
                     cv2.rectangle(verimg, (x + w, y), (x + w + 35, y + 20), (85, 87, 217), -1)
-                    cv2.putText(verimg, str(counter), (x+w+5, y+20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                    cv2.putText(verimg, str(counter), (x + w + 5, y + 20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
                 if x > verimg.shape[0] / 2:
                     cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
-                    cv2.rectangle(verimg, (x, y), (x-32, y+20), (85, 87, 217), -1)
-                    cv2.putText(verimg, str(counter), (x-30, y+16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+                    cv2.rectangle(verimg, (x, y), (x - 32, y + 20), (85, 87, 217), -1)
+                    cv2.putText(verimg, str(counter), (x - 30, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
                 # Add the classification to the dictionary
                 updated_contour_types[counter] = ctype
 
@@ -638,37 +743,17 @@ def redraw(img, classified_contours, contour_types, fp_list):
     else:
         return
 
-########################
-# Remove false positives
-########################
-
-
-def false_positives(fps):
-    """ Marks false positives in the array of detected contours. """
-    # Check if the user marked any false positives.
-    if len(fps) == 0:
-        return
-    
-    else:
-        # Set up a list for false positives.
-        false_positives = []
-    
-    # Loop over the false positives and delete their entries from the dictionaries.
-        for fp in fps.split():
-            key = int(fp)
-            false_positives.append(key)
-
-    # Return the list of false positives.
-    return false_positives
-
-#####################################
-# Set up the Random Forest classifier
-#####################################
-
-
 def load_model():
-    """ Trains the Random Forest Classifier. """
-    
+    """
+    Train a Random Forest Classifier for classifying regions of interest into text and photos.
+
+    Args:
+        None.
+
+    Returns:
+        A Random Forest Classifier.
+    """
+
     # Load the data
     datafile = "model/data.db"
     td_file = open(datafile, 'r')
@@ -692,31 +777,17 @@ def load_model():
     # Return the model
     return model
 
-####################
-# Tokenize sentences
-####################
-
-
-def tokenize(string):
-    """ Tokenizes strings into sentences using NLTK's Punkt tokenizer. """
-
-    # Load the detector with English language model.
-    detector = nltk.data.load('tokenizers/punkt/english.pickle')
-
-    # Tokenizes the string into sentences.
-    sents = detector.tokenize(string)
-
-    # Return a list of sentences
-    return sents
-
-##################################
-# Sort contours from left to right
-##################################
-
-
 def sort_contours(contours):
-    """ Sorts contours from left to right. """
-    
+    """
+    Sort contours from left to right.
+
+    Args:
+        contours: A list of contours.
+
+    Returns:
+        An updated list of contours sorted from left to right.
+    """
+
     # Initialize sort index
     reverse = False
     i = 0
@@ -728,14 +799,39 @@ def sort_contours(contours):
     # Return the sorted contours
     return contours
 
+def tokenize(string):
+    """
+    Tokenize strings into sentences using NLTK's Punkt tokenizer.
 
+    Args:
+        string: An input string consisting of text.
 
+    Returns:
+        A list of sentences contained in the input string.
+    """
 
+    # Load the detector with English language model.
+    detector = nltk.data.load('tokenizers/punkt/english.pickle')
 
+    # Tokenizes the string into sentences.
+    sentences = detector.tokenize(string)
 
+    # Return a list of sentences
+    return sentences
 
+def vlog(image, title):
+    """
+    Create an entry in the visual log.
 
+    Args:
+        image: Image to be stored in the visual log entry.
+        title: Title for the visual log entry.
 
+    Returns:
+        None.
+    """
+
+    logger.debug(VisualRecord(title, image, fmt='png'))
 
 
 
