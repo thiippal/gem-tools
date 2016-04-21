@@ -1,9 +1,6 @@
 # Import the necessary packages
 import sys
 
-# For file handling
-import codecs
-
 # GeM generator
 try:
     from generator import *

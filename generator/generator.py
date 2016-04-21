@@ -12,6 +12,7 @@ import logging
 import warnings
 from logging import FileHandler
 import pickle
+import codecs
 
 # OpenCV 2.4.* for general computer vision tasks
 try:
@@ -147,7 +148,7 @@ def classify(contours, img, model):
             contour_types[number] = prediction
 
         # One digit
-        if prediction == 'photo' and len(str(number)) == 1:
+        if prediction == 'graphics' and len(str(number)) == 1:
             if x < image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 87, 217), 1)
                 cv2.rectangle(image, (x + w, y), (x + w + 20, y + 20), (85, 87, 217), -1)
@@ -160,7 +161,7 @@ def classify(contours, img, model):
             contour_types[number] = prediction
 
         # Two digits
-        if prediction == 'photo' and len(str(number)) == 2:
+        if prediction == 'graphics' and len(str(number)) == 2:
             if x < image.shape[0] / 2:
                 cv2.rectangle(image, (x, y), (x + w, y + h), (85, 87, 217), 1)
                 cv2.rectangle(image, (x + w, y), (x + w + 35, y + 20), (85, 87, 217), -1)
@@ -177,8 +178,6 @@ def classify(contours, img, model):
 
     # Return the dictionaries
     return contours, contour_types
-
-    # TODO Does this function have to return a list of contours?
 
 def describe(image):
     """
@@ -206,7 +205,7 @@ def detect_roi(image, kernelsize, iterations):
     Args:
         image: The input image.
         kernelsize: An (x, y) tuple determing kernel size for morphological operations.
-        iterations: An integer determining how many iterations are performed for morphological operations.
+        iterations: An integer determining the number of iterations for eroding the image.
 
     Returns:
         A list of contours for masking regions of interest in the image.
@@ -300,7 +299,7 @@ def draw_roi(img, contours, contour_types):
     Args:
         img: Input image.
         contours: A list of contours.
-        contour_types: A list of contour types (text, photo).
+        contour_types: A list of contour types (text, graphics).
 
     Returns:
         Updated lists of contours and contour types.
@@ -328,7 +327,7 @@ def draw_roi(img, contours, contour_types):
         if ctype == 'text':
             cv2.rectangle(image, (x, y), (x + w, y + h), (85, 217, 87), 1)
 
-        if ctype == 'photo':
+        if ctype == 'graphics':
             cv2.rectangle(image, (x, y), (x + w, y + h), (85, 87, 217), 1)
 
     # Create a clone for cancelling input
@@ -371,7 +370,7 @@ def draw_roi(img, contours, contour_types):
                 # Append the contour to the list of contours and contour types
                 drawn_boxes.append(box)
                 # Add the contour type to the dictionary
-                contour_types[str(ccounter)] = 'photo'
+                contour_types[ccounter] = 'graphics'
                 # Update the counter
                 ccounter += 1
 
@@ -381,7 +380,7 @@ def draw_roi(img, contours, contour_types):
                 # Append the contour to the list of contours and contour types
                 drawn_boxes.append(box)
                 # Add the contour type to the dictionary
-                contour_types[str(ccounter)] = 'text'
+                contour_types[ccounter] = 'text'
                 # Update the counter
                 ccounter += 1
 
@@ -415,8 +414,6 @@ def draw_roi(img, contours, contour_types):
         if key == ord('t'):
             graphics = False
 
-        # TODO Pressing 'q' without adding any contours causes an error
-
         # Press 'q' to quit
         elif key == ord('q'):
             break
@@ -424,8 +421,11 @@ def draw_roi(img, contours, contour_types):
     # Destroy all windows
     cv2.destroyAllWindows()
 
-    # Add the manually drawn boxes to the contour array
-    contours = np.append(contours, drawn_boxes, axis=0)
+    # If boxes have been drawn, add the boxes to the contour array
+    if len(drawn_boxes) >= 1:
+        contours = np.append(contours, drawn_boxes, axis=0)
+    else:
+        pass
 
     # Return the contours to their original size
     nratio = float(img.shape[1]) / image.shape[1]
@@ -500,7 +500,142 @@ def false_positives(fp_list):
     # Return the list of false positives.
     return false_positives
 
-def generate_photo(original, x, w, y, h, num, base_layout_mapping):
+def generate_annotation(filename, original, hires_contours, updated_contour_types):
+    """
+    This function annotates the identified regions of interest using the original high-resolution image.
+
+    Args:
+        original: The original high-resolution image.
+        filename: The filename of the input image.
+        hires_contours: A list of contours for the high-resolution image.
+        updated_contour_types: A list of updated contour types.
+
+    Returns:
+        None.
+    """
+
+    # Create a file for layout layer
+    layout_file_name = 'output/' + str(filename) + '-layout-2.xml'
+    layout_xml = codecs.open(layout_file_name, 'w', 'utf-8')
+
+    # Opening for layout layer
+    layout_xml_opening = '<?xml version="1.0" encoding="UTF-8"?>\n\n <gemLayout>\n'
+
+    # Create a file for base layer
+    base_file_name = 'output/' + str(filename) + '-base-2.xml'
+    base_xml = codecs.open(base_file_name, 'w', 'utf-8')
+
+    # Opening for base layer
+    base_xml_opening = '<?xml version="1.0" encoding="UTF-8"?>\n\n <gemBase>\n'
+
+    # Write openings into layout and base layers
+    layout_xml.write(layout_xml_opening)
+    base_xml.write(base_xml_opening)
+
+    # Set up lists and dictionaries for the annotation
+    base_units = []
+    base_layout_mapping = {}
+    segmentation = []
+    area_model = []
+    realization = []
+
+    # Loop over the regions of interest
+    for num, hc in enumerate(hires_contours):
+        # Define the region of interest in the high resolution image
+        (x, y, w, h) = cv2.boundingRect(hc)
+        # bounding_box = original[y:y + h, x:x + w]
+
+        # Check the classification
+        if updated_contour_types[num + 1] == 'text':
+
+            # Extract base units
+            layout_unit_id, b_units = extract_bu(original, x, w, y, h, num)
+
+            # Loop over the base units
+            for base_unit in b_units:
+                # Add base units to the list
+                base_units.append(base_unit)
+                # Assign identifier to each base unit
+                base_id = 'u-1.' + str(len(base_units))
+                # Map the base units to their layout unit
+                base_layout_mapping[base_id] = layout_unit_id
+                # Generate XML annotation
+                unit = '\t<unit id="' + base_id + '">' + base_unit.replace('\n', ' ').rstrip() + '</unit>\n'
+                # Write the XML into the base layer file
+                base_xml.write("".join(unit))
+
+            # Generate XML entries for the layout layer
+            lu, sa, re = generate_text(original, x, w, y, h, num, base_layout_mapping)
+            # Append the XML entries to the corresponding lists
+            segmentation.append(lu)
+            area_model.append(sa)
+            realization.append(re)
+
+        if updated_contour_types[num + 1] == 'graphics':
+
+            # Set up a placeholder for manual description
+            base_units.append(str('Graphics'))
+            # Assign an identifier to the base unit
+            vbase_id = 'u-1.' + str(len(base_units))
+            # Map the base unit to the layout unit
+            base_layout_mapping[vbase_id] = num
+            # Generate XML annotation
+            vunit = '\t<unit id="' + vbase_id + '" alt="Graphics"/>\n'
+            # Write the XML into the base layer file
+            base_xml.write("".join(vunit))
+
+            # Generate XML entries for the layout layer
+            vlu, vsa, vre = generate_graphics(original, x, w, y, h, num, base_layout_mapping)
+
+            # Append descriptions to lists
+            segmentation.append(vlu)
+            area_model.append(vsa)
+            realization.append(vre)
+
+    # Generate layout units
+    segmentation_opening = '\t<segmentation>\n'
+    layout_xml.write("".join(segmentation_opening))
+
+    for s in segmentation:
+        layout_xml.write("".join(s))
+
+    segmentation_closing = '\t</segmentation>\n'
+    layout_xml.write("".join(segmentation_closing))
+
+    # Generate area model
+    areamodel_opening = '\t<area-model>\n'
+    layout_xml.write("".join(areamodel_opening))
+
+    for a in area_model:
+        layout_xml.write("".join(a))
+
+    areamodel_closing = '\t</area-model>\n'
+    layout_xml.write("".join(areamodel_closing))
+
+    # Generate realization information
+    realization_opening = '\t<realization>\n'
+    layout_xml.write("".join(realization_opening))
+
+    for r in realization:
+        layout_xml.write("".join(r))
+
+    realization_closing = '\t</realization>\n'
+    layout_xml.write("".join(realization_closing))
+
+    # Write closing tags
+    layout_xml_closing = '</gemLayout>'
+    base_xml_closing = '</gemBase>'
+
+    layout_xml.write("".join(layout_xml_closing))
+    base_xml.write("".join(base_xml_closing))
+
+    # Close files
+    layout_xml.close()
+    base_xml.close()
+
+    print "Successfully generated annotation into\n", base_file_name, '\n', layout_file_name
+
+def generate_graphics(original, x, w, y, h, num, base_layout_mapping):
     """
     Generate XML annotation for graphical layout units.
 
@@ -525,7 +660,7 @@ def generate_photo(original, x, w, y, h, num, base_layout_mapping):
     roi = original[y:y + h, x:x + w]
 
     # Save the extracted region into a file
-    roi_path = 'output/' + str(num + 1) + '_photo' + '_' + str(y) + '_' + str(y + h) + '_' + str(x) + '_' + str(x + w)
+    roi_path = 'output/' + str(num + 1) + '_graphics' + '_' + str(y) + '_' + str(y + h) + '_' + str(x) + '_' + str(x + w)
     # cv2.imwrite("%s.png" % roi_path, roi)
 
     # Fetch the base units from the dictionary for cross-referencing and append them to the list
@@ -535,7 +670,7 @@ def generate_photo(original, x, w, y, h, num, base_layout_mapping):
             base_xref.append(base_id)
 
     # Generate annotation for the layout unit segmentation
-    vlu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" alt="Photo" src="' + str(roi_path) \
+    vlu = '\t\t<layout-unit id="lay-1.' + str(num + 1) + '" alt="Graphics:" src="' + str(roi_path) \
           + '.png" xref="' + ' '.join(base_xref) + '"/>\n'
 
     # Generate annotation for the area model
@@ -543,7 +678,7 @@ def generate_photo(original, x, w, y, h, num, base_layout_mapping):
           + ' ' + str(float(y) / oh) + ' ' + str(float(x + w) / ow) + ' ' + str(float(y + h) / oh) + '"' + '/>\n'
 
     # Generate annotation for the realization information
-    vre = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="photo" width="' \
+    vre = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="graphics" width="' \
           + str(float(w) / ow) + '" height="' + str(float(h) / oh) + '"/>\n'
 
     # Return the annotation
@@ -710,7 +845,7 @@ def redraw(image, classified_contours, contour_types, fp_list):
                 updated_contour_types[counter] = ctype
 
                 # Image, one digit
-            if ctype == 'photo' and len(str(counter)) == 1:
+            if ctype == 'graphics' and len(str(counter)) == 1:
                 if x < verimg.shape[0] / 2:
                     cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
                     cv2.rectangle(verimg, (x + w, y), (x + w + 20, y + 20), (85, 87, 217), -1)
@@ -723,7 +858,7 @@ def redraw(image, classified_contours, contour_types, fp_list):
                 updated_contour_types[counter] = ctype
 
                 # Two digits
-            if ctype == 'photo' and len(str(counter)) == 2:
+            if ctype == 'graphics' and len(str(counter)) == 2:
                 if x < verimg.shape[0] / 2:
                     cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
                     cv2.rectangle(verimg, (x + w, y), (x + w + 35, y + 20), (85, 87, 217), -1)
@@ -751,16 +886,16 @@ def load_model():
         None.
 
     Returns:
-        A Random Forest Classifier.
+        A trained Random Forest Classifier.
     """
 
     # Load the data
-    datafile = "model/data.db"
+    datafile = "model/data.pkl"
     td_file = open(datafile, 'r')
     data = pickle.load(td_file)
 
     # Load the labels
-    labelfile = "model/labels.db"
+    labelfile = "model/labels.pkl"
     ld_file = open(labelfile, 'r')
     labels = pickle.load(ld_file)
 
@@ -832,7 +967,3 @@ def vlog(image, title):
     """
 
     logger.debug(VisualRecord(title, image, fmt='png'))
-
-
-
-
