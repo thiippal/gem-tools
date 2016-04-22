@@ -678,7 +678,7 @@ def generate_graphics(original, x, w, y, h, num, base_layout_mapping):
           + ' ' + str(float(y) / oh) + ' ' + str(float(x + w) / ow) + ' ' + str(float(y + h) / oh) + '"' + '/>\n'
 
     # Generate annotation for the realization information
-    vre = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="graphics" width="' \
+    vre = '\t\t<graphics xref="lay-1.' + str(num + 1) + '" width="' \
           + str(float(w) / ow) + '" height="' + str(float(h) / oh) + '"/>\n'
 
     # Return the annotation
@@ -727,7 +727,7 @@ def generate_text(original, x, w, y, h, num, base_layout_mapping):
          + ' ' + str(float(y) / oh) + ' ' + str(float(x + w) / ow) + ' ' + str(float(y + h) / oh) + '"' + '/>\n'
 
     # Generate annotation for the realization information
-    re = '\t\t<realization xref="lay-1.' + str(num + 1) + '" type="text"/>\n'
+    re = '\t\t<text xref="lay-1.' + str(num + 1) + '"/>\n'
 
     # Return the annotation
     return lu, sa, re
