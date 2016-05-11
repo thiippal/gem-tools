@@ -14,3 +14,5 @@ Please use GitHub to report any issues with the tools, which are provided to you
 If you use these tools for your research, please use the following citation.
 
 Hiippala, Tuomo (2015) <i>gem-tools</i>: Tools for working with multimodal corpora annotated using the Genre and Multimodality model. DOI: 10.5281/zenodo.33775
+
+Thanks to Martin Thomas (University of Leeds) for designing the original implementation for drawing RST diagrams using GraphViz and Kaela Zhang (Hong Kong Polytechnic University) for testing the scripts and pointing out a wealth of bugs.
