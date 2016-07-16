@@ -400,9 +400,15 @@ def draw_roi(img, contours, contour_types):
         if key == ord('r'):
             image = clone.copy()
 
-            # Check if any regions of interest have been designated
-            if len(drawn_boxes) >= 1:
+            # Check if any regions of interest have been drawn
+            if len(drawn_boxes) > 0:
+                # Delete the last drawn box
                 del drawn_boxes[-1]
+                # If some regions of interest have already been drawn, redraw them on the image
+                if len(drawn_boxes) > 0:
+                    for box in drawn_boxes:
+                        (x, y, w, h) = cv2.boundingRect(box)
+                        cv2.rectangle(image, (x, y), (x + w, y + h), (255, 0, 0), 1)
             else:
                 continue
 
@@ -486,7 +492,7 @@ def false_positives(fp_list):
     """
     # Check if the user marked any false positives.
     if len(fp_list) == 0:
-        return
+        return []
 
     else:
         # Set up a list for false positives.
@@ -543,7 +549,6 @@ def generate_annotation(filename, original, hires_contours, updated_contour_type
     for num, hc in enumerate(hires_contours):
         # Define the region of interest in the high resolution image
         (x, y, w, h) = cv2.boundingRect(hc)
-        # bounding_box = original[y:y + h, x:x + w]
 
         # Check the classification
         if updated_contour_types[num + 1] == 'text':
@@ -661,7 +666,7 @@ def generate_graphics(original, x, w, y, h, num, base_layout_mapping):
 
     # Save the extracted region into a file
     roi_path = 'output/' + str(num + 1) + '_graphics' + '_' + str(y) + '_' + str(y + h) + '_' + str(x) + '_' + str(x + w)
-    # cv2.imwrite("%s.png" % roi_path, roi)
+    cv2.imwrite("%s.png" % roi_path, roi)
 
     # Fetch the base units from the dictionary for cross-referencing and append them to the list
     base_xref = []
@@ -710,7 +715,7 @@ def generate_text(original, x, w, y, h, num, base_layout_mapping):
 
     # Save the extracted region into a file
     roi_path = 'output/' + str(num + 1) + '_text' + '_' + str(y) + '_' + str(y + h) + '_' + str(x) + '_' + str(x + w)
-    # cv2.imwrite("%s.png" % roi_path, roi)
+    cv2.imwrite("%s.png" % roi_path, roi)
 
     # Fetch the base units from the dictionary for cross-referencing and append them to the list
     base_xref = []
@@ -795,8 +800,9 @@ def redraw(image, classified_contours, contour_types, fp_list):
     # Work with a copy of the input image
     verimg = image.copy()
 
-    # Check if the false positives list contains values.
-    if fp_list:
+    # Check the list of false positives
+    if len(fp_list) > 0:
+
         # Loop over the list and pop out false positives.
         for fp in fp_list:
             contour_types.pop(fp)
@@ -804,79 +810,79 @@ def redraw(image, classified_contours, contour_types, fp_list):
         # Define a new numpy array with the false positives removed.
         updated_contours = np.array(np.delete(classified_contours, fp_list, 0), dtype="int32")
 
-        # Set up a counter for identifiers
-        counter = 0
-
-        # Set up a dictionary for the updated list of contour types
-        updated_contour_types = {}
-
-        for ctype, contour in zip(contour_types.values(), updated_contours):
-            # Set up a counter for identifiers
-            counter += 1
-
-            # Extract the bounding box
-            (x, y, w, h) = cv2.boundingRect(contour)
-
-            # Define the label size and position in the image
-            # Text, one digit
-            if ctype == 'text' and len(str(counter)) == 1:
-                if x < verimg.shape[0] / 2:
-                    cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 217, 87), 1)
-                    cv2.rectangle(verimg, (x + w, y), (x + w + 20, y + 20), (85, 217, 87), -1)
-                    cv2.putText(verimg, str(counter), (x + w + 3, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
-                if x > verimg.shape[0] / 2:
-                    cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 217, 87), 1)
-                    cv2.rectangle(verimg, (x - 20, y - 16), (w, y), (85, 217, 87), -1)
-                    cv2.putText(verimg, str(counter), (x - 30, y + 20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
-                # Add the classification to the dictionary
-                updated_contour_types[counter] = ctype
-
-            # Text, two digits
-            if ctype == 'text' and len(str(counter)) == 2:
-                if x < verimg.shape[0] / 2:
-                    cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 217, 87), 1)
-                    cv2.rectangle(verimg, (x + w, y), (x + w + 35, y + 20), (85, 217, 87), -1)
-                    cv2.putText(verimg, str(counter), (x + w + 3, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
-                if x > verimg.shape[0] / 2:
-                    cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 217, 87), 1)
-                    cv2.rectangle(verimg, (x, y), (x - 32, y + 20), (85, 217, 87), -1)
-                    cv2.putText(verimg, str(counter), (x - 30, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
-                # Add the classification to the dictionary
-                updated_contour_types[counter] = ctype
-
-                # Image, one digit
-            if ctype == 'graphics' and len(str(counter)) == 1:
-                if x < verimg.shape[0] / 2:
-                    cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
-                    cv2.rectangle(verimg, (x + w, y), (x + w + 20, y + 20), (85, 87, 217), -1)
-                    cv2.putText(verimg, str(counter), (x + w + 3, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
-                if x > verimg.shape[0] / 2:
-                    cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
-                    cv2.rectangle(verimg, (x - 20, y - 16), (w, y), (85, 87, 217), -1)
-                    cv2.putText(verimg, str(counter), (x - 30, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
-                # Add the classification to the dictionary
-                updated_contour_types[counter] = ctype
-
-                # Two digits
-            if ctype == 'graphics' and len(str(counter)) == 2:
-                if x < verimg.shape[0] / 2:
-                    cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
-                    cv2.rectangle(verimg, (x + w, y), (x + w + 35, y + 20), (85, 87, 217), -1)
-                    cv2.putText(verimg, str(counter), (x + w + 5, y + 20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
-                if x > verimg.shape[0] / 2:
-                    cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
-                    cv2.rectangle(verimg, (x, y), (x - 32, y + 20), (85, 87, 217), -1)
-                    cv2.putText(verimg, str(counter), (x - 30, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
-                # Add the classification to the dictionary
-                updated_contour_types[counter] = ctype
-
-        # Write the image on the disk
-        cv2.imwrite("output/image_contours_updated.png", verimg)
-
-        return updated_contours, updated_contour_types
-
     else:
-        return
+        updated_contours = classified_contours
+
+    # Set up a counter for identifiers
+    counter = 0
+
+    # Set up a dictionary for the updated list of contour types
+    updated_contour_types = {}
+
+    for ctype, contour in zip(contour_types.values(), updated_contours):
+        # Set up a counter for identifiers
+        counter += 1
+
+        # Extract the bounding box
+        (x, y, w, h) = cv2.boundingRect(contour)
+
+        # Define the label size and position in the image
+        # Text, one digit
+        if ctype == 'text' and len(str(counter)) == 1:
+            if x < verimg.shape[0] / 2:
+                cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 217, 87), 1)
+                cv2.rectangle(verimg, (x + w, y), (x + w + 20, y + 20), (85, 217, 87), -1)
+                cv2.putText(verimg, str(counter), (x + w + 3, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+            if x > verimg.shape[0] / 2:
+                cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 217, 87), 1)
+                cv2.rectangle(verimg, (x - 20, y - 16), (w, y), (85, 217, 87), -1)
+                cv2.putText(verimg, str(counter), (x - 30, y + 20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+            # Add the classification to the dictionary
+            updated_contour_types[counter] = ctype
+
+        # Text, two digits
+        if ctype == 'text' and len(str(counter)) == 2:
+            if x < verimg.shape[0] / 2:
+                cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 217, 87), 1)
+                cv2.rectangle(verimg, (x + w, y), (x + w + 35, y + 20), (85, 217, 87), -1)
+                cv2.putText(verimg, str(counter), (x + w + 3, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+            if x > verimg.shape[0] / 2:
+                cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 217, 87), 1)
+                cv2.rectangle(verimg, (x, y), (x - 32, y + 20), (85, 217, 87), -1)
+                cv2.putText(verimg, str(counter), (x - 30, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+            # Add the classification to the dictionary
+            updated_contour_types[counter] = ctype
+
+            # Image, one digit
+        if ctype == 'graphics' and len(str(counter)) == 1:
+            if x < verimg.shape[0] / 2:
+                cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
+                cv2.rectangle(verimg, (x + w, y), (x + w + 20, y + 20), (85, 87, 217), -1)
+                cv2.putText(verimg, str(counter), (x + w + 3, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+            if x > verimg.shape[0] / 2:
+                cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
+                cv2.rectangle(verimg, (x - 20, y - 16), (w, y), (85, 87, 217), -1)
+                cv2.putText(verimg, str(counter), (x - 30, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+            # Add the classification to the dictionary
+            updated_contour_types[counter] = ctype
+
+            # Two digits
+        if ctype == 'graphics' and len(str(counter)) == 2:
+            if x < verimg.shape[0] / 2:
+                cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
+                cv2.rectangle(verimg, (x + w, y), (x + w + 35, y + 20), (85, 87, 217), -1)
+                cv2.putText(verimg, str(counter), (x + w + 5, y + 20), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+            if x > verimg.shape[0] / 2:
+                cv2.rectangle(verimg, (x, y), (x + w, y + h), (85, 87, 217), 1)
+                cv2.rectangle(verimg, (x, y), (x - 32, y + 20), (85, 87, 217), -1)
+                cv2.putText(verimg, str(counter), (x - 30, y + 16), cv2.FONT_HERSHEY_DUPLEX, 0.6, (0, 0, 0), 1)
+            # Add the classification to the dictionary
+            updated_contour_types[counter] = ctype
+
+    # Write the image on the disk
+    cv2.imwrite("output/image_contours_updated.png", verimg)
+
+    return updated_contours, updated_contour_types
 
 def load_model():
     """
